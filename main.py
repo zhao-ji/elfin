@@ -2,6 +2,7 @@
 # coding: utf-8
 # version2.0 @Nightwish
 
+import os.path
 import sys
 
 import tornado
@@ -18,13 +19,14 @@ from tornado.options import define, options
 define('port', default=9001, type=int)
 
 
-urls = [ (r'/wechat', wechat),
-         (r'/bind', bind),
-         ]
+handlers = [ (r'/wechat', wechat),
+             (r'/bind', bind),
+           ]
+template_path = os.path.join(os.path.dirname(__file__), 'templates')
 
 if __name__ == '__main__':
     tornado.options.parse_command_line()
-    app = tornado.web.Application(handlers=urls)
+    app = tornado.web.Application(handlers=handlers, template_path=template_path)
     http_server = tornado.httpserver.HTTPServer(app)
     http_server.listen(options.port)
     tornado.ioloop.IOLoop.instance().start()
