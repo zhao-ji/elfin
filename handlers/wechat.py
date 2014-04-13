@@ -4,6 +4,7 @@
 import tornado.web
 
 from scripts.checksignature import *
+
 class wechat(tornado.web.RequestHandler):
     def get(self):
         signature = self.get_argument('signature')
@@ -13,7 +14,12 @@ class wechat(tornado.web.RequestHandler):
         if checksig(signature, timestamp, nonce):
             self.write(echostr)
 
-
+    def post(self):
+        signature = self.get_argument('signature')
+        timestamp = self.get_argument('timestamp')
+        nonce = self.get_argument('nonce')
+        ret = checksig(signature, timestamp, nonce)
+        xml = self.request.body
 
 
 

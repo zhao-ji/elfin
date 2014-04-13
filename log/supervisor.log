@@ -83,3 +83,48 @@
 [I 140412 18:26:17 web:1728] 200 GET /bind (127.0.0.1) 0.72ms
 [W 140412 18:26:44 web:1728] 404 GET / (23.252.104.24) 0.39ms
 [W 140412 19:26:44 web:1728] 404 GET / (23.252.104.24) 0.37ms
+[W 140412 20:26:44 web:1728] 404 GET / (23.252.104.24) 0.41ms
+[W 140412 21:26:44 web:1728] 404 GET / (23.252.104.24) 0.47ms
+[W 140412 22:26:43 web:1728] 404 GET / (23.252.104.24) 0.42ms
+[W 140412 23:26:46 web:1728] 404 GET / (23.252.104.24) 0.40ms
+[W 140413 00:26:46 web:1728] 404 GET / (23.252.104.24) 0.56ms
+[I 140413 00:53:21 web:1728] 200 GET /wechat (127.0.0.1) 0.55ms
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/main.py", line 15, in <module>
+    from handlers.wechat import *
+  File "/home/nightwish/elfin/handlers/wechat.py", line 6, in <module>
+    from scripts.checksignature import *
+  File "/home/nightwish/elfin/scripts/checksignature.py", line 17
+    return 1 if signature = sha1_sig else 0
+                          ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/main.py", line 15, in <module>
+    from handlers.wechat import *
+  File "/home/nightwish/elfin/handlers/wechat.py", line 6, in <module>
+    from scripts.checksignature import *
+  File "/home/nightwish/elfin/scripts/checksignature.py", line 17
+    return 1 if signature = sha1_sig else 0
+                          ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/main.py", line 15, in <module>
+    from handlers.wechat import *
+  File "/home/nightwish/elfin/handlers/wechat.py", line 6, in <module>
+    from scripts.checksignature import *
+  File "/home/nightwish/elfin/scripts/checksignature.py", line 17
+    return 1 if signature = sha1_sig else 0
+                          ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/main.py", line 15, in <module>
+    from handlers.wechat import *
+  File "/home/nightwish/elfin/handlers/wechat.py", line 6, in <module>
+    from scripts.checksignature import *
+  File "/home/nightwish/elfin/scripts/checksignature.py", line 17
+    return 1 if signature = sha1_sig else 0
+                          ^
+SyntaxError: invalid syntax
+[W 140413 01:02:12 web:1302] 400 GET /wechat (127.0.0.1): Missing argument signature
+[W 140413 01:02:12 web:1728] 400 GET /wechat (127.0.0.1) 1.34ms
+[W 140413 01:26:44 web:1728] 404 GET / (23.252.104.24) 0.42ms
