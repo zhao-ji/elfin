@@ -7,3 +7,252 @@
 [W 140413 08:26:44 web:1728] 404 GET / (23.252.104.24) 0.41ms
 [W 140413 09:26:44 web:1728] 404 GET / (23.252.104.24) 0.63ms
 [W 140413 10:26:45 web:1728] 404 GET / (23.252.104.24) 2.53ms
+[W 140413 11:26:45 web:1728] 404 GET / (23.252.104.24) 0.78ms
+[W 140413 12:26:47 web:1728] 404 GET / (23.252.104.24) 0.48ms
+[W 140413 13:26:44 web:1728] 404 GET / (23.252.104.24) 0.59ms
+[W 140413 14:26:49 web:1728] 404 GET / (23.252.104.24) 0.62ms
+[W 140413 15:26:43 web:1728] 404 GET / (23.252.104.24) 0.48ms
+[W 140413 16:13:11 web:1302] 400 POST /wechat (127.0.0.1): Missing argument signature
+[W 140413 16:13:11 web:1728] 400 POST /wechat (127.0.0.1) 0.77ms
+[W 140413 16:13:20 web:1302] 400 POST /wechat (127.0.0.1): Missing argument signature
+[W 140413 16:13:20 web:1728] 400 POST /wechat (127.0.0.1) 0.84ms
+[E 140413 16:15:55 web:1305] Uncaught exception POST /wechat (127.0.0.1)
+    HTTPRequest(protocol='http', host='127.0.0.1:9001', method='POST', uri='/wechat', version='HTTP/1.0', remote_ip='127.0.0.1', headers={'Content-Length': '290', 'Host': '127.0.0.1:9001', 'Pragma': 'no-cache', 'Content-Type': 'text/xml', 'Connection': 'close', 'Accept': '*/*', 'User-Agent': 'Mozilla/4.0'})
+    Traceback (most recent call last):
+      File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1218, in _when_complete
+        callback()
+      File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1239, in _execute_method
+        self._when_complete(method(*self.path_args, **self.path_kwargs),
+      File "/home/nightwish/elfin/handlers/wechat.py", line 27, in post
+        fromUser = xml.find('fromUser').text
+    AttributeError: 'NoneType' object has no attribute 'text'
+[E 140413 16:15:55 web:1728] 500 POST /wechat (127.0.0.1) 4.37ms
+[E 140413 16:15:59 web:1305] Uncaught exception POST /wechat (127.0.0.1)
+    HTTPRequest(protocol='http', host='127.0.0.1:9001', method='POST', uri='/wechat', version='HTTP/1.0', remote_ip='127.0.0.1', headers={'Content-Length': '290', 'Host': '127.0.0.1:9001', 'Pragma': 'no-cache', 'Content-Type': 'text/xml', 'Connection': 'close', 'Accept': '*/*', 'User-Agent': 'Mozilla/4.0'})
+    Traceback (most recent call last):
+      File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1218, in _when_complete
+        callback()
+      File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1239, in _execute_method
+        self._when_complete(method(*self.path_args, **self.path_kwargs),
+      File "/home/nightwish/elfin/handlers/wechat.py", line 27, in post
+        fromUser = xml.find('fromUser').text
+    AttributeError: 'NoneType' object has no attribute 'text'
+[E 140413 16:15:59 web:1728] 500 POST /wechat (127.0.0.1) 1.39ms
+[W 140413 16:26:43 web:1728] 404 GET / (23.252.104.24) 0.43ms
+[E 140413 16:43:32 web:1305] Uncaught exception POST /wechat (127.0.0.1)
+    HTTPRequest(protocol='http', host='127.0.0.1:9001', method='POST', uri='/wechat', version='HTTP/1.0', remote_ip='127.0.0.1', headers={'Content-Length': '290', 'Host': '127.0.0.1:9001', 'Pragma': 'no-cache', 'Content-Type': 'text/xml', 'Connection': 'close', 'Accept': '*/*', 'User-Agent': 'Mozilla/4.0'})
+    Traceback (most recent call last):
+      File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1218, in _when_complete
+        callback()
+      File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1239, in _execute_method
+        self._when_complete(method(*self.path_args, **self.path_kwargs),
+      File "/home/nightwish/elfin/handlers/wechat.py", line 29, in post
+        if ret and MsgType == 'text':
+    NameError: global name 'ret' is not defined
+[E 140413 16:43:32 web:1728] 500 POST /wechat (127.0.0.1) 5.05ms
+[I 140413 16:45:35 web:1728] 200 POST /wechat (127.0.0.1) 6.13ms
+[W 140413 17:26:44 web:1728] 404 GET / (23.252.104.24) 0.43ms
+[W 140413 18:26:43 web:1728] 404 GET / (23.252.104.24) 0.44ms
+[W 140413 19:26:45 web:1728] 404 GET / (23.252.104.24) 0.39ms
+[W 140413 20:26:44 web:1728] 404 GET / (23.252.104.24) 0.38ms
+[I 140413 20:48:46 web:1728] 200 GET /bind (127.0.0.1) 2.07ms
+[W 140413 21:26:43 web:1728] 404 GET / (23.252.104.24) 0.46ms
+[W 140413 22:26:45 web:1728] 404 GET / (23.252.104.24) 0.39ms
+[I 140413 22:59:37 web:1728] 200 GET /bind (127.0.0.1) 0.46ms
+[W 140413 23:26:50 web:1728] 404 GET / (23.252.104.24) 0.55ms
+[E 140414 00:03:43 web:1305] Uncaught exception POST /wechat (127.0.0.1)
+    HTTPRequest(protocol='http', host='127.0.0.1:9001', method='POST', uri='/wechat', version='HTTP/1.0', remote_ip='127.0.0.1', headers={'Content-Length': '286', 'Host': '127.0.0.1:9001', 'Pragma': 'no-cache', 'Content-Type': 'text/xml', 'Connection': 'close', 'Accept': '*/*', 'User-Agent': 'Mozilla/4.0'})
+    Traceback (most recent call last):
+      File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1218, in _when_complete
+        callback()
+      File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1239, in _execute_method
+        self._when_complete(method(*self.path_args, **self.path_kwargs),
+      File "/home/nightwish/elfin/handlers/wechat.py", line 21, in post
+        signature = self.request.get_argument('signature')
+    AttributeError: 'HTTPRequest' object has no attribute 'get_argument'
+[E 140414 00:03:43 web:1728] 500 POST /wechat (127.0.0.1) 2.32ms
+[E 140414 00:04:02 web:1305] Uncaught exception POST /wechat (127.0.0.1)
+    HTTPRequest(protocol='http', host='127.0.0.1:9001', method='POST', uri='/wechat', version='HTTP/1.0', remote_ip='127.0.0.1', headers={'Content-Length': '285', 'Host': '127.0.0.1:9001', 'Pragma': 'no-cache', 'Content-Type': 'text/xml', 'Connection': 'close', 'Accept': '*/*', 'User-Agent': 'Mozilla/4.0'})
+    Traceback (most recent call last):
+      File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1218, in _when_complete
+        callback()
+      File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1239, in _execute_method
+        self._when_complete(method(*self.path_args, **self.path_kwargs),
+      File "/home/nightwish/elfin/handlers/wechat.py", line 21, in post
+        signature = self.request.get_argument('signature')
+    AttributeError: 'HTTPRequest' object has no attribute 'get_argument'
+[E 140414 00:04:02 web:1728] 500 POST /wechat (127.0.0.1) 1.42ms
+[E 140414 00:04:22 web:1305] Uncaught exception POST /wechat (127.0.0.1)
+    HTTPRequest(protocol='http', host='127.0.0.1:9001', method='POST', uri='/wechat', version='HTTP/1.0', remote_ip='127.0.0.1', headers={'Content-Length': '279', 'Host': '127.0.0.1:9001', 'Pragma': 'no-cache', 'Content-Type': 'text/xml', 'Connection': 'close', 'Accept': '*/*', 'User-Agent': 'Mozilla/4.0'})
+    Traceback (most recent call last):
+      File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1218, in _when_complete
+        callback()
+      File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1239, in _execute_method
+        self._when_complete(method(*self.path_args, **self.path_kwargs),
+      File "/home/nightwish/elfin/handlers/wechat.py", line 21, in post
+        signature = self.request.get_argument('signature')
+    AttributeError: 'HTTPRequest' object has no attribute 'get_argument'
+[E 140414 00:04:22 web:1728] 500 POST /wechat (127.0.0.1) 1.41ms
+[E 140414 00:04:36 web:1305] Uncaught exception POST /wechat (127.0.0.1)
+    HTTPRequest(protocol='http', host='127.0.0.1:9001', method='POST', uri='/wechat', version='HTTP/1.0', remote_ip='127.0.0.1', headers={'Content-Length': '279', 'Host': '127.0.0.1:9001', 'Pragma': 'no-cache', 'Content-Type': 'text/xml', 'Connection': 'close', 'Accept': '*/*', 'User-Agent': 'Mozilla/4.0'})
+    Traceback (most recent call last):
+      File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1218, in _when_complete
+        callback()
+      File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1239, in _execute_method
+        self._when_complete(method(*self.path_args, **self.path_kwargs),
+      File "/home/nightwish/elfin/handlers/wechat.py", line 21, in post
+        signature = self.request.get_argument('signature')
+    AttributeError: 'HTTPRequest' object has no attribute 'get_argument'
+[E 140414 00:04:36 web:1728] 500 POST /wechat (127.0.0.1) 1.23ms
+[E 140414 00:17:42 web:1305] Uncaught exception POST /wechat (127.0.0.1)
+    HTTPRequest(protocol='http', host='127.0.0.1:9001', method='POST', uri='/wechat', version='HTTP/1.0', remote_ip='127.0.0.1', headers={'Content-Length': '279', 'Host': '127.0.0.1:9001', 'Pragma': 'no-cache', 'Content-Type': 'text/xml', 'Connection': 'close', 'Accept': '*/*', 'User-Agent': 'Mozilla/4.0'})
+    Traceback (most recent call last):
+      File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1218, in _when_complete
+        callback()
+      File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1239, in _execute_method
+        self._when_complete(method(*self.path_args, **self.path_kwargs),
+      File "/home/nightwish/elfin/handlers/wechat.py", line 21, in post
+        signature = self.request.arguments('signature')
+    TypeError: 'dict' object is not callable
+[E 140414 00:17:42 web:1728] 500 POST /wechat (127.0.0.1) 2.35ms
+[E 140414 00:21:52 web:1305] Uncaught exception POST /wechat (127.0.0.1)
+    HTTPRequest(protocol='http', host='127.0.0.1:9001', method='POST', uri='/wechat', version='HTTP/1.0', remote_ip='127.0.0.1', headers={'Content-Length': '279', 'Host': '127.0.0.1:9001', 'Pragma': 'no-cache', 'Content-Type': 'text/xml', 'Connection': 'close', 'Accept': '*/*', 'User-Agent': 'Mozilla/4.0'})
+    Traceback (most recent call last):
+      File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1218, in _when_complete
+        callback()
+      File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1239, in _execute_method
+        self._when_complete(method(*self.path_args, **self.path_kwargs),
+      File "/home/nightwish/elfin/handlers/wechat.py", line 21, in post
+        signature = self.request.arguments['signature']
+    KeyError: 'signature'
+[E 140414 00:21:52 web:1728] 500 POST /wechat (127.0.0.1) 2.39ms
+[E 140414 00:21:58 web:1305] Uncaught exception POST /wechat (127.0.0.1)
+    HTTPRequest(protocol='http', host='127.0.0.1:9001', method='POST', uri='/wechat', version='HTTP/1.0', remote_ip='127.0.0.1', headers={'Content-Length': '279', 'Host': '127.0.0.1:9001', 'Pragma': 'no-cache', 'Content-Type': 'text/xml', 'Connection': 'close', 'Accept': '*/*', 'User-Agent': 'Mozilla/4.0'})
+    Traceback (most recent call last):
+      File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1218, in _when_complete
+        callback()
+      File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1239, in _execute_method
+        self._when_complete(method(*self.path_args, **self.path_kwargs),
+      File "/home/nightwish/elfin/handlers/wechat.py", line 21, in post
+        signature = self.request.arguments['signature']
+    KeyError: 'signature'
+[E 140414 00:21:58 web:1728] 500 POST /wechat (127.0.0.1) 1.51ms
+[I 140414 00:24:19 web:1728] 200 POST /wechat (127.0.0.1) 5.27ms
+[W 140414 00:26:46 web:1728] 404 GET / (23.252.104.24) 0.38ms
+[E 140414 00:34:55 web:1305] Uncaught exception POST /wechat (127.0.0.1)
+    HTTPRequest(protocol='http', host='127.0.0.1:9001', method='POST', uri='/wechat', version='HTTP/1.0', remote_ip='127.0.0.1', headers={'Content-Length': '279', 'Host': '127.0.0.1:9001', 'Pragma': 'no-cache', 'Content-Type': 'text/xml', 'Connection': 'close', 'Accept': '*/*', 'User-Agent': 'Mozilla/4.0'})
+    Traceback (most recent call last):
+      File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1218, in _when_complete
+        callback()
+      File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1239, in _execute_method
+        self._when_complete(method(*self.path_args, **self.path_kwargs),
+      File "/home/nightwish/elfin/handlers/wechat.py", line 21, in post
+        signature = self.get_query_arguments['signature']
+    TypeError: 'instancemethod' object has no attribute '__getitem__'
+[E 140414 00:34:55 web:1728] 500 POST /wechat (127.0.0.1) 2.23ms
+[I 140414 00:37:36 web:1728] 200 POST /wechat (127.0.0.1) 6.93ms
+[I 140414 00:40:46 web:1728] 200 POST /wechat (127.0.0.1) 5.69ms
+[I 140414 00:41:57 web:1728] 200 POST /wechat (127.0.0.1) 5.43ms
+[W 140414 01:26:44 web:1728] 404 GET / (23.252.104.24) 0.44ms
+[W 140414 02:26:44 web:1728] 404 GET / (23.252.104.24) 0.42ms
+[W 140414 03:26:43 web:1728] 404 GET / (23.252.104.24) 0.36ms
+[W 140414 04:26:46 web:1728] 404 GET / (23.252.104.24) 0.59ms
+[W 140414 05:26:45 web:1728] 404 GET / (23.252.104.24) 0.35ms
+[W 140414 06:26:44 web:1728] 404 GET / (23.252.104.24) 0.35ms
+[W 140414 07:26:44 web:1728] 404 GET / (23.252.104.24) 0.40ms
+[W 140414 08:26:45 web:1728] 404 GET / (23.252.104.24) 0.35ms
+[W 140414 09:26:43 web:1728] 404 GET / (23.252.104.24) 0.38ms
+[W 140414 10:26:43 web:1728] 404 GET / (23.252.104.24) 0.36ms
+[W 140414 11:26:48 web:1728] 404 GET / (23.252.104.24) 0.37ms
+[W 140414 12:26:45 web:1728] 404 GET / (23.252.104.24) 0.35ms
+[W 140414 13:26:44 web:1728] 404 GET / (23.252.104.24) 0.35ms
+[W 140414 14:26:44 web:1728] 404 GET / (23.252.104.24) 0.41ms
+[W 140414 15:26:44 web:1728] 404 GET / (23.252.104.24) 0.45ms
+[I 140414 16:20:14 web:1728] 200 GET /bind (127.0.0.1) 1.35ms
+[I 140414 16:20:16 web:1728] 200 GET /bind (127.0.0.1) 0.55ms
+[I 140414 16:20:51 web:1728] 200 POST /bind (127.0.0.1) 0.61ms
+[I 140414 16:24:06 web:1728] 304 GET /bind (127.0.0.1) 0.67ms
+[I 140414 16:25:28 web:1728] 304 GET /bind (127.0.0.1) 0.57ms
+[I 140414 16:25:47 web:1728] 200 POST /bind (127.0.0.1) 0.45ms
+[W 140414 16:26:44 web:1728] 404 GET / (23.252.104.24) 0.40ms
+[I 140414 16:50:11 web:1728] 200 GET /bind (127.0.0.1) 0.73ms
+[W 140414 17:26:43 web:1728] 404 GET / (23.252.104.24) 0.38ms
+[W 140414 18:26:44 web:1728] 404 GET / (23.252.104.24) 0.40ms
+[W 140414 19:26:43 web:1728] 404 GET / (23.252.104.24) 0.36ms
+[I 140414 19:44:36 web:1728] 304 GET /bind (127.0.0.1) 4.11ms
+[I 140414 19:44:44 web:1728] 200 POST /bind (127.0.0.1) 0.80ms
+[E 140414 20:01:28 web:1305] Uncaught exception POST /wechat (127.0.0.1)
+    HTTPRequest(protocol='http', host='127.0.0.1:9001', method='POST', uri='/wechat', version='HTTP/1.0', remote_ip='127.0.0.1', headers={'Content-Length': '279', 'Host': '127.0.0.1:9001', 'Pragma': 'no-cache', 'Content-Type': 'text/xml', 'Connection': 'close', 'Accept': '*/*', 'User-Agent': 'Mozilla/4.0'})
+    Traceback (most recent call last):
+      File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1218, in _when_complete
+        callback()
+      File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1239, in _execute_method
+        self._when_complete(method(*self.path_args, **self.path_kwargs),
+      File "/home/nightwish/elfin/handlers/wechat.py", line 25, in post
+        signature = slef.request.body.get('signature')
+    NameError: global name 'slef' is not defined
+[E 140414 20:01:28 web:1728] 500 POST /wechat (127.0.0.1) 2.92ms
+[E 140414 20:03:15 web:1305] Uncaught exception POST /wechat (127.0.0.1)
+    HTTPRequest(protocol='http', host='127.0.0.1:9001', method='POST', uri='/wechat', version='HTTP/1.0', remote_ip='127.0.0.1', headers={'Content-Length': '279', 'Host': '127.0.0.1:9001', 'Pragma': 'no-cache', 'Content-Type': 'text/xml', 'Connection': 'close', 'Accept': '*/*', 'User-Agent': 'Mozilla/4.0'})
+    Traceback (most recent call last):
+      File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1218, in _when_complete
+        callback()
+      File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1239, in _execute_method
+        self._when_complete(method(*self.path_args, **self.path_kwargs),
+      File "/home/nightwish/elfin/handlers/wechat.py", line 25, in post
+        signature = self.request.body.get('signature')
+    AttributeError: 'str' object has no attribute 'get'
+[E 140414 20:03:15 web:1728] 500 POST /wechat (127.0.0.1) 2.13ms
+[I 140414 20:08:42 web:1728] 200 POST /wechat (127.0.0.1) 8.39ms
+[I 140414 20:09:18 web:1728] 200 POST /wechat (127.0.0.1) 1.26ms
+[W 140414 20:15:51 web:1302] 400 GET /wechat (127.0.0.1): Missing argument signature
+[W 140414 20:15:51 web:1728] 400 GET /wechat (127.0.0.1) 1.01ms
+[W 140414 20:15:57 web:1302] 400 GET /wechat (127.0.0.1): Missing argument signature
+[W 140414 20:15:57 web:1728] 400 GET /wechat (127.0.0.1) 0.56ms
+[W 140414 20:17:37 web:1302] 400 GET /wechat (127.0.0.1): Missing argument signature
+[W 140414 20:17:37 web:1728] 400 GET /wechat (127.0.0.1) 1.04ms
+[E 140414 20:19:45 web:1305] Uncaught exception GET /wechat (127.0.0.1)
+    HTTPRequest(protocol='http', host='127.0.0.1:9001', method='GET', uri='/wechat', version='HTTP/1.0', remote_ip='127.0.0.1', headers={'Accept': '*/*', 'Host': '127.0.0.1:9001', 'Connection': 'close', 'Pragma': 'no-cache', 'User-Agent': 'Mozilla/4.0'})
+    Traceback (most recent call last):
+      File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1218, in _when_complete
+        callback()
+      File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1239, in _execute_method
+        self._when_complete(method(*self.path_args, **self.path_kwargs),
+      File "/home/nightwish/elfin/handlers/wechat.py", line 19, in get
+        self.write(echostr)
+    NameError: global name 'echostr' is not defined
+[E 140414 20:19:45 web:1728] 500 GET /wechat (127.0.0.1) 1.92ms
+[W 140414 20:21:02 web:1302] 400 GET /wechat (127.0.0.1): Missing argument echostr
+[W 140414 20:21:02 web:1728] 400 GET /wechat (127.0.0.1) 1.24ms
+[W 140414 20:26:45 web:1728] 404 GET / (23.252.104.24) 0.57ms
+[I 140414 20:34:33 web:1728] 200 GET /bind (127.0.0.1) 3.46ms
+[I 140414 20:35:01 web:1728] 200 POST /bind (127.0.0.1) 0.60ms
+[I 140414 20:35:11 web:1728] 200 POST /bind (127.0.0.1) 0.58ms
+[W 140414 20:47:35 web:1302] 400 GET /wechat (127.0.0.1): Missing argument echostr
+[W 140414 20:47:35 web:1728] 400 GET /wechat (127.0.0.1) 0.86ms
+[W 140414 21:26:51 web:1728] 404 GET / (23.252.104.24) 0.37ms
+[I 140414 21:54:43 web:1728] 304 GET /bind (127.0.0.1) 0.53ms
+[W 140414 22:26:45 web:1728] 404 GET / (23.252.104.24) 0.60ms
+[W 140414 23:26:45 web:1728] 404 GET / (23.252.104.24) 0.44ms
+[W 140415 00:26:45 web:1728] 404 GET / (23.252.104.24) 0.41ms
+[W 140415 01:26:50 web:1728] 404 GET / (23.252.104.24) 0.54ms
+[W 140415 02:26:49 web:1728] 404 GET / (23.252.104.24) 0.42ms
+[W 140415 03:26:50 web:1728] 404 GET / (23.252.104.24) 0.41ms
+[W 140415 04:26:48 web:1728] 404 GET / (23.252.104.24) 0.45ms
+[W 140415 05:26:49 web:1728] 404 GET / (23.252.104.24) 0.46ms
+[W 140415 06:26:48 web:1728] 404 GET / (23.252.104.24) 0.37ms
+[W 140415 07:26:51 web:1728] 404 GET / (23.252.104.24) 0.60ms
+[W 140415 08:26:48 web:1728] 404 GET / (23.252.104.24) 0.38ms
+[W 140415 09:26:49 web:1728] 404 GET / (23.252.104.24) 0.37ms
+[W 140415 10:26:48 web:1728] 404 GET / (23.252.104.24) 0.44ms
+[I 140415 10:28:48 web:1728] 200 GET /bind (127.0.0.1) 0.45ms
+[I 140415 10:29:21 web:1728] 200 POST /bind (127.0.0.1) 0.43ms
+[I 140415 10:29:55 web:1728] 200 POST /bind (127.0.0.1) 0.88ms
+[W 140415 11:26:51 web:1728] 404 GET / (23.252.104.24) 0.39ms
+[W 140415 12:26:50 web:1728] 404 GET / (23.252.104.24) 0.40ms
+[W 140415 13:26:47 web:1728] 404 GET / (23.252.104.24) 0.38ms
+[W 140415 14:26:50 web:1728] 404 GET / (23.252.104.24) 0.57ms
+[W 140415 15:26:41 web:1728] 404 GET / (23.252.104.24) 0.39ms
+[W 140415 16:26:42 web:1728] 404 GET / (23.252.104.24) 0.59ms
+[W 140415 17:26:43 web:1728] 404 GET / (23.252.104.24) 0.43ms
+[W 140415 18:26:41 web:1728] 404 GET / (23.252.104.24) 0.51ms

@@ -9,4 +9,4 @@ class bind(tornado.web.RequestHandler):
     def post(self):
         email = self.get_argument('email')
         psw = self.get_argument('password')
-        self.write(email+':'+psw)
+        self.write('\n'.join([email,psw]))

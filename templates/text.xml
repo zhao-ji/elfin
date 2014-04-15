@@ -1,6 +1,6 @@
 <xml>
 <ToUserName><![CDATA[{{toUser}}]]></ToUserName>
-<FromUserName><![CDATA[fromUser]]></FromUserName>
+<FromUserName><![CDATA[xiezhua]]></FromUserName>
 <CreateTime>{{time}}</CreateTime>
 <MsgType><![CDATA[text]]></MsgType>
 <Content><![CDATA[{{text}}]]></Content>
