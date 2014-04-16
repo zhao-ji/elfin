@@ -3,6 +3,7 @@
 
 import time
 import pickle
+import logging
 
 import requests
 
@@ -22,8 +23,9 @@ def get_access_token():
         access_token = json_dict['access_token']
         global ACCESS_TOKEN
         ACCESS_TOKEN = pickle.dumps(access_token)
+        logging.info('access_token:' + access_token)
     else:
-        pass
+        logging.error(r.status_code)
 
 if __name__ == '__main__':
     while 1:
