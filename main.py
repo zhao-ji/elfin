@@ -20,7 +20,8 @@ define('port', default=9001, type=int)
 
 
 handlers = [ (r'/wechat', wechat),
-             (r'/bind', bind),
+             (r'/bind/(\w+)', bind),
+             (r'/tail', tail),
            ]
 template_path = os.path.join(os.path.dirname(__file__), 'templates')
 
