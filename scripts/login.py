@@ -5,7 +5,7 @@ import logging
 
 import requests
 
-#from ..socrates import global_settings as config
+from socrates import hanzi
 
 POST_URL = 'http://weilairiji.com/api/statuses/update.json'
 
@@ -15,17 +15,18 @@ class login:
     protected = 0
 
     def __init__(self, email=None, psw=None):
-        self.bsc_str = 'Basic ' + (email+':'+psw).encode('base64')[:-1]
-        headers = {}
-        headers['Authorization'] = self.bsc_str
+        bsc_str = 'Basic ' + (email+':'+psw).encode('base64')[:-1]
+        __headers = {}
+        __headers['Authorization'] = bsc_str
 
-        data = {}
-        data['status'] = 'BINDOK'
-        data['source'] = 'DEVICE'
-        data['status_type'] = 'talk'
+        __data = {}
+        __data['status'] = hanzi.BIND_OK
+        __data['source'] = hanzi.DEVICE
+        __data['status_type'] = 'talk'
 
-        self.bind_ret = requests.post(POST_URL, data=data, headers=headers)
+        self.bind_ret = requests.post(POST_URL, data=__data, headers=__headers)
         self.status_code = self.bind_ret.status_code
+        self.xiezhua_id = email + ':' + psw
 
     def analyses(self):
         ret_json = self.bind_ret.content.replace('=', ':')[1:-1]
@@ -35,8 +36,4 @@ class login:
             logging.error(e)
         else:
             user_info = ret_list['user']
-            self.xieban = user_info['id']
-            self.user_name = user_info['name']
-            self.protected = 1 if user_info['protected'] == 'true' else 0
-            self.photo_url = user_info['profile_image_url']
-            self.description = user_info['description']
+            self.id = user_info['id']

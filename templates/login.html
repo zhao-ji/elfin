@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html>
     <head><title>绑定蟹爪</title></head>
-    <body>
-        <h1>请输入邮箱和密码</h1>
-        <form method="post" action="/elfin/bind">
-        <p>{{info}}</p>
+    <body align="center">
+        <h1>{{info}}</h1>
+        <form method="post" action={{action}}>
         <p>邮箱<br><input type="text" name="email"></p>
-        <p>密码<br><input type="text" name="password"></p>
-        <input type="submit">
+        <p>密码<br><input type="password" name="psw"></p>
+        <input type="submit" value="绑定"/>
         </form>
     </body>
 </html>

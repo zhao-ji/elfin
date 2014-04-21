@@ -3,10 +3,10 @@
 
 import hashlib
 
-TOKEN = 'xiezhua'
+TOKEN = 'elfin'
 
 def check_sig(signature=None, timestamp=None, nonce=None):
-    if all(signature, timestamp, nonce):
+    if all([signature, timestamp, nonce]):
         tmp_list = [timestamp, nonce, TOKEN]
         tmp_list.sort()
         tmp_str = ''.join(tmp_list)

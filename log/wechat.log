@@ -304,3 +304,338 @@
 [W 140417 12:26:52 web:1728] 404 GET / (23.252.104.24) 0.36ms
 [W 140417 13:26:50 web:1728] 404 GET / (23.252.104.24) 0.45ms
 [W 140417 14:26:44 web:1728] 404 GET / (23.252.104.24) 0.62ms
+[I 140417 15:13:43 web:1728] 200 GET /bind (127.0.0.1) 0.45ms
+[W 140417 15:26:46 web:1728] 404 GET / (23.252.104.24) 0.41ms
+[W 140417 16:26:44 web:1728] 404 GET / (23.252.104.24) 0.41ms
+[W 140417 17:26:44 web:1728] 404 GET / (23.252.104.24) 0.41ms
+[W 140417 18:23:37 web:1302] 400 GET /wechat (127.0.0.1): Missing argument echostr
+[W 140417 18:23:37 web:1728] 400 GET /wechat (127.0.0.1) 4.22ms
+[W 140417 18:26:41 web:1728] 404 GET / (23.252.104.24) 0.53ms
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/main.py", line 15, in <module>
+    from handlers.wechat import *
+  File "/home/nightwish/elfin/handlers/wechat.py", line 49
+    elif event in ['home_one', 'home_two', 'home_three']
+                                                       ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/main.py", line 15, in <module>
+    from handlers.wechat import *
+  File "/home/nightwish/elfin/handlers/wechat.py", line 49
+    elif event in ['home_one', 'home_two', 'home_three']
+                                                       ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/main.py", line 15, in <module>
+    from handlers.wechat import *
+  File "/home/nightwish/elfin/handlers/wechat.py", line 49
+    elif event in ['home_one', 'home_two', 'home_three']
+                                                       ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/main.py", line 15, in <module>
+    from handlers.wechat import *
+  File "/home/nightwish/elfin/handlers/wechat.py", line 49
+    elif event in ['home_one', 'home_two', 'home_three']
+                                                       ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/main.py", line 15, in <module>
+    from handlers.wechat import *
+  File "/home/nightwish/elfin/handlers/wechat.py", line 9, in <module>
+    from ..scripts.check_sig import *
+ValueError: Attempted relative import beyond toplevel package
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/main.py", line 15, in <module>
+    from handlers.wechat import *
+  File "/home/nightwish/elfin/handlers/wechat.py", line 9, in <module>
+    from ..scripts.check_sig import *
+ValueError: Attempted relative import beyond toplevel package
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/main.py", line 15, in <module>
+    from handlers.wechat import *
+  File "/home/nightwish/elfin/handlers/wechat.py", line 9, in <module>
+    from ..scripts.check_sig import *
+ValueError: Attempted relative import beyond toplevel package
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/main.py", line 15, in <module>
+    from handlers.wechat import *
+  File "/home/nightwish/elfin/handlers/wechat.py", line 9, in <module>
+    from ..scripts.check_sig import *
+ValueError: Attempted relative import beyond toplevel package
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/main.py", line 15, in <module>
+    from handlers.wechat import *
+  File "/home/nightwish/elfin/handlers/wechat.py", line 9, in <module>
+    from elfin.scripts.check_sig import *
+ImportError: No module named elfin.scripts.check_sig
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/main.py", line 15, in <module>
+    from handlers.wechat import *
+  File "/home/nightwish/elfin/handlers/wechat.py", line 9, in <module>
+    from elfin.scripts.check_sig import *
+ImportError: No module named elfin.scripts.check_sig
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/main.py", line 15, in <module>
+    from handlers.wechat import *
+  File "/home/nightwish/elfin/handlers/wechat.py", line 9, in <module>
+    from elfin.scripts.check_sig import *
+ImportError: No module named elfin.scripts.check_sig
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/main.py", line 15, in <module>
+    from handlers.wechat import *
+  File "/home/nightwish/elfin/handlers/wechat.py", line 9, in <module>
+    from elfin.scripts.check_sig import *
+ImportError: No module named elfin.scripts.check_sig
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/main.py", line 15, in <module>
+    from handlers.wechat import *
+  File "/home/nightwish/elfin/handlers/wechat.py", line 11, in <module>
+    sys.path.append(os.path.join(os.path.dirname(os.path.abspath(__file__)), os.path.pardir))
+NameError: name 'sys' is not defined
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/main.py", line 15, in <module>
+    from handlers.wechat import *
+  File "/home/nightwish/elfin/handlers/wechat.py", line 11, in <module>
+    sys.path.append(os.path.join(os.path.dirname(os.path.abspath(__file__)), os.path.pardir))
+NameError: name 'sys' is not defined
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/main.py", line 15, in <module>
+    from handlers.wechat import *
+  File "/home/nightwish/elfin/handlers/wechat.py", line 11, in <module>
+    sys.path.append(os.path.join(os.path.dirname(os.path.abspath(__file__)), os.path.pardir))
+NameError: name 'sys' is not defined
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/main.py", line 15, in <module>
+    from handlers.wechat import *
+  File "/home/nightwish/elfin/handlers/wechat.py", line 11, in <module>
+    sys.path.append(os.path.join(os.path.dirname(os.path.abspath(__file__)), os.path.pardir))
+NameError: name 'sys' is not defined
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/main.py", line 16, in <module>
+    from handlers.bind import *
+  File "/home/nightwish/elfin/handlers/bind.py", line 27
+    elif login.status_code in [404,500]
+                                      ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/main.py", line 16, in <module>
+    from handlers.bind import *
+  File "/home/nightwish/elfin/handlers/bind.py", line 27
+    elif login.status_code in [404,500]
+                                      ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/main.py", line 16, in <module>
+    from handlers.bind import *
+  File "/home/nightwish/elfin/handlers/bind.py", line 27
+    elif login.status_code in [404,500]
+                                      ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/main.py", line 16, in <module>
+    from handlers.bind import *
+  File "/home/nightwish/elfin/handlers/bind.py", line 27
+    elif login.status_code in [404,500]
+                                      ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/main.py", line 16, in <module>
+    from handlers.bind import *
+  File "/home/nightwish/elfin/handlers/bind.py", line 9, in <module>
+    from socrates import config
+ImportError: cannot import name config
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/main.py", line 16, in <module>
+    from handlers.bind import *
+  File "/home/nightwish/elfin/handlers/bind.py", line 9, in <module>
+    from socrates import config
+ImportError: cannot import name config
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/main.py", line 16, in <module>
+    from handlers.bind import *
+  File "/home/nightwish/elfin/handlers/bind.py", line 9, in <module>
+    from socrates import config
+ImportError: cannot import name config
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/main.py", line 16, in <module>
+    from handlers.bind import *
+  File "/home/nightwish/elfin/handlers/bind.py", line 9, in <module>
+    from socrates import config
+ImportError: cannot import name config
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/main.py", line 16, in <module>
+    from handlers.bind import *
+  File "/home/nightwish/elfin/handlers/bind.py", line 9, in <module>
+    from socrates import global_settings as config
+  File "/home/nightwish/elfin/socrates/global_settings.py", line 10, in <module>
+    level=logging.INFO
+  File "/usr/lib/python2.7/logging/__init__.py", line 1528, in basicConfig
+    hdlr = FileHandler(filename, mode)
+  File "/usr/lib/python2.7/logging/__init__.py", line 901, in __init__
+    StreamHandler.__init__(self, self._open())
+  File "/usr/lib/python2.7/logging/__init__.py", line 924, in _open
+    stream = open(self.baseFilename, self.mode)
+IOError: [Errno 13] Permission denied: '/home/nightwish/elfin/log/run.log'
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/main.py", line 16, in <module>
+    from handlers.bind import *
+  File "/home/nightwish/elfin/handlers/bind.py", line 9, in <module>
+    from socrates import global_settings as config
+  File "/home/nightwish/elfin/socrates/global_settings.py", line 10, in <module>
+    level=logging.INFO
+  File "/usr/lib/python2.7/logging/__init__.py", line 1528, in basicConfig
+    hdlr = FileHandler(filename, mode)
+  File "/usr/lib/python2.7/logging/__init__.py", line 901, in __init__
+    StreamHandler.__init__(self, self._open())
+  File "/usr/lib/python2.7/logging/__init__.py", line 924, in _open
+    stream = open(self.baseFilename, self.mode)
+IOError: [Errno 13] Permission denied: '/home/nightwish/elfin/log/run.log'
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/main.py", line 16, in <module>
+    from handlers.bind import *
+  File "/home/nightwish/elfin/handlers/bind.py", line 9, in <module>
+    from socrates import global_settings as config
+  File "/home/nightwish/elfin/socrates/global_settings.py", line 10, in <module>
+    level=logging.INFO
+  File "/usr/lib/python2.7/logging/__init__.py", line 1528, in basicConfig
+    hdlr = FileHandler(filename, mode)
+  File "/usr/lib/python2.7/logging/__init__.py", line 901, in __init__
+    StreamHandler.__init__(self, self._open())
+  File "/usr/lib/python2.7/logging/__init__.py", line 924, in _open
+    stream = open(self.baseFilename, self.mode)
+IOError: [Errno 13] Permission denied: '/home/nightwish/elfin/log/run.log'
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/main.py", line 16, in <module>
+    from handlers.bind import *
+  File "/home/nightwish/elfin/handlers/bind.py", line 9, in <module>
+    from socrates import global_settings as config
+  File "/home/nightwish/elfin/socrates/global_settings.py", line 10, in <module>
+    level=logging.INFO
+  File "/usr/lib/python2.7/logging/__init__.py", line 1528, in basicConfig
+    hdlr = FileHandler(filename, mode)
+  File "/usr/lib/python2.7/logging/__init__.py", line 901, in __init__
+    StreamHandler.__init__(self, self._open())
+  File "/usr/lib/python2.7/logging/__init__.py", line 924, in _open
+    stream = open(self.baseFilename, self.mode)
+IOError: [Errno 13] Permission denied: '/home/nightwish/elfin/log/run.log'
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/main.py", line 24, in <module>
+    (r'/tail/(\w*)', tail),
+NameError: name 'tail' is not defined
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/main.py", line 24, in <module>
+    (r'/tail/(\w*)', tail),
+NameError: name 'tail' is not defined
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/main.py", line 24, in <module>
+    (r'/tail/(\w*)', tail),
+NameError: name 'tail' is not defined
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/main.py", line 24, in <module>
+    (r'/tail/(\w*)', tail),
+NameError: name 'tail' is not defined
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/main.py", line 17, in <module>
+    from handlers.tail import *
+  File "/home/nightwish/elfin/handlers/tail.py", line 26
+    elif login.status_code in [404,500]
+                                      ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/main.py", line 17, in <module>
+    from handlers.tail import *
+  File "/home/nightwish/elfin/handlers/tail.py", line 26
+    elif login.status_code in [404,500]
+                                      ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/main.py", line 17, in <module>
+    from handlers.tail import *
+  File "/home/nightwish/elfin/handlers/tail.py", line 26
+    elif login.status_code in [404,500]
+                                      ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/main.py", line 17, in <module>
+    from handlers.tail import *
+  File "/home/nightwish/elfin/handlers/tail.py", line 26
+    elif login.status_code in [404,500]
+                                      ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/main.py", line 17, in <module>
+    from handlers.tail import *
+  File "/home/nightwish/elfin/handlers/tail.py", line 9, in <module>
+    from socrates import config
+ImportError: cannot import name config
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/main.py", line 17, in <module>
+    from handlers.tail import *
+  File "/home/nightwish/elfin/handlers/tail.py", line 9, in <module>
+    from socrates import config
+ImportError: cannot import name config
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/main.py", line 17, in <module>
+    from handlers.tail import *
+  File "/home/nightwish/elfin/handlers/tail.py", line 9, in <module>
+    from socrates import config
+ImportError: cannot import name config
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/main.py", line 17, in <module>
+    from handlers.tail import *
+  File "/home/nightwish/elfin/handlers/tail.py", line 9, in <module>
+    from socrates import config
+ImportError: cannot import name config
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/main.py", line 15, in <module>
+    from handlers.wechat import wechat
+  File "/home/nightwish/elfin/handlers/wechat.py", line 25
+    self.write(','.join(['%s=%s'%(k,v) for k,v in self.request.query.items())
+                                                                            ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/main.py", line 15, in <module>
+    from handlers.wechat import wechat
+  File "/home/nightwish/elfin/handlers/wechat.py", line 25
+    self.write(','.join(['%s=%s'%(k,v) for k,v in self.request.query.items())
+                                                                            ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/main.py", line 15, in <module>
+    from handlers.wechat import wechat
+  File "/home/nightwish/elfin/handlers/wechat.py", line 25
+    self.write(','.join(['%s=%s'%(k,v) for k,v in self.request.query.items())
+                                                                            ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/main.py", line 15, in <module>
+    from handlers.wechat import wechat
+  File "/home/nightwish/elfin/handlers/wechat.py", line 25
+    self.write(','.join(['%s=%s'%(k,v) for k,v in self.request.query.items())
+                                                                            ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/main.py", line 15, in <module>
+    from handlers.wechat import wechat
+  File "/home/nightwish/elfin/handlers/wechat.py", line 20, in <module>
+    r5 = redis.Redis(host = REDIS.HOST,
+AttributeError: 'dict' object has no attribute 'HOST'
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/main.py", line 15, in <module>
+    from handlers.wechat import wechat
+  File "/home/nightwish/elfin/handlers/wechat.py", line 20, in <module>
+    r5 = redis.Redis(host = REDIS.HOST,
+AttributeError: 'dict' object has no attribute 'HOST'
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/main.py", line 15, in <module>
+    from handlers.wechat import wechat
+  File "/home/nightwish/elfin/handlers/wechat.py", line 20, in <module>
+    r5 = redis.Redis(host = REDIS.HOST,
+AttributeError: 'dict' object has no attribute 'HOST'
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/main.py", line 15, in <module>
+    from handlers.wechat import wechat
+  File "/home/nightwish/elfin/handlers/wechat.py", line 20, in <module>
+    r5 = redis.Redis(host = REDIS.HOST,
+AttributeError: 'dict' object has no attribute 'HOST'

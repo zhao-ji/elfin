@@ -3,29 +3,30 @@
 # version2.0 @Nightwish
 
 import os.path
-import sys
 
 import tornado
 import tornado.web
 import tornado.ioloop
 import tornado.httpserver
 
-import requests
-
-from handlers.wechat import *
+from handlers.wechat import wechat
 from handlers.bind import *
+from handlers.tail import *
+
+from socrates.set import mongo
 
 from tornado.options import define, options
 define('port', default=9001, type=int)
 
 
 handlers = [ (r'/wechat', wechat),
-             (r'/bind/(\w+)', bind),
-             (r'/tail', tail),
+             (r'/bind/(.*)', bind),
+             (r'/tail/(.*)', tail),
            ]
 template_path = os.path.join(os.path.dirname(__file__), 'templates')
 
 if __name__ == '__main__':
+    mongo.authenticate('elfin', 'sljfZ5weyil')
     tornado.options.parse_command_line()
     app = tornado.web.Application(handlers=handlers, template_path=template_path)
     http_server = tornado.httpserver.HTTPServer(app)

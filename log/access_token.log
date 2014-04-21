@@ -1,0 +1,80 @@
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/scripts/get_access_token.py", line 10, in <module>
+    from socrates.set import REDIS 
+ImportError: No module named socrates.set
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/scripts/get_access_token.py", line 10, in <module>
+    from socrates.set import REDIS 
+ImportError: No module named socrates.set
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/scripts/get_access_token.py", line 10, in <module>
+    from socrates.set import REDIS 
+ImportError: No module named socrates.set
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/scripts/get_access_token.py", line 10, in <module>
+    from socrates.set import REDIS 
+ImportError: No module named socrates.set
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/scripts/get_access_token.py", line 10, in <module>
+    from socrates.set import *
+ImportError: No module named socrates.set
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/scripts/get_access_token.py", line 10, in <module>
+    from socrates.set import *
+ImportError: No module named socrates.set
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/scripts/get_access_token.py", line 10, in <module>
+    from socrates.set import *
+ImportError: No module named socrates.set
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/scripts/get_access_token.py", line 10, in <module>
+    from socrates.set import *
+ImportError: No module named socrates.set
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/scripts/get_access_token.py", line 12, in <module>
+    from ..socrates.set import *
+ValueError: Attempted relative import in non-package
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/scripts/get_access_token.py", line 12, in <module>
+    from ..socrates.set import *
+ValueError: Attempted relative import in non-package
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/scripts/get_access_token.py", line 12, in <module>
+    from ..socrates.set import *
+ValueError: Attempted relative import in non-package
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/scripts/get_access_token.py", line 12, in <module>
+    from ..socrates.set import *
+ValueError: Attempted relative import in non-package
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/scripts/get_access_token.py", line 12, in <module>
+    from socrates.set import *
+ImportError: No module named socrates.set
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/scripts/get_access_token.py", line 12, in <module>
+    from socrates.set import *
+ImportError: No module named socrates.set
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/scripts/get_access_token.py", line 12, in <module>
+    from socrates.set import *
+ImportError: No module named socrates.set
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/scripts/get_access_token.py", line 12, in <module>
+    from socrates.set import *
+ImportError: No module named socrates.set
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/scripts/get_access_token.py", line 12, in <module>
+    from socrates.set import log, REDIS
+ImportError: No module named socrates.set
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/scripts/get_access_token.py", line 12, in <module>
+    from socrates.set import log, REDIS
+ImportError: No module named socrates.set
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/scripts/get_access_token.py", line 12, in <module>
+    from socrates.set import log, REDIS
+ImportError: No module named socrates.set
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/scripts/get_access_token.py", line 12, in <module>
+    from socrates.set import log, REDIS
+ImportError: No module named socrates.set

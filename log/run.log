@@ -1,0 +1,700 @@
+2014-04-18 21:57:22 web.py[line:1305] ERROR Uncaught exception POST /wechat?signature=dc8efa47299f87c8447a7f3fe1e269cc062045b2&timestamp=1397829441&nonce=1516504673 (127.0.0.1)
+HTTPRequest(protocol='http', host='127.0.0.1:9001', method='POST', uri='/wechat?signature=dc8efa47299f87c8447a7f3fe1e269cc062045b2&timestamp=1397829441&nonce=1516504673', version='HTTP/1.0', remote_ip='127.0.0.1', headers={'Content-Length': '314', 'Host': '127.0.0.1:9001', 'Pragma': 'no-cache', 'Content-Type': 'text/xml', 'Connection': 'close', 'Accept': '*/*', 'User-Agent': 'Mozilla/4.0'})
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1218, in _when_complete
+    callback()
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1239, in _execute_method
+    self._when_complete(method(*self.path_args, **self.path_kwargs),
+  File "/home/nightwish/elfin/handlers/wechat.py", line 38, in post
+    if not checksig(signature, timestamp, nonce):
+NameError: global name 'checksig' is not defined
+2014-04-18 21:57:22 web.py[line:1728] ERROR 500 POST /wechat?signature=dc8efa47299f87c8447a7f3fe1e269cc062045b2&timestamp=1397829441&nonce=1516504673 (127.0.0.1) 1.98ms
+2014-04-18 21:57:23 web.py[line:1305] ERROR Uncaught exception POST /wechat?signature=b7ca4d3788fbc2b4d3b43a6bee844638c76ac046&timestamp=1397829442&nonce=258296414 (127.0.0.1)
+HTTPRequest(protocol='http', host='127.0.0.1:9001', method='POST', uri='/wechat?signature=b7ca4d3788fbc2b4d3b43a6bee844638c76ac046&timestamp=1397829442&nonce=258296414', version='HTTP/1.0', remote_ip='127.0.0.1', headers={'Content-Length': '314', 'Host': '127.0.0.1:9001', 'Pragma': 'no-cache', 'Content-Type': 'text/xml', 'Connection': 'close', 'Accept': '*/*', 'User-Agent': 'Mozilla/4.0'})
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1218, in _when_complete
+    callback()
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1239, in _execute_method
+    self._when_complete(method(*self.path_args, **self.path_kwargs),
+  File "/home/nightwish/elfin/handlers/wechat.py", line 38, in post
+    if not checksig(signature, timestamp, nonce):
+NameError: global name 'checksig' is not defined
+2014-04-18 21:57:23 web.py[line:1728] ERROR 500 POST /wechat?signature=b7ca4d3788fbc2b4d3b43a6bee844638c76ac046&timestamp=1397829442&nonce=258296414 (127.0.0.1) 0.89ms
+2014-04-18 21:57:24 web.py[line:1728] WARNING 404 GET /bind (127.0.0.1) 0.56ms
+2014-04-18 21:57:33 web.py[line:1305] ERROR Uncaught exception POST /wechat?signature=14393712678129d3315fc3f4d9751560e8ac9a3b&timestamp=1397829453&nonce=651964971 (127.0.0.1)
+HTTPRequest(protocol='http', host='127.0.0.1:9001', method='POST', uri='/wechat?signature=14393712678129d3315fc3f4d9751560e8ac9a3b&timestamp=1397829453&nonce=651964971', version='HTTP/1.0', remote_ip='127.0.0.1', headers={'Content-Length': '314', 'Host': '127.0.0.1:9001', 'Pragma': 'no-cache', 'Content-Type': 'text/xml', 'Connection': 'close', 'Accept': '*/*', 'User-Agent': 'Mozilla/4.0'})
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1218, in _when_complete
+    callback()
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1239, in _execute_method
+    self._when_complete(method(*self.path_args, **self.path_kwargs),
+  File "/home/nightwish/elfin/handlers/wechat.py", line 38, in post
+    if not checksig(signature, timestamp, nonce):
+NameError: global name 'checksig' is not defined
+2014-04-18 21:57:33 web.py[line:1728] ERROR 500 POST /wechat?signature=14393712678129d3315fc3f4d9751560e8ac9a3b&timestamp=1397829453&nonce=651964971 (127.0.0.1) 1.00ms
+2014-04-18 21:57:45 web.py[line:1305] ERROR Uncaught exception POST /wechat?signature=80d07558b8772b7f93cf1dc7a956e859f70b5e3b&timestamp=1397829464&nonce=1598210320 (127.0.0.1)
+HTTPRequest(protocol='http', host='127.0.0.1:9001', method='POST', uri='/wechat?signature=80d07558b8772b7f93cf1dc7a956e859f70b5e3b&timestamp=1397829464&nonce=1598210320', version='HTTP/1.0', remote_ip='127.0.0.1', headers={'Content-Length': '314', 'Host': '127.0.0.1:9001', 'Pragma': 'no-cache', 'Content-Type': 'text/xml', 'Connection': 'close', 'Accept': '*/*', 'User-Agent': 'Mozilla/4.0'})
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1218, in _when_complete
+    callback()
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1239, in _execute_method
+    self._when_complete(method(*self.path_args, **self.path_kwargs),
+  File "/home/nightwish/elfin/handlers/wechat.py", line 38, in post
+    if not checksig(signature, timestamp, nonce):
+NameError: global name 'checksig' is not defined
+2014-04-18 21:57:45 web.py[line:1728] ERROR 500 POST /wechat?signature=80d07558b8772b7f93cf1dc7a956e859f70b5e3b&timestamp=1397829464&nonce=1598210320 (127.0.0.1) 1.24ms
+2014-04-18 22:09:54 web.py[line:1305] ERROR Uncaught exception POST /wechat?signature=75beeb4e2cadee4943654461faacf807f5718d2d&timestamp=1397830193&nonce=707080398 (127.0.0.1)
+HTTPRequest(protocol='http', host='127.0.0.1:9001', method='POST', uri='/wechat?signature=75beeb4e2cadee4943654461faacf807f5718d2d&timestamp=1397830193&nonce=707080398', version='HTTP/1.0', remote_ip='127.0.0.1', headers={'Content-Length': '314', 'Host': '127.0.0.1:9001', 'Pragma': 'no-cache', 'Content-Type': 'text/xml', 'Connection': 'close', 'Accept': '*/*', 'User-Agent': 'Mozilla/4.0'})
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1218, in _when_complete
+    callback()
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1239, in _execute_method
+    self._when_complete(method(*self.path_args, **self.path_kwargs),
+  File "/home/nightwish/elfin/handlers/wechat.py", line 38, in post
+    if not checksig(signature, timestamp, nonce):
+NameError: global name 'checksig' is not defined
+2014-04-18 22:09:54 web.py[line:1728] ERROR 500 POST /wechat?signature=75beeb4e2cadee4943654461faacf807f5718d2d&timestamp=1397830193&nonce=707080398 (127.0.0.1) 1.81ms
+2014-04-18 22:09:55 web.py[line:1305] ERROR Uncaught exception POST /wechat?signature=9e298582b7896c113fc2f6936a807b42625f54a4&timestamp=1397830194&nonce=81222198 (127.0.0.1)
+HTTPRequest(protocol='http', host='127.0.0.1:9001', method='POST', uri='/wechat?signature=9e298582b7896c113fc2f6936a807b42625f54a4&timestamp=1397830194&nonce=81222198', version='HTTP/1.0', remote_ip='127.0.0.1', headers={'Content-Length': '314', 'Host': '127.0.0.1:9001', 'Pragma': 'no-cache', 'Content-Type': 'text/xml', 'Connection': 'close', 'Accept': '*/*', 'User-Agent': 'Mozilla/4.0'})
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1218, in _when_complete
+    callback()
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1239, in _execute_method
+    self._when_complete(method(*self.path_args, **self.path_kwargs),
+  File "/home/nightwish/elfin/handlers/wechat.py", line 38, in post
+    if not checksig(signature, timestamp, nonce):
+NameError: global name 'checksig' is not defined
+2014-04-18 22:09:55 web.py[line:1728] ERROR 500 POST /wechat?signature=9e298582b7896c113fc2f6936a807b42625f54a4&timestamp=1397830194&nonce=81222198 (127.0.0.1) 0.90ms
+2014-04-18 22:09:56 web.py[line:1728] WARNING 404 GET /bind (127.0.0.1) 0.56ms
+2014-04-18 22:10:06 web.py[line:1305] ERROR Uncaught exception POST /wechat?signature=895612a53ce3ff979be96828dded33c343b3f7c7&timestamp=1397830206&nonce=2137027587 (127.0.0.1)
+HTTPRequest(protocol='http', host='127.0.0.1:9001', method='POST', uri='/wechat?signature=895612a53ce3ff979be96828dded33c343b3f7c7&timestamp=1397830206&nonce=2137027587', version='HTTP/1.0', remote_ip='127.0.0.1', headers={'Content-Length': '314', 'Host': '127.0.0.1:9001', 'Pragma': 'no-cache', 'Content-Type': 'text/xml', 'Connection': 'close', 'Accept': '*/*', 'User-Agent': 'Mozilla/4.0'})
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1218, in _when_complete
+    callback()
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1239, in _execute_method
+    self._when_complete(method(*self.path_args, **self.path_kwargs),
+  File "/home/nightwish/elfin/handlers/wechat.py", line 38, in post
+    if not checksig(signature, timestamp, nonce):
+NameError: global name 'checksig' is not defined
+2014-04-18 22:10:06 web.py[line:1728] ERROR 500 POST /wechat?signature=895612a53ce3ff979be96828dded33c343b3f7c7&timestamp=1397830206&nonce=2137027587 (127.0.0.1) 1.31ms
+2014-04-18 22:10:17 web.py[line:1305] ERROR Uncaught exception POST /wechat?signature=54b681291d7daeb6e3c594d4eca0f36a59d7c310&timestamp=1397830216&nonce=1811756141 (127.0.0.1)
+HTTPRequest(protocol='http', host='127.0.0.1:9001', method='POST', uri='/wechat?signature=54b681291d7daeb6e3c594d4eca0f36a59d7c310&timestamp=1397830216&nonce=1811756141', version='HTTP/1.0', remote_ip='127.0.0.1', headers={'Content-Length': '314', 'Host': '127.0.0.1:9001', 'Pragma': 'no-cache', 'Content-Type': 'text/xml', 'Connection': 'close', 'Accept': '*/*', 'User-Agent': 'Mozilla/4.0'})
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1218, in _when_complete
+    callback()
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1239, in _execute_method
+    self._when_complete(method(*self.path_args, **self.path_kwargs),
+  File "/home/nightwish/elfin/handlers/wechat.py", line 38, in post
+    if not checksig(signature, timestamp, nonce):
+NameError: global name 'checksig' is not defined
+2014-04-18 22:10:17 web.py[line:1728] ERROR 500 POST /wechat?signature=54b681291d7daeb6e3c594d4eca0f36a59d7c310&timestamp=1397830216&nonce=1811756141 (127.0.0.1) 1.03ms
+2014-04-18 22:14:33 web.py[line:1728] INFO 200 POST /wechat?signature=b2f93fe3f643ea4d7aac296ab9134b6da5505eb1&timestamp=1397830473&nonce=1987049934 (127.0.0.1) 0.66ms
+2014-04-18 22:14:34 web.py[line:1728] WARNING 404 GET /bind (127.0.0.1) 0.55ms
+2014-04-18 22:17:52 web.py[line:1728] INFO 200 POST /wechat?signature=105788b5fe8de1954b17460dd2a66c20fffb26ee&timestamp=1397830672&nonce=1287272987 (127.0.0.1) 0.67ms
+2014-04-18 22:17:53 web.py[line:1305] ERROR Uncaught exception GET /bind (127.0.0.1)
+HTTPRequest(protocol='http', host='127.0.0.1:9001', method='GET', uri='/bind', version='HTTP/1.0', remote_ip='127.0.0.1', headers={'Connection': 'close', 'Accept-Language': 'zh-CN,en-US;q=0.8', 'Accept-Encoding': 'gzip,deflate', 'X-Requested-With': 'com.tencent.mm', 'Host': '127.0.0.1:9001', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Linux; Android 4.4.2; Nexus 4 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36 MicroMessenger/5.2.1.381'})
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1218, in _when_complete
+    callback()
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1239, in _execute_method
+    self._when_complete(method(*self.path_args, **self.path_kwargs),
+  File "/home/nightwish/elfin/handlers/bind.py", line 19, in get
+    self.redirect('/bind/' + wechat_id)
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+2014-04-18 22:17:53 web.py[line:1728] ERROR 500 GET /bind (127.0.0.1) 2.18ms
+2014-04-18 22:24:11 web.py[line:1728] INFO 200 POST /wechat?signature=704e9444d75eda5587c6737b42febce02ffa6a97&timestamp=1397831048&nonce=1433028884 (127.0.0.1) 0.69ms
+2014-04-18 22:24:28 web.py[line:1728] INFO 302 GET /bind (127.0.0.1) 0.98ms
+2014-04-18 22:24:55 web.py[line:1728] INFO 302 GET /bind (127.0.0.1) 0.91ms
+2014-04-18 22:26:46 web.py[line:1728] WARNING 404 GET / (23.252.104.24) 0.43ms
+2014-04-18 22:40:58 web.py[line:1728] INFO 200 POST /wechat?signature=d03f3e02d0722bfcde1610f90bd88c1c33e5556b&timestamp=1397832058&nonce=704154885 (127.0.0.1) 0.72ms
+2014-04-18 22:40:59 web.py[line:1305] ERROR Uncaught exception GET /bind (127.0.0.1)
+HTTPRequest(protocol='http', host='127.0.0.1:9001', method='GET', uri='/bind', version='HTTP/1.0', remote_ip='127.0.0.1', headers={'Connection': 'close', 'Accept-Language': 'zh-CN,en-US;q=0.8', 'Accept-Encoding': 'gzip,deflate', 'X-Requested-With': 'com.tencent.mm', 'Host': '127.0.0.1:9001', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Linux; Android 4.4.2; Nexus 4 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36 MicroMessenger/5.2.1.381'})
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1218, in _when_complete
+    callback()
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1239, in _execute_method
+    self._when_complete(method(*self.path_args, **self.path_kwargs),
+  File "/home/nightwish/elfin/handlers/bind.py", line 19, in get
+    self.redirect('/bind/' + wechat_id)
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+2014-04-18 22:40:59 web.py[line:1728] ERROR 500 GET /bind (127.0.0.1) 2.98ms
+2014-04-18 22:59:43 web.py[line:1728] INFO 200 POST /wechat?signature=ab1248e02139f58bb961558e74adbcb3dac28800&timestamp=1397833180&nonce=960693510 (127.0.0.1) 0.94ms
+2014-04-18 22:59:44 web.py[line:1728] INFO 302 GET /bind (127.0.0.1) 1.71ms
+2014-04-18 23:02:40 web.py[line:1728] INFO 200 POST /wechat?signature=6ee8d688eda438079936690f438d0a12d3d55f3d&timestamp=1397833360&nonce=1379354341 (127.0.0.1) 0.56ms
+2014-04-18 23:02:41 web.py[line:1728] INFO 302 GET /bind (127.0.0.1) 0.55ms
+2014-04-18 23:08:04 web.py[line:1305] ERROR Uncaught exception GET /bind (127.0.0.1)
+HTTPRequest(protocol='http', host='127.0.0.1:9001', method='GET', uri='/bind', version='HTTP/1.0', remote_ip='127.0.0.1', headers={'Connection': 'close', 'Accept-Language': 'zh-CN,en-US;q=0.8', 'Accept-Encoding': 'gzip,deflate', 'X-Requested-With': 'com.tencent.mm', 'Host': '127.0.0.1:9001', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Linux; Android 4.4.2; Nexus 4 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36 MicroMessenger/5.2.1.381'})
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1218, in _when_complete
+    callback()
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1239, in _execute_method
+    self._when_complete(method(*self.path_args, **self.path_kwargs),
+  File "/home/nightwish/elfin/handlers/bind.py", line 19, in get
+    self.redirect('/bind/' + wechat_id)
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+2014-04-18 23:08:04 web.py[line:1728] ERROR 500 GET /bind (127.0.0.1) 3.03ms
+2014-04-18 23:08:04 wechat.py[line:67] INFO oDVlVuO4iES2MP1p83ilRdIIul1k
+2014-04-18 23:08:04 web.py[line:1728] INFO 200 POST /wechat?signature=a24a8d6d0733b990441086e4f6a5432f192b7830&timestamp=1397833683&nonce=28552219 (127.0.0.1) 3.06ms
+2014-04-18 23:12:22 wechat.py[line:67] INFO oDVlVuO4iES2MP1p83ilRdIIul1k
+2014-04-18 23:12:22 web.py[line:1728] INFO 200 POST /wechat?signature=03f81d85b0b8374d46b8ea4c8624899c379fe706&timestamp=1397833942&nonce=207542432 (127.0.0.1) 3.24ms
+2014-04-18 23:12:23 web.py[line:1728] INFO 302 GET /bind (127.0.0.1) 1.30ms
+2014-04-18 23:16:43 web.py[line:1728] INFO 302 GET /bind (127.0.0.1) 1.82ms
+2014-04-18 23:16:44 wechat.py[line:67] INFO oDVlVuO4iES2MP1p83ilRdIIul1k
+2014-04-18 23:16:44 web.py[line:1728] INFO 200 POST /wechat?signature=4189c2257d70d218efa2a4c72a04414e5f39dfb5&timestamp=1397834202&nonce=1466340557 (127.0.0.1) 3.40ms
+2014-04-18 23:18:26 web.py[line:1728] INFO 302 GET /bind (127.0.0.1) 0.52ms
+2014-04-18 23:18:26 wechat.py[line:67] INFO oDVlVuO4iES2MP1p83ilRdIIul1k
+2014-04-18 23:18:26 web.py[line:1728] INFO 200 POST /wechat?signature=e79cf2a89d870d57cec62e833f7567c425bf91b0&timestamp=1397834305&nonce=385406662 (127.0.0.1) 1.01ms
+2014-04-18 23:19:38 web.py[line:1728] INFO 302 GET /bind (127.0.0.1) 2.23ms
+2014-04-18 23:19:40 wechat.py[line:67] INFO oDVlVuO4iES2MP1p83ilRdIIul1k
+2014-04-18 23:19:40 web.py[line:1728] INFO 200 POST /wechat?signature=eac98d5261fe58fa96a6f3a15c81969615235627&timestamp=1397834380&nonce=760290090 (127.0.0.1) 4.23ms
+2014-04-18 23:19:46 web.py[line:1728] INFO 302 GET /bind (127.0.0.1) 0.78ms
+2014-04-18 23:21:07 wechat.py[line:67] INFO oDVlVuO4iES2MP1p83ilRdIIul1k
+2014-04-18 23:21:07 web.py[line:1728] INFO 200 POST /wechat?signature=1c413465bbb71ab5c0b79fa5ab177f239b299e5a&timestamp=1397834467&nonce=449736288 (127.0.0.1) 1.51ms
+2014-04-18 23:21:09 web.py[line:1728] INFO 302 GET /bind (127.0.0.1) 0.86ms
+2014-04-18 23:21:26 web.py[line:1728] WARNING 404 GET /bind/oDVlVuO4iES2MP1p83ilRdIIul1k (127.0.0.1) 0.59ms
+2014-04-18 23:24:33 web.py[line:1305] ERROR Uncaught exception GET /bind (127.0.0.1)
+HTTPRequest(protocol='http', host='127.0.0.1:9001', method='GET', uri='/bind', version='HTTP/1.0', remote_ip='127.0.0.1', headers={'Connection': 'close', 'Accept-Language': 'zh-CN,en-US;q=0.8', 'Accept-Encoding': 'gzip,deflate', 'X-Requested-With': 'com.tencent.mm', 'Host': '127.0.0.1:9001', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Linux; Android 4.4.2; Nexus 4 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36 MicroMessenger/5.2.1.381'})
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1218, in _when_complete
+    callback()
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1239, in _execute_method
+    self._when_complete(method(*self.path_args, **self.path_kwargs),
+  File "/home/nightwish/elfin/handlers/bind.py", line 24, in get
+    self.redirect('/elfin/bind/' + wechat_id)
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+2014-04-18 23:24:33 web.py[line:1728] ERROR 500 GET /bind (127.0.0.1) 105.12ms
+2014-04-18 23:24:34 wechat.py[line:67] INFO oDVlVuO4iES2MP1p83ilRdIIul1k
+2014-04-18 23:24:34 web.py[line:1728] INFO 200 POST /wechat?signature=fdeabed22d25d0f39b88d8e5c3b77323929d4ad6&timestamp=1397834672&nonce=461186215 (127.0.0.1) 4.18ms
+2014-04-18 23:26:12 wechat.py[line:67] INFO oDVlVuO4iES2MP1p83ilRdIIul1k
+2014-04-18 23:26:12 web.py[line:1728] INFO 200 POST /wechat?signature=881150920c8b14a6037d266659c3a82441110dc4&timestamp=1397834771&nonce=1401841683 (127.0.0.1) 3.22ms
+2014-04-18 23:26:14 web.py[line:1728] INFO 302 GET /bind (127.0.0.1) 1.25ms
+2014-04-18 23:26:15 bind.py[line:27] INFO /elfin/bind/oDVlVuO4iES2MP1p83ilRdIIul1k
+2014-04-18 23:26:15 web.py[line:1728] INFO 200 GET /bind/oDVlVuO4iES2MP1p83ilRdIIul1k (127.0.0.1) 4.32ms
+2014-04-18 23:26:49 web.py[line:1728] WARNING 404 GET / (23.252.104.24) 0.42ms
+2014-04-18 23:26:51 web.py[line:1305] ERROR Uncaught exception POST /bind/oDVlVuO4iES2MP1p83ilRdIIul1k (127.0.0.1)
+HTTPRequest(protocol='http', host='127.0.0.1:9001', method='POST', uri='/bind/oDVlVuO4iES2MP1p83ilRdIIul1k', version='HTTP/1.0', remote_ip='127.0.0.1', headers={'Origin': 'http://bandwagon.shijunzi.info', 'Content-Length': '34', 'Accept-Language': 'zh-CN,en-US;q=0.8', 'Accept-Encoding': 'gzip,deflate', 'Host': '127.0.0.1:9001', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Linux; Android 4.4.2; Nexus 4 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36 MicroMessenger/5.2.1.381', 'Connection': 'close', 'Referer': 'http://bandwagon.shijunzi.info/elfin/bind/oDVlVuO4iES2MP1p83ilRdIIul1k', 'X-Requested-With': 'com.tencent.mm', 'Content-Type': 'application/x-www-form-urlencoded'})
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1218, in _when_complete
+    callback()
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1239, in _execute_method
+    self._when_complete(method(*self.path_args, **self.path_kwargs),
+  File "/home/nightwish/elfin/handlers/bind.py", line 32, in post
+    _login = login(email=email, psw=psw, weixin_id=weixin_id[1:])
+TypeError: __init__() got an unexpected keyword argument 'weixin_id'
+2014-04-18 23:26:51 web.py[line:1728] ERROR 500 POST /bind/oDVlVuO4iES2MP1p83ilRdIIul1k (127.0.0.1) 1.82ms
+2014-04-18 23:37:41 web.py[line:1728] INFO 302 GET /bind (127.0.0.1) 0.84ms
+2014-04-18 23:37:41 bind.py[line:27] INFO /elfin/bind/oDVlVuO4iES2MP1p83ilRdIIul1k
+2014-04-18 23:37:41 web.py[line:1728] INFO 200 GET /bind/oDVlVuO4iES2MP1p83ilRdIIul1k (127.0.0.1) 1.22ms
+2014-04-18 23:37:41 wechat.py[line:67] INFO oDVlVuI3DawAWVPRT-6f-ueEIsR8
+2014-04-18 23:37:41 web.py[line:1728] INFO 200 POST /wechat?signature=b006353d3993ce1f011616a3ee51e8e241ff6501&timestamp=1397835460&nonce=1756063214 (127.0.0.1) 1.17ms
+2014-04-18 23:38:00 wechat.py[line:67] INFO oDVlVuI3DawAWVPRT-6f-ueEIsR8
+2014-04-18 23:38:00 web.py[line:1728] INFO 200 POST /wechat?signature=da6b7a70081e3aaa56f156e8f2508cc5f83d01b3&timestamp=1397835480&nonce=608106026 (127.0.0.1) 1.25ms
+2014-04-18 23:38:01 web.py[line:1728] INFO 302 GET /bind (127.0.0.1) 1.16ms
+2014-04-18 23:38:01 bind.py[line:27] INFO /elfin/bind/oDVlVuI3DawAWVPRT-6f-ueEIsR8
+2014-04-18 23:38:01 web.py[line:1728] INFO 200 GET /bind/oDVlVuI3DawAWVPRT-6f-ueEIsR8 (127.0.0.1) 0.86ms
+2014-04-18 23:41:51 web.py[line:1728] INFO 302 GET /bind (127.0.0.1) 0.87ms
+2014-04-18 23:41:51 bind.py[line:27] INFO /elfin/bind/oDVlVuI3DawAWVPRT-6f-ueEIsR8
+2014-04-18 23:41:51 web.py[line:1728] INFO 304 GET /bind/oDVlVuI3DawAWVPRT-6f-ueEIsR8 (127.0.0.1) 0.70ms
+2014-04-18 23:42:07 web.py[line:1305] ERROR Uncaught exception GET /bind (127.0.0.1)
+HTTPRequest(protocol='http', host='127.0.0.1:9001', method='GET', uri='/bind', version='HTTP/1.0', remote_ip='127.0.0.1', headers={'Accept-Language': 'zh-CN, en-US', 'Accept-Encoding': 'gzip,deflate', 'X-Wap-Profile': 'http://wap1.huawei.com/uaprof/HUAWEI_P6_U06_UAProfile.xml', 'Host': '127.0.0.1:9001', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Linux; U; Android 4.2.2; zh-cn; HUAWEI HN3-U01 Build/HuaweiHN3-U01) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 MicroMessenger/5.2.1.400', 'Accept-Charset': 'utf-8, iso-8859-1, utf-16, *;q=0.7', 'Connection': 'close', 'X-Requested-With': 'com.tencent.mm'})
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1218, in _when_complete
+    callback()
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1239, in _execute_method
+    self._when_complete(method(*self.path_args, **self.path_kwargs),
+  File "/home/nightwish/elfin/handlers/bind.py", line 24, in get
+    self.redirect('/elfin/bind/' + wechat_id)
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+2014-04-18 23:42:07 web.py[line:1728] ERROR 500 GET /bind (127.0.0.1) 1002.80ms
+2014-04-18 23:42:07 wechat.py[line:67] INFO oDVlVuI3DawAWVPRT-6f-ueEIsR8
+2014-04-18 23:42:07 web.py[line:1728] INFO 200 POST /wechat?signature=b57ea9e7dd2fe92d52f4e1c67f677e00c2312464&timestamp=1397835725&nonce=1862070785 (127.0.0.1) 1.54ms
+2014-04-18 23:42:14 web.py[line:1728] INFO 302 GET /bind (127.0.0.1) 0.82ms
+2014-04-18 23:42:14 wechat.py[line:67] INFO oDVlVuI3DawAWVPRT-6f-ueEIsR8
+2014-04-18 23:42:14 web.py[line:1728] INFO 200 POST /wechat?signature=cf1393430ba1f94def6f4c88041e18f83d7c75a5&timestamp=1397835733&nonce=1817605311 (127.0.0.1) 1.40ms
+2014-04-18 23:42:14 bind.py[line:27] INFO /elfin/bind/oDVlVuI3DawAWVPRT-6f-ueEIsR8
+2014-04-18 23:42:14 web.py[line:1728] INFO 304 GET /bind/oDVlVuI3DawAWVPRT-6f-ueEIsR8 (127.0.0.1) 1.37ms
+2014-04-18 23:42:40 web.py[line:1305] ERROR Uncaught exception POST /bind/oDVlVuI3DawAWVPRT-6f-ueEIsR8 (127.0.0.1)
+HTTPRequest(protocol='http', host='127.0.0.1:9001', method='POST', uri='/bind/oDVlVuI3DawAWVPRT-6f-ueEIsR8', version='HTTP/1.0', remote_ip='127.0.0.1', headers={'Origin': 'http://bandwagon.shijunzi.info', 'Content-Length': '39', 'Accept-Language': 'zh-CN, en-US', 'Accept-Encoding': 'gzip,deflate', 'X-Wap-Profile': 'http://wap1.huawei.com/uaprof/HUAWEI_P6_U06_UAProfile.xml', 'Host': '127.0.0.1:9001', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Linux; U; Android 4.2.2; zh-cn; HUAWEI HN3-U01 Build/HuaweiHN3-U01) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 MicroMessenger/5.2.1.400', 'Accept-Charset': 'utf-8, iso-8859-1, utf-16, *;q=0.7', 'Connection': 'close', 'Referer': 'http://bandwagon.shijunzi.info/elfin/bind/oDVlVuI3DawAWVPRT-6f-ueEIsR8', 'Cache-Control': 'max-age=0', 'X-Requested-With': 'com.tencent.mm', 'Content-Type': 'application/x-www-form-urlencoded'})
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1218, in _when_complete
+    callback()
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1239, in _execute_method
+    self._when_complete(method(*self.path_args, **self.path_kwargs),
+  File "/home/nightwish/elfin/handlers/bind.py", line 32, in post
+    _login = login(email=email, psw=psw, weixin_id=weixin_id[1:])
+TypeError: __init__() got an unexpected keyword argument 'weixin_id'
+2014-04-18 23:42:40 web.py[line:1728] ERROR 500 POST /bind/oDVlVuI3DawAWVPRT-6f-ueEIsR8 (127.0.0.1) 1.74ms
+2014-04-18 23:42:46 web.py[line:1728] INFO 200 POST /wechat?signature=e7b36eb4d74c74c0fc5fc3d2185f89ad62b29150&timestamp=1397835765&nonce=766128531 (127.0.0.1) 1.03ms
+2014-04-18 23:57:03 wechat.py[line:67] INFO oDVlVuI3DawAWVPRT-6f-ueEIsR8
+2014-04-18 23:57:03 web.py[line:1728] INFO 200 POST /wechat?signature=5b02e0ab72e6d3b906c618e2fdfa196e54511e72&timestamp=1397836622&nonce=472242387 (127.0.0.1) 1.13ms
+2014-04-18 23:57:03 web.py[line:1728] INFO 302 GET /tail (127.0.0.1) 0.41ms
+2014-04-19 00:03:44 web.py[line:1728] INFO 200 POST /wechat?signature=9c1ab15eb2fe6ea95c36c56af1d6859d55187328&timestamp=1397837023&nonce=1856780789 (127.0.0.1) 0.80ms
+2014-04-19 00:07:47 bind.py[line:27] INFO /elfin/bind/oDVlVuO4iES2MP1p83ilRdIIul1k
+2014-04-19 00:07:47 web.py[line:1728] INFO 200 GET /bind/oDVlVuO4iES2MP1p83ilRdIIul1k (127.0.0.1) 1.21ms
+2014-04-19 00:12:14 bind.py[line:27] INFO /elfin/bind/oDVlVuI3DawAWVPRT-6f-ueEIsR8
+2014-04-19 00:12:14 web.py[line:1728] INFO 200 GET /bind/oDVlVuI3DawAWVPRT-6f-ueEIsR8 (127.0.0.1) 0.91ms
+2014-04-19 00:22:29 web.py[line:1728] INFO 200 POST /wechat?signature=3f9abbdc6d9a246d7d2998740612989dfb9c9c67&timestamp=1397838149&nonce=905190878 (127.0.0.1) 0.83ms
+2014-04-19 00:26:48 web.py[line:1728] WARNING 404 GET / (23.252.104.24) 0.45ms
+2014-04-19 01:26:47 web.py[line:1728] WARNING 404 GET / (23.252.104.24) 0.38ms
+2014-04-19 02:26:48 web.py[line:1728] WARNING 404 GET / (23.252.104.24) 0.42ms
+2014-04-19 03:26:47 web.py[line:1728] WARNING 404 GET / (23.252.104.24) 0.48ms
+2014-04-19 04:26:46 web.py[line:1728] WARNING 404 GET / (23.252.104.24) 0.49ms
+2014-04-19 05:26:47 web.py[line:1728] WARNING 404 GET / (23.252.104.24) 0.44ms
+2014-04-19 06:11:35 web.py[line:1728] INFO 200 POST /wechat?signature=adb58cdd60326c370d954ebc91479898b7bfc206&timestamp=1397859094&nonce=1138117515 (127.0.0.1) 0.71ms
+2014-04-19 06:26:47 web.py[line:1728] WARNING 404 GET / (23.252.104.24) 0.38ms
+2014-04-19 07:26:46 web.py[line:1728] WARNING 404 GET / (23.252.104.24) 0.41ms
+2014-04-19 08:26:46 web.py[line:1728] WARNING 404 GET / (23.252.104.24) 0.41ms
+2014-04-19 08:33:45 web.py[line:1728] INFO 200 POST /wechat?signature=db3d314487e36ffbb7d7c159213c208ef913d1fd&timestamp=1397867623&nonce=1009453500 (127.0.0.1) 0.78ms
+2014-04-19 08:41:32 web.py[line:1728] INFO 200 POST /wechat?signature=9550d70e5fabca6168558c317102e3f139997b02&timestamp=1397868092&nonce=1098850801 (127.0.0.1) 0.75ms
+2014-04-19 09:26:48 web.py[line:1728] WARNING 404 GET / (23.252.104.24) 0.46ms
+2014-04-19 09:41:43 web.py[line:1728] INFO 200 POST /wechat?signature=fb0d44ff506a70fba878a76edd7bf2089b42818e&timestamp=1397871698&nonce=1978039598 (127.0.0.1) 0.86ms
+2014-04-19 10:26:47 web.py[line:1728] WARNING 404 GET / (23.252.104.24) 0.42ms
+2014-04-19 10:28:10 web.py[line:1728] INFO 200 POST /wechat?signature=cc7ae016edd44bf069476711505f64e326d807d1&timestamp=1397874489&nonce=1168834554 (127.0.0.1) 0.73ms
+2014-04-19 10:34:46 web.py[line:1728] INFO 200 POST /wechat?signature=4c7f788dd3d47fd1f7904545c428d4e65e3bc032&timestamp=1397874884&nonce=1194863605 (127.0.0.1) 1.20ms
+2014-04-19 10:34:59 web.py[line:1728] INFO 200 POST /wechat?signature=81232737d934abb57cc9ca6f30dbd3fe911629b5&timestamp=1397874899&nonce=1828237688 (127.0.0.1) 0.83ms
+2014-04-19 11:06:08 web.py[line:1728] INFO 302 GET /bind (127.0.0.1) 0.58ms
+2014-04-19 11:06:09 bind.py[line:27] INFO /elfin/bind/oDVlVuI3DawAWVPRT-6f-ueEIsR8
+2014-04-19 11:06:09 web.py[line:1728] INFO 200 GET /bind/oDVlVuI3DawAWVPRT-6f-ueEIsR8 (127.0.0.1) 0.66ms
+2014-04-19 11:06:10 wechat.py[line:67] INFO oDVlVuBVyyNocIeb5iEig6GzlERY
+2014-04-19 11:06:10 web.py[line:1728] INFO 200 POST /wechat?signature=23ea288d707506c5058f2201ec06900433c87a16&timestamp=1397876767&nonce=392754527 (127.0.0.1) 1.40ms
+2014-04-19 11:06:13 web.py[line:1728] INFO 302 GET /tail (127.0.0.1) 0.46ms
+2014-04-19 11:06:15 wechat.py[line:67] INFO oDVlVuBVyyNocIeb5iEig6GzlERY
+2014-04-19 11:06:15 web.py[line:1728] INFO 200 POST /wechat?signature=5ba1aa0b058c0ca28d789e7e4ff4405b50ce6c67&timestamp=1397876773&nonce=1116964919 (127.0.0.1) 1.65ms
+2014-04-19 11:06:18 web.py[line:1305] ERROR Uncaught exception POST /wechat?signature=5a646902845d5cb5760cc525ee28d201b694a2a8&timestamp=1397876778&nonce=115471256 (127.0.0.1)
+HTTPRequest(protocol='http', host='127.0.0.1:9001', method='POST', uri='/wechat?signature=5a646902845d5cb5760cc525ee28d201b694a2a8&timestamp=1397876778&nonce=115471256', version='HTTP/1.0', remote_ip='127.0.0.1', headers={'Content-Length': '278', 'Host': '127.0.0.1:9001', 'Pragma': 'no-cache', 'Content-Type': 'text/xml', 'Connection': 'close', 'Accept': '*/*', 'User-Agent': 'Mozilla/4.0'})
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1218, in _when_complete
+    callback()
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1239, in _execute_method
+    self._when_complete(method(*self.path_args, **self.path_kwargs),
+  File "/home/nightwish/elfin/handlers/wechat.py", line 71, in post
+    elif key in ['home1', 'home2', 'home3']:
+NameError: global name 'hanzi' is not defined
+2014-04-19 11:06:18 web.py[line:1728] ERROR 500 POST /wechat?signature=5a646902845d5cb5760cc525ee28d201b694a2a8&timestamp=1397876778&nonce=115471256 (127.0.0.1) 2.36ms
+2014-04-19 11:06:19 web.py[line:1305] ERROR Uncaught exception POST /wechat?signature=8db1982b508947dd6dc10918ec8bbcb501bb8e38&timestamp=1397876779&nonce=1721569474 (127.0.0.1)
+HTTPRequest(protocol='http', host='127.0.0.1:9001', method='POST', uri='/wechat?signature=8db1982b508947dd6dc10918ec8bbcb501bb8e38&timestamp=1397876779&nonce=1721569474', version='HTTP/1.0', remote_ip='127.0.0.1', headers={'Content-Length': '278', 'Host': '127.0.0.1:9001', 'Pragma': 'no-cache', 'Content-Type': 'text/xml', 'Connection': 'close', 'Accept': '*/*', 'User-Agent': 'Mozilla/4.0'})
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1218, in _when_complete
+    callback()
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1239, in _execute_method
+    self._when_complete(method(*self.path_args, **self.path_kwargs),
+  File "/home/nightwish/elfin/handlers/wechat.py", line 71, in post
+    elif key in ['home1', 'home2', 'home3']:
+NameError: global name 'hanzi' is not defined
+2014-04-19 11:06:19 web.py[line:1728] ERROR 500 POST /wechat?signature=8db1982b508947dd6dc10918ec8bbcb501bb8e38&timestamp=1397876779&nonce=1721569474 (127.0.0.1) 1.70ms
+2014-04-19 11:06:25 web.py[line:1305] ERROR Uncaught exception POST /wechat?signature=7705b0e7297959b12aaac12de168c40bacf64d50&timestamp=1397876784&nonce=423035906 (127.0.0.1)
+HTTPRequest(protocol='http', host='127.0.0.1:9001', method='POST', uri='/wechat?signature=7705b0e7297959b12aaac12de168c40bacf64d50&timestamp=1397876784&nonce=423035906', version='HTTP/1.0', remote_ip='127.0.0.1', headers={'Content-Length': '278', 'Host': '127.0.0.1:9001', 'Pragma': 'no-cache', 'Content-Type': 'text/xml', 'Connection': 'close', 'Accept': '*/*', 'User-Agent': 'Mozilla/4.0'})
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1218, in _when_complete
+    callback()
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1239, in _execute_method
+    self._when_complete(method(*self.path_args, **self.path_kwargs),
+  File "/home/nightwish/elfin/handlers/wechat.py", line 79, in post
+    elif key == 'resent_visitor':
+TypeError: <lambda>() takes exactly 1 argument (0 given)
+2014-04-19 11:06:25 web.py[line:1728] ERROR 500 POST /wechat?signature=7705b0e7297959b12aaac12de168c40bacf64d50&timestamp=1397876784&nonce=423035906 (127.0.0.1) 1.22ms
+2014-04-19 11:06:26 web.py[line:1305] ERROR Uncaught exception POST /wechat?signature=1ea519b3c22eaa9aacd8844b483d96c9d682e845&timestamp=1397876785&nonce=1016014710 (127.0.0.1)
+HTTPRequest(protocol='http', host='127.0.0.1:9001', method='POST', uri='/wechat?signature=1ea519b3c22eaa9aacd8844b483d96c9d682e845&timestamp=1397876785&nonce=1016014710', version='HTTP/1.0', remote_ip='127.0.0.1', headers={'Content-Length': '278', 'Host': '127.0.0.1:9001', 'Pragma': 'no-cache', 'Content-Type': 'text/xml', 'Connection': 'close', 'Accept': '*/*', 'User-Agent': 'Mozilla/4.0'})
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1218, in _when_complete
+    callback()
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1239, in _execute_method
+    self._when_complete(method(*self.path_args, **self.path_kwargs),
+  File "/home/nightwish/elfin/handlers/wechat.py", line 79, in post
+    elif key == 'resent_visitor':
+TypeError: <lambda>() takes exactly 1 argument (0 given)
+2014-04-19 11:06:26 web.py[line:1728] ERROR 500 POST /wechat?signature=1ea519b3c22eaa9aacd8844b483d96c9d682e845&timestamp=1397876785&nonce=1016014710 (127.0.0.1) 1.51ms
+2014-04-19 11:06:27 web.py[line:1728] INFO 200 POST /wechat?signature=4cfe7a74ff86425204893a2ff880bac5a28235cd&timestamp=1397876786&nonce=1067406941 (127.0.0.1) 1.09ms
+2014-04-19 11:06:30 web.py[line:1305] ERROR Uncaught exception POST /wechat?signature=793e8a4b1bb187e54512a96b6347d59da43bf830&timestamp=1397876790&nonce=1420014239 (127.0.0.1)
+HTTPRequest(protocol='http', host='127.0.0.1:9001', method='POST', uri='/wechat?signature=793e8a4b1bb187e54512a96b6347d59da43bf830&timestamp=1397876790&nonce=1420014239', version='HTTP/1.0', remote_ip='127.0.0.1', headers={'Content-Length': '278', 'Host': '127.0.0.1:9001', 'Pragma': 'no-cache', 'Content-Type': 'text/xml', 'Connection': 'close', 'Accept': '*/*', 'User-Agent': 'Mozilla/4.0'})
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1218, in _when_complete
+    callback()
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1239, in _execute_method
+    self._when_complete(method(*self.path_args, **self.path_kwargs),
+  File "/home/nightwish/elfin/handlers/wechat.py", line 71, in post
+    elif key in ['home1', 'home2', 'home3']:
+NameError: global name 'hanzi' is not defined
+2014-04-19 11:06:30 web.py[line:1728] ERROR 500 POST /wechat?signature=793e8a4b1bb187e54512a96b6347d59da43bf830&timestamp=1397876790&nonce=1420014239 (127.0.0.1) 1.29ms
+2014-04-19 11:06:37 web.py[line:1305] ERROR Uncaught exception POST /wechat?signature=4e2465272c73bc1d81469d2bba2c9117e557b1d3&timestamp=1397876796&nonce=1195532531 (127.0.0.1)
+HTTPRequest(protocol='http', host='127.0.0.1:9001', method='POST', uri='/wechat?signature=4e2465272c73bc1d81469d2bba2c9117e557b1d3&timestamp=1397876796&nonce=1195532531', version='HTTP/1.0', remote_ip='127.0.0.1', headers={'Content-Length': '278', 'Host': '127.0.0.1:9001', 'Pragma': 'no-cache', 'Content-Type': 'text/xml', 'Connection': 'close', 'Accept': '*/*', 'User-Agent': 'Mozilla/4.0'})
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1218, in _when_complete
+    callback()
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1239, in _execute_method
+    self._when_complete(method(*self.path_args, **self.path_kwargs),
+  File "/home/nightwish/elfin/handlers/wechat.py", line 79, in post
+    elif key == 'resent_visitor':
+TypeError: <lambda>() takes exactly 1 argument (0 given)
+2014-04-19 11:06:37 web.py[line:1728] ERROR 500 POST /wechat?signature=4e2465272c73bc1d81469d2bba2c9117e557b1d3&timestamp=1397876796&nonce=1195532531 (127.0.0.1) 1.25ms
+2014-04-19 11:06:41 web.py[line:1305] ERROR Uncaught exception POST /wechat?signature=b21157a25c6abb3c9a0bb0306c89e69d279181d4&timestamp=1397876801&nonce=508312987 (127.0.0.1)
+HTTPRequest(protocol='http', host='127.0.0.1:9001', method='POST', uri='/wechat?signature=b21157a25c6abb3c9a0bb0306c89e69d279181d4&timestamp=1397876801&nonce=508312987', version='HTTP/1.0', remote_ip='127.0.0.1', headers={'Content-Length': '278', 'Host': '127.0.0.1:9001', 'Pragma': 'no-cache', 'Content-Type': 'text/xml', 'Connection': 'close', 'Accept': '*/*', 'User-Agent': 'Mozilla/4.0'})
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1218, in _when_complete
+    callback()
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1239, in _execute_method
+    self._when_complete(method(*self.path_args, **self.path_kwargs),
+  File "/home/nightwish/elfin/handlers/wechat.py", line 71, in post
+    elif key in ['home1', 'home2', 'home3']:
+NameError: global name 'hanzi' is not defined
+2014-04-19 11:06:41 web.py[line:1728] ERROR 500 POST /wechat?signature=b21157a25c6abb3c9a0bb0306c89e69d279181d4&timestamp=1397876801&nonce=508312987 (127.0.0.1) 1.81ms
+2014-04-19 11:06:47 web.py[line:1305] ERROR Uncaught exception POST /wechat?signature=d6e468953dc85886c0bf79eb7e73d378999cc26a&timestamp=1397876807&nonce=209396824 (127.0.0.1)
+HTTPRequest(protocol='http', host='127.0.0.1:9001', method='POST', uri='/wechat?signature=d6e468953dc85886c0bf79eb7e73d378999cc26a&timestamp=1397876807&nonce=209396824', version='HTTP/1.0', remote_ip='127.0.0.1', headers={'Content-Length': '278', 'Host': '127.0.0.1:9001', 'Pragma': 'no-cache', 'Content-Type': 'text/xml', 'Connection': 'close', 'Accept': '*/*', 'User-Agent': 'Mozilla/4.0'})
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1218, in _when_complete
+    callback()
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1239, in _execute_method
+    self._when_complete(method(*self.path_args, **self.path_kwargs),
+  File "/home/nightwish/elfin/handlers/wechat.py", line 79, in post
+    elif key == 'resent_visitor':
+TypeError: <lambda>() takes exactly 1 argument (0 given)
+2014-04-19 11:06:47 web.py[line:1728] ERROR 500 POST /wechat?signature=d6e468953dc85886c0bf79eb7e73d378999cc26a&timestamp=1397876807&nonce=209396824 (127.0.0.1) 1.38ms
+2014-04-19 11:27:02 web.py[line:1728] WARNING 404 GET / (23.252.104.24) 0.41ms
+2014-04-19 11:56:34 web.py[line:1305] ERROR Uncaught exception POST /wechat?signature=c1c391af786cb704461733d9c5ea5c35a5255440&timestamp=1397879794&nonce=1948818018 (127.0.0.1)
+HTTPRequest(protocol='http', host='127.0.0.1:9001', method='POST', uri='/wechat?signature=c1c391af786cb704461733d9c5ea5c35a5255440&timestamp=1397879794&nonce=1948818018', version='HTTP/1.0', remote_ip='127.0.0.1', headers={'Content-Length': '278', 'Host': '127.0.0.1:9001', 'Pragma': 'no-cache', 'Content-Type': 'text/xml', 'Connection': 'close', 'Accept': '*/*', 'User-Agent': 'Mozilla/4.0'})
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1218, in _when_complete
+    callback()
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1239, in _execute_method
+    self._when_complete(method(*self.path_args, **self.path_kwargs),
+  File "/home/nightwish/elfin/handlers/wechat.py", line 60, in post
+    ret_render(hanzi.HELLO + fromUser)
+NameError: global name 'hanzi' is not defined
+2014-04-19 11:56:34 web.py[line:1728] ERROR 500 POST /wechat?signature=c1c391af786cb704461733d9c5ea5c35a5255440&timestamp=1397879794&nonce=1948818018 (127.0.0.1) 3.47ms
+2014-04-19 11:56:35 web.py[line:1305] ERROR Uncaught exception POST /wechat?signature=696a03fd8f8380bd45f51b37d960b73cb64f10f8&timestamp=1397879795&nonce=886369866 (127.0.0.1)
+HTTPRequest(protocol='http', host='127.0.0.1:9001', method='POST', uri='/wechat?signature=696a03fd8f8380bd45f51b37d960b73cb64f10f8&timestamp=1397879795&nonce=886369866', version='HTTP/1.0', remote_ip='127.0.0.1', headers={'Content-Length': '278', 'Host': '127.0.0.1:9001', 'Pragma': 'no-cache', 'Content-Type': 'text/xml', 'Connection': 'close', 'Accept': '*/*', 'User-Agent': 'Mozilla/4.0'})
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1218, in _when_complete
+    callback()
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1239, in _execute_method
+    self._when_complete(method(*self.path_args, **self.path_kwargs),
+  File "/home/nightwish/elfin/handlers/wechat.py", line 60, in post
+    ret_render(hanzi.HELLO + fromUser)
+NameError: global name 'hanzi' is not defined
+2014-04-19 11:56:35 web.py[line:1728] ERROR 500 POST /wechat?signature=696a03fd8f8380bd45f51b37d960b73cb64f10f8&timestamp=1397879795&nonce=886369866 (127.0.0.1) 1.32ms
+2014-04-19 11:56:46 web.py[line:1305] ERROR Uncaught exception POST /wechat?signature=82ff72e8735f4bfad68297e0fdfbd8023e0847d0&timestamp=1397879806&nonce=584031231 (127.0.0.1)
+HTTPRequest(protocol='http', host='127.0.0.1:9001', method='POST', uri='/wechat?signature=82ff72e8735f4bfad68297e0fdfbd8023e0847d0&timestamp=1397879806&nonce=584031231', version='HTTP/1.0', remote_ip='127.0.0.1', headers={'Content-Length': '278', 'Host': '127.0.0.1:9001', 'Pragma': 'no-cache', 'Content-Type': 'text/xml', 'Connection': 'close', 'Accept': '*/*', 'User-Agent': 'Mozilla/4.0'})
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1218, in _when_complete
+    callback()
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1239, in _execute_method
+    self._when_complete(method(*self.path_args, **self.path_kwargs),
+  File "/home/nightwish/elfin/handlers/wechat.py", line 60, in post
+    ret_render(hanzi.HELLO + fromUser)
+NameError: global name 'hanzi' is not defined
+2014-04-19 11:56:46 web.py[line:1728] ERROR 500 POST /wechat?signature=82ff72e8735f4bfad68297e0fdfbd8023e0847d0&timestamp=1397879806&nonce=584031231 (127.0.0.1) 1.37ms
+2014-04-19 11:56:57 web.py[line:1305] ERROR Uncaught exception POST /wechat?signature=f7da7d2615c5c84630468c8d2a48fe6e8cd676f0&timestamp=1397879817&nonce=776474556 (127.0.0.1)
+HTTPRequest(protocol='http', host='127.0.0.1:9001', method='POST', uri='/wechat?signature=f7da7d2615c5c84630468c8d2a48fe6e8cd676f0&timestamp=1397879817&nonce=776474556', version='HTTP/1.0', remote_ip='127.0.0.1', headers={'Content-Length': '278', 'Host': '127.0.0.1:9001', 'Pragma': 'no-cache', 'Content-Type': 'text/xml', 'Connection': 'close', 'Accept': '*/*', 'User-Agent': 'Mozilla/4.0'})
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1218, in _when_complete
+    callback()
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1239, in _execute_method
+    self._when_complete(method(*self.path_args, **self.path_kwargs),
+  File "/home/nightwish/elfin/handlers/wechat.py", line 60, in post
+    ret_render(hanzi.HELLO + fromUser)
+NameError: global name 'hanzi' is not defined
+2014-04-19 11:56:57 web.py[line:1728] ERROR 500 POST /wechat?signature=f7da7d2615c5c84630468c8d2a48fe6e8cd676f0&timestamp=1397879817&nonce=776474556 (127.0.0.1) 1.80ms
+2014-04-19 11:58:09 web.py[line:1728] INFO 200 POST /wechat?signature=95176cc0a3e3bd91d64daf4b93a42cf1b22cea6b&timestamp=1397879888&nonce=2104864534 (127.0.0.1) 2.29ms
+2014-04-19 11:58:22 web.py[line:1728] INFO 200 POST /wechat?signature=65c35a0622cf1200cbd613c60a6607394d6f3ec9&timestamp=1397879901&nonce=864250090 (127.0.0.1) 3.94ms
+2014-04-19 12:03:03 web.py[line:1728] INFO 200 POST /wechat (127.0.0.1) 1.24ms
+2014-04-19 12:07:15 web.py[line:1728] INFO 200 POST /wechat (127.0.0.1) 6.64ms
+2014-04-19 12:07:46 web.py[line:1728] INFO 200 POST /wechat?signature=da3a2d43962b18c03d9ceffd2530e247fd7e4837&timestamp=1397880466&nonce=284747998 (127.0.0.1) 1.00ms
+2014-04-19 12:07:56 web.py[line:1728] INFO 200 POST /wechat?signature=9fd4e865aad5c5e764cc86233498bdf1ff0f22c9&timestamp=1397880476&nonce=920497452 (127.0.0.1) 1.32ms
+2014-04-19 12:08:08 web.py[line:1728] INFO 200 GET /bind/oDVlVuGK_0DLJlDVxRsAIbHtD-CM (127.0.0.1) 2.77ms
+2014-04-19 12:08:42 web.py[line:1305] ERROR Uncaught exception POST /bind/oDVlVuGK_0DLJlDVxRsAIbHtD-CM (127.0.0.1)
+HTTPRequest(protocol='http', host='127.0.0.1:9001', method='POST', uri='/bind/oDVlVuGK_0DLJlDVxRsAIbHtD-CM', version='HTTP/1.0', remote_ip='127.0.0.1', headers={'Origin': 'http://bandwagon.shijunzi.info', 'Content-Length': '21', 'Accept-Language': 'zh-CN,en-US;q=0.8', 'Accept-Encoding': 'gzip,deflate', 'Host': '127.0.0.1:9001', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Linux; Android 4.4.2; Nexus 4 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36 MicroMessenger/5.2.1.381', 'Connection': 'close', 'Referer': 'http://bandwagon.shijunzi.info/elfin/bind/oDVlVuGK_0DLJlDVxRsAIbHtD-CM', 'X-Requested-With': 'com.tencent.mm', 'Content-Type': 'application/x-www-form-urlencoded'})
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1218, in _when_complete
+    callback()
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1239, in _execute_method
+    self._when_complete(method(*self.path_args, **self.path_kwargs),
+  File "/home/nightwish/elfin/handlers/bind.py", line 25, in post
+    _login = login(email=email, psw=psw, weixin_id=weixin_id)
+TypeError: __init__() got an unexpected keyword argument 'weixin_id'
+2014-04-19 12:08:42 web.py[line:1728] ERROR 500 POST /bind/oDVlVuGK_0DLJlDVxRsAIbHtD-CM (127.0.0.1) 1.75ms
+2014-04-19 12:08:53 web.py[line:1728] INFO 200 POST /wechat?signature=6808757846ba452c3154be9cf5fa6136f7699fd4&timestamp=1397880532&nonce=1933979282 (127.0.0.1) 1.58ms
+2014-04-19 12:08:58 web.py[line:1305] ERROR Uncaught exception GET /tail/oDVlVuGK_0DLJlDVxRsAIbHtD-CM (127.0.0.1)
+HTTPRequest(protocol='http', host='127.0.0.1:9001', method='GET', uri='/tail/oDVlVuGK_0DLJlDVxRsAIbHtD-CM', version='HTTP/1.0', remote_ip='127.0.0.1', headers={'Connection': 'close', 'Accept-Language': 'zh-CN,en-US;q=0.8', 'Accept-Encoding': 'gzip,deflate', 'X-Requested-With': 'com.tencent.mm', 'Host': '127.0.0.1:9001', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Linux; Android 4.4.2; Nexus 4 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36 MicroMessenger/5.2.1.381'})
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1218, in _when_complete
+    callback()
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1239, in _execute_method
+    self._when_complete(method(*self.path_args, **self.path_kwargs),
+  File "/home/nightwish/elfin/handlers/tail.py", line 13, in get
+    self.render('login.html', action=action)
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 615, in render
+    html = self.render_string(template_name, **kwargs)
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 722, in render_string
+    return t.generate(**namespace)
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/template.py", line 278, in generate
+    return execute()
+  File "login_html.generated.py", line 5, in _tt_execute
+    _tt_tmp = info  # login.html:5
+NameError: global name 'info' is not defined
+2014-04-19 12:08:58 web.py[line:1728] ERROR 500 GET /tail/oDVlVuGK_0DLJlDVxRsAIbHtD-CM (127.0.0.1) 3.34ms
+2014-04-19 12:16:08 web.py[line:1728] INFO 200 POST /wechat?signature=4862c5cf8ad8943b8035664c01063856259fd741&timestamp=1397880967&nonce=1076710032 (127.0.0.1) 1.26ms
+2014-04-19 12:27:03 web.py[line:1728] WARNING 404 GET / (23.252.104.24) 0.38ms
+2014-04-19 13:19:59 web.py[line:1728] INFO 200 POST /wechat?signature=10af9560882e7213ca82017bc77ac713d07914a3&timestamp=1397884798&nonce=1255013534 (127.0.0.1) 0.89ms
+2014-04-19 13:22:01 web.py[line:1728] INFO 200 POST /wechat?signature=d808053f8aaefd59351c3875958de4f304660cbb&timestamp=1397884920&nonce=1990324545 (127.0.0.1) 0.75ms
+2014-04-19 13:22:09 web.py[line:1728] INFO 200 POST /wechat?signature=a734b7a642f3578e37812b5769e9d27faa780501&timestamp=1397884928&nonce=414879884 (127.0.0.1) 0.80ms
+2014-04-19 13:22:13 web.py[line:1728] INFO 200 POST /wechat?signature=e9cf3dfb534b0dc76f220dac52b7a127849c9994&timestamp=1397884931&nonce=1462327828 (127.0.0.1) 1.28ms
+2014-04-19 13:22:16 web.py[line:1728] INFO 200 POST /wechat?signature=58b7443ecf57951a003f79c0cfd5dbcab2ce5f5f&timestamp=1397884935&nonce=686837041 (127.0.0.1) 1.32ms
+2014-04-19 13:22:20 web.py[line:1728] INFO 200 POST /wechat?signature=ce81bb364fc36e31adccd19b93ca23a4a5aa4701&timestamp=1397884940&nonce=618606458 (127.0.0.1) 0.91ms
+2014-04-19 13:27:01 web.py[line:1728] WARNING 404 GET / (23.252.104.24) 0.44ms
+2014-04-19 14:27:00 web.py[line:1728] WARNING 404 GET / (23.252.104.24) 0.45ms
+2014-04-19 15:04:49 web.py[line:1728] INFO 200 POST /wechat?signature=cb6d53eff79c6f61903a4c6546195f95bcf84fcf&timestamp=1397891086&nonce=1459809916 (127.0.0.1) 1.19ms
+2014-04-19 15:27:01 web.py[line:1728] WARNING 404 GET / (23.252.104.24) 0.51ms
+2014-04-19 16:27:00 web.py[line:1728] WARNING 404 GET / (23.252.104.24) 0.44ms
+2014-04-19 17:27:02 web.py[line:1728] WARNING 404 GET / (23.252.104.24) 0.39ms
+2014-04-19 17:57:29 web.py[line:1728] INFO 200 POST /wechat?signature=00a2b44f7ab7563c0f347bff78cdba986c9751bb&timestamp=1397901446&nonce=373889047 (127.0.0.1) 1.20ms
+2014-04-19 18:13:37 web.py[line:1728] INFO 200 POST /wechat?signature=621b325e3e9f34595ce97e42e673852383f3761d&timestamp=1397902416&nonce=934556858 (127.0.0.1) 0.80ms
+2014-04-19 18:13:49 web.py[line:1728] INFO 200 POST /wechat?signature=5b8db41b79f2f2f237d035c343c7cee6a9c6d511&timestamp=1397902429&nonce=1597479632 (127.0.0.1) 1.89ms
+2014-04-19 18:14:00 web.py[line:1728] INFO 200 GET /bind/oDVlVuO4iES2MP1p83ilRdIIul1k (127.0.0.1) 0.56ms
+2014-04-19 18:14:04 web.py[line:1305] ERROR Uncaught exception POST /bind/oDVlVuO4iES2MP1p83ilRdIIul1k (127.0.0.1)
+HTTPRequest(protocol='http', host='127.0.0.1:9001', method='POST', uri='/bind/oDVlVuO4iES2MP1p83ilRdIIul1k', version='HTTP/1.0', remote_ip='127.0.0.1', headers={'Origin': 'http://bandwagon.shijunzi.info', 'Content-Length': '11', 'Accept-Language': 'zh-CN,en-US;q=0.8', 'Accept-Encoding': 'gzip,deflate', 'Host': '127.0.0.1:9001', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Linux; Android 4.4.2; Nexus 4 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36 MicroMessenger/5.2.1.381', 'Connection': 'close', 'Referer': 'http://bandwagon.shijunzi.info/elfin/bind/oDVlVuO4iES2MP1p83ilRdIIul1k', 'X-Requested-With': 'com.tencent.mm', 'Content-Type': 'application/x-www-form-urlencoded'})
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1218, in _when_complete
+    callback()
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1239, in _execute_method
+    self._when_complete(method(*self.path_args, **self.path_kwargs),
+  File "/home/nightwish/elfin/handlers/bind.py", line 23, in post
+    action = '/elfin/bind/' + wechat_id
+NameError: global name 'wechat_id' is not defined
+2014-04-19 18:14:04 web.py[line:1728] ERROR 500 POST /bind/oDVlVuO4iES2MP1p83ilRdIIul1k (127.0.0.1) 2.51ms
+2014-04-19 18:27:06 web.py[line:1728] WARNING 404 GET / (23.252.104.24) 0.46ms
+2014-04-19 18:49:51 web.py[line:1728] INFO 200 POST /wechat?signature=b43cc4fa15d9e865ac6a39b7ac425e236d0130e0&timestamp=1397904589&nonce=1210785842 (127.0.0.1) 0.92ms
+2014-04-19 19:27:07 web.py[line:1728] WARNING 404 GET / (23.252.104.24) 0.38ms
+2014-04-19 20:06:06 web.py[line:1728] INFO 304 GET /bind/oDVlVuO4iES2MP1p83ilRdIIul1k (127.0.0.1) 0.66ms
+2014-04-19 20:27:07 web.py[line:1728] WARNING 404 GET / (23.252.104.24) 0.37ms
+2014-04-19 21:27:08 web.py[line:1728] WARNING 404 GET / (23.252.104.24) 0.37ms
+2014-04-19 21:33:21 web.py[line:1728] INFO 200 POST /wechat?signature=9b4d026e5e860b2b495aa67b3da58f1991c3672b&timestamp=1397914400&nonce=570921776 (127.0.0.1) 0.79ms
+2014-04-19 22:27:07 web.py[line:1728] WARNING 404 GET / (23.252.104.24) 0.43ms
+2014-04-19 23:27:08 web.py[line:1728] WARNING 404 GET / (23.252.104.24) 0.42ms
+2014-04-20 00:02:43 web.py[line:1728] WARNING 404 GET /bind?op=tail (127.0.0.1) 0.46ms
+2014-04-20 00:27:10 web.py[line:1728] WARNING 404 GET / (23.252.104.24) 0.50ms
+2014-04-20 00:42:31 web.py[line:1728] INFO 200 POST /wechat?signature=be13937913b61ecc4a95b4808b58816d60588330&timestamp=1397925751&nonce=1168793933 (127.0.0.1) 0.81ms
+2014-04-20 00:42:40 web.py[line:1302] WARNING 400 GET /wechat (127.0.0.1): Missing argument signature
+2014-04-20 00:42:40 web.py[line:1728] WARNING 400 GET /wechat (127.0.0.1) 0.56ms
+2014-04-20 01:12:32 web.py[line:1302] WARNING 400 GET /wechat (127.0.0.1): Missing argument signature
+2014-04-20 01:12:32 web.py[line:1728] WARNING 400 GET /wechat (127.0.0.1) 0.53ms
+2014-04-20 01:26:53 web.py[line:1728] WARNING 404 GET / (23.252.104.24) 0.60ms
+2014-04-20 02:26:53 web.py[line:1728] WARNING 404 GET / (23.252.104.24) 0.47ms
+2014-04-20 03:26:53 web.py[line:1728] WARNING 404 GET / (23.252.104.24) 0.41ms
+2014-04-20 04:26:53 web.py[line:1728] WARNING 404 GET / (23.252.104.24) 0.47ms
+2014-04-20 05:26:53 web.py[line:1728] WARNING 404 GET / (23.252.104.24) 0.59ms
+2014-04-20 06:26:53 web.py[line:1728] WARNING 404 GET / (23.252.104.24) 0.48ms
+2014-04-20 07:26:54 web.py[line:1728] WARNING 404 GET / (23.252.104.24) 0.43ms
+2014-04-20 08:26:54 web.py[line:1728] WARNING 404 GET / (23.252.104.24) 0.57ms
+2014-04-20 08:35:21 web.py[line:1728] WARNING 404 GET /bind?op=tail (127.0.0.1) 0.60ms
+2014-04-20 08:37:31 web.py[line:1728] WARNING 404 GET /bind?op=tail (127.0.0.1) 0.55ms
+2014-04-20 08:37:36 web.py[line:1728] WARNING 404 GET /bind?op=tail (127.0.0.1) 0.44ms
+2014-04-20 08:37:42 web.py[line:1728] WARNING 404 GET /bind?op=tail (127.0.0.1) 0.43ms
+2014-04-20 08:38:02 web.py[line:1728] WARNING 404 GET /bind?op=tail (127.0.0.1) 0.40ms
+2014-04-20 09:07:31 web.py[line:1728] WARNING 404 GET /bind?op=tail (127.0.0.1) 0.46ms
+2014-04-20 09:10:11 web.py[line:1728] INFO 200 POST /wechat?signature=299501988518f9814a5bb9ecb04f2c7745632bca&timestamp=1397956209&nonce=448015010 (127.0.0.1) 0.69ms
+2014-04-20 09:26:57 web.py[line:1728] WARNING 404 GET / (23.252.104.24) 0.41ms
+2014-04-20 09:51:49 web.py[line:1728] WARNING 404 GET /bind?op=tail (127.0.0.1) 0.53ms
+2014-04-20 10:26:58 web.py[line:1728] WARNING 404 GET / (23.252.104.24) 0.46ms
+2014-04-20 10:42:48 web.py[line:1728] INFO 200 POST /wechat?signature=541e422d8090026f4ad88b4e2a8a5a61f9d9ecc2&timestamp=1397961768&nonce=6925334 (127.0.0.1) 0.72ms
+2014-04-20 10:43:04 web.py[line:1728] INFO 200 POST /wechat?signature=41c4d69651f1df653b087780ea07a4febea083f7&timestamp=1397961784&nonce=2134542898 (127.0.0.1) 0.61ms
+2014-04-20 10:43:59 web.py[line:1728] INFO 200 POST /wechat?signature=5101cab209d8d9726927e08c64c9fdc1964ba955&timestamp=1397961837&nonce=444165212 (127.0.0.1) 0.57ms
+2014-04-20 10:46:14 web.py[line:1305] ERROR Uncaught exception POST /wechat (127.0.0.1)
+HTTPRequest(protocol='http', host='127.0.0.1:9001', method='POST', uri='/wechat', version='HTTP/1.0', remote_ip='127.0.0.1', headers={'Content-Length': '349', 'Host': '127.0.0.1:9001', 'Pragma': 'no-cache', 'Content-Type': 'text/xml', 'Connection': 'close', 'Accept': '*/*', 'User-Agent': 'Mozilla/4.0'})
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1218, in _when_complete
+    callback()
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1239, in _execute_method
+    self._when_complete(method(*self.path_args, **self.path_kwargs),
+  File "/home/nightwish/elfin/handlers/wechat.py", line 31, in post
+    timestamp = self.request.arguments['timestamp']
+KeyError: 'timestamp'
+2014-04-20 10:46:14 web.py[line:1728] ERROR 500 POST /wechat (127.0.0.1) 1.76ms
+2014-04-20 10:46:27 web.py[line:1305] ERROR Uncaught exception POST /wechat (127.0.0.1)
+HTTPRequest(protocol='http', host='127.0.0.1:9001', method='POST', uri='/wechat', version='HTTP/1.0', remote_ip='127.0.0.1', headers={'Content-Length': '349', 'Host': '127.0.0.1:9001', 'Pragma': 'no-cache', 'Content-Type': 'text/xml', 'Connection': 'close', 'Accept': '*/*', 'User-Agent': 'Mozilla/4.0'})
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1218, in _when_complete
+    callback()
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1239, in _execute_method
+    self._when_complete(method(*self.path_args, **self.path_kwargs),
+  File "/home/nightwish/elfin/handlers/wechat.py", line 31, in post
+    timestamp = self.request.arguments['timestamp']
+KeyError: 'timestamp'
+2014-04-20 10:46:27 web.py[line:1728] ERROR 500 POST /wechat (127.0.0.1) 0.91ms
+2014-04-20 10:49:40 web.py[line:1728] INFO 200 POST /wechat (127.0.0.1) 0.77ms
+2014-04-20 10:52:13 web.py[line:1728] INFO 200 POST /wechat (127.0.0.1) 5.52ms
+2014-04-20 10:53:12 web.py[line:1728] INFO 200 POST /wechat?signature=740fa210141d60da92e21563681fa0903936a0eb&timestamp=1397962392&nonce=530995678 (127.0.0.1) 1.37ms
+2014-04-20 10:58:43 web.py[line:1728] INFO 200 POST /wechat?signature=c294bb90af4f9a93b64cf91788e863d1ad526537&timestamp=1397962722&nonce=5085755 (127.0.0.1) 3.03ms
+2014-04-20 10:58:44 web.py[line:1728] INFO 200 POST /wechat?signature=4a2d57f0375bfb2aa089e139b4e419a03d2789c6&timestamp=1397962724&nonce=1794617359 (127.0.0.1) 4.16ms
+2014-04-20 10:58:50 web.py[line:1728] INFO 200 POST /wechat?signature=2bbb62825262a07f00c6b43e40ea6cd662554b1a&timestamp=1397962729&nonce=1032216303 (127.0.0.1) 1.43ms
+2014-04-20 10:59:00 web.py[line:1728] INFO 200 POST /wechat?signature=d1a7d5b3894a3783390aa424f604b2c791889eb4&timestamp=1397962740&nonce=841875314 (127.0.0.1) 1.50ms
+2014-04-20 11:01:37 web.py[line:1728] INFO 200 POST /wechat?signature=7ccdf20ed49d7e2649a2f00eecaed039f8697fde&timestamp=1397962897&nonce=1218234409 (127.0.0.1) 5.22ms
+2014-04-20 11:02:16 web.py[line:1305] ERROR Uncaught exception POST /wechat?signature=bcbe460f1c3b1bf5a599317614f6b8c5ae646f48&timestamp=1397962936&nonce=951514660 (127.0.0.1)
+HTTPRequest(protocol='http', host='127.0.0.1:9001', method='POST', uri='/wechat?signature=bcbe460f1c3b1bf5a599317614f6b8c5ae646f48&timestamp=1397962936&nonce=951514660', version='HTTP/1.0', remote_ip='127.0.0.1', headers={'Content-Length': '666', 'Host': '127.0.0.1:9001', 'Pragma': 'no-cache', 'Content-Type': 'text/xml', 'Connection': 'close', 'Accept': '*/*', 'User-Agent': 'Mozilla/4.0'})
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1218, in _when_complete
+    callback()
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1239, in _execute_method
+    self._when_complete(method(*self.path_args, **self.path_kwargs),
+  File "/home/nightwish/elfin/handlers/wechat.py", line 46, in post
+    Feedback = send(fromUser, Text)
+NameError: global name 'send' is not defined
+2014-04-20 11:02:16 web.py[line:1728] ERROR 500 POST /wechat?signature=bcbe460f1c3b1bf5a599317614f6b8c5ae646f48&timestamp=1397962936&nonce=951514660 (127.0.0.1) 2.20ms
+2014-04-20 11:02:17 web.py[line:1305] ERROR Uncaught exception POST /wechat?signature=89df6423743fa3121059dcca1b653b0265c51cc4&timestamp=1397962936&nonce=1396485409 (127.0.0.1)
+HTTPRequest(protocol='http', host='127.0.0.1:9001', method='POST', uri='/wechat?signature=89df6423743fa3121059dcca1b653b0265c51cc4&timestamp=1397962936&nonce=1396485409', version='HTTP/1.0', remote_ip='127.0.0.1', headers={'Content-Length': '666', 'Host': '127.0.0.1:9001', 'Pragma': 'no-cache', 'Content-Type': 'text/xml', 'Connection': 'close', 'Accept': '*/*', 'User-Agent': 'Mozilla/4.0'})
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1218, in _when_complete
+    callback()
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1239, in _execute_method
+    self._when_complete(method(*self.path_args, **self.path_kwargs),
+  File "/home/nightwish/elfin/handlers/wechat.py", line 46, in post
+    Feedback = send(fromUser, Text)
+NameError: global name 'send' is not defined
+2014-04-20 11:02:17 web.py[line:1728] ERROR 500 POST /wechat?signature=89df6423743fa3121059dcca1b653b0265c51cc4&timestamp=1397962936&nonce=1396485409 (127.0.0.1) 1.39ms
+2014-04-20 11:02:28 web.py[line:1305] ERROR Uncaught exception POST /wechat?signature=7ab246d6c41c9184709bb97fe96fdc412cf6e9c5&timestamp=1397962947&nonce=842183289 (127.0.0.1)
+HTTPRequest(protocol='http', host='127.0.0.1:9001', method='POST', uri='/wechat?signature=7ab246d6c41c9184709bb97fe96fdc412cf6e9c5&timestamp=1397962947&nonce=842183289', version='HTTP/1.0', remote_ip='127.0.0.1', headers={'Content-Length': '666', 'Host': '127.0.0.1:9001', 'Pragma': 'no-cache', 'Content-Type': 'text/xml', 'Connection': 'close', 'Accept': '*/*', 'User-Agent': 'Mozilla/4.0'})
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1218, in _when_complete
+    callback()
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1239, in _execute_method
+    self._when_complete(method(*self.path_args, **self.path_kwargs),
+  File "/home/nightwish/elfin/handlers/wechat.py", line 46, in post
+    Feedback = send(fromUser, Text)
+NameError: global name 'send' is not defined
+2014-04-20 11:02:28 web.py[line:1728] ERROR 500 POST /wechat?signature=7ab246d6c41c9184709bb97fe96fdc412cf6e9c5&timestamp=1397962947&nonce=842183289 (127.0.0.1) 1.77ms
+2014-04-20 11:02:38 web.py[line:1305] ERROR Uncaught exception POST /wechat?signature=e67fd05f253200f56f95526b559898b8cdd6338a&timestamp=1397962958&nonce=2062614154 (127.0.0.1)
+HTTPRequest(protocol='http', host='127.0.0.1:9001', method='POST', uri='/wechat?signature=e67fd05f253200f56f95526b559898b8cdd6338a&timestamp=1397962958&nonce=2062614154', version='HTTP/1.0', remote_ip='127.0.0.1', headers={'Content-Length': '666', 'Host': '127.0.0.1:9001', 'Pragma': 'no-cache', 'Content-Type': 'text/xml', 'Connection': 'close', 'Accept': '*/*', 'User-Agent': 'Mozilla/4.0'})
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1218, in _when_complete
+    callback()
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1239, in _execute_method
+    self._when_complete(method(*self.path_args, **self.path_kwargs),
+  File "/home/nightwish/elfin/handlers/wechat.py", line 46, in post
+    Feedback = send(fromUser, Text)
+NameError: global name 'send' is not defined
+2014-04-20 11:02:38 web.py[line:1728] ERROR 500 POST /wechat?signature=e67fd05f253200f56f95526b559898b8cdd6338a&timestamp=1397962958&nonce=2062614154 (127.0.0.1) 1.70ms
+2014-04-20 11:04:32 web.py[line:1728] INFO 200 POST /wechat?signature=3d0cc9ccc8df21503a75a47e1bd76b38e6805081&timestamp=1397963071&nonce=719273030 (127.0.0.1) 6.80ms
+2014-04-20 11:21:14 web.py[line:1728] INFO 200 POST /wechat?signature=f6fc11d0162250bd6c453899d8d2cf4d52275ee0&timestamp=1397964073&nonce=482936646 (127.0.0.1) 5.85ms
+2014-04-20 11:26:59 web.py[line:1728] WARNING 404 GET / (23.252.104.24) 0.39ms
+2014-04-20 11:32:42 web.py[line:1728] INFO 200 POST /wechat?signature=b9d3a179ec25e4a95cb2050a8ada576b08f485cc&timestamp=1397964761&nonce=321139730 (127.0.0.1) 4.98ms
+2014-04-20 11:35:17 web.py[line:1728] INFO 200 POST /wechat?signature=24a3ed11fc29998a5e6f4b59f6f600b2ef7d513e&timestamp=1397964916&nonce=1785505538 (127.0.0.1) 5.47ms
+2014-04-20 12:25:35 web.py[line:1728] WARNING 404 GET /bind?op=tail (127.0.0.1) 0.62ms
+2014-04-20 12:26:59 web.py[line:1728] WARNING 404 GET / (23.252.104.24) 0.39ms
+2014-04-20 12:44:26 web.py[line:1728] INFO 200 POST /wechat?signature=1611142d98e2083ed3257f47de1a70a55a01807c&timestamp=1397969065&nonce=1505482245 (127.0.0.1) 1.23ms
+2014-04-20 12:44:52 web.py[line:1728] INFO 200 POST /wechat?signature=15019e979f65180e75eacfd731534e3f2f09af49&timestamp=1397969091&nonce=1541990893 (127.0.0.1) 0.78ms
+2014-04-20 12:45:03 web.py[line:1728] INFO 200 POST /wechat?signature=d8cc4782cb86adebc51adcc3c181c701bace4e28&timestamp=1397969102&nonce=2078340497 (127.0.0.1) 1.03ms
+2014-04-20 12:45:06 web.py[line:1728] INFO 200 POST /wechat?signature=56a548b41117dfe49d1f7a4606b4c7929aad10bb&timestamp=1397969104&nonce=514651103 (127.0.0.1) 0.74ms
+2014-04-20 12:58:00 web.py[line:1728] INFO 200 POST /wechat?signature=699644158c15f931e3bc0561398c0269ef43274b&timestamp=1397969879&nonce=1747042529 (127.0.0.1) 0.90ms
+2014-04-20 13:00:36 web.py[line:1728] INFO 200 GET /bind/oDVlVuMaxiZueYzpZPtEdTAhRiQg&quot;&gt; (127.0.0.1) 2.23ms
+2014-04-20 13:00:45 web.py[line:1728] INFO 200 POST /wechat?signature=241726c7b8e6e432b5e16878e17171d2f4e56e62&timestamp=1397970044&nonce=1861257472 (127.0.0.1) 0.76ms
+2014-04-20 13:26:58 web.py[line:1728] WARNING 404 GET / (23.252.104.24) 0.37ms
+2014-04-20 14:26:58 web.py[line:1728] WARNING 404 GET / (23.252.104.24) 0.40ms
+2014-04-20 14:31:03 web.py[line:1728] INFO 200 GET /bind/oDVlVuItZgHxQt-V_ukAboQ7CmEI&quot;&gt; (127.0.0.1) 0.55ms
+2014-04-20 15:26:57 web.py[line:1728] WARNING 404 GET / (23.252.104.24) 0.38ms
+2014-04-20 16:26:57 web.py[line:1728] WARNING 404 GET / (23.252.104.24) 0.56ms
+2014-04-20 17:12:33 web.py[line:1728] WARNING 404 GET /bind?op=tail (127.0.0.1) 0.44ms
+2014-04-20 17:26:58 web.py[line:1728] WARNING 404 GET / (23.252.104.24) 0.39ms
+2014-04-20 18:01:24 web.py[line:1728] INFO 200 POST /wechat?signature=19dda078dca0075f066d1e06885e02ce7e95392c&timestamp=1397988079&nonce=432726844 (127.0.0.1) 0.85ms
+2014-04-20 18:26:57 web.py[line:1728] WARNING 404 GET / (23.252.104.24) 0.38ms
+2014-04-20 19:26:57 web.py[line:1728] WARNING 404 GET / (23.252.104.24) 0.41ms
+2014-04-20 20:26:58 web.py[line:1728] WARNING 404 GET / (23.252.104.24) 0.41ms
+2014-04-20 20:31:39 web.py[line:1728] INFO 200 POST /wechat?signature=44b324e58967077639d631e57045e6cfc1f3a8d7&timestamp=1397997098&nonce=181264242 (127.0.0.1) 0.88ms
+2014-04-20 20:31:56 web.py[line:1728] INFO 200 POST /wechat?signature=1430d228ff347d42d5879870ed2c61b665231e17&timestamp=1397997115&nonce=2086435900 (127.0.0.1) 0.90ms
+2014-04-20 20:39:51 web.py[line:1728] INFO 200 POST /wechat?signature=1b3a398148564c813a23f50d7a4d0ac395db6f53&timestamp=1397997590&nonce=1340494069 (127.0.0.1) 0.84ms
+2014-04-20 20:40:07 web.py[line:1728] INFO 200 POST /wechat?signature=3d2ed85c368638d713d1715188bbc34b5f502625&timestamp=1397997607&nonce=198709601 (127.0.0.1) 1.33ms
+2014-04-20 20:44:13 web.py[line:1728] INFO 200 POST /wechat?signature=d6a3f66ed9694f238d2ee0cc026f138ecc511889&timestamp=1397997853&nonce=1757233354 (127.0.0.1) 0.73ms
+2014-04-20 21:05:39 web.py[line:1728] INFO 200 POST /wechat?signature=00e9b46f264b91f8c522e3a2389f020d7e508168&timestamp=1397999138&nonce=1292316613 (127.0.0.1) 1.18ms
+2014-04-20 21:06:00 web.py[line:1728] INFO 200 POST /wechat?signature=8c69e709f78aa21242b5e001caba1663a2934253&timestamp=1397999160&nonce=120604741 (127.0.0.1) 1.05ms
+2014-04-20 21:27:00 web.py[line:1728] WARNING 404 GET / (23.252.104.24) 0.41ms
+2014-04-20 21:33:19 web.py[line:1728] INFO 200 POST /wechat?signature=68d3e75c98da2a1df9051fe2597e7f63f712d8d1&timestamp=1398000798&nonce=1691148469 (127.0.0.1) 0.83ms
+2014-04-20 21:37:55 web.py[line:1728] INFO 200 POST /wechat?signature=66c8fd97be9cdb0c88705bc8b682773bbbdd3d5e&timestamp=1398001075&nonce=1968525593 (127.0.0.1) 1.05ms
+2014-04-20 22:27:00 web.py[line:1728] WARNING 404 GET / (23.252.104.24) 0.54ms
+2014-04-20 22:30:53 web.py[line:1728] INFO 200 POST /wechat?signature=c61f855f1fcb358d939c2fcb2440a6fafa209dfa&timestamp=1398004252&nonce=1815566700 (127.0.0.1) 0.96ms
+2014-04-20 22:31:18 web.py[line:1728] INFO 200 POST /wechat?signature=161102525728b7bf26fae0a74ad27132d2a28946&timestamp=1398004277&nonce=1865680059 (127.0.0.1) 0.86ms
+2014-04-20 22:31:30 web.py[line:1728] INFO 200 POST /wechat?signature=0d4a34f6370675cabecb73e5690d9c5f4f37d2df&timestamp=1398004289&nonce=703911424 (127.0.0.1) 0.89ms
+2014-04-20 22:31:40 web.py[line:1728] INFO 200 POST /wechat?signature=f4e4f887c55fd73729de69c82e20d804200c5066&timestamp=1398004299&nonce=1642727209 (127.0.0.1) 1.13ms
+2014-04-20 22:32:06 web.py[line:1305] ERROR Uncaught exception POST /wechat?signature=24431b77ccd92a8a1ae333e929a2a9160bac4573&timestamp=1398004325&nonce=961939067 (127.0.0.1)
+HTTPRequest(protocol='http', host='127.0.0.1:9001', method='POST', uri='/wechat?signature=24431b77ccd92a8a1ae333e929a2a9160bac4573&timestamp=1398004325&nonce=961939067', version='HTTP/1.0', remote_ip='127.0.0.1', headers={'Content-Length': '280', 'Host': '127.0.0.1:9001', 'Pragma': 'no-cache', 'Content-Type': 'text/xml', 'Connection': 'close', 'Accept': '*/*', 'User-Agent': 'Mozilla/4.0'})
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1218, in _when_complete
+    callback()
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1239, in _execute_method
+    self._when_complete(method(*self.path_args, **self.path_kwargs),
+  File "/home/nightwish/elfin/handlers/wechat.py", line 46, in post
+    Feedback = send(fromUser, Text)
+NameError: global name 'send' is not defined
+2014-04-20 22:32:06 web.py[line:1728] ERROR 500 POST /wechat?signature=24431b77ccd92a8a1ae333e929a2a9160bac4573&timestamp=1398004325&nonce=961939067 (127.0.0.1) 3.06ms
+2014-04-20 22:32:07 web.py[line:1305] ERROR Uncaught exception POST /wechat?signature=5acf3a1d49a3bbb1e71afa42e8fbd350fe0b9d6b&timestamp=1398004326&nonce=1120718128 (127.0.0.1)
+HTTPRequest(protocol='http', host='127.0.0.1:9001', method='POST', uri='/wechat?signature=5acf3a1d49a3bbb1e71afa42e8fbd350fe0b9d6b&timestamp=1398004326&nonce=1120718128', version='HTTP/1.0', remote_ip='127.0.0.1', headers={'Content-Length': '280', 'Host': '127.0.0.1:9001', 'Pragma': 'no-cache', 'Content-Type': 'text/xml', 'Connection': 'close', 'Accept': '*/*', 'User-Agent': 'Mozilla/4.0'})
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1218, in _when_complete
+    callback()
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1239, in _execute_method
+    self._when_complete(method(*self.path_args, **self.path_kwargs),
+  File "/home/nightwish/elfin/handlers/wechat.py", line 46, in post
+    Feedback = send(fromUser, Text)
+NameError: global name 'send' is not defined
+2014-04-20 22:32:07 web.py[line:1728] ERROR 500 POST /wechat?signature=5acf3a1d49a3bbb1e71afa42e8fbd350fe0b9d6b&timestamp=1398004326&nonce=1120718128 (127.0.0.1) 1.42ms
+2014-04-20 22:32:18 web.py[line:1305] ERROR Uncaught exception POST /wechat?signature=b3543220d2e9d4553e46ca09063b1640f45d3330&timestamp=1398004337&nonce=506496267 (127.0.0.1)
+HTTPRequest(protocol='http', host='127.0.0.1:9001', method='POST', uri='/wechat?signature=b3543220d2e9d4553e46ca09063b1640f45d3330&timestamp=1398004337&nonce=506496267', version='HTTP/1.0', remote_ip='127.0.0.1', headers={'Content-Length': '280', 'Host': '127.0.0.1:9001', 'Pragma': 'no-cache', 'Content-Type': 'text/xml', 'Connection': 'close', 'Accept': '*/*', 'User-Agent': 'Mozilla/4.0'})
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1218, in _when_complete
+    callback()
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1239, in _execute_method
+    self._when_complete(method(*self.path_args, **self.path_kwargs),
+  File "/home/nightwish/elfin/handlers/wechat.py", line 46, in post
+    Feedback = send(fromUser, Text)
+NameError: global name 'send' is not defined
+2014-04-20 22:32:18 web.py[line:1728] ERROR 500 POST /wechat?signature=b3543220d2e9d4553e46ca09063b1640f45d3330&timestamp=1398004337&nonce=506496267 (127.0.0.1) 1.39ms
+2014-04-20 22:32:29 web.py[line:1305] ERROR Uncaught exception POST /wechat?signature=0243676873c271846ebd9333437c787348079f9b&timestamp=1398004348&nonce=1645111147 (127.0.0.1)
+HTTPRequest(protocol='http', host='127.0.0.1:9001', method='POST', uri='/wechat?signature=0243676873c271846ebd9333437c787348079f9b&timestamp=1398004348&nonce=1645111147', version='HTTP/1.0', remote_ip='127.0.0.1', headers={'Content-Length': '280', 'Host': '127.0.0.1:9001', 'Pragma': 'no-cache', 'Content-Type': 'text/xml', 'Connection': 'close', 'Accept': '*/*', 'User-Agent': 'Mozilla/4.0'})
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1218, in _when_complete
+    callback()
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1239, in _execute_method
+    self._when_complete(method(*self.path_args, **self.path_kwargs),
+  File "/home/nightwish/elfin/handlers/wechat.py", line 46, in post
+    Feedback = send(fromUser, Text)
+NameError: global name 'send' is not defined
+2014-04-20 22:32:29 web.py[line:1728] ERROR 500 POST /wechat?signature=0243676873c271846ebd9333437c787348079f9b&timestamp=1398004348&nonce=1645111147 (127.0.0.1) 1.29ms
+2014-04-20 23:14:51 web.py[line:1728] INFO 200 POST /wechat?signature=a3f6714b65389a0f345f40ba1b286960e629bee5&timestamp=1398006889&nonce=1307190806 (127.0.0.1) 1.68ms
+2014-04-20 23:15:36 web.py[line:1728] INFO 200 POST /wechat?signature=e0c968b95512dd36590fe52d624e5b65b4e87e51&timestamp=1398006934&nonce=833933392 (127.0.0.1) 1.16ms
+2014-04-20 23:27:02 web.py[line:1728] WARNING 404 GET / (23.252.104.24) 0.56ms
+2014-04-20 23:55:05 web.py[line:1728] INFO 200 POST /wechat?signature=b0c0c8482e727976531e2318cdcafc7c18857bd1&timestamp=1398009303&nonce=29934487 (127.0.0.1) 1.26ms
+2014-04-20 23:55:31 web.py[line:1728] INFO 200 POST /wechat?signature=859643999efa73430b8cef3c359bfd1b8085d1e2&timestamp=1398009330&nonce=1974409346 (127.0.0.1) 1.66ms
+2014-04-20 23:59:02 web.py[line:1728] INFO 200 POST /wechat?signature=002762e9cdcb525201cd174ecfcbe23f9ede9375&timestamp=1398009542&nonce=858660452 (127.0.0.1) 1.38ms
+2014-04-21 00:00:22 web.py[line:1728] INFO 200 POST /wechat?signature=36e814f5b49dba1e8839846ac5720de293bf6ebd&timestamp=1398009621&nonce=920249415 (127.0.0.1) 1.26ms
+2014-04-21 00:14:29 web.py[line:1305] ERROR Uncaught exception POST /wechat?signature=50738bdc5e2653c48f4ae6639d31eb8cc956b750&timestamp=1398010468&nonce=807535715 (127.0.0.1)
+HTTPRequest(protocol='http', host='127.0.0.1:9001', method='POST', uri='/wechat?signature=50738bdc5e2653c48f4ae6639d31eb8cc956b750&timestamp=1398010468&nonce=807535715', version='HTTP/1.0', remote_ip='127.0.0.1', headers={'Content-Length': '275', 'Host': '127.0.0.1:9001', 'Pragma': 'no-cache', 'Content-Type': 'text/xml', 'Connection': 'close', 'Accept': '*/*', 'User-Agent': 'Mozilla/4.0'})
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1218, in _when_complete
+    callback()
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1239, in _execute_method
+    self._when_complete(method(*self.path_args, **self.path_kwargs),
+  File "/home/nightwish/elfin/handlers/wechat.py", line 46, in post
+    Feedback = send(fromUser, Text)
+NameError: global name 'send' is not defined
+2014-04-21 00:14:29 web.py[line:1728] ERROR 500 POST /wechat?signature=50738bdc5e2653c48f4ae6639d31eb8cc956b750&timestamp=1398010468&nonce=807535715 (127.0.0.1) 1.88ms
+2014-04-21 00:14:40 web.py[line:1305] ERROR Uncaught exception POST /wechat?signature=0283ac02f08ed8a1663aaf3dcf1ade3d7474a652&timestamp=1398010479&nonce=1712614535 (127.0.0.1)
+HTTPRequest(protocol='http', host='127.0.0.1:9001', method='POST', uri='/wechat?signature=0283ac02f08ed8a1663aaf3dcf1ade3d7474a652&timestamp=1398010479&nonce=1712614535', version='HTTP/1.0', remote_ip='127.0.0.1', headers={'Content-Length': '275', 'Host': '127.0.0.1:9001', 'Pragma': 'no-cache', 'Content-Type': 'text/xml', 'Connection': 'close', 'Accept': '*/*', 'User-Agent': 'Mozilla/4.0'})
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1218, in _when_complete
+    callback()
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1239, in _execute_method
+    self._when_complete(method(*self.path_args, **self.path_kwargs),
+  File "/home/nightwish/elfin/handlers/wechat.py", line 46, in post
+    Feedback = send(fromUser, Text)
+NameError: global name 'send' is not defined
+2014-04-21 00:14:40 web.py[line:1728] ERROR 500 POST /wechat?signature=0283ac02f08ed8a1663aaf3dcf1ade3d7474a652&timestamp=1398010479&nonce=1712614535 (127.0.0.1) 1.60ms
+2014-04-21 00:27:01 web.py[line:1728] WARNING 404 GET / (23.252.104.24) 0.40ms
+2014-04-21 01:27:00 web.py[line:1728] WARNING 404 GET / (23.252.104.24) 0.78ms
+2014-04-21 02:26:59 web.py[line:1728] WARNING 404 GET / (23.252.104.24) 0.40ms
+2014-04-21 03:27:00 web.py[line:1728] WARNING 404 GET / (23.252.104.24) 0.41ms
+2014-04-21 03:32:26 web.py[line:1728] INFO 200 POST /wechat?signature=bdf365b680e9eca039435da4f8122a8ea808d7e4&timestamp=1398022345&nonce=983477446 (127.0.0.1) 1.11ms
+2014-04-21 03:33:42 web.py[line:1728] INFO 200 GET /bind/oDVlVuCUBb9JfIzJfmyU9uBGBMvQ&quot;&gt; (127.0.0.1) 0.71ms
+2014-04-21 04:16:41 web.py[line:1728] INFO 200 POST /wechat?signature=ac9e7f558f8a7fdc1575595a5cb2444366869523&timestamp=1398024999&nonce=1237911173 (127.0.0.1) 1.32ms
+2014-04-21 04:27:02 web.py[line:1728] WARNING 404 GET / (23.252.104.24) 0.59ms
+2014-04-21 05:27:00 web.py[line:1728] WARNING 404 GET / (23.252.104.24) 0.38ms
+2014-04-21 06:26:56 web.py[line:1728] WARNING 404 GET / (23.252.104.24) 0.38ms
+2014-04-21 07:26:56 web.py[line:1728] WARNING 404 GET / (23.252.104.24) 0.39ms
+2014-04-21 08:26:57 web.py[line:1728] WARNING 404 GET / (23.252.104.24) 0.54ms
+2014-04-21 09:26:55 web.py[line:1728] WARNING 404 GET / (23.252.104.24) 0.37ms
