@@ -3,5 +3,5 @@
 <FromUserName><![CDATA[twibot]]></FromUserName>
 <CreateTime>{{time}}</CreateTime>
 <MsgType><![CDATA[text]]></MsgType>
-<Content><![CDATA[{{text}}]]></Content>
+<Content><![CDATA[{% raw text %}]]></Content>
 </xml>

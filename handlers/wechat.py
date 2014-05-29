@@ -4,7 +4,6 @@
 import os
 import sys
 import time
-import logging
 import xml.etree.ElementTree as ET
 
 import tornado.httpserver
@@ -27,15 +26,10 @@ class wechat(tornado.web.RequestHandler):
             self.write(echostr)
 
     def post(self):
-        signature = self.get_body_arguments('signature')
-        timestamp = self.get_body_arguments('timestamp')
-        nonce = self.get_body_arguments('nonce')
-        #if not check_sig(signature, timestamp, nonce):
-            #return 
         ret_render = lambda ret_str: self.render('text.xml',
-                                                toUser=fromUser,
-                                                time=time.time(),
-                                                text=ret_str
+                                            toUser=fromUser,
+                                           time=time.time(),
+                                               text=ret_str,
                                                 )
         xml = self.request.body
         xml = ET.fromstring(xml)

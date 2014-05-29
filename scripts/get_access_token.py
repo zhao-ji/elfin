@@ -9,7 +9,7 @@ import logging
 import requests
 import redis
 
-from socrates.set import log, REDIS
+from ..socrates.set import REDIS
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), os.path.pardir)))
 
@@ -17,6 +17,7 @@ GRANT_TYPE = 'client_credential'
 APPID = 'wx16b6a22daa10d5c1'
 SECRET = '37e8ff0ffbe0cfa1589787cb42ab3b54'
 URL = 'https://api.weixin.qq.com/cgi-bin/token'
+
 r5 = redis.StrictRedis(host=REDIS['HOST'], 
                        port=REDIS['PORT'],
                        db=5)
