@@ -20,8 +20,8 @@ class login:
         __headers['Authorization'] = bsc_str
 
         __data = {}
-        __data['status'] = hanzi.BIND_OK
-        __data['source'] = hanzi.DEVICE
+        __data['status'] = hanzi.BIND_OK.decode('utf-8').encode('GB18030')
+        __data['source'] = hanzi.DEVICE.decode('utf-8').encode('GB18030')
         __data['status_type'] = 'talk'
 
         self.bind_ret = requests.post(POST_URL, data=__data, headers=__headers)
@@ -31,7 +31,7 @@ class login:
     def analyses(self):
         ret_json = self.bind_ret.content.replace('=', ':')[1:-1]
         try:
-            ret_list = json.loads(ret_json, encoding='GB2312')
+            ret_list = json.loads(ret_json, encoding='GB18030')
         except Exception, e:
             logging.error(e)
         else:

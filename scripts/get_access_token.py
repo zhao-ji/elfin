@@ -9,9 +9,9 @@ import logging
 import requests
 import redis
 
-from ..socrates.set import REDIS
-
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), os.path.pardir)))
+
+from socrates.set import REDIS
 
 GRANT_TYPE = 'client_credential'
 APPID = 'wx16b6a22daa10d5c1'

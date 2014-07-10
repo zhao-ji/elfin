@@ -16,7 +16,7 @@ class bind(tornado.web.RequestHandler):
     def get(self, wechat_id):
         action = '/elfin/bind/' + wechat_id
         self.render('login.html', info=hanzi.LOGIN, action=action)
-    def post(self, weixin_id):
+    def post(self, wechat_id):
         email = self.get_argument('email')
         psw = self.get_argument('psw')
         if not all([email, psw]):
