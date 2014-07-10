@@ -2,7 +2,7 @@
 
 import logging
 
-log = logging.basicConfig(filename='log/run.log',
+log = logging.basicConfig(filename='/home/nightwish/elfin/log/run.log',
                     filemode='a',
                     format='%(asctime)s %(filename)s[line:%(lineno)d] %(levelname)s %(message)s',
                     datefmt='%Y-%m-%d %H:%M:%S',
