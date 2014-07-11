@@ -88,3 +88,200 @@ NameError: global name 'send' is not defined
 2014-07-11 15:11:28 connectionpool.py[line:635] INFO Starting new HTTPS connection (1): api.weixin.qq.com
 2014-07-11 15:11:29 get_access_token.py[line:34] INFO access_token:GGsgJHcnKIVqQLWKr6MsIicUPN-Fj0RXbkPwCSgE42dM_vmKcSf4RsIBO_iyhP_8Sh6qckAsLaZm2F945SY-Qg
 2014-07-11 15:27:05 web.py[line:1728] WARNING 404 GET / (23.252.104.24) 0.39ms
+2014-07-11 16:11:30 connectionpool.py[line:635] INFO Starting new HTTPS connection (1): api.weixin.qq.com
+2014-07-11 16:11:31 get_access_token.py[line:34] INFO access_token:e83NqovhmCTwksj8VJmN9aCY0man71d7t-2VD7vkxwR2yGFT8m-bGq0ifOSIHFqf2UtKn13kV6oDal4TJuNUIQ
+2014-07-11 16:27:03 web.py[line:1728] WARNING 404 GET / (23.252.104.24) 0.39ms
+2014-07-11 17:11:31 connectionpool.py[line:635] INFO Starting new HTTPS connection (1): api.weixin.qq.com
+2014-07-11 17:11:33 get_access_token.py[line:34] INFO access_token:VWrenSRffQstEQL-n64aNKZU2P-ea6saSJphKPCV6Vz7XHRaJj6dl6whzHnhaMOIgKRUJFIdAoO0LjrJSbpt6g
+2014-07-11 17:23:49 web.py[line:1728] INFO 200 POST /wechat?signature=a930e7a2f84ede4a65685808d9e59c62057c7b1f&timestamp=1405070624&nonce=1524054858 (127.0.0.1) 0.88ms
+2014-07-11 17:23:59 web.py[line:1728] INFO 200 POST /wechat?signature=ca59423622e4fe6937656895d54458bbf0390f47&timestamp=1405070639&nonce=1299622883 (127.0.0.1) 1.20ms
+2014-07-11 17:24:08 web.py[line:1728] INFO 200 POST /wechat?signature=a9fc37ba91cb1ad40479d92b348ae42dd3eb800b&timestamp=1405070648&nonce=274041254 (127.0.0.1) 0.89ms
+2014-07-11 17:26:19 web.py[line:1305] ERROR Uncaught exception GET /tail/1111 (127.0.0.1)
+HTTPRequest(protocol='http', host='127.0.0.1:9001', method='GET', uri='/tail/1111', version='HTTP/1.0', remote_ip='127.0.0.1', headers={'Connection': 'close', 'Accept-Language': 'en-US,en;q=0.8,zh-CN;q=0.6,zh;q=0.4', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '127.0.0.1:9001', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.153 Safari/537.36'})
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1218, in _when_complete
+    callback()
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1239, in _execute_method
+    self._when_complete(method(*self.path_args, **self.path_kwargs),
+  File "/home/nightwish/elfin/handlers/tail.py", line 12, in get
+    self.render('login.html', action=action)
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 615, in render
+    html = self.render_string(template_name, **kwargs)
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 722, in render_string
+    return t.generate(**namespace)
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/template.py", line 278, in generate
+    return execute()
+  File "login_html.generated.py", line 5, in _tt_execute
+    _tt_tmp = info  # login.html:5
+NameError: global name 'info' is not defined
+2014-07-11 17:26:19 web.py[line:1728] ERROR 500 GET /tail/1111 (127.0.0.1) 2.29ms
+2014-07-11 17:27:01 web.py[line:1728] WARNING 404 GET / (23.252.104.24) 0.53ms
+2014-07-11 17:35:42 web.py[line:1305] ERROR Uncaught exception GET /tail/1111 (127.0.0.1)
+HTTPRequest(protocol='http', host='127.0.0.1:9001', method='GET', uri='/tail/1111', version='HTTP/1.0', remote_ip='127.0.0.1', headers={'Connection': 'close', 'Accept-Language': 'en-US,en;q=0.8,zh-CN;q=0.6,zh;q=0.4', 'Accept-Encoding': 'gzip,deflate,sdch', 'Cache-Control': 'max-age=0', 'Host': '127.0.0.1:9001', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.153 Safari/537.36'})
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1218, in _when_complete
+    callback()
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1239, in _execute_method
+    self._when_complete(method(*self.path_args, **self.path_kwargs),
+  File "/home/nightwish/elfin/handlers/tail.py", line 15, in get
+    self.render('login.html', action=action)
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 615, in render
+    html = self.render_string(template_name, **kwargs)
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 722, in render_string
+    return t.generate(**namespace)
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/template.py", line 278, in generate
+    return execute()
+  File "login_html.generated.py", line 5, in _tt_execute
+    _tt_tmp = info  # login.html:5
+NameError: global name 'info' is not defined
+2014-07-11 17:35:42 web.py[line:1728] ERROR 500 GET /tail/1111 (127.0.0.1) 6.48ms
+2014-07-11 17:38:13 web.py[line:1728] INFO 200 GET /tail/1111 (127.0.0.1) 5.84ms
+2014-07-11 17:38:59 web.py[line:1305] ERROR Uncaught exception POST /tail/1111 (127.0.0.1)
+HTTPRequest(protocol='http', host='127.0.0.1:9001', method='POST', uri='/tail/1111', version='HTTP/1.0', remote_ip='127.0.0.1', headers={'Origin': 'http://bandwagon.shijunzi.info', 'Content-Length': '9', 'Accept-Language': 'en-US,en;q=0.8,zh-CN;q=0.6,zh;q=0.4', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '127.0.0.1:9001', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.153 Safari/537.36', 'Connection': 'close', 'Referer': 'http://bandwagon.shijunzi.info/elfin/tail/1111', 'Cache-Control': 'max-age=0', 'Content-Type': 'application/x-www-form-urlencoded'})
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1218, in _when_complete
+    callback()
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1239, in _execute_method
+    self._when_complete(method(*self.path_args, **self.path_kwargs),
+  File "/home/nightwish/elfin/handlers/tail.py", line 20, in post
+    send(weixin_id,tail=tail)
+NameError: global name 'send' is not defined
+2014-07-11 17:38:59 web.py[line:1728] ERROR 500 POST /tail/1111 (127.0.0.1) 2.15ms
+2014-07-11 18:11:33 connectionpool.py[line:635] INFO Starting new HTTPS connection (1): api.weixin.qq.com
+2014-07-11 18:11:35 get_access_token.py[line:34] INFO access_token:3_TUSnjYKug0WjUYTqLnEgpo0PmRtF5fV8wJdpNs-Jrgox69pHoIlyi9Ft329RWFhKSBW3vrwwSmJNZZJa4GzA
+2014-07-11 18:23:30 web.py[line:1728] INFO 200 POST /wechat?signature=9fbefa0af13c89da732c815011de9c953e8cda6f&timestamp=1405074209&nonce=855500421 (127.0.0.1) 4.88ms
+2014-07-11 18:23:51 web.py[line:1728] INFO 200 POST /wechat?signature=e8aa1476d1a58dc2b08cff1cc331163def01e5fd&timestamp=1405074230&nonce=220047198 (127.0.0.1) 3.82ms
+2014-07-11 18:25:17 web.py[line:1728] INFO 200 GET /bind/1111 (127.0.0.1) 2.24ms
+2014-07-11 18:26:38 web.py[line:1728] INFO 200 GET /bind/1111asdfhaj;ksldfjha;sdfjhsadl;fg (127.0.0.1) 0.56ms
+2014-07-11 18:27:01 web.py[line:1728] WARNING 404 GET / (23.252.104.24) 0.40ms
+2014-07-11 18:27:08 web.py[line:1728] INFO 200 GET /bind/oDVlVuGK_0DLJlDVxRsAIbHtD-CM (127.0.0.1) 0.47ms
+2014-07-11 18:43:50 web.py[line:1305] ERROR Uncaught exception POST /wechat?signature=ced8f1e55f22d8c6aea057fe764f1cee000c56ae&timestamp=1405075429&nonce=964451332 (127.0.0.1)
+HTTPRequest(protocol='http', host='127.0.0.1:9001', method='POST', uri='/wechat?signature=ced8f1e55f22d8c6aea057fe764f1cee000c56ae&timestamp=1405075429&nonce=964451332', version='HTTP/1.0', remote_ip='127.0.0.1', headers={'Content-Length': '341', 'Host': '127.0.0.1:9001', 'Pragma': 'no-cache', 'Content-Type': 'text/xml', 'Connection': 'close', 'Accept': '*/*', 'User-Agent': 'Mozilla/4.0'})
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1218, in _when_complete
+    callback()
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1239, in _execute_method
+    self._when_complete(method(*self.path_args, **self.path_kwargs),
+  File "/home/nightwish/elfin/handlers/wechat.py", line 42, in post
+    Feedback = send(fromUser, Text)
+NameError: global name 'send' is not defined
+2014-07-11 18:43:50 web.py[line:1728] ERROR 500 POST /wechat?signature=ced8f1e55f22d8c6aea057fe764f1cee000c56ae&timestamp=1405075429&nonce=964451332 (127.0.0.1) 2.76ms
+2014-07-11 19:01:42 web.py[line:1728] INFO 304 GET /bind/oDVlVuGK_0DLJlDVxRsAIbHtD-CM (127.0.0.1) 0.69ms
+2014-07-11 19:11:35 connectionpool.py[line:635] INFO Starting new HTTPS connection (1): api.weixin.qq.com
+2014-07-11 19:11:37 get_access_token.py[line:34] INFO access_token:aYKMyfY_Uzn2U0G94DUmUIvblVCaH2fI7rYcf8j6vXpRukIZYN8wdOQTlmCB8e-vX1_ocwQpaT8_tBL9O2uqxA
+2014-07-11 19:27:02 web.py[line:1728] WARNING 404 GET / (23.252.104.24) 0.43ms
+2014-07-11 19:34:17 web.py[line:1728] INFO 200 GET /bind/oDVlVuGK_0DLJlDVxRsAIbHtD-CM (127.0.0.1) 5.65ms
+2014-07-11 19:34:17 web.py[line:1728] INFO 200 GET /bind/xiezhua_files/logo.gif (127.0.0.1) 0.84ms
+2014-07-11 19:34:18 web.py[line:1728] INFO 200 GET /bind/xiezhua_files/ga.php (127.0.0.1) 4.11ms
+2014-07-11 19:35:23 web.py[line:1728] INFO 200 GET /bind/oDVlVuGK_0DLJlDVxRsAIbHtD-CM (127.0.0.1) 1.20ms
+2014-07-11 19:35:24 web.py[line:1728] INFO 200 GET /bind/xiezhua_files/logo.gif (127.0.0.1) 0.85ms
+2014-07-11 19:35:24 web.py[line:1728] INFO 200 GET /bind/xiezhua_files/ga.php (127.0.0.1) 1.20ms
+2014-07-11 19:58:26 web.py[line:1728] INFO 200 GET /bind/oDVlVuGK_0DLJlDVxRsAIbHtD-CM (127.0.0.1) 4.76ms
+2014-07-11 19:58:27 web.py[line:1728] INFO 200 GET /bind/xiezhua_files/ga.php (127.0.0.1) 0.86ms
+2014-07-11 20:11:37 connectionpool.py[line:635] INFO Starting new HTTPS connection (1): api.weixin.qq.com
+2014-07-11 20:11:39 get_access_token.py[line:34] INFO access_token:QtzUHi4yOzZURRYTNtAAxxiVI4e9evayA_O4MroqJ8dYTmDh1Ffz9EkrOOT2h1A9Mdi0R4XbdmBnzMjWmqobDQ
+2014-07-11 20:13:59 web.py[line:1728] INFO 200 GET /bind/oDVlVuGK_0DLJlDVxRsAIbHtD-CM (127.0.0.1) 4.81ms
+2014-07-11 20:14:00 web.py[line:1728] INFO 200 GET /bind/xiezhua_files/ga.php (127.0.0.1) 0.90ms
+2014-07-11 20:14:29 web.py[line:1728] INFO 200 GET /bind/1111asdfhaj;ksldfjha;sdfjhsadl;fg (127.0.0.1) 3.77ms
+2014-07-11 20:14:30 web.py[line:1728] INFO 200 GET /bind/xiezhua_files/ga.php (127.0.0.1) 0.90ms
+2014-07-11 20:15:49 web.py[line:1728] INFO 200 GET /bind/static/logo.gif (127.0.0.1) 1.23ms
+2014-07-11 20:15:49 web.py[line:1728] INFO 200 GET /bind/static/xiezhua_files/ga.php (127.0.0.1) 0.99ms
+2014-07-11 20:16:02 web.py[line:1728] INFO 200 GET /bind/static/logo.gif (127.0.0.1) 0.88ms
+2014-07-11 20:16:03 web.py[line:1728] INFO 200 GET /bind/static/xiezhua_files/ga.php (127.0.0.1) 0.91ms
+2014-07-11 20:16:13 web.py[line:1728] INFO 200 GET /static/logo.gif (127.0.0.1) 5.35ms
+2014-07-11 20:27:00 web.py[line:1728] WARNING 404 GET / (23.252.104.24) 0.48ms
+2014-07-11 20:52:13 web.py[line:1728] INFO 200 GET /bind/ssdfgsdfgsdfg (127.0.0.1) 0.71ms
+2014-07-11 20:52:13 web.py[line:1728] INFO 200 GET /bind/xiezhua_files/ga.php (127.0.0.1) 0.67ms
+2014-07-11 20:52:45 web.py[line:1728] INFO 200 GET /bind/ssdfgsdfgsdfg (127.0.0.1) 4.75ms
+2014-07-11 20:52:45 web.py[line:1728] INFO 200 GET /bind/xiezhua_files/ga.php (127.0.0.1) 0.93ms
+2014-07-11 20:53:11 web.py[line:1728] INFO 200 GET /bind/statisdfgsdfgsdfg (127.0.0.1) 2.10ms
+2014-07-11 20:53:11 web.py[line:1728] INFO 200 GET /bind/xiezhua_files/ga.php (127.0.0.1) 0.87ms
+2014-07-11 20:56:40 web.py[line:1728] INFO 200 GET /bind/statisdfgsdfgsdfg (127.0.0.1) 7.85ms
+2014-07-11 20:56:40 web.py[line:1728] INFO 200 GET /bind/static_url('logo.gif') (127.0.0.1) 0.88ms
+2014-07-11 20:56:41 web.py[line:1728] INFO 200 GET /bind/xiezhua_files/ga.php (127.0.0.1) 2.66ms
+2014-07-11 21:00:12 web.py[line:1728] INFO 200 GET /bind/statisdfgsdfgsdfg (127.0.0.1) 5.89ms
+2014-07-11 21:00:12 web.py[line:1728] INFO 200 GET /bind/xiezhua_files/ga.php (127.0.0.1) 0.97ms
+2014-07-11 21:00:37 web.py[line:1728] INFO 304 GET /static/logo.gif (127.0.0.1) 5.45ms
+2014-07-11 21:00:48 web.py[line:1728] INFO 304 GET /static/logo.gif (127.0.0.1) 0.70ms
+2014-07-11 21:11:39 connectionpool.py[line:635] INFO Starting new HTTPS connection (1): api.weixin.qq.com
+2014-07-11 21:11:40 get_access_token.py[line:34] INFO access_token:EhokNy96sCG38d0y2ma7AHsqW53DzBJwz4w-eTHWALD2r31XZxt7IAgKkno5S1aXCwifmj9WvVsqG0lxJoSrzA
+2014-07-11 21:13:22 web.py[line:1728] INFO 200 GET /bind/statisdfgsdfgsdfg (127.0.0.1) 5.98ms
+2014-07-11 21:13:22 web.py[line:1728] INFO 200 GET /bind/http/bandwagon.shijunzi.info/elfin/static/logo.gif (127.0.0.1) 0.93ms
+2014-07-11 21:13:22 web.py[line:1728] INFO 200 GET /bind/xiezhua_files/ga.php (127.0.0.1) 2.59ms
+2014-07-11 21:13:44 web.py[line:1728] INFO 200 GET /bind/http/bandwagon.shijunzi.info/elfin/static/logo.gif (127.0.0.1) 0.87ms
+2014-07-11 21:13:44 web.py[line:1728] INFO 200 GET /bind/http/bandwagon.shijunzi.info/elfin/static/http/bandwagon.shijunzi.info/elfin/static/logo.gif (127.0.0.1) 1.06ms
+2014-07-11 21:13:44 web.py[line:1728] INFO 200 GET /bind/http/bandwagon.shijunzi.info/elfin/static/xiezhua_files/ga.php (127.0.0.1) 0.67ms
+2014-07-11 21:13:50 web.py[line:1728] INFO 200 GET /bind/http/bandwagon.shijunzi.info/elfin/static/logo.gif (127.0.0.1) 1.12ms
+2014-07-11 21:13:50 web.py[line:1728] INFO 200 GET /bind/http/bandwagon.shijunzi.info/elfin/static/http/bandwagon.shijunzi.info/elfin/static/logo.gif (127.0.0.1) 1.01ms
+2014-07-11 21:13:50 web.py[line:1728] INFO 200 GET /bind/http/bandwagon.shijunzi.info/elfin/static/xiezhua_files/ga.php (127.0.0.1) 0.69ms
+2014-07-11 21:26:49 web.py[line:1728] INFO 200 GET /bind/1111asdfhaj;ksldfjha;sdfjhsadl;fg (127.0.0.1) 4.59ms
+2014-07-11 21:26:49 web.py[line:1728] INFO 200 GET /bind/xiezhua_files/ga.php (127.0.0.1) 0.87ms
+2014-07-11 21:26:49 web.py[line:1728] INFO 200 GET /bind/http/bandwagon.shijunzi.info/elfin/static/logo.gif (127.0.0.1) 3.66ms
+2014-07-11 21:27:02 web.py[line:1728] WARNING 404 GET / (23.252.104.24) 0.51ms
+2014-07-11 21:29:21 web.py[line:1305] ERROR Uncaught exception GET /bind/1111asdfhaj;ksldfjha;sdfjhsadl;fg (127.0.0.1)
+HTTPRequest(protocol='http', host='127.0.0.1:9001', method='GET', uri='/bind/1111asdfhaj;ksldfjha;sdfjhsadl;fg', version='HTTP/1.0', remote_ip='127.0.0.1', headers={'Accept-Language': 'en-US,en;q=0.8,zh-CN;q=0.6,zh;q=0.4', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '127.0.0.1:9001', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.153 Safari/537.36', 'Connection': 'close', 'Cache-Control': 'max-age=0', 'If-None-Match': '"cde88b36bb61e2830e3943a62325dfea08620fd7"'})
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1218, in _when_complete
+    callback()
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1239, in _execute_method
+    self._when_complete(method(*self.path_args, **self.path_kwargs),
+  File "/home/nightwish/elfin/handlers/bind.py", line 15, in get
+    self.render('login.html', time=time.ctime(), action=action)
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 615, in render
+    html = self.render_string(template_name, **kwargs)
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 722, in render_string
+    return t.generate(**namespace)
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/template.py", line 278, in generate
+    return execute()
+  File "login_html.generated.py", line 5, in _tt_execute
+    _tt_tmp = static_url("logo.gif")  # login.html:12
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1096, in static_url
+    self.require_setting("static_path", "static_url")
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1135, in require_setting
+    "application to use %s" % (name, feature))
+Exception: You must define the 'static_path' setting in your application to use static_url
+2014-07-11 21:29:21 web.py[line:1728] ERROR 500 GET /bind/1111asdfhaj;ksldfjha;sdfjhsadl;fg (127.0.0.1) 8.15ms
+2014-07-11 22:11:40 connectionpool.py[line:635] INFO Starting new HTTPS connection (1): api.weixin.qq.com
+2014-07-11 22:11:42 get_access_token.py[line:34] INFO access_token:Kn6-tqwq3QXEayzpY4VGSW_GUudycqX24rGxqcAWhp_3EdjMc8inzVfayMp6jciAQLKHXILFJi_MgGQkFGgS8w
+2014-07-11 22:27:03 web.py[line:1728] WARNING 404 GET / (23.252.104.24) 0.52ms
+2014-07-11 22:47:18 web.py[line:1305] ERROR Uncaught exception GET /bind/1 (127.0.0.1)
+HTTPRequest(protocol='http', host='127.0.0.1:9001', method='GET', uri='/bind/1', version='HTTP/1.0', remote_ip='127.0.0.1', headers={'Connection': 'close', 'Accept-Language': 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3', 'Accept-Encoding': 'gzip, deflate', 'Host': '127.0.0.1:9001', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:30.0) Gecko/20100101 Firefox/30.0'})
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1218, in _when_complete
+    callback()
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1239, in _execute_method
+    self._when_complete(method(*self.path_args, **self.path_kwargs),
+  File "/home/nightwish/elfin/handlers/bind.py", line 15, in get
+    self.render('login.html', time=time.ctime(), action=action)
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 615, in render
+    html = self.render_string(template_name, **kwargs)
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 722, in render_string
+    return t.generate(**namespace)
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/template.py", line 278, in generate
+    return execute()
+  File "login_html.generated.py", line 5, in _tt_execute
+    _tt_tmp = static_url("logo.gif")  # login.html:12
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1096, in static_url
+    self.require_setting("static_path", "static_url")
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1135, in require_setting
+    "application to use %s" % (name, feature))
+Exception: You must define the 'static_path' setting in your application to use static_url
+2014-07-11 22:47:18 web.py[line:1728] ERROR 500 GET /bind/1 (127.0.0.1) 3.94ms
+2014-07-11 22:53:20 web.py[line:1728] INFO 200 GET /bind/1 (127.0.0.1) 6.80ms
+2014-07-11 22:53:21 web.py[line:1728] INFO 200 GET /bind/xiezhua_files/ga.php (127.0.0.1) 0.87ms
+2014-07-11 22:55:26 web.py[line:1728] INFO 200 GET /bind/1 (127.0.0.1) 6.29ms
+2014-07-11 22:55:27 web.py[line:1728] INFO 200 GET /static/logo.gif (127.0.0.1) 7.33ms
+2014-07-11 22:55:27 web.py[line:1728] INFO 200 GET /bind/xiezhua_files/ga.php (127.0.0.1) 0.97ms
+2014-07-11 23:11:42 connectionpool.py[line:635] INFO Starting new HTTPS connection (1): api.weixin.qq.com
+2014-07-11 23:11:44 get_access_token.py[line:34] INFO access_token:GmUdifJISZpQxGygmHHv-9HjxRWnmO_Pf1FKIjqmKkU0xOiglCsHvPw9A_0qfHqoT7PJGd6oS-TZyD71wuMfvg
+2014-07-11 23:26:25 web.py[line:1728] INFO 200 GET /bind/1 (127.0.0.1) 4.67ms
+2014-07-11 23:26:26 web.py[line:1728] INFO 200 GET /static/login.css (127.0.0.1) 5.49ms
+2014-07-11 23:26:26 web.py[line:1728] INFO 304 GET /static/logo.gif (127.0.0.1) 0.79ms
+2014-07-11 23:26:26 web.py[line:1728] INFO 200 GET /bind/xiezhua_files/ga.php (127.0.0.1) 0.84ms
+2014-07-11 23:26:27 web.py[line:1728] INFO 200 GET /static/login.css (127.0.0.1) 0.73ms
+2014-07-11 23:27:04 web.py[line:1728] WARNING 404 GET / (23.252.104.24) 0.58ms
+2014-07-11 23:27:06 web.py[line:1728] INFO 200 GET /bind/1 (127.0.0.1) 4.07ms
+2014-07-11 23:27:07 web.py[line:1728] INFO 200 GET /bind/xiezhua_files/ga.php (127.0.0.1) 0.83ms
+2014-07-11 23:27:08 web.py[line:1728] INFO 200 GET /static/login.css (127.0.0.1) 7.40ms
+2014-07-11 23:27:43 web.py[line:1728] INFO 200 GET /bind/1 (127.0.0.1) 13.20ms
+2014-07-11 23:27:44 web.py[line:1728] INFO 200 GET /static/login.css (127.0.0.1) 5.91ms

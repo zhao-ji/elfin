@@ -18,17 +18,22 @@ from socrates.set import mongo
 from tornado.options import define, options
 define('port', default=9001, type=int)
 
+template_path = os.path.join(os.path.dirname(__file__), 'templates')
+static_path = os.path.join(os.path.dirname(__file__), 'static')
 
 handlers = [ (r'/wechat', wechat),
              (r'/bind/(.*)', bind),
              (r'/tail/(.*)', tail),
+             (r'/static/(.*)', 
+             tornado.web.StaticFileHandler,
+             {'path': static_path}),
            ]
-template_path = os.path.join(os.path.dirname(__file__), 'templates')
 
 if __name__ == '__main__':
     mongo.authenticate('elfin', 'sljfZ5weyil')
     tornado.options.parse_command_line()
-    app = tornado.web.Application(handlers=handlers, template_path=template_path)
+    app = tornado.web.Application(handlers=handlers,
+                            template_path=template_path,)
     http_server = tornado.httpserver.HTTPServer(app)
     http_server.listen(options.port)
     tornado.ioloop.IOLoop.instance().start()
