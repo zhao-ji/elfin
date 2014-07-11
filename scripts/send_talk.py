@@ -8,6 +8,14 @@ from socrates.set import mongo
 
 POST_URL = 'http://weilairiji.com/api/statuses/update.json' 
 
+def diff_from_password(talk, pwd_str):
+    if
+def diff_from_old(talk, old_hash):
+    new_hash = hash(talk)
+    if new_hash == old_hash:
+        raise RepeatError
+
+
 def transmit(xiezhua_id, talk, tail, touser=None):
     headers = {}
     headers['Authorization'] = xiezhua_id
@@ -23,7 +31,6 @@ def transmit(xiezhua_id, talk, tail, touser=None):
 
 def send(fromUser, talk):
     user = mongo.elfin.find_one({'wechat_id':fromUser})
-
     try:
         diff_from_password(talk, user['xiezhua_id'])
         diff_from_old(talk, user['hash'])

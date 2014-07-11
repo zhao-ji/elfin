@@ -1,0 +1,90 @@
+2014-07-10 19:10:55 connectionpool.py[line:635] INFO Starting new HTTPS connection (1): api.weixin.qq.com
+2014-07-10 19:10:57 get_access_token.py[line:34] INFO access_token:e83NqovhmCTwksj8VJmN9ZqNMjdPHxHSyLeqn4S_20Ecv0g0UM5U2ri2ImnCUOyeAb_bKdZ3m-DrX4k_iK2TlA
+2014-07-10 19:11:13 web.py[line:1728] INFO 200 GET /bind/99999 (127.0.0.1) 4.40ms
+2014-07-10 19:11:23 connectionpool.py[line:171] INFO Starting new HTTP connection (1): weilairiji.com
+2014-07-10 19:11:24 web.py[line:1728] INFO 200 POST /bind/99999 (127.0.0.1) 1013.10ms
+2014-07-10 19:27:04 web.py[line:1728] WARNING 404 GET / (23.252.104.24) 0.52ms
+2014-07-10 19:33:41 web.py[line:1728] INFO 200 POST /wechat?signature=6f6cc54ae1c47b86dc70e230797f39010e223d90&timestamp=1404992019&nonce=1486909145 (127.0.0.1) 2.08ms
+2014-07-10 19:34:05 web.py[line:1728] INFO 200 POST /wechat?signature=f393b14c918408c62a1a8983c6f2c8a731e4786b&timestamp=1404992043&nonce=1911089807 (127.0.0.1) 4.17ms
+2014-07-10 19:34:49 web.py[line:1728] INFO 200 GET /bind/oDVlVuGK_0DLJlDVxRsAIbHtD-CM (127.0.0.1) 1.94ms
+2014-07-10 19:35:21 connectionpool.py[line:171] INFO Starting new HTTP connection (1): weilairiji.com
+2014-07-10 19:35:25 web.py[line:1728] INFO 200 POST /bind/oDVlVuGK_0DLJlDVxRsAIbHtD-CM (127.0.0.1) 3166.28ms
+2014-07-10 19:35:43 web.py[line:1305] ERROR Uncaught exception POST /wechat?signature=16b2ecab28c0793462725e7b83c0e8da97b7d902&timestamp=1404992143&nonce=1625681087 (127.0.0.1)
+HTTPRequest(protocol='http', host='127.0.0.1:9001', method='POST', uri='/wechat?signature=16b2ecab28c0793462725e7b83c0e8da97b7d902&timestamp=1404992143&nonce=1625681087', version='HTTP/1.0', remote_ip='127.0.0.1', headers={'Content-Length': '278', 'Host': '127.0.0.1:9001', 'Pragma': 'no-cache', 'Content-Type': 'text/xml', 'Connection': 'close', 'Accept': '*/*', 'User-Agent': 'Mozilla/4.0'})
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1218, in _when_complete
+    callback()
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1239, in _execute_method
+    self._when_complete(method(*self.path_args, **self.path_kwargs),
+  File "/home/nightwish/elfin/handlers/wechat.py", line 42, in post
+    Feedback = send(fromUser, Text)
+NameError: global name 'send' is not defined
+2014-07-10 19:35:43 web.py[line:1728] ERROR 500 POST /wechat?signature=16b2ecab28c0793462725e7b83c0e8da97b7d902&timestamp=1404992143&nonce=1625681087 (127.0.0.1) 4.05ms
+2014-07-10 20:10:57 connectionpool.py[line:635] INFO Starting new HTTPS connection (1): api.weixin.qq.com
+2014-07-10 20:10:59 get_access_token.py[line:34] INFO access_token:jHwShj8jORXxfYJOIIiEtku_ERnWvUlUWkwo5qdbPymUcbdWjTx_xzfWsCpzjKDqzAP1DXQCekppWZQY2B7oCw
+2014-07-10 20:27:02 web.py[line:1728] WARNING 404 GET / (23.252.104.24) 0.42ms
+2014-07-10 21:10:59 connectionpool.py[line:635] INFO Starting new HTTPS connection (1): api.weixin.qq.com
+2014-07-10 21:11:00 get_access_token.py[line:34] INFO access_token:F9VsSWKs25cUHI6Imq9fG4psZ0qxeUYu8Lp50goDKWoAKCGfPkyw3hQ2cSLwkkU0BCBOjm7hIjhS_m9OPwhq5A
+2014-07-10 21:27:02 web.py[line:1728] WARNING 404 GET / (23.252.104.24) 0.39ms
+2014-07-10 22:11:00 connectionpool.py[line:635] INFO Starting new HTTPS connection (1): api.weixin.qq.com
+2014-07-10 22:11:02 get_access_token.py[line:34] INFO access_token:05bd_hr2rwAkigz1RsPcXhEMK3U0ZTu6UAWT6JZ6iAqYwFQ89ovDYE8ZrS6ATEhRqojWfuXS86PrKzn4-kKWfA
+2014-07-10 22:27:02 web.py[line:1728] WARNING 404 GET / (23.252.104.24) 0.38ms
+2014-07-10 23:11:02 connectionpool.py[line:635] INFO Starting new HTTPS connection (1): api.weixin.qq.com
+2014-07-10 23:11:03 get_access_token.py[line:34] INFO access_token:QtzUHi4yOzZURRYTNtAAx5gmEsI3IUp_QITCIMA00E6fprrO_GbXi-tMXEaLnUcZ8Khoa8VM6XCKE_Ng1rrfXw
+2014-07-10 23:27:02 web.py[line:1728] WARNING 404 GET / (23.252.104.24) 0.39ms
+2014-07-10 23:54:30 web.py[line:1728] INFO 200 POST /wechat?signature=cdd54336f16e13b7d3d959cc0fe8a85c40c31dd2&timestamp=1405007668&nonce=1258021066 (127.0.0.1) 1.12ms
+2014-07-11 00:11:03 connectionpool.py[line:635] INFO Starting new HTTPS connection (1): api.weixin.qq.com
+2014-07-11 00:11:05 get_access_token.py[line:34] INFO access_token:TSMYs6I_9VJKHE2T-LMikHpHxES8VoY_pg67ZdKHERjwxI2gzV6uwpo0L60NtffGXATW8xMXmOW7Y9iw0qhXYQ
+2014-07-11 00:27:03 web.py[line:1728] WARNING 404 GET / (23.252.104.24) 0.54ms
+2014-07-11 01:11:05 connectionpool.py[line:635] INFO Starting new HTTPS connection (1): api.weixin.qq.com
+2014-07-11 01:11:07 get_access_token.py[line:34] INFO access_token:QrfximSHdd420_lVHF4fZhCq3xHqPuqoLHrxqizr9jO3t6XRlDv5WJQn-4IdPLbGpTWs-9CuTrJmaqaCZrZCXQ
+2014-07-11 01:27:02 web.py[line:1728] WARNING 404 GET / (23.252.104.24) 0.38ms
+2014-07-11 02:11:07 connectionpool.py[line:635] INFO Starting new HTTPS connection (1): api.weixin.qq.com
+2014-07-11 02:11:08 get_access_token.py[line:34] INFO access_token:a4yny7jGh1P8j0kzDYU2ekVkORCrblPPf22AdMQYrecxbJNQtOsj7DXzLIYnzMLyXLOiohP99FT-3UlslLE0aw
+2014-07-11 02:27:02 web.py[line:1728] WARNING 404 GET / (23.252.104.24) 0.54ms
+2014-07-11 03:11:08 connectionpool.py[line:635] INFO Starting new HTTPS connection (1): api.weixin.qq.com
+2014-07-11 03:11:10 get_access_token.py[line:34] INFO access_token:2kOCSMHV0ZJE9jUmzjjOa5EJp59Kw44Cfk1YGA-wJQvMe1TFfhUs9YFphygm0lY_zrDMyEz_XeksCRHLVSVnpA
+2014-07-11 03:27:01 web.py[line:1728] WARNING 404 GET / (23.252.104.24) 0.45ms
+2014-07-11 04:11:10 connectionpool.py[line:635] INFO Starting new HTTPS connection (1): api.weixin.qq.com
+2014-07-11 04:11:11 get_access_token.py[line:34] INFO access_token:QpEG7VnolcdIGOp8tZWW2DXIq4EQ8cx3r54iqnKSV2ENElHYApBBM9UUfIOizFcK_-KM32-VDMKVJJc82zaONw
+2014-07-11 04:27:03 web.py[line:1728] WARNING 404 GET / (23.252.104.24) 0.47ms
+2014-07-11 05:11:11 connectionpool.py[line:635] INFO Starting new HTTPS connection (1): api.weixin.qq.com
+2014-07-11 05:11:13 get_access_token.py[line:34] INFO access_token:TjNiLRQ60OFKxoaymQ8QZ-QSEPrC__dZg6DodqrwhnmrA42oiPcpDCTqgK7hOZhI9XNUUzBkrG2MII0yCWKlTw
+2014-07-11 05:27:05 web.py[line:1728] WARNING 404 GET / (23.252.104.24) 0.49ms
+2014-07-11 06:11:13 connectionpool.py[line:635] INFO Starting new HTTPS connection (1): api.weixin.qq.com
+2014-07-11 06:11:15 get_access_token.py[line:34] INFO access_token:a4yny7jGh1P8j0kzDYU2ehemBEodgCCNNUzDto7xTJQMdcsJ5w-WIPWhQeYhIbzp2BtLp6Fgb8TljWCcUbw2iw
+2014-07-11 06:27:02 web.py[line:1728] WARNING 404 GET / (23.252.104.24) 0.42ms
+2014-07-11 07:11:15 connectionpool.py[line:635] INFO Starting new HTTPS connection (1): api.weixin.qq.com
+2014-07-11 07:11:17 get_access_token.py[line:34] INFO access_token:JF_cl8yTbN3tzCSfC032D5dvNSS1rnatEkR-HXnrqWyOGZCpHqRchJS8rcXIhO8C7psP7S9i1MpB30cLuUPy_Q
+2014-07-11 07:27:07 web.py[line:1728] WARNING 404 GET / (23.252.104.24) 0.39ms
+2014-07-11 08:11:17 connectionpool.py[line:635] INFO Starting new HTTPS connection (1): api.weixin.qq.com
+2014-07-11 08:11:18 get_access_token.py[line:34] INFO access_token:0N45cNfDNDwpVIJU21AwIdDK7sSyLXHu2uwtnm5BtylRmrz5og67HzIpyPh7T36gLQbUiBPV2DZyQV0EC9QF8Q
+2014-07-11 08:27:04 web.py[line:1728] WARNING 404 GET / (23.252.104.24) 0.38ms
+2014-07-11 09:11:18 connectionpool.py[line:635] INFO Starting new HTTPS connection (1): api.weixin.qq.com
+2014-07-11 09:11:20 get_access_token.py[line:34] INFO access_token:GazAHkDiviG65sW4vbg4L-EMKgmKZVSr2VWBbV_U7qq2ZY68A453u8F_Ez3kukX6PK9NH_XP9RVZiXmlwo1fbg
+2014-07-11 09:27:05 web.py[line:1728] WARNING 404 GET / (23.252.104.24) 0.39ms
+2014-07-11 10:11:20 connectionpool.py[line:635] INFO Starting new HTTPS connection (1): api.weixin.qq.com
+2014-07-11 10:11:21 get_access_token.py[line:34] INFO access_token:hU9tkLyC-ifE9cnVr-zv8WPs0aBXojkz3oK-1Eud-oRmTwHFJrKeK02rKZUWTiWVdH16OTprW3bDWOtc342XmA
+2014-07-11 10:27:03 web.py[line:1728] WARNING 404 GET / (23.252.104.24) 0.41ms
+2014-07-11 11:11:21 connectionpool.py[line:635] INFO Starting new HTTPS connection (1): api.weixin.qq.com
+2014-07-11 11:11:23 get_access_token.py[line:34] INFO access_token:99j3VhFKeQzqj6zNJy0RSQWZ_edv8jnHjK4T9gsdsq_uQqbzMRCu2JQknN-4AX-7bx7lhs5vdRu9ocjD31zn4A
+2014-07-11 11:27:05 web.py[line:1728] WARNING 404 GET / (23.252.104.24) 0.38ms
+2014-07-11 12:11:23 connectionpool.py[line:635] INFO Starting new HTTPS connection (1): api.weixin.qq.com
+2014-07-11 12:11:24 get_access_token.py[line:34] INFO access_token:nPK6hRz4jjEGKZ-e_oKpimI6DYTdJwwkQT8WRoX0wK70KWrgiCf9KryrpPc68aw_t4Y2T9UCZ8aZSXACb9L9rw
+2014-07-11 12:27:05 web.py[line:1728] WARNING 404 GET / (23.252.104.24) 0.41ms
+2014-07-11 12:30:56 web.py[line:1728] WARNING 404 GET /bind (127.0.0.1) 0.40ms
+2014-07-11 12:31:39 web.py[line:1728] WARNING 404 GET /bind (127.0.0.1) 0.46ms
+2014-07-11 13:11:24 connectionpool.py[line:635] INFO Starting new HTTPS connection (1): api.weixin.qq.com
+2014-07-11 13:11:26 get_access_token.py[line:34] INFO access_token:QAP-Csx-tGUjnkraTOWPgXje45Sagcw9KSBYrA6JbS8qdqKdsInhlB93zb03bnN-QQnAUkB7B2BKItZx3ckT5Q
+2014-07-11 13:19:06 web.py[line:1728] INFO 200 POST /wechat?signature=2ce1af2eb8ff8ed9126141ba56b5134353333282&timestamp=1405055943&nonce=1100817173 (127.0.0.1) 1.22ms
+2014-07-11 13:19:24 web.py[line:1728] INFO 200 GET /bind/oDVlVuIMhughDn6jWUOB2GcsU2w8 (127.0.0.1) 0.63ms
+2014-07-11 13:27:04 web.py[line:1728] WARNING 404 GET / (23.252.104.24) 0.45ms
+2014-07-11 13:39:11 web.py[line:1728] WARNING 404 GET /bind (127.0.0.1) 0.41ms
+2014-07-11 13:49:07 web.py[line:1728] INFO 200 GET /bind/1000 (127.0.0.1) 0.59ms
+2014-07-11 13:49:07 web.py[line:1728] INFO 200 GET /bind/1000 (127.0.0.1) 0.50ms
+2014-07-11 14:11:26 connectionpool.py[line:635] INFO Starting new HTTPS connection (1): api.weixin.qq.com
+2014-07-11 14:11:28 get_access_token.py[line:34] INFO access_token:5ccWMym-x7A5aVZc9gC7MYHu48F6yb1IFXTvA9q94pAvcjx0m2L4uCRcEfnjmqgSzicZmjwxiFbC6uNU0Pv5IQ
+2014-07-11 14:27:04 web.py[line:1728] WARNING 404 GET / (23.252.104.24) 0.38ms
+2014-07-11 15:11:28 connectionpool.py[line:635] INFO Starting new HTTPS connection (1): api.weixin.qq.com
+2014-07-11 15:11:29 get_access_token.py[line:34] INFO access_token:GGsgJHcnKIVqQLWKr6MsIicUPN-Fj0RXbkPwCSgE42dM_vmKcSf4RsIBO_iyhP_8Sh6qckAsLaZm2F945SY-Qg
+2014-07-11 15:27:05 web.py[line:1728] WARNING 404 GET / (23.252.104.24) 0.39ms

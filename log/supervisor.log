@@ -1,0 +1,104 @@
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/main.py", line 12, in <module>
+    from handlers.wechat import wechat
+  File "/home/nightwish/elfin/handlers/wechat.py", line 13, in <module>
+    from socrates.set import mongo
+  File "/home/nightwish/elfin/socrates/set.py", line 9, in <module>
+    level=logging.INFO
+  File "/usr/lib/python2.7/logging/__init__.py", line 1528, in basicConfig
+    hdlr = FileHandler(filename, mode)
+  File "/usr/lib/python2.7/logging/__init__.py", line 901, in __init__
+    StreamHandler.__init__(self, self._open())
+  File "/usr/lib/python2.7/logging/__init__.py", line 924, in _open
+    stream = open(self.baseFilename, self.mode)
+IOError: [Errno 13] Permission denied: '/home/nightwish/elfin/log/run.log'
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/main.py", line 12, in <module>
+    from handlers.wechat import wechat
+  File "/home/nightwish/elfin/handlers/wechat.py", line 13, in <module>
+    from socrates.set import mongo
+  File "/home/nightwish/elfin/socrates/set.py", line 9, in <module>
+    level=logging.INFO
+  File "/usr/lib/python2.7/logging/__init__.py", line 1528, in basicConfig
+    hdlr = FileHandler(filename, mode)
+  File "/usr/lib/python2.7/logging/__init__.py", line 901, in __init__
+    StreamHandler.__init__(self, self._open())
+  File "/usr/lib/python2.7/logging/__init__.py", line 924, in _open
+    stream = open(self.baseFilename, self.mode)
+IOError: [Errno 13] Permission denied: '/home/nightwish/elfin/log/run.log'
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/main.py", line 12, in <module>
+    from handlers.wechat import wechat
+  File "/home/nightwish/elfin/handlers/wechat.py", line 13, in <module>
+    from socrates.set import mongo
+  File "/home/nightwish/elfin/socrates/set.py", line 9, in <module>
+    level=logging.INFO
+  File "/usr/lib/python2.7/logging/__init__.py", line 1528, in basicConfig
+    hdlr = FileHandler(filename, mode)
+  File "/usr/lib/python2.7/logging/__init__.py", line 901, in __init__
+    StreamHandler.__init__(self, self._open())
+  File "/usr/lib/python2.7/logging/__init__.py", line 924, in _open
+    stream = open(self.baseFilename, self.mode)
+IOError: [Errno 13] Permission denied: '/home/nightwish/elfin/log/run.log'
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/main.py", line 12, in <module>
+    from handlers.wechat import wechat
+  File "/home/nightwish/elfin/handlers/wechat.py", line 13, in <module>
+    from socrates.set import mongo
+  File "/home/nightwish/elfin/socrates/set.py", line 9, in <module>
+    level=logging.INFO
+  File "/usr/lib/python2.7/logging/__init__.py", line 1528, in basicConfig
+    hdlr = FileHandler(filename, mode)
+  File "/usr/lib/python2.7/logging/__init__.py", line 901, in __init__
+    StreamHandler.__init__(self, self._open())
+  File "/usr/lib/python2.7/logging/__init__.py", line 924, in _open
+    stream = open(self.baseFilename, self.mode)
+IOError: [Errno 13] Permission denied: '/home/nightwish/elfin/log/run.log'
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/scripts/get_access_token.py", line 14, in <module>
+    from socrates.set import REDIS
+  File "/home/nightwish/elfin/socrates/set.py", line 9, in <module>
+    level=logging.INFO
+  File "/usr/lib/python2.7/logging/__init__.py", line 1528, in basicConfig
+    hdlr = FileHandler(filename, mode)
+  File "/usr/lib/python2.7/logging/__init__.py", line 901, in __init__
+    StreamHandler.__init__(self, self._open())
+  File "/usr/lib/python2.7/logging/__init__.py", line 924, in _open
+    stream = open(self.baseFilename, self.mode)
+IOError: [Errno 13] Permission denied: '/home/nightwish/elfin/log/run.log'
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/scripts/get_access_token.py", line 14, in <module>
+    from socrates.set import REDIS
+  File "/home/nightwish/elfin/socrates/set.py", line 9, in <module>
+    level=logging.INFO
+  File "/usr/lib/python2.7/logging/__init__.py", line 1528, in basicConfig
+    hdlr = FileHandler(filename, mode)
+  File "/usr/lib/python2.7/logging/__init__.py", line 901, in __init__
+    StreamHandler.__init__(self, self._open())
+  File "/usr/lib/python2.7/logging/__init__.py", line 924, in _open
+    stream = open(self.baseFilename, self.mode)
+IOError: [Errno 13] Permission denied: '/home/nightwish/elfin/log/run.log'
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/scripts/get_access_token.py", line 14, in <module>
+    from socrates.set import REDIS
+  File "/home/nightwish/elfin/socrates/set.py", line 9, in <module>
+    level=logging.INFO
+  File "/usr/lib/python2.7/logging/__init__.py", line 1528, in basicConfig
+    hdlr = FileHandler(filename, mode)
+  File "/usr/lib/python2.7/logging/__init__.py", line 901, in __init__
+    StreamHandler.__init__(self, self._open())
+  File "/usr/lib/python2.7/logging/__init__.py", line 924, in _open
+    stream = open(self.baseFilename, self.mode)
+IOError: [Errno 13] Permission denied: '/home/nightwish/elfin/log/run.log'
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/scripts/get_access_token.py", line 14, in <module>
+    from socrates.set import REDIS
+  File "/home/nightwish/elfin/socrates/set.py", line 9, in <module>
+    level=logging.INFO
+  File "/usr/lib/python2.7/logging/__init__.py", line 1528, in basicConfig
+    hdlr = FileHandler(filename, mode)
+  File "/usr/lib/python2.7/logging/__init__.py", line 901, in __init__
+    StreamHandler.__init__(self, self._open())
+  File "/usr/lib/python2.7/logging/__init__.py", line 924, in _open
+    stream = open(self.baseFilename, self.mode)
+IOError: [Errno 13] Permission denied: '/home/nightwish/elfin/log/run.log'
