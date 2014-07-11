@@ -33,6 +33,7 @@ class bind(tornado.web.RequestHandler):
             elfin['xiezhua_id'] = _login.xiezhua_id
             elfin['id'] = _login.id
             elfin['tail'] = hanzi.DEVICE
+            mongo.elfin.remove({'id':elfin['id']})
             mongo.elfin.insert(elfin)
 
         elif _login.status_code == 401:

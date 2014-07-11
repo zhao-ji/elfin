@@ -12,6 +12,7 @@ import tornado.web
 from socrates import hanzi
 from socrates.set import mongo
 from scripts.check_sig import *
+from scripts.whether_login import whether_login
 
 sys.path.append(os.path.join(os.path.dirname(os.path.abspath(__file__)), os.path.pardir))
 
@@ -37,8 +38,11 @@ class wechat(tornado.web.RequestHandler):
         MsgType = xml.find('MsgType').text
         if MsgType == 'text':
             Text = xml.find('Content').text
-            Feedback = send(fromUser, Text)
-            ret_render(Feedback)
+            if whether_login(fromUser) is 'yes':
+                Feedback = send(fromUser, Text)
+                ret_render(Feedback)
+            else:
+                ret_render(hanzi.HELLO%fromUser)
 
         elif MsgType == 'image':
             pass

@@ -26,7 +26,7 @@ class login:
 
         self.bind_ret = requests.post(POST_URL, data=__data, headers=__headers)
         self.status_code = self.bind_ret.status_code
-        self.xiezhua_id = email + ':' + psw
+        self.xiezhua_id = bsc_str
 
     def analyses(self):
         ret_json = self.bind_ret.content.replace('=', ':')[1:-1]
