@@ -11,9 +11,10 @@ import tornado.web
 
 from socrates import hanzi
 from socrates.set import mongo
-from scripts.check_sig import *
+from scripts.check_sig import check_sig
 from scripts.mongo_operate import whether_login, del_item
 from scripts.send_talk import send
+from scripts.home import home
 
 sys.path.append(os.path.join(os.path.dirname(os.path.abspath(__file__)), os.path.pardir))
 
@@ -61,8 +62,18 @@ class wechat(tornado.web.RequestHandler):
                 key = xml.find("EventKey").text
                 if key == 'help':
                     ret_render(hanzi.HELP)
+
                 elif key in ['home1', 'home2', 'home3']:
-                    ret_render('hello')
+                    try:
+                        whether_login(fromUser) 
+                    except AssertionError:
+                        del_item(wechat_id=fromUser)
+                        Feedback = hanzi.HELLO%fromUser
+                    else:
+                        Feedback = home(fromUser, key)
+                    finally:
+                        ret_render(Feedback)
+               
                 elif key in ['tml1', 'tml2', 'tml3']:
                     ret_render('hello')
                 elif key in ['at_msg', 'pri_msg']: 
