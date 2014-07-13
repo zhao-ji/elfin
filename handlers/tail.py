@@ -2,6 +2,7 @@
 # coding: utf-8
 
 import sys
+import time
 import os.path
 
 import tornado.web
@@ -13,7 +14,7 @@ from scripts import send_talk
 class tail(tornado.web.RequestHandler):
     def get(self, wechat_id):
         action = '/elfin/tail/' + wechat_id
-        self.render('tail.html', action=action)
+        self.render('tail.html', time=time.ctime(), action=action)
     def post(self, weixin_id):
         tail = self.get_argument('tail')
         if not tail:

@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block form %}
+<form method="post" action={{action}}>
+    <p>{{info}}</p>
+    <h3>邮箱：</h3>
+    <p><input type="text" name="email"></p>
+    <h3>登录密码：</h3>
+    <p><input type="password" name="psw"></p>
+    <p><input type="submit" value="绑定"></p>
+</form>
+{% end %}

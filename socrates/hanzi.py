@@ -6,7 +6,7 @@ TAIL = '''如需更改小精灵尾巴，请点击 <a href="http://bandwagon.shij
 HELP = "有不懂的上蟹爪@雷锋"
 SENSITIVE = "请勿发送密码"
 REPEAT = "请勿重复发送"
-SEND_OK = "ok"
+SEND_OK = "发射成功"
 
 '''bind.py'''
 LOGIN = '请输入邮箱和密码'

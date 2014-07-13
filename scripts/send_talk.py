@@ -25,9 +25,12 @@ def less_than_300(talk):
     if len(talk)>300:
         raise OverflowError
 
+def slice_talk(talk):
+    pass
+
 def send_ok_ret(user):
     ret_state = user.get('ret', 1)
-    return '' if int(ret_state) is 0 else hanzi.SEND_OK 
+    return '' if ret_state is 0 else hanzi.SEND_OK 
 
 def transmit(user, talk,touser=None):
     headers = {}

@@ -13,9 +13,9 @@ from socrates import hanzi
 from socrates.set import mongo
 from scripts.check_sig import *
 from scripts.whether_login import whether_login
+from scripts.send_talk import send
 
 sys.path.append(os.path.join(os.path.dirname(os.path.abspath(__file__)), os.path.pardir))
-
 
 class wechat(tornado.web.RequestHandler):
     def get(self):

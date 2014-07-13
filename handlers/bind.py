@@ -12,13 +12,15 @@ from socrates.set import mongo
 class bind(tornado.web.RequestHandler):
     def get(self, wechat_id):
         action = '/elfin/bind/' + wechat_id
-        self.render('login.html', time=time.ctime(), action=action)
+        self.render('bind.html', info='',
+                   time=time.ctime(), action=action)
     def post(self, wechat_id):
         email = self.get_argument('email')
         psw = self.get_argument('psw')
         if not all([email, psw]):
             action = '/elfin/bind/' + wechat_id
-            self.render('login.html', info=hanzi.NOT_ALL, action=action)
+            self.render('base.html', time=time.ctime(), 
+                                info=hanzi.NOT_ALL, action=action)
             return
         _login = login(email=email, psw=psw)
         _login.analyses()
@@ -37,8 +39,9 @@ class bind(tornado.web.RequestHandler):
 
         elif _login.status_code == 401:
             action = '/elfin/bind/' + wechat_id
-            self.render('login.html', info=hanzi.ERR_PSW, action=action)
-        elif _login.status_code in [404,500]:
+            self.render('base.html', info=hanzi.ERR_PSW,
+                         time=time.ctime(), action=action)
+        elif _login.status_code in [404,500, 503]:
             self.write(hanzi.ERR_SERVER)
         else:
             self.write(hanzi.ERR_UNKOWN)
