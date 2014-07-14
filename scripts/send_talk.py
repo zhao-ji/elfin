@@ -79,4 +79,4 @@ def send(fromUser, talk):
             mongo.elfin.update({'id':user['id']},{'$set':{'hash':hash(talk)}})
             return send_ok_ret
     finally:
-        logging.info(user['id'] + ' : ' + talk)
+        logging.info(str(user['id']) + ' : ' + talk)

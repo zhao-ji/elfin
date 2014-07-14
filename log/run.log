@@ -861,3 +861,596 @@ NameError: global name 'time' is not defined
 2014-07-13 07:27:04 web.py[line:1728] WARNING 404 GET / (23.252.104.24) 0.44ms
 2014-07-13 08:12:38 connectionpool.py[line:635] INFO Starting new HTTPS connection (1): api.weixin.qq.com
 2014-07-13 08:12:39 get_access_token.py[line:34] INFO access_token:hSZOyKHwHGovNExkjllNQvCK-C4tjZdT0b3f3kUysyVDYVtyh8d13hY1bBjGJw_5HCU3zfnRSAMisEoTj0V2uA
+2014-07-13 08:27:05 web.py[line:1728] WARNING 404 GET / (23.252.104.24) 0.37ms
+2014-07-13 09:12:39 connectionpool.py[line:635] INFO Starting new HTTPS connection (1): api.weixin.qq.com
+2014-07-13 09:12:41 get_access_token.py[line:34] INFO access_token:GmUdifJISZpQxGygmHHv-6LTe0o1r3cF9rehtZoDZ08cCF5D0F98Niy5LWeILG5vfFjn2AT-2ByFqZeq_chMmQ
+2014-07-13 09:27:01 web.py[line:1728] WARNING 404 GET / (23.252.104.24) 0.42ms
+2014-07-13 10:12:41 connectionpool.py[line:635] INFO Starting new HTTPS connection (1): api.weixin.qq.com
+2014-07-13 10:12:43 get_access_token.py[line:34] INFO access_token:EhokNy96sCG38d0y2ma7AAnbwg_GD9KaOseiTlIP4jQ3M43NUNbalDByF0opTaa400iKvqw7QZ9-iHZrD2VMTg
+2014-07-13 10:27:00 web.py[line:1728] WARNING 404 GET / (23.252.104.24) 0.44ms
+2014-07-13 10:34:09 web.py[line:1728] INFO 200 POST /wechat?signature=99bd285ea0bb8166fea8ce7242b3711690ff8238&timestamp=1405218849&nonce=423585118 (127.0.0.1) 2.74ms
+2014-07-13 11:12:43 connectionpool.py[line:635] INFO Starting new HTTPS connection (1): api.weixin.qq.com
+2014-07-13 11:12:44 get_access_token.py[line:34] INFO access_token:L9ooAKfAO3QJ7o8q8ezLJcAZabXUJb83NJ1Et4ssCOWSM4bk40qfMOQPiiQQ8vqoqL0lk7f5idoR7SqanRCE6w
+2014-07-13 11:27:01 web.py[line:1728] WARNING 404 GET / (23.252.104.24) 0.41ms
+2014-07-13 12:12:44 connectionpool.py[line:635] INFO Starting new HTTPS connection (1): api.weixin.qq.com
+2014-07-13 12:12:46 get_access_token.py[line:34] INFO access_token:R_XPsjbljvmE_Lm6iyeB0ps4fsoVLPzaYaN7X7wPk2Kuu5m6i4dkUnIUwxmhC5LhXFwVtNQq7KL-yNaI5_SP_A
+2014-07-13 12:27:02 web.py[line:1728] WARNING 404 GET / (23.252.104.24) 0.57ms
+2014-07-13 13:12:46 connectionpool.py[line:635] INFO Starting new HTTPS connection (1): api.weixin.qq.com
+2014-07-13 13:12:48 get_access_token.py[line:34] INFO access_token:KY7--O7aQp6CSrLuaUblmeYCz0O5a4l4-JVwtVq_xSHs_PAPWJFCYnB7oK36je8rteXV0U9f7WmNhh3k5XfF_Q
+2014-07-13 13:27:00 web.py[line:1728] WARNING 404 GET / (23.252.104.24) 0.38ms
+2014-07-13 14:12:48 connectionpool.py[line:635] INFO Starting new HTTPS connection (1): api.weixin.qq.com
+2014-07-13 14:12:50 get_access_token.py[line:34] INFO access_token:x_ZIZvbitNHTRLQG2XlWGhs3-wqM5uzMSwj6ssVm6fB5kVePdv_I6dJl89YHnRjGnQmSIk5Uw-rDHGbycJvKxw
+2014-07-13 14:27:01 web.py[line:1728] WARNING 404 GET / (23.252.104.24) 0.45ms
+2014-07-13 15:12:50 connectionpool.py[line:635] INFO Starting new HTTPS connection (1): api.weixin.qq.com
+2014-07-13 15:12:51 get_access_token.py[line:34] INFO access_token:DyO-WbcBGQ6JA6wJOuwIFZRnlAz3laRsH0idCEtCsdjvh19FcRrnC4gYAWaoS_peJuS_it0mByu7FwHX9kuGhQ
+2014-07-13 15:27:02 web.py[line:1728] WARNING 404 GET / (23.252.104.24) 0.43ms
+2014-07-13 16:12:51 connectionpool.py[line:635] INFO Starting new HTTPS connection (1): api.weixin.qq.com
+2014-07-13 16:12:53 get_access_token.py[line:34] INFO access_token:ooXQUZgoqNCLap7VtMo_2nhr_vw7i1HjfJTvlBSxxpPx8SZW5OPCwywEZJ9Nr_5suscRur-frJxuO99VyKPcSg
+2014-07-13 16:27:01 web.py[line:1728] WARNING 404 GET / (23.252.104.24) 0.50ms
+2014-07-13 17:12:53 connectionpool.py[line:635] INFO Starting new HTTPS connection (1): api.weixin.qq.com
+2014-07-13 17:12:55 get_access_token.py[line:34] INFO access_token:DhfWyy_uGF8t9nXxogUXeUTXbJR0WXCyl7KMvF0Y8ovI-8XOOSuGX-AO0I4Ks74S3aXC0sfCXAnGJJta1J0tyQ
+2014-07-13 17:27:00 web.py[line:1728] WARNING 404 GET / (23.252.104.24) 0.59ms
+2014-07-13 18:12:55 connectionpool.py[line:635] INFO Starting new HTTPS connection (1): api.weixin.qq.com
+2014-07-13 18:12:56 get_access_token.py[line:34] INFO access_token:KCzwFqsFyIwQ7HYlx5OzfLAVz871EeMaaslu1ANpzKwmvOKKq_QuHooxOq2b6so7eZLcEOTOsSKOZsKoNnc4IA
+2014-07-13 18:27:01 web.py[line:1728] WARNING 404 GET / (23.252.104.24) 0.36ms
+2014-07-13 19:12:57 connectionpool.py[line:635] INFO Starting new HTTPS connection (1): api.weixin.qq.com
+2014-07-13 19:12:58 get_access_token.py[line:34] INFO access_token:EKcFR1lQ3Kh26NnSPRIbufbk0WlbtmwfJhQv6_w73xGcMbx-tcbeCRwkXSzkBwiweMphVDDv-XusnKX5u9pBGw
+2014-07-13 19:27:01 web.py[line:1728] WARNING 404 GET / (23.252.104.24) 0.61ms
+2014-07-13 20:12:58 connectionpool.py[line:635] INFO Starting new HTTPS connection (1): api.weixin.qq.com
+2014-07-13 20:13:00 get_access_token.py[line:34] INFO access_token:QbodCBOW9Wtq2dqjIaCSoC08HaDcPZwcaYOsgdVYqZRDSrWY_GYFnVmV51H78EW-c0u_3FONNfjUCuleaMLG8A
+2014-07-13 20:27:01 web.py[line:1728] WARNING 404 GET / (23.252.104.24) 0.38ms
+2014-07-13 21:13:00 connectionpool.py[line:635] INFO Starting new HTTPS connection (1): api.weixin.qq.com
+2014-07-13 21:13:01 get_access_token.py[line:34] INFO access_token:5ccWMym-x7A5aVZc9gC7MRz6LlOEIvr4PaYKQUVqHFUv4U7k4kpJpfrgB_5oETdsvb8eRegJpGo33ptR2EGUjA
+2014-07-13 21:27:01 web.py[line:1728] WARNING 404 GET / (23.252.104.24) 0.46ms
+2014-07-13 22:13:02 connectionpool.py[line:635] INFO Starting new HTTPS connection (1): api.weixin.qq.com
+2014-07-13 22:13:03 get_access_token.py[line:34] INFO access_token:M53jiDZ5mMtw7ZiPogy-i7YntCdMYNc0u6PQi6i0Y4d6fppZ0pi6GXUXO4cjO15-E2oAeqmhHHkJNMM5mKu46A
+2014-07-13 22:27:01 web.py[line:1728] WARNING 404 GET / (23.252.104.24) 0.47ms
+2014-07-13 23:13:03 connectionpool.py[line:635] INFO Starting new HTTPS connection (1): api.weixin.qq.com
+2014-07-13 23:13:05 get_access_token.py[line:34] INFO access_token:NsxXIYyDc39_pxAOa8-m9GUxOzTpF-NJIWvXJZ8h8ZkqAaF_3D_natB7Jgv6vJ69ymnBfheqxOmXtO4xcYMvCQ
+2014-07-13 23:27:03 web.py[line:1728] WARNING 404 GET / (23.252.104.24) 0.39ms
+2014-07-14 00:13:05 connectionpool.py[line:635] INFO Starting new HTTPS connection (1): api.weixin.qq.com
+2014-07-14 00:13:06 get_access_token.py[line:34] INFO access_token:JG_zOEJlcjrt-25rmgJaWhxiWb0Xkhc1bjxytbsNby81iEjoGdx7PXP-FBOpYq2vLy6iDER3LTRasRj5xAvCFQ
+2014-07-14 00:27:02 web.py[line:1728] WARNING 404 GET / (23.252.104.24) 0.37ms
+2014-07-14 01:13:06 connectionpool.py[line:635] INFO Starting new HTTPS connection (1): api.weixin.qq.com
+2014-07-14 01:13:08 get_access_token.py[line:34] INFO access_token:hOcSVY-wu9dJjVgR-Pbvs9StQ919khJkz2sdKl6_HGqOqPxYVKoAc1WkSlZ6uVofvMctfeywfAiiklpIJNfMtA
+2014-07-14 01:27:00 web.py[line:1728] WARNING 404 GET / (23.252.104.24) 0.42ms
+2014-07-14 02:13:08 connectionpool.py[line:635] INFO Starting new HTTPS connection (1): api.weixin.qq.com
+2014-07-14 02:13:10 get_access_token.py[line:34] INFO access_token:aYKMyfY_Uzn2U0G94DUmUGfC74DeYQkMqPAK6wRBUkDGJqUTsduGtOod04CRkc947WyjbCyWDcB6Vv6Pjd-y1Q
+2014-07-14 02:27:00 web.py[line:1728] WARNING 404 GET / (23.252.104.24) 0.44ms
+2014-07-14 03:13:10 connectionpool.py[line:635] INFO Starting new HTTPS connection (1): api.weixin.qq.com
+2014-07-14 03:13:11 get_access_token.py[line:34] INFO access_token:fh06z9F4x9-oEWu24K7kDI0eW6-DeLumxtk8EVnpEXk-xBxt8xUrXF4C9Wk0abHCUEU13N15bv1HiyhAGwJcbA
+2014-07-14 03:27:03 web.py[line:1728] WARNING 404 GET / (23.252.104.24) 0.41ms
+2014-07-14 04:13:11 connectionpool.py[line:635] INFO Starting new HTTPS connection (1): api.weixin.qq.com
+2014-07-14 04:13:13 get_access_token.py[line:34] INFO access_token:2VjtyEj9snKKyTSIvG0fkfVg2t08KJuQQNfgbGiVbPoUPbDS1SI0toMbGapkucEwSNjasfIcHDBdfCvnvm22TA
+2014-07-14 04:27:01 web.py[line:1728] WARNING 404 GET / (23.252.104.24) 0.54ms
+2014-07-14 05:13:13 connectionpool.py[line:635] INFO Starting new HTTPS connection (1): api.weixin.qq.com
+2014-07-14 05:13:14 get_access_token.py[line:34] INFO access_token:7YtYD01ErTJEG4p6Fah7mbrjrfqz7JcyGYi2UlbNnyrUg6PY9oXjZ-2G-zEwz8BE9C2jkbWIxT89yc8jD-KciQ
+2014-07-14 05:27:01 web.py[line:1728] WARNING 404 GET / (23.252.104.24) 0.39ms
+2014-07-14 06:13:15 connectionpool.py[line:635] INFO Starting new HTTPS connection (1): api.weixin.qq.com
+2014-07-14 06:13:16 get_access_token.py[line:34] INFO access_token:lEaSbOEUvOedV0EvsjdvuekSLlmk8P_Q23gl_VYFPDEIrgjQFZQI54HjrnjrTSABs9D4GXP9xGMKpgc0bWfyKw
+2014-07-14 06:27:01 web.py[line:1728] WARNING 404 GET / (23.252.104.24) 0.38ms
+2014-07-14 07:13:16 connectionpool.py[line:635] INFO Starting new HTTPS connection (1): api.weixin.qq.com
+2014-07-14 07:13:18 get_access_token.py[line:34] INFO access_token:QpEG7VnolcdIGOp8tZWW2LwGezXdr7prW8AQPKA5lCmZRDbR-wHBPAUzD7Jp65Y_0gQASOvTMB8dS09FHHiGXA
+2014-07-14 07:27:01 web.py[line:1728] WARNING 404 GET / (23.252.104.24) 0.62ms
+2014-07-14 07:31:06 web.py[line:1728] INFO 200 POST /wechat?signature=b484e8199b15b601da8f0c211ae5ff9db3cf4074&timestamp=1405294265&nonce=197734439 (127.0.0.1) 1.28ms
+2014-07-14 08:13:18 connectionpool.py[line:635] INFO Starting new HTTPS connection (1): api.weixin.qq.com
+2014-07-14 08:13:19 get_access_token.py[line:34] INFO access_token:DhfWyy_uGF8t9nXxogUXeTpDpusCKlwwMFKtYJ8yXSfo0hdyfOdoAVaChm60G2-T73Prd5aetFaWHCFw_JVGfw
+2014-07-14 08:27:00 web.py[line:1728] WARNING 404 GET / (23.252.104.24) 0.47ms
+2014-07-14 09:13:19 connectionpool.py[line:635] INFO Starting new HTTPS connection (1): api.weixin.qq.com
+2014-07-14 09:13:21 get_access_token.py[line:34] INFO access_token:rVc8pgJoOWLOULUvRnSWKZfmp7iKEKalFXFlvBO_cCXqC61jlYltH4ZgbJm65c0IRFL6_jrITQMta0Ykz_H-GQ
+2014-07-14 09:27:00 web.py[line:1728] WARNING 404 GET / (23.252.104.24) 0.38ms
+2014-07-14 10:13:10 web.py[line:1728] INFO 200 POST /wechat?signature=c4018ab09b8947f7fb98e43b14285c0b46eb63d2&timestamp=1405303990&nonce=1619446214 (127.0.0.1) 2.38ms
+2014-07-14 10:13:21 connectionpool.py[line:635] INFO Starting new HTTPS connection (1): api.weixin.qq.com
+2014-07-14 10:13:22 get_access_token.py[line:34] INFO access_token:rVc8pgJoOWLOULUvRnSWKV4ozBZlX34yIeq50WXjT-SW9nj-URzKn_4a30UiOHeoDEqcmNbr4aHf-n9BwANtXw
+2014-07-14 10:14:19 web.py[line:1728] INFO 200 POST /wechat?signature=6c87607b39015df82b047c6883208a5bd6d6c4d5&timestamp=1405304059&nonce=338611367 (127.0.0.1) 0.87ms
+2014-07-14 10:14:49 web.py[line:1728] INFO 200 GET /bind/1000 (127.0.0.1) 7.34ms
+2014-07-14 10:17:34 connectionpool.py[line:171] INFO Starting new HTTP connection (1): weilairiji.com
+2014-07-14 10:17:35 send_talk.py[line:82] INFO 47637 : 法国
+2014-07-14 10:17:35 web.py[line:1728] INFO 200 POST /wechat?signature=cde4bdf12d9529d3781502bdb67159072165de9c&timestamp=1405304254&nonce=653868015 (127.0.0.1) 1031.34ms
+2014-07-14 10:17:40 send_talk.py[line:64] INFO 请勿重复发送
+2014-07-14 10:17:40 send_talk.py[line:82] INFO 47637 : 法国
+2014-07-14 10:17:40 web.py[line:1728] INFO 200 POST /wechat?signature=42220271d409423b1988411a1a61daea448e1f06&timestamp=1405304260&nonce=1379137846 (127.0.0.1) 7.73ms
+2014-07-14 10:17:56 send_talk.py[line:64] INFO 请勿发送密码
+2014-07-14 10:17:56 send_talk.py[line:82] INFO 47637 : sxjzz7wIyel
+2014-07-14 10:17:56 web.py[line:1728] INFO 200 POST /wechat?signature=48d93ba2fea990cfd40c0253a7d4e81814b7d86c&timestamp=1405304276&nonce=1896465889 (127.0.0.1) 3.08ms
+2014-07-14 10:18:06 web.py[line:1305] ERROR Uncaught exception POST /wechat?signature=f18ea643306aa0cc2616a2f47090363e75a8d0f7&timestamp=1405304285&nonce=1406451552 (127.0.0.1)
+HTTPRequest(protocol='http', host='127.0.0.1:9001', method='POST', uri='/wechat?signature=f18ea643306aa0cc2616a2f47090363e75a8d0f7&timestamp=1405304285&nonce=1406451552', version='HTTP/1.0', remote_ip='127.0.0.1', headers={'Content-Length': '279', 'Host': '127.0.0.1:9001', 'Pragma': 'no-cache', 'Content-Type': 'text/xml', 'Connection': 'close', 'Accept': '*/*', 'User-Agent': 'Mozilla/4.0'})
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1218, in _when_complete
+    callback()
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1239, in _execute_method
+    self._when_complete(method(*self.path_args, **self.path_kwargs),
+  File "/home/nightwish/elfin/handlers/wechat.py", line 75, in post
+    ret_render(Feedback)
+UnboundLocalError: local variable 'Feedback' referenced before assignment
+2014-07-14 10:18:06 web.py[line:1728] ERROR 500 POST /wechat?signature=f18ea643306aa0cc2616a2f47090363e75a8d0f7&timestamp=1405304285&nonce=1406451552 (127.0.0.1) 3.73ms
+2014-07-14 10:20:53 web.py[line:1305] ERROR Uncaught exception POST /wechat?signature=9c92fd714596627d6c369c4edd24a4e9ccc8f470&timestamp=1405304452&nonce=447216478 (127.0.0.1)
+HTTPRequest(protocol='http', host='127.0.0.1:9001', method='POST', uri='/wechat?signature=9c92fd714596627d6c369c4edd24a4e9ccc8f470&timestamp=1405304452&nonce=447216478', version='HTTP/1.0', remote_ip='127.0.0.1', headers={'Content-Length': '279', 'Host': '127.0.0.1:9001', 'Pragma': 'no-cache', 'Content-Type': 'text/xml', 'Connection': 'close', 'Accept': '*/*', 'User-Agent': 'Mozilla/4.0'})
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1218, in _when_complete
+    callback()
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1239, in _execute_method
+    self._when_complete(method(*self.path_args, **self.path_kwargs),
+  File "/home/nightwish/elfin/handlers/wechat.py", line 75, in post
+    logging.info(Feedback)
+NameError: global name 'logging' is not defined
+2014-07-14 10:20:53 web.py[line:1728] ERROR 500 POST /wechat?signature=9c92fd714596627d6c369c4edd24a4e9ccc8f470&timestamp=1405304452&nonce=447216478 (127.0.0.1) 12.81ms
+2014-07-14 10:27:01 web.py[line:1728] WARNING 404 GET / (23.252.104.24) 0.45ms
+2014-07-14 10:27:19 web.py[line:1305] ERROR Uncaught exception POST /wechat?signature=6978f2ecfd7430beb8c1ec6844f30e1345524672&timestamp=1405304839&nonce=1474719390 (127.0.0.1)
+HTTPRequest(protocol='http', host='127.0.0.1:9001', method='POST', uri='/wechat?signature=6978f2ecfd7430beb8c1ec6844f30e1345524672&timestamp=1405304839&nonce=1474719390', version='HTTP/1.0', remote_ip='127.0.0.1', headers={'Content-Length': '279', 'Host': '127.0.0.1:9001', 'Pragma': 'no-cache', 'Content-Type': 'text/xml', 'Connection': 'close', 'Accept': '*/*', 'User-Agent': 'Mozilla/4.0'})
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1218, in _when_complete
+    callback()
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1239, in _execute_method
+    self._when_complete(method(*self.path_args, **self.path_kwargs),
+  File "/home/nightwish/elfin/handlers/wechat.py", line 74, in post
+    Feedback = home(fromUser, key)
+  File "/home/nightwish/elfin/scripts/home.py", line 24, in home
+    r = requests.get(home_url, data=data, head=head)
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/requests-2.2.1-py2.7.egg/requests/api.py", line 55, in get
+    return request('get', url, **kwargs)
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/requests-2.2.1-py2.7.egg/requests/api.py", line 44, in request
+    return session.request(method=method, url=url, **kwargs)
+TypeError: request() got an unexpected keyword argument 'head'
+2014-07-14 10:27:20 web.py[line:1728] ERROR 500 POST /wechat?signature=6978f2ecfd7430beb8c1ec6844f30e1345524672&timestamp=1405304839&nonce=1474719390 (127.0.0.1) 26.31ms
+2014-07-14 10:28:53 connectionpool.py[line:171] INFO Starting new HTTP connection (1): weilairiji.com
+2014-07-14 10:28:53 web.py[line:1305] ERROR Uncaught exception POST /wechat?signature=09ea9bb893e9e890cdc098dd5bc4bb85c1f09380&timestamp=1405304932&nonce=728445679 (127.0.0.1)
+HTTPRequest(protocol='http', host='127.0.0.1:9001', method='POST', uri='/wechat?signature=09ea9bb893e9e890cdc098dd5bc4bb85c1f09380&timestamp=1405304932&nonce=728445679', version='HTTP/1.0', remote_ip='127.0.0.1', headers={'Content-Length': '279', 'Host': '127.0.0.1:9001', 'Pragma': 'no-cache', 'Content-Type': 'text/xml', 'Connection': 'close', 'Accept': '*/*', 'User-Agent': 'Mozilla/4.0'})
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1218, in _when_complete
+    callback()
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1239, in _execute_method
+    self._when_complete(method(*self.path_args, **self.path_kwargs),
+  File "/home/nightwish/elfin/handlers/wechat.py", line 74, in post
+    Feedback = home(fromUser, key)
+  File "/home/nightwish/elfin/scripts/home.py", line 27, in home
+    home_original = json.loads(r.replace('=',':'),\
+AttributeError: 'Response' object has no attribute 'replace'
+2014-07-14 10:28:53 web.py[line:1728] ERROR 500 POST /wechat?signature=09ea9bb893e9e890cdc098dd5bc4bb85c1f09380&timestamp=1405304932&nonce=728445679 (127.0.0.1) 862.99ms
+2014-07-14 10:29:38 connectionpool.py[line:171] INFO Starting new HTTP connection (1): weilairiji.com
+2014-07-14 10:29:38 web.py[line:1305] ERROR Uncaught exception POST /wechat?signature=1e7bdd6df9211e5e48549c0f436642c0d5b2ba32&timestamp=1405304977&nonce=1957237679 (127.0.0.1)
+HTTPRequest(protocol='http', host='127.0.0.1:9001', method='POST', uri='/wechat?signature=1e7bdd6df9211e5e48549c0f436642c0d5b2ba32&timestamp=1405304977&nonce=1957237679', version='HTTP/1.0', remote_ip='127.0.0.1', headers={'Content-Length': '279', 'Host': '127.0.0.1:9001', 'Pragma': 'no-cache', 'Content-Type': 'text/xml', 'Connection': 'close', 'Accept': '*/*', 'User-Agent': 'Mozilla/4.0'})
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1218, in _when_complete
+    callback()
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1239, in _execute_method
+    self._when_complete(method(*self.path_args, **self.path_kwargs),
+  File "/home/nightwish/elfin/handlers/wechat.py", line 74, in post
+    Feedback = home(fromUser, key)
+  File "/home/nightwish/elfin/scripts/home.py", line 28, in home
+    encoding='GB18030')
+  File "/usr/lib/python2.7/json/__init__.py", line 339, in loads
+    return cls(encoding=encoding, **kw).decode(s)
+  File "/usr/lib/python2.7/json/decoder.py", line 365, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python2.7/json/decoder.py", line 383, in raw_decode
+    raise ValueError("No JSON object could be decoded")
+ValueError: No JSON object could be decoded
+2014-07-14 10:29:38 web.py[line:1728] ERROR 500 POST /wechat?signature=1e7bdd6df9211e5e48549c0f436642c0d5b2ba32&timestamp=1405304977&nonce=1957237679 (127.0.0.1) 922.77ms
+2014-07-14 10:34:49 connectionpool.py[line:171] INFO Starting new HTTP connection (1): weilairiji.com
+2014-07-14 10:34:50 web.py[line:1305] ERROR Uncaught exception POST /wechat?signature=346766654644bfcf4d415dd919c42720a4b56321&timestamp=1405305289&nonce=2075668152 (127.0.0.1)
+HTTPRequest(protocol='http', host='127.0.0.1:9001', method='POST', uri='/wechat?signature=346766654644bfcf4d415dd919c42720a4b56321&timestamp=1405305289&nonce=2075668152', version='HTTP/1.0', remote_ip='127.0.0.1', headers={'Content-Length': '279', 'Host': '127.0.0.1:9001', 'Pragma': 'no-cache', 'Content-Type': 'text/xml', 'Connection': 'close', 'Accept': '*/*', 'User-Agent': 'Mozilla/4.0'})
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1218, in _when_complete
+    callback()
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1239, in _execute_method
+    self._when_complete(method(*self.path_args, **self.path_kwargs),
+  File "/home/nightwish/elfin/handlers/wechat.py", line 74, in post
+    Feedback = home(fromUser, key)
+  File "/home/nightwish/elfin/scripts/home.py", line 25, in home
+    assert r.status_code==200
+AssertionError
+2014-07-14 10:34:50 web.py[line:1728] ERROR 500 POST /wechat?signature=346766654644bfcf4d415dd919c42720a4b56321&timestamp=1405305289&nonce=2075668152 (127.0.0.1) 903.40ms
+2014-07-14 10:40:14 connectionpool.py[line:171] INFO Starting new HTTP connection (1): weilairiji.com
+2014-07-14 10:40:15 home.py[line:30] INFO 401
+2014-07-14 10:40:15 web.py[line:1305] ERROR Uncaught exception POST /wechat?signature=f178b065d05ab3381c11bb97c0f31672b865f840&timestamp=1405305614&nonce=84806970 (127.0.0.1)
+HTTPRequest(protocol='http', host='127.0.0.1:9001', method='POST', uri='/wechat?signature=f178b065d05ab3381c11bb97c0f31672b865f840&timestamp=1405305614&nonce=84806970', version='HTTP/1.0', remote_ip='127.0.0.1', headers={'Content-Length': '279', 'Host': '127.0.0.1:9001', 'Pragma': 'no-cache', 'Content-Type': 'text/xml', 'Connection': 'close', 'Accept': '*/*', 'User-Agent': 'Mozilla/4.0'})
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1218, in _when_complete
+    callback()
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1239, in _execute_method
+    self._when_complete(method(*self.path_args, **self.path_kwargs),
+  File "/home/nightwish/elfin/handlers/wechat.py", line 74, in post
+    Feedback = home(fromUser, key)
+  File "/home/nightwish/elfin/scripts/home.py", line 33, in home
+    encoding='GB18030')
+  File "/usr/lib/python2.7/json/__init__.py", line 339, in loads
+    return cls(encoding=encoding, **kw).decode(s)
+  File "/usr/lib/python2.7/json/decoder.py", line 365, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python2.7/json/decoder.py", line 383, in raw_decode
+    raise ValueError("No JSON object could be decoded")
+ValueError: No JSON object could be decoded
+2014-07-14 10:40:15 web.py[line:1728] ERROR 500 POST /wechat?signature=f178b065d05ab3381c11bb97c0f31672b865f840&timestamp=1405305614&nonce=84806970 (127.0.0.1) 872.58ms
+2014-07-14 10:41:27 connectionpool.py[line:171] INFO Starting new HTTP connection (1): weilairiji.com
+2014-07-14 10:41:29 home.py[line:30] INFO 401
+2014-07-14 10:41:29 web.py[line:1305] ERROR Uncaught exception POST /wechat?signature=aa0c5ea9b17708cfeee0e27ba0c524973dadf471&timestamp=1405305687&nonce=1371802709 (127.0.0.1)
+HTTPRequest(protocol='http', host='127.0.0.1:9001', method='POST', uri='/wechat?signature=aa0c5ea9b17708cfeee0e27ba0c524973dadf471&timestamp=1405305687&nonce=1371802709', version='HTTP/1.0', remote_ip='127.0.0.1', headers={'Content-Length': '279', 'Host': '127.0.0.1:9001', 'Pragma': 'no-cache', 'Content-Type': 'text/xml', 'Connection': 'close', 'Accept': '*/*', 'User-Agent': 'Mozilla/4.0'})
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1218, in _when_complete
+    callback()
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1239, in _execute_method
+    self._when_complete(method(*self.path_args, **self.path_kwargs),
+  File "/home/nightwish/elfin/handlers/wechat.py", line 74, in post
+    Feedback = home(fromUser, key)
+  File "/home/nightwish/elfin/scripts/home.py", line 32, in home
+    home_original = json.loads(r.text.replace('=',':'), encoding='GB18030')
+  File "/usr/lib/python2.7/json/__init__.py", line 339, in loads
+    return cls(encoding=encoding, **kw).decode(s)
+  File "/usr/lib/python2.7/json/decoder.py", line 365, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python2.7/json/decoder.py", line 383, in raw_decode
+    raise ValueError("No JSON object could be decoded")
+ValueError: No JSON object could be decoded
+2014-07-14 10:41:29 web.py[line:1728] ERROR 500 POST /wechat?signature=aa0c5ea9b17708cfeee0e27ba0c524973dadf471&timestamp=1405305687&nonce=1371802709 (127.0.0.1) 1815.55ms
+2014-07-14 10:43:47 connectionpool.py[line:171] INFO Starting new HTTP connection (1): weilairiji.com
+2014-07-14 10:43:48 home.py[line:30] INFO {u'wechat_id': u'oEnIQuD6AwgX4EDgPorkJx-tnvPM', u'_id': ObjectId('535241736d270c4dc51df569'), u'id': 172L}
+2014-07-14 10:43:48 home.py[line:31] INFO http://weilairiji.com/api/statuses/user_timeline.json?id=172&page=1
+2014-07-14 10:43:48 home.py[line:32] INFO 401
+2014-07-14 10:43:48 web.py[line:1305] ERROR Uncaught exception POST /wechat?signature=2a05f78bef1dda36fd726748e3fb1a8890b25185&timestamp=1405305827&nonce=58300788 (127.0.0.1)
+HTTPRequest(protocol='http', host='127.0.0.1:9001', method='POST', uri='/wechat?signature=2a05f78bef1dda36fd726748e3fb1a8890b25185&timestamp=1405305827&nonce=58300788', version='HTTP/1.0', remote_ip='127.0.0.1', headers={'Content-Length': '279', 'Host': '127.0.0.1:9001', 'Pragma': 'no-cache', 'Content-Type': 'text/xml', 'Connection': 'close', 'Accept': '*/*', 'User-Agent': 'Mozilla/4.0'})
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1218, in _when_complete
+    callback()
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1239, in _execute_method
+    self._when_complete(method(*self.path_args, **self.path_kwargs),
+  File "/home/nightwish/elfin/handlers/wechat.py", line 74, in post
+    Feedback = home(fromUser, key)
+  File "/home/nightwish/elfin/scripts/home.py", line 34, in home
+    home_original = json.loads(r.text.replace('=',':'), encoding='GB18030')
+  File "/usr/lib/python2.7/json/__init__.py", line 339, in loads
+    return cls(encoding=encoding, **kw).decode(s)
+  File "/usr/lib/python2.7/json/decoder.py", line 365, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python2.7/json/decoder.py", line 383, in raw_decode
+    raise ValueError("No JSON object could be decoded")
+ValueError: No JSON object could be decoded
+2014-07-14 10:43:48 web.py[line:1728] ERROR 500 POST /wechat?signature=2a05f78bef1dda36fd726748e3fb1a8890b25185&timestamp=1405305827&nonce=58300788 (127.0.0.1) 857.36ms
+2014-07-14 10:45:05 connectionpool.py[line:171] INFO Starting new HTTP connection (1): weilairiji.com
+2014-07-14 10:45:06 home.py[line:30] INFO {u'_id': ObjectId('535241736d270c4dc51df569'), u'xiezhua_id': u'chenxinyiray@gmail.com:2162383cxy', u'id': 172L}
+2014-07-14 10:45:06 home.py[line:31] INFO http://weilairiji.com/api/statuses/user_timeline.json?id=172&page=1
+2014-07-14 10:45:06 home.py[line:32] INFO 401
+2014-07-14 10:45:06 web.py[line:1305] ERROR Uncaught exception POST /wechat?signature=3db3c66ac516ffce5674f55d26543335e350539c&timestamp=1405305904&nonce=854867115 (127.0.0.1)
+HTTPRequest(protocol='http', host='127.0.0.1:9001', method='POST', uri='/wechat?signature=3db3c66ac516ffce5674f55d26543335e350539c&timestamp=1405305904&nonce=854867115', version='HTTP/1.0', remote_ip='127.0.0.1', headers={'Content-Length': '279', 'Host': '127.0.0.1:9001', 'Pragma': 'no-cache', 'Content-Type': 'text/xml', 'Connection': 'close', 'Accept': '*/*', 'User-Agent': 'Mozilla/4.0'})
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1218, in _when_complete
+    callback()
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1239, in _execute_method
+    self._when_complete(method(*self.path_args, **self.path_kwargs),
+  File "/home/nightwish/elfin/handlers/wechat.py", line 74, in post
+    Feedback = home(fromUser, key)
+  File "/home/nightwish/elfin/scripts/home.py", line 34, in home
+    home_original = json.loads(r.text.replace('=',':'), encoding='GB18030')
+  File "/usr/lib/python2.7/json/__init__.py", line 339, in loads
+    return cls(encoding=encoding, **kw).decode(s)
+  File "/usr/lib/python2.7/json/decoder.py", line 365, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python2.7/json/decoder.py", line 383, in raw_decode
+    raise ValueError("No JSON object could be decoded")
+ValueError: No JSON object could be decoded
+2014-07-14 10:45:06 web.py[line:1728] ERROR 500 POST /wechat?signature=3db3c66ac516ffce5674f55d26543335e350539c&timestamp=1405305904&nonce=854867115 (127.0.0.1) 1873.18ms
+2014-07-14 10:50:01 connectionpool.py[line:171] INFO Starting new HTTP connection (1): weilairiji.com
+2014-07-14 10:50:02 web.py[line:1305] ERROR Uncaught exception POST /wechat?signature=1465bf7e48798e94b2f93944a5afcf4303dfbba7&timestamp=1405306201&nonce=221491753 (127.0.0.1)
+HTTPRequest(protocol='http', host='127.0.0.1:9001', method='POST', uri='/wechat?signature=1465bf7e48798e94b2f93944a5afcf4303dfbba7&timestamp=1405306201&nonce=221491753', version='HTTP/1.0', remote_ip='127.0.0.1', headers={'Content-Length': '279', 'Host': '127.0.0.1:9001', 'Pragma': 'no-cache', 'Content-Type': 'text/xml', 'Connection': 'close', 'Accept': '*/*', 'User-Agent': 'Mozilla/4.0'})
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1218, in _when_complete
+    callback()
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1239, in _execute_method
+    self._when_complete(method(*self.path_args, **self.path_kwargs),
+  File "/home/nightwish/elfin/handlers/wechat.py", line 74, in post
+    Feedback = home(fromUser, key)
+  File "/home/nightwish/elfin/scripts/home.py", line 37, in home
+    home_original))
+  File "/home/nightwish/elfin/scripts/home.py", line 36, in <lambda>
+    lambda item: item['text']+item['time']+'\n',\
+KeyError: 'time'
+2014-07-14 10:50:02 web.py[line:1728] ERROR 500 POST /wechat?signature=1465bf7e48798e94b2f93944a5afcf4303dfbba7&timestamp=1405306201&nonce=221491753 (127.0.0.1) 1579.03ms
+2014-07-14 10:52:32 connectionpool.py[line:171] INFO Starting new HTTP connection (1): weilairiji.com
+2014-07-14 10:52:33 web.py[line:1305] ERROR Uncaught exception POST /wechat?signature=066ce33f69319f57e28ec6a0b5da55992e500089&timestamp=1405306352&nonce=2049389461 (127.0.0.1)
+HTTPRequest(protocol='http', host='127.0.0.1:9001', method='POST', uri='/wechat?signature=066ce33f69319f57e28ec6a0b5da55992e500089&timestamp=1405306352&nonce=2049389461', version='HTTP/1.0', remote_ip='127.0.0.1', headers={'Content-Length': '279', 'Host': '127.0.0.1:9001', 'Pragma': 'no-cache', 'Content-Type': 'text/xml', 'Connection': 'close', 'Accept': '*/*', 'User-Agent': 'Mozilla/4.0'})
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1218, in _when_complete
+    callback()
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1239, in _execute_method
+    self._when_complete(method(*self.path_args, **self.path_kwargs),
+  File "/home/nightwish/elfin/handlers/wechat.py", line 74, in post
+    Feedback = home(fromUser, key)
+  File "/home/nightwish/elfin/scripts/home.py", line 32, in home
+    home_original))
+TypeError: sum() can't sum strings [use ''.join(seq) instead]
+2014-07-14 10:52:33 web.py[line:1728] ERROR 500 POST /wechat?signature=066ce33f69319f57e28ec6a0b5da55992e500089&timestamp=1405306352&nonce=2049389461 (127.0.0.1) 1459.36ms
+2014-07-14 10:54:26 connectionpool.py[line:171] INFO Starting new HTTP connection (1): weilairiji.com
+2014-07-14 10:54:28 web.py[line:1305] ERROR Uncaught exception POST /wechat?signature=26843504834f486dd0ccd0c714916e347452ea15&timestamp=1405306466&nonce=1187044609 (127.0.0.1)
+HTTPRequest(protocol='http', host='127.0.0.1:9001', method='POST', uri='/wechat?signature=26843504834f486dd0ccd0c714916e347452ea15&timestamp=1405306466&nonce=1187044609', version='HTTP/1.0', remote_ip='127.0.0.1', headers={'Content-Length': '279', 'Host': '127.0.0.1:9001', 'Pragma': 'no-cache', 'Content-Type': 'text/xml', 'Connection': 'close', 'Accept': '*/*', 'User-Agent': 'Mozilla/4.0'})
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1218, in _when_complete
+    callback()
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1239, in _execute_method
+    self._when_complete(method(*self.path_args, **self.path_kwargs),
+  File "/home/nightwish/elfin/handlers/wechat.py", line 74, in post
+    Feedback = home(fromUser, key)
+  File "/home/nightwish/elfin/scripts/home.py", line 31, in home
+    lambda item: item['text'], home_original))
+TypeError: join() takes exactly one argument (2 given)
+2014-07-14 10:54:28 web.py[line:1728] ERROR 500 POST /wechat?signature=26843504834f486dd0ccd0c714916e347452ea15&timestamp=1405306466&nonce=1187044609 (127.0.0.1) 1394.96ms
+2014-07-14 10:55:42 connectionpool.py[line:171] INFO Starting new HTTP connection (1): weilairiji.com
+2014-07-14 10:55:45 web.py[line:1728] INFO 200 POST /wechat?signature=4d7edb8e312a40e23688e58fd413d21d56ba1828&timestamp=1405306542&nonce=943932810 (127.0.0.1) 2303.14ms
+2014-07-14 10:55:45 web.py[line:1302] WARNING 400 GET /wechat (127.0.0.1): Missing argument signature
+2014-07-14 10:55:45 web.py[line:1728] WARNING 400 GET /wechat (127.0.0.1) 1.35ms
+2014-07-14 10:57:24 connectionpool.py[line:171] INFO Starting new HTTP connection (1): weilairiji.com
+2014-07-14 10:57:25 web.py[line:1728] INFO 200 POST /wechat?signature=5afdca29816828c62c98fd3b5e63a72f44dcaf37&timestamp=1405306644&nonce=2146533170 (127.0.0.1) 1435.48ms
+2014-07-14 10:59:37 connectionpool.py[line:171] INFO Starting new HTTP connection (1): weilairiji.com
+2014-07-14 10:59:40 home.py[line:30] INFO [u'text', u'created_at', u'user', u'reply_to_user_id', u'id', u'reply_to_status_id']
+2014-07-14 10:59:40 web.py[line:1728] INFO 200 POST /wechat?signature=308197b1fa5134210727b324e82325c65b8ea58d&timestamp=1405306777&nonce=2039032967 (127.0.0.1) 3383.63ms
+2014-07-14 11:01:21 connectionpool.py[line:171] INFO Starting new HTTP connection (1): weilairiji.com
+2014-07-14 11:01:22 home.py[line:30] INFO [u'text', u'created_at', u'user', u'reply_to_user_id', u'id', u'reply_to_status_id']
+2014-07-14 11:01:22 web.py[line:1728] INFO 200 POST /wechat?signature=5e035b21bb2012f28f656914fd68ea5bbc67ca7f&timestamp=1405306881&nonce=209929694 (127.0.0.1) 1441.59ms
+2014-07-14 11:01:39 connectionpool.py[line:171] INFO Starting new HTTP connection (1): weilairiji.com
+2014-07-14 11:01:40 home.py[line:30] INFO [u'text', u'created_at', u'user', u'reply_to_user_id', u'id', u'reply_to_status_id']
+2014-07-14 11:01:40 web.py[line:1728] INFO 200 POST /wechat?signature=6d3427b2ff4b71ae18bac3d8efc28123e438b38b&timestamp=1405306899&nonce=1584130491 (127.0.0.1) 918.22ms
+2014-07-14 11:02:00 connectionpool.py[line:171] INFO Starting new HTTP connection (1): weilairiji.com
+2014-07-14 11:02:02 home.py[line:30] INFO [u'text', u'created_at', u'user', u'reply_to_user_id', u'id', u'reply_to_status_id']
+2014-07-14 11:02:02 web.py[line:1728] INFO 200 POST /wechat?signature=63e599e3a08ebdf2468a69edccc7da46d858ffda&timestamp=1405306920&nonce=21100719 (127.0.0.1) 1971.93ms
+2014-07-14 11:03:17 connectionpool.py[line:171] INFO Starting new HTTP connection (1): weilairiji.com
+2014-07-14 11:03:19 home.py[line:30] INFO [u'text', u'created_at', u'user', u'reply_to_user_id', u'id', u'reply_to_status_id']
+2014-07-14 11:03:19 web.py[line:1728] INFO 200 POST /wechat?signature=21779828376da2a945444c6465b30cc0bdb222e9&timestamp=1405306997&nonce=1469712007 (127.0.0.1) 1980.36ms
+2014-07-14 11:03:33 connectionpool.py[line:171] INFO Starting new HTTP connection (1): weilairiji.com
+2014-07-14 11:03:35 home.py[line:30] INFO [u'text', u'created_at', u'user', u'reply_to_user_id', u'id', u'reply_to_status_id']
+2014-07-14 11:03:35 web.py[line:1728] INFO 200 POST /wechat?signature=3e618735731580c6fd0c1166907848381f1ca541&timestamp=1405307013&nonce=635007779 (127.0.0.1) 1152.91ms
+2014-07-14 11:03:52 connectionpool.py[line:171] INFO Starting new HTTP connection (1): weilairiji.com
+2014-07-14 11:03:54 home.py[line:30] INFO [u'text', u'created_at', u'user', u'reply_to_user_id', u'id', u'reply_to_status_id']
+2014-07-14 11:03:54 web.py[line:1728] INFO 200 POST /wechat?signature=aec33430f3774763eca7850202093f7e4428bbcb&timestamp=1405307032&nonce=522427557 (127.0.0.1) 1168.73ms
+2014-07-14 11:08:13 connectionpool.py[line:171] INFO Starting new HTTP connection (1): weilairiji.com
+2014-07-14 11:08:14 home.py[line:32] INFO @紫绿苏蓝 310个字？
+
+@蓝策° OK！ 现在蟹爪最大长度是三百，如果发送了350字的talk，是分成三百一条和五十一条，还是一百七十五个字各一条？
+
+经过测试，最大容量竟然是三百个字！
+
+@陆青琅。 好早以前就停掉了
+
+@紫绿苏蓝 hello
+
+尾巴成功更改为:相机
+
+@蟹爪客服深幽 ^_^  会的  放心吧
+
+@____Ｃ小姐。 没有艺术加工的真实人生经历
+
+@蟹爪客服深幽 六四去广场寻衅滋事了
+
+吸毒一点都不酷。毒瘾犯了的时候，他们全身发抖、冒汗流泪、幻听、激动、低吼、自虐、在地上翻滚。
+
+RT蟹爪客服深幽 “冰妹”这个词第一次听说是在看守所里大毒枭的口中。
+
+@renyi 三十一天整
+
+【7】在天安门广场上把钱包翻开后有六个便衣从不同的方向向他扑来，他还托我出去后给他三十多岁的第三任妻子打个电话，我俩一样，都是在六四那天被秘密逮捕，被送往看守所后连向家里通知一声的手续都没有。他的徒孙遍天下，他在道上的外号叫“老大哥”----“Big Man&amp;quot;。
+
+【6】铁夹子的用法等等。老爷子这次被抓是因为在天安门升国旗的时候扒窃了一个钱包，里面只有四十七块钱，法院判处有期徒刑六个月。算起来老爷子今年六十五岁，在监狱中度过的日子加起来也有二十多年了。他对我过下水道工业的历史很清楚，每个省的监狱他都呆过，包括香港、澳门、台湾。
+
+【5】老爷子在看守所里跟我讲了“抠皮子”手艺的诸般练习法门。“抠皮子”最常用的手势是中指搭在食指上，搭上去后两指要长短一样，夹起来要有力、稳定。练习方法是在沸水或沸油中夹肥皂，水或油的温度、肥皂的大小形状都有很高的要求。也有借助器械的，法门更多，比如贴在牙龈上的刀片是特制的，
+
+【4】去上海的火车上，哑巴师傅怕两人走散，就用一根布带把瘦弱的老爷子系在腰前，顺便还能胁下生风攒点上海过活的本钱。在上海，老爷子跟着哑巴师傅学会了这辈子吃饭的手艺，艺成之后挥师别去闯荡大江南北。他的哑巴师傅后来活到了一九八九年，无妻无子，收尸还靠的是徒子徒孙。
+
+【3】成了他的师傅。老爷子说他的哑巴师傅能够从人前快速走过的同时解开老式中山装的胸前口袋、取钱出来、再把扣子系上而让人毫无察觉。如果说现今国内程序员竞争最激烈的地方是北京的话，那么二十世纪扒窃高手辈出风云际会的中心便是上海。徒孙二人后来趁着文革大串联坐火车来到了上海。
+
+【2】老爷子说人生的转机出现在一次市集上，他看见有的人在挑菜还有个人在后面扒钱包，’扒窃‘黑话里叫‘抠皮子’，年幼的老爷子产生了恶作剧的想法，他拉了拉贼的衣服做手势要揭发，贼大惊，做了个噤声的手势，又比划了个吃饭的动作。后来贼真的请他下馆子吃了饭，意外的是，这贼是个哑巴，后来还
+
+【1】和我关系最好的老爷子出生于新中国诞生的那一年，八岁赶上大跃进和人民公社化运动，江西的农村穷阿，人们吃不上饭，成片成片的死，路边有倒毙的死人和‘打嗝’的出生不久的婴儿，家里的兄弟姐妹也一个接一个地被裹进草席埋进土地。在那样的环境下活下来的不可能是好人，老爷子当年靠的是偷。
+
+脾气最古怪的老爷子开了一辈子的车，直到有一天在路上遇到了碰瓷的老奶奶，老爷子下车和仰躺地上的老奶奶谈价钱，价钱没谈拢一个转身扣上车门，把车从老奶奶的身上开了过去，从此司机生涯终结了，他现在是看守所里年纪最大的杀人犯。
+2014-07-14 11:08:14 web.py[line:1728] INFO 200 POST /wechat?signature=eb37d02e3157ca12a59aeba8dc912184c05d8f07&timestamp=1405307290&nonce=1874486419 (127.0.0.1) 1423.84ms
+2014-07-14 11:10:40 web.py[line:1728] INFO 200 POST /wechat?signature=5be696c3561ff8a91306be2e97c185d9d677d29a&timestamp=1405307439&nonce=1303246372 (127.0.0.1) 7.83ms
+2014-07-14 11:10:43 web.py[line:1728] INFO 200 GET /bind/oDVlVuO4iES2MP1p83ilRdIIul1k (127.0.0.1) 4.95ms
+2014-07-14 11:10:43 web.py[line:1728] INFO 200 GET /static/jquery.min.js (127.0.0.1) 5.35ms
+2014-07-14 11:10:44 web.py[line:1728] INFO 200 GET /static/base.css (127.0.0.1) 0.79ms
+2014-07-14 11:10:45 web.py[line:1728] INFO 304 GET /static/logo.gif (127.0.0.1) 0.89ms
+2014-07-14 11:11:15 connectionpool.py[line:171] INFO Starting new HTTP connection (1): weilairiji.com
+2014-07-14 11:11:16 login.py[line:38] ERROR No JSON object could be decoded
+2014-07-14 11:11:16 web.py[line:1728] INFO 200 POST /bind/oDVlVuO4iES2MP1p83ilRdIIul1k (127.0.0.1) 860.17ms
+2014-07-14 11:11:30 web.py[line:1728] INFO 200 POST /wechat?signature=cda9c92759787abb81a68f9835996de628701b39&timestamp=1405307489&nonce=1106544637 (127.0.0.1) 13.50ms
+2014-07-14 11:13:22 connectionpool.py[line:635] INFO Starting new HTTPS connection (1): api.weixin.qq.com
+2014-07-14 11:13:24 get_access_token.py[line:34] INFO access_token:x_ZIZvbitNHTRLQG2XlWGiOHpPJvbCijOiCdna9mnvH8rLmu8rnvsxZHyCsFMRyo9q5jInJyLzrFdGFD7LVuOw
+2014-07-14 11:15:09 web.py[line:1728] INFO 200 GET /bind/oDVlVuO4iES2MP1p83ilRdIIul1k (127.0.0.1) 7.12ms
+2014-07-14 11:15:35 connectionpool.py[line:171] INFO Starting new HTTP connection (1): weilairiji.com
+2014-07-14 11:15:36 web.py[line:1305] ERROR Uncaught exception POST /bind/oDVlVuO4iES2MP1p83ilRdIIul1k (127.0.0.1)
+HTTPRequest(protocol='http', host='127.0.0.1:9001', method='POST', uri='/bind/oDVlVuO4iES2MP1p83ilRdIIul1k', version='HTTP/1.0', remote_ip='127.0.0.1', headers={'Origin': 'http://bandwagon.shijunzi.info', 'Content-Length': '44', 'Accept-Language': 'zh-cn', 'Accept-Encoding': 'gzip, deflate', 'Host': '127.0.0.1:9001', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 6_1_3 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Mobile/10B329 MicroMessenger/5.3', 'Connection': 'close', 'Referer': 'http://bandwagon.shijunzi.info/elfin/bind/oDVlVuO4iES2MP1p83ilRdIIul1k', 'Content-Type': 'application/x-www-form-urlencoded'})
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1218, in _when_complete
+    callback()
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1239, in _execute_method
+    self._when_complete(method(*self.path_args, **self.path_kwargs),
+  File "/home/nightwish/elfin/handlers/bind.py", line 26, in post
+    _login.analyses()
+  File "/home/nightwish/elfin/scripts/login.py", line 40, in analyses
+    user_info = ret_list['user']
+TypeError: list indices must be integers, not str
+2014-07-14 11:15:36 web.py[line:1728] ERROR 500 POST /bind/oDVlVuO4iES2MP1p83ilRdIIul1k (127.0.0.1) 1104.44ms
+2014-07-14 11:18:29 connectionpool.py[line:171] INFO Starting new HTTP connection (1): weilairiji.com
+2014-07-14 11:18:30 login.py[line:41] INFO [{u'text': u'\u5f02\u7a7a\u95f4\u4f20\u9001\u5668\u642d\u5efa\u5b8c\u6bd5\uff01', u'created_at': u'2014-07-14 11:07:09', u'user': {u'description': u'\u624b\u827a\u4eba\u800c\u5df2', u'url': u'http://weilairiji.com/home/u.24579', u'profile_image_url': u'http://weilairiji.com/attachments/head/24579.png?18735', u'protected': u'true', u'livelocation': u' ', u'homelocation': u' ', u'id': u'24579', u'name': u'\u6811\u4e0a\u7684\u7537\u7235'}, u'reply_to_user_id': u'', u'id': u'1071249179', u'reply_to_status_id': u''}]
+2014-07-14 11:18:30 web.py[line:1305] ERROR Uncaught exception POST /bind/oDVlVuO4iES2MP1p83ilRdIIul1k (127.0.0.1)
+HTTPRequest(protocol='http', host='127.0.0.1:9001', method='POST', uri='/bind/oDVlVuO4iES2MP1p83ilRdIIul1k', version='HTTP/1.0', remote_ip='127.0.0.1', headers={'Origin': 'http://bandwagon.shijunzi.info', 'Content-Length': '44', 'Accept-Language': 'zh-cn', 'Accept-Encoding': 'gzip, deflate', 'Host': '127.0.0.1:9001', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 6_1_3 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Mobile/10B329 MicroMessenger/5.3', 'Connection': 'close', 'Referer': 'http://bandwagon.shijunzi.info/elfin/bind/oDVlVuO4iES2MP1p83ilRdIIul1k', 'Content-Type': 'application/x-www-form-urlencoded'})
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1218, in _when_complete
+    callback()
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1239, in _execute_method
+    self._when_complete(method(*self.path_args, **self.path_kwargs),
+  File "/home/nightwish/elfin/handlers/bind.py", line 26, in post
+    _login.analyses()
+  File "/home/nightwish/elfin/scripts/login.py", line 42, in analyses
+    user_info = ret_list['user']
+TypeError: list indices must be integers, not str
+2014-07-14 11:18:30 web.py[line:1728] ERROR 500 POST /bind/oDVlVuO4iES2MP1p83ilRdIIul1k (127.0.0.1) 1056.33ms
+2014-07-14 11:20:34 connectionpool.py[line:171] INFO Starting new HTTP connection (1): weilairiji.com
+2014-07-14 11:20:39 login.py[line:41] INFO [{u'text': u'\u5f02\u7a7a\u95f4\u4f20\u9001\u5668\u642d\u5efa\u5b8c\u6bd5\uff01', u'created_at': u'2014-07-14 11:07:18', u'user': {u'description': u'\u624b\u827a\u4eba\u800c\u5df2', u'url': u'http://weilairiji.com/home/u.24579', u'profile_image_url': u'http://weilairiji.com/attachments/head/24579.png?18735', u'protected': u'true', u'livelocation': u' ', u'homelocation': u' ', u'id': u'24579', u'name': u'\u6811\u4e0a\u7684\u7537\u7235'}, u'reply_to_user_id': u'', u'id': u'1071249180', u'reply_to_status_id': u''}]
+2014-07-14 11:20:39 web.py[line:1728] INFO 200 POST /bind/oDVlVuO4iES2MP1p83ilRdIIul1k (127.0.0.1) 5057.22ms
+2014-07-14 11:20:54 connectionpool.py[line:171] INFO Starting new HTTP connection (1): weilairiji.com
+2014-07-14 11:20:56 send_talk.py[line:82] INFO 1071249180 : 哈哈哈
+2014-07-14 11:20:56 web.py[line:1728] INFO 200 POST /wechat?signature=311b06a6f7ca1199df350a684846331a8e5c22c4&timestamp=1405308053&nonce=1659897043 (127.0.0.1) 1883.42ms
+2014-07-14 11:21:02 connectionpool.py[line:171] INFO Starting new HTTP connection (1): weilairiji.com
+2014-07-14 11:21:04 web.py[line:1305] ERROR Uncaught exception POST /wechat?signature=ad1b09b19928eaf4e7bc3943f9f3b22a70393383&timestamp=1405308062&nonce=548443122 (127.0.0.1)
+HTTPRequest(protocol='http', host='127.0.0.1:9001', method='POST', uri='/wechat?signature=ad1b09b19928eaf4e7bc3943f9f3b22a70393383&timestamp=1405308062&nonce=548443122', version='HTTP/1.0', remote_ip='127.0.0.1', headers={'Content-Length': '279', 'Host': '127.0.0.1:9001', 'Pragma': 'no-cache', 'Content-Type': 'text/xml', 'Connection': 'close', 'Accept': '*/*', 'User-Agent': 'Mozilla/4.0'})
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1218, in _when_complete
+    callback()
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1239, in _execute_method
+    self._when_complete(method(*self.path_args, **self.path_kwargs),
+  File "/home/nightwish/elfin/handlers/wechat.py", line 74, in post
+    Feedback = home(fromUser, key)
+  File "/home/nightwish/elfin/scripts/home.py", line 29, in home
+    home_original = json.loads(r.text.replace('=',':'), encoding='GB18030')
+  File "/usr/lib/python2.7/json/__init__.py", line 339, in loads
+    return cls(encoding=encoding, **kw).decode(s)
+  File "/usr/lib/python2.7/json/decoder.py", line 365, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python2.7/json/decoder.py", line 383, in raw_decode
+    raise ValueError("No JSON object could be decoded")
+ValueError: No JSON object could be decoded
+2014-07-14 11:21:04 web.py[line:1728] ERROR 500 POST /wechat?signature=ad1b09b19928eaf4e7bc3943f9f3b22a70393383&timestamp=1405308062&nonce=548443122 (127.0.0.1) 1837.09ms
+2014-07-14 11:27:02 web.py[line:1728] WARNING 404 GET / (23.252.104.24) 0.46ms
+2014-07-14 11:30:30 web.py[line:1728] INFO 200 POST /wechat?signature=4f94021af898fe2664bb822631ab0ada0d690568&timestamp=1405308629&nonce=799955132 (127.0.0.1) 2.11ms
+2014-07-14 11:30:52 web.py[line:1728] INFO 200 POST /wechat?signature=066245db5121781aba0d5dbdfa063929b8d95f93&timestamp=1405308652&nonce=747602864 (127.0.0.1) 5.67ms
+2014-07-14 11:31:01 web.py[line:1728] INFO 200 GET /bind/oDVlVuO4iES2MP1p83ilRdIIul1k (127.0.0.1) 3.14ms
+2014-07-14 11:31:03 web.py[line:1728] INFO 200 GET /bind/oDVlVuO4iES2MP1p83ilRdIIul1k (127.0.0.1) 0.62ms
+2014-07-14 11:31:04 web.py[line:1728] INFO 200 GET /bind/static/jquery.min.js (127.0.0.1) 0.95ms
+2014-07-14 11:31:31 connectionpool.py[line:171] INFO Starting new HTTP connection (1): weilairiji.com
+2014-07-14 11:31:32 web.py[line:1728] INFO 200 POST /bind/oDVlVuO4iES2MP1p83ilRdIIul1k (127.0.0.1) 1176.41ms
+2014-07-14 11:31:48 web.py[line:1728] INFO 200 POST /wechat?signature=3f1c16a4fd93410e8f7d924db37adf9904df53d0&timestamp=1405308707&nonce=792749291 (127.0.0.1) 2.80ms
+2014-07-14 11:33:26 web.py[line:1728] INFO 200 GET /bind/oDVlVuO4iES2MP1p83ilRdIIul1k (127.0.0.1) 0.87ms
+2014-07-14 11:33:55 connectionpool.py[line:171] INFO Starting new HTTP connection (1): weilairiji.com
+2014-07-14 11:33:56 login.py[line:39] ERROR No JSON object could be decoded
+2014-07-14 11:33:56 web.py[line:1728] INFO 200 POST /bind/oDVlVuO4iES2MP1p83ilRdIIul1k (127.0.0.1) 1844.20ms
+2014-07-14 11:34:22 connectionpool.py[line:171] INFO Starting new HTTP connection (1): weilairiji.com
+2014-07-14 11:34:23 web.py[line:1728] INFO 200 POST /bind/oDVlVuO4iES2MP1p83ilRdIIul1k (127.0.0.1) 956.61ms
+2014-07-14 11:34:32 connectionpool.py[line:171] INFO Starting new HTTP connection (1): weilairiji.com
+2014-07-14 11:34:34 web.py[line:1305] ERROR Uncaught exception POST /wechat?signature=5aedefd319bd2fdd27427300c2f600280c9e61a0&timestamp=1405308871&nonce=130214143 (127.0.0.1)
+HTTPRequest(protocol='http', host='127.0.0.1:9001', method='POST', uri='/wechat?signature=5aedefd319bd2fdd27427300c2f600280c9e61a0&timestamp=1405308871&nonce=130214143', version='HTTP/1.0', remote_ip='127.0.0.1', headers={'Content-Length': '278', 'Host': '127.0.0.1:9001', 'Pragma': 'no-cache', 'Content-Type': 'text/xml', 'Connection': 'close', 'Accept': '*/*', 'User-Agent': 'Mozilla/4.0'})
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1218, in _when_complete
+    callback()
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1239, in _execute_method
+    self._when_complete(method(*self.path_args, **self.path_kwargs),
+  File "/home/nightwish/elfin/handlers/wechat.py", line 50, in post
+    ret_render(Feedback)
+UnboundLocalError: local variable 'Feedback' referenced before assignment
+2014-07-14 11:34:34 web.py[line:1728] ERROR 500 POST /wechat?signature=5aedefd319bd2fdd27427300c2f600280c9e61a0&timestamp=1405308871&nonce=130214143 (127.0.0.1) 1913.86ms
+2014-07-14 11:36:11 web.py[line:1728] INFO 200 GET /bind/oDVlVuO4iES2MP1p83ilRdIIul1k (127.0.0.1) 7.02ms
+2014-07-14 11:36:38 connectionpool.py[line:171] INFO Starting new HTTP connection (1): weilairiji.com
+2014-07-14 11:36:39 web.py[line:1305] ERROR Uncaught exception POST /bind/oDVlVuO4iES2MP1p83ilRdIIul1k (127.0.0.1)
+HTTPRequest(protocol='http', host='127.0.0.1:9001', method='POST', uri='/bind/oDVlVuO4iES2MP1p83ilRdIIul1k', version='HTTP/1.0', remote_ip='127.0.0.1', headers={'Origin': 'http://bandwagon.shijunzi.info', 'Content-Length': '44', 'Accept-Language': 'zh-cn', 'Accept-Encoding': 'gzip, deflate', 'Host': '127.0.0.1:9001', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 6_1_3 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Mobile/10B329 MicroMessenger/5.3', 'Connection': 'close', 'Referer': 'http://bandwagon.shijunzi.info/elfin/bind/oDVlVuO4iES2MP1p83ilRdIIul1k', 'Content-Type': 'application/x-www-form-urlencoded'})
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1218, in _when_complete
+    callback()
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1239, in _execute_method
+    self._when_complete(method(*self.path_args, **self.path_kwargs),
+  File "/home/nightwish/elfin/handlers/bind.py", line 36, in post
+    mongo.remove({'id':elfin['id']})
+  File "build/bdist.linux-i686/egg/pymongo/collection.py", line 1677, in __call__
+    self.__name)
+TypeError: 'Collection' object is not callable. If you meant to call the 'remove' method on a 'Database' object it is failing because no such method exists.
+2014-07-14 11:36:39 web.py[line:1728] ERROR 500 POST /bind/oDVlVuO4iES2MP1p83ilRdIIul1k (127.0.0.1) 859.71ms
+2014-07-14 11:42:42 connectionpool.py[line:171] INFO Starting new HTTP connection (1): weilairiji.com
+2014-07-14 11:42:43 web.py[line:1728] INFO 200 POST /bind/oDVlVuO4iES2MP1p83ilRdIIul1k (127.0.0.1) 1063.73ms
+2014-07-14 11:42:56 web.py[line:1728] INFO 200 POST /wechat?signature=569d2a876bfd24ea8cc6c3b4a143043e4f9c2fd6&timestamp=1405309376&nonce=1672559038 (127.0.0.1) 8.20ms
+2014-07-14 11:45:08 web.py[line:1728] INFO 200 GET /bind/oDVlVuO4iES2MP1p83ilRdIIul1k (127.0.0.1) 15.60ms
+2014-07-14 11:45:36 connectionpool.py[line:171] INFO Starting new HTTP connection (1): weilairiji.com
+2014-07-14 11:45:40 web.py[line:1728] INFO 200 POST /bind/oDVlVuO4iES2MP1p83ilRdIIul1k (127.0.0.1) 3096.45ms
+2014-07-14 11:45:49 connectionpool.py[line:171] INFO Starting new HTTP connection (1): weilairiji.com
+2014-07-14 11:45:50 web.py[line:1305] ERROR Uncaught exception POST /wechat?signature=9580f15d1196ef6f06b5bfc3cd139d747f8df69f&timestamp=1405309549&nonce=1866828794 (127.0.0.1)
+HTTPRequest(protocol='http', host='127.0.0.1:9001', method='POST', uri='/wechat?signature=9580f15d1196ef6f06b5bfc3cd139d747f8df69f&timestamp=1405309549&nonce=1866828794', version='HTTP/1.0', remote_ip='127.0.0.1', headers={'Content-Length': '277', 'Host': '127.0.0.1:9001', 'Pragma': 'no-cache', 'Content-Type': 'text/xml', 'Connection': 'close', 'Accept': '*/*', 'User-Agent': 'Mozilla/4.0'})
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1218, in _when_complete
+    callback()
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1239, in _execute_method
+    self._when_complete(method(*self.path_args, **self.path_kwargs),
+  File "/home/nightwish/elfin/handlers/wechat.py", line 50, in post
+    ret_render(Feedback)
+UnboundLocalError: local variable 'Feedback' referenced before assignment
+2014-07-14 11:45:50 web.py[line:1728] ERROR 500 POST /wechat?signature=9580f15d1196ef6f06b5bfc3cd139d747f8df69f&timestamp=1405309549&nonce=1866828794 (127.0.0.1) 946.35ms
+2014-07-14 11:58:38 connectionpool.py[line:171] INFO Starting new HTTP connection (1): weilairiji.com
+2014-07-14 11:58:39 web.py[line:1305] ERROR Uncaught exception POST /wechat?signature=1a8bf3c5602c600c463167e727484e4250a15036&timestamp=1405310318&nonce=1667194780 (127.0.0.1)
+HTTPRequest(protocol='http', host='127.0.0.1:9001', method='POST', uri='/wechat?signature=1a8bf3c5602c600c463167e727484e4250a15036&timestamp=1405310318&nonce=1667194780', version='HTTP/1.0', remote_ip='127.0.0.1', headers={'Content-Length': '278', 'Host': '127.0.0.1:9001', 'Pragma': 'no-cache', 'Content-Type': 'text/xml', 'Connection': 'close', 'Accept': '*/*', 'User-Agent': 'Mozilla/4.0'})
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1218, in _when_complete
+    callback()
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1239, in _execute_method
+    self._when_complete(method(*self.path_args, **self.path_kwargs),
+  File "/home/nightwish/elfin/handlers/wechat.py", line 49, in post
+    Feedback = send(fromUser, Text)
+  File "/home/nightwish/elfin/scripts/send_talk.py", line 82, in send
+    logging.info(user['id'] + ' : ' + talk)
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+2014-07-14 11:58:39 web.py[line:1728] ERROR 500 POST /wechat?signature=1a8bf3c5602c600c463167e727484e4250a15036&timestamp=1405310318&nonce=1667194780 (127.0.0.1) 876.36ms
+2014-07-14 12:03:09 web.py[line:1728] INFO 200 GET /bind/oDVlVuO4iES2MP1p83ilRdIIul1k (127.0.0.1) 7.71ms
+2014-07-14 12:03:35 connectionpool.py[line:171] INFO Starting new HTTP connection (1): weilairiji.com
+2014-07-14 12:03:39 login.py[line:42] INFO {u'description': u'\u624b\u827a\u4eba\u800c\u5df2', u'url': u'http://weilairiji.com/home/u.24579', u'profile_image_url': u'http://weilairiji.com/attachments/head/24579.png?18735', u'protected': u'true', u'livelocation': u' ', u'homelocation': u' ', u'id': u'24579', u'name': u'\u6811\u4e0a\u7684\u7537\u7235'}
+2014-07-14 12:03:39 web.py[line:1728] INFO 200 POST /bind/oDVlVuO4iES2MP1p83ilRdIIul1k (127.0.0.1) 3136.26ms
+2014-07-14 12:05:11 connectionpool.py[line:171] INFO Starting new HTTP connection (1): weilairiji.com
+2014-07-14 12:05:12 web.py[line:1305] ERROR Uncaught exception POST /wechat?signature=2602c4217762c237a337b2094313691e87330247&timestamp=1405310711&nonce=1181282584 (127.0.0.1)
+HTTPRequest(protocol='http', host='127.0.0.1:9001', method='POST', uri='/wechat?signature=2602c4217762c237a337b2094313691e87330247&timestamp=1405310711&nonce=1181282584', version='HTTP/1.0', remote_ip='127.0.0.1', headers={'Content-Length': '276', 'Host': '127.0.0.1:9001', 'Pragma': 'no-cache', 'Content-Type': 'text/xml', 'Connection': 'close', 'Accept': '*/*', 'User-Agent': 'Mozilla/4.0'})
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1218, in _when_complete
+    callback()
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1239, in _execute_method
+    self._when_complete(method(*self.path_args, **self.path_kwargs),
+  File "/home/nightwish/elfin/handlers/wechat.py", line 49, in post
+    Feedback = send(fromUser, Text)
+  File "/home/nightwish/elfin/scripts/send_talk.py", line 82, in send
+    logging.info(user['id'] + ' : ' + talk)
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+2014-07-14 12:05:12 web.py[line:1728] ERROR 500 POST /wechat?signature=2602c4217762c237a337b2094313691e87330247&timestamp=1405310711&nonce=1181282584 (127.0.0.1) 591.41ms
+2014-07-14 12:06:25 connectionpool.py[line:171] INFO Starting new HTTP connection (1): weilairiji.com
+2014-07-14 12:06:25 send_talk.py[line:82] INFO 24579 : Shock
+2014-07-14 12:06:25 web.py[line:1728] INFO 200 POST /wechat?signature=cecbdf42f03aa9fddf0a946b09f665f59bb25d79&timestamp=1405310784&nonce=424423591 (127.0.0.1) 851.54ms
+2014-07-14 12:06:35 connectionpool.py[line:171] INFO Starting new HTTP connection (1): weilairiji.com
+2014-07-14 12:06:35 send_talk.py[line:82] INFO 24579 : 觉得
+2014-07-14 12:06:35 web.py[line:1728] INFO 200 POST /wechat?signature=823831e434a0fe62fd5acda519e85b0a6d32460c&timestamp=1405310794&nonce=484904786 (127.0.0.1) 605.42ms
+2014-07-14 12:06:42 connectionpool.py[line:171] INFO Starting new HTTP connection (1): weilairiji.com
+2014-07-14 12:06:44 web.py[line:1728] INFO 200 POST /wechat?signature=46284510deeded0c3fbed9b39ea0c076514077b7&timestamp=1405310802&nonce=1803855990 (127.0.0.1) 1382.80ms
+2014-07-14 12:06:56 connectionpool.py[line:171] INFO Starting new HTTP connection (1): weilairiji.com
+2014-07-14 12:06:57 web.py[line:1728] INFO 200 POST /wechat?signature=9af90a47f7386f34c371732cd01fe21d3c232c76&timestamp=1405310816&nonce=1726713084 (127.0.0.1) 1100.18ms
+2014-07-14 12:07:03 connectionpool.py[line:171] INFO Starting new HTTP connection (1): weilairiji.com
+2014-07-14 12:07:04 web.py[line:1728] INFO 200 POST /wechat?signature=4e8d1d35fad6999edad97a766690b71a858e0e09&timestamp=1405310823&nonce=234501666 (127.0.0.1) 878.94ms
+2014-07-14 12:07:38 connectionpool.py[line:171] INFO Starting new HTTP connection (1): weilairiji.com
+2014-07-14 12:07:39 web.py[line:1728] INFO 200 POST /wechat?signature=44758c4492b4fe1d882afd2ff75623ad3b87accc&timestamp=1405310858&nonce=2143937976 (127.0.0.1) 901.34ms
+2014-07-14 12:07:51 connectionpool.py[line:171] INFO Starting new HTTP connection (1): weilairiji.com
+2014-07-14 12:07:53 send_talk.py[line:82] INFO 47637 : 哈哈哈
+2014-07-14 12:07:53 web.py[line:1728] INFO 200 POST /wechat?signature=2faab8f18ee4acb281f1bd089ad909603bc524c9&timestamp=1405310871&nonce=1250694412 (127.0.0.1) 1979.82ms
+2014-07-14 12:13:24 connectionpool.py[line:635] INFO Starting new HTTPS connection (1): api.weixin.qq.com
+2014-07-14 12:13:26 get_access_token.py[line:34] INFO access_token:kRnek6Gb1JPpniDmVsSCiPwC6ORPAWqTc52bSrIlfLtor7zCYkqMvOiNvRWOMFX1esMgYxAUyzMGMlNJM_uZpQ
+2014-07-14 12:17:51 web.py[line:1728] INFO 200 POST /wechat?signature=15d0bd098a10634f4b69d79404b1dcc1e6e44b38&timestamp=1405311471&nonce=669145903 (127.0.0.1) 2.04ms
+2014-07-14 12:18:09 web.py[line:1728] INFO 200 POST /wechat?signature=f645dd0e929bb036fd526584d26a9e6c7704b107&timestamp=1405311487&nonce=1367812497 (127.0.0.1) 5.56ms
+2014-07-14 12:18:16 web.py[line:1728] INFO 200 GET /bind/oDVlVuGK_0DLJlDVxRsAIbHtD-CM (127.0.0.1) 4.30ms
+2014-07-14 12:18:44 connectionpool.py[line:171] INFO Starting new HTTP connection (1): weilairiji.com
+2014-07-14 12:18:45 login.py[line:42] INFO {u'description': u'\u8bc5\u5492\u516c\u68c0\u6cd5', u'url': u'http://weilairiji.com/home/u.47637', u'profile_image_url': u'http://weilairiji.com/attachments/head/47637.jpg?20680', u'protected': u'false', u'livelocation': u'\u5317\u4eac \u5317\u4eac', u'homelocation': u'\u6cb3\u5357\u7701 \u9a7b\u9a6c\u5e97', u'id': u'47637', u'name': u'\u96f7\u950b'}
+2014-07-14 12:18:45 web.py[line:1305] ERROR Uncaught exception POST /bind/oDVlVuGK_0DLJlDVxRsAIbHtD-CM (127.0.0.1)
+HTTPRequest(protocol='http', host='127.0.0.1:9001', method='POST', uri='/bind/oDVlVuGK_0DLJlDVxRsAIbHtD-CM', version='HTTP/1.0', remote_ip='127.0.0.1', headers={'Origin': 'http://bandwagon.shijunzi.info', 'Content-Length': '44', 'Accept-Language': 'zh-cn', 'Accept-Encoding': 'gzip, deflate', 'Host': '127.0.0.1:9001', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 6_1_3 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Mobile/10B329 MicroMessenger/5.3', 'Connection': 'close', 'Referer': 'http://bandwagon.shijunzi.info/elfin/bind/oDVlVuGK_0DLJlDVxRsAIbHtD-CM', 'Content-Type': 'application/x-www-form-urlencoded'})
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1218, in _when_complete
+    callback()
+  File "/home/nightwish/elfin/local/lib/python2.7/site-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1239, in _execute_method
+    self._when_complete(method(*self.path_args, **self.path_kwargs),
+  File "/home/nightwish/elfin/handlers/bind.py", line 38, in post
+    time=time.ctime(), action=action)
+UnboundLocalError: local variable 'action' referenced before assignment
+2014-07-14 12:18:45 web.py[line:1728] ERROR 500 POST /bind/oDVlVuGK_0DLJlDVxRsAIbHtD-CM (127.0.0.1) 1137.95ms
+2014-07-14 12:20:12 connectionpool.py[line:171] INFO Starting new HTTP connection (1): weilairiji.com
+2014-07-14 12:20:13 login.py[line:42] INFO {u'description': u'\u8bc5\u5492\u516c\u68c0\u6cd5', u'url': u'http://weilairiji.com/home/u.47637', u'profile_image_url': u'http://weilairiji.com/attachments/head/47637.jpg?20680', u'protected': u'false', u'livelocation': u'\u5317\u4eac \u5317\u4eac', u'homelocation': u'\u6cb3\u5357\u7701 \u9a7b\u9a6c\u5e97', u'id': u'47637', u'name': u'\u96f7\u950b'}
+2014-07-14 12:20:13 web.py[line:1728] INFO 200 POST /bind/oDVlVuGK_0DLJlDVxRsAIbHtD-CM (127.0.0.1) 1347.34ms
+2014-07-14 12:20:25 web.py[line:1728] INFO 200 POST /wechat?signature=3f5da7b29ac2ce0b5918a151f091d989fc7a29c2&timestamp=1405311625&nonce=1218992549 (127.0.0.1) 5.09ms
+2014-07-14 12:20:27 web.py[line:1728] INFO 200 GET /bind/oDVlVuGK_0DLJlDVxRsAIbHtD-CM (127.0.0.1) 0.87ms
+2014-07-14 12:21:49 web.py[line:1728] INFO 200 GET /bind/oDVlVuGK_0DLJlDVxRsAIbHtD-CM (127.0.0.1) 0.84ms
+2014-07-14 12:21:49 web.py[line:1728] INFO 200 GET /bind/oDVlVuGK_0DLJlDVxRsAIbHtD-CM (127.0.0.1) 0.97ms
+2014-07-14 12:21:49 web.py[line:1728] INFO 200 GET /bind/static/jquery.min.js (127.0.0.1) 0.74ms
+2014-07-14 12:22:20 connectionpool.py[line:171] INFO Starting new HTTP connection (1): weilairiji.com
+2014-07-14 12:22:21 login.py[line:39] ERROR No JSON object could be decoded
+2014-07-14 12:22:21 web.py[line:1728] INFO 200 POST /bind/oDVlVuGK_0DLJlDVxRsAIbHtD-CM (127.0.0.1) 931.23ms
+2014-07-14 12:22:53 connectionpool.py[line:171] INFO Starting new HTTP connection (1): weilairiji.com
+2014-07-14 12:22:54 login.py[line:42] INFO {u'description': u'\u8bc5\u5492\u516c\u68c0\u6cd5', u'url': u'http://weilairiji.com/home/u.47637', u'profile_image_url': u'http://weilairiji.com/attachments/head/47637.jpg?20680', u'protected': u'false', u'livelocation': u'\u5317\u4eac \u5317\u4eac', u'homelocation': u'\u6cb3\u5357\u7701 \u9a7b\u9a6c\u5e97', u'id': u'47637', u'name': u'\u96f7\u950b'}
+2014-07-14 12:22:54 web.py[line:1728] INFO 200 POST /bind/oDVlVuGK_0DLJlDVxRsAIbHtD-CM (127.0.0.1) 618.65ms
+2014-07-14 12:23:23 connectionpool.py[line:171] INFO Starting new HTTP connection (1): weilairiji.com
+2014-07-14 12:23:24 web.py[line:1728] INFO 200 POST /wechat?signature=76c5ea4d56a8ba4f8815583f5c65d248b0eed48e&timestamp=1405311803&nonce=1693616284 (127.0.0.1) 1233.39ms
+2014-07-14 12:23:40 connectionpool.py[line:171] INFO Starting new HTTP connection (1): weilairiji.com
+2014-07-14 12:23:41 send_talk.py[line:82] INFO 47637 : Hashed
+2014-07-14 12:23:41 web.py[line:1728] INFO 200 POST /wechat?signature=9c86850944913544481d0a4c23db4b259b9b7fe2&timestamp=1405311819&nonce=1949006132 (127.0.0.1) 982.67ms

@@ -37,22 +37,22 @@ class wechat(tornado.web.RequestHandler):
         xml = ET.fromstring(xml)
         fromUser = xml.find('FromUserName').text
         MsgType = xml.find('MsgType').text
-        if MsgType is 'text':
+        if MsgType == 'text':
             Text = xml.find('Content').text
             try:
                 whether_login(fromUser) 
             except AssertionError:
                 del_item(wechat_id=fromUser)
                 Feedback = hanzi.HELLO%fromUser
+                ret_render(Feedback)
             else:
                 Feedback = send(fromUser, Text)
-            finally:
                 ret_render(Feedback)
 
-        elif MsgType is 'image':
+        elif MsgType == 'image':
             pass
 
-        elif MsgType is 'event':
+        elif MsgType == 'event':
             event = xml.find("Event").text
             if event == 'subscribe':
                 ret_render(hanzi.HELLO%fromUser)
@@ -69,10 +69,11 @@ class wechat(tornado.web.RequestHandler):
                     except AssertionError:
                         del_item(wechat_id=fromUser)
                         Feedback = hanzi.HELLO%fromUser
+                        ret_render(Feedback)
                     else:
                         Feedback = home(fromUser, key)
-                    finally:
                         ret_render(Feedback)
+                    #finally:
                
                 elif key in ['tml1', 'tml2', 'tml3']:
                     ret_render('hello')

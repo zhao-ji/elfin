@@ -6,6 +6,7 @@ import logging
 import requests
 
 from socrates import hanzi
+from socrates.set import log
 
 POST_URL = 'http://weilairiji.com/api/statuses/update.json'
 
@@ -31,11 +32,11 @@ class login:
         self.ret = 1
 
     def analyses(self):
-        ret_json = self.bind_ret.content.replace('=', ':')[1:-1]
+        ret_json = self.bind_ret.text.replace('=', ':')
         try:
             ret_list = json.loads(ret_json, encoding='GB18030')
         except Exception, e:
             logging.error(e)
         else:
-            user_info = ret_list['user']
-            self.id = user_info['id']
+            user_info = ret_list[0]['user']
+            self.id = int(user_info['id'])

@@ -17,16 +17,14 @@ class bind(tornado.web.RequestHandler):
     def post(self, wechat_id):
         email = self.get_argument('email')
         psw = self.get_argument('psw')
+        action = '/elfin/bind/' + wechat_id
         if not all([email, psw]):
-            action = '/elfin/bind/' + wechat_id
             self.render('base.html', time=time.ctime(), 
                                 info=hanzi.NOT_ALL, action=action)
             return
         _login = login(email=email, psw=psw)
         _login.analyses()
         if _login.status_code == 200:
-            self.write(hanzi.BIND_OK)
-            mongo.authenticate('elfin', 'sljfZ5weyil')
             elfin = {}
             elfin['wechat_id'] = wechat_id
             elfin['xiezhua_id'] = _login.xiezhua_id
@@ -36,6 +34,8 @@ class bind(tornado.web.RequestHandler):
             elfin['ret'] = _login.ret
             mongo.elfin.remove({'id':elfin['id']})
             mongo.elfin.insert(elfin)
+            self.render('bind.html', info=hanzi.BIND_OK,
+               time=time.ctime(), action=action)
 
         elif _login.status_code == 401:
             action = '/elfin/bind/' + wechat_id
