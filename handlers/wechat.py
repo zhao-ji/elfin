@@ -14,6 +14,7 @@ from socrates.set import mongo
 from scripts.check_sig import check_sig
 from scripts.mongo_operate import whether_login, del_item
 from scripts.send_talk import send
+from scripts.send_photo import upload_photo
 from scripts.home import home
 
 sys.path.append(os.path.join(os.path.dirname(os.path.abspath(__file__)), os.path.pardir))
@@ -50,7 +51,9 @@ class wechat(tornado.web.RequestHandler):
                 ret_render(Feedback)
 
         elif MsgType == 'image':
-            pass
+            picurl   = xml.find("PicUrl").text
+            msgid   = xml.find("MediaId").text
+            ret_render(upload_photo(fromUser, picurl, msgid))
 
         elif MsgType == 'event':
             event = xml.find("Event").text

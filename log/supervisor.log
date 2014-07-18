@@ -270,3 +270,39 @@ Traceback (most recent call last):
     'home2':2
           ^
 SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/main.py", line 12, in <module>
+    from handlers.wechat import wechat
+  File "/home/nightwish/elfin/handlers/wechat.py", line 17, in <module>
+    from scripts.send_photo import upload_photo
+  File "/home/nightwish/elfin/scripts/send_photo.py", line 51
+    r = session.post(upload_photo_url, data=data, files={'photo':('1.jpg', photo, 'image/jpeg'})
+                                                                                              ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/main.py", line 12, in <module>
+    from handlers.wechat import wechat
+  File "/home/nightwish/elfin/handlers/wechat.py", line 17, in <module>
+    from scripts.send_photo import upload_photo
+  File "/home/nightwish/elfin/scripts/send_photo.py", line 51
+    r = session.post(upload_photo_url, data=data, files={'photo':('1.jpg', photo, 'image/jpeg'})
+                                                                                              ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/main.py", line 12, in <module>
+    from handlers.wechat import wechat
+  File "/home/nightwish/elfin/handlers/wechat.py", line 17, in <module>
+    from scripts.send_photo import upload_photo
+  File "/home/nightwish/elfin/scripts/send_photo.py", line 51
+    r = session.post(upload_photo_url, data=data, files={'photo':('1.jpg', photo, 'image/jpeg'})
+                                                                                              ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "/home/nightwish/elfin/main.py", line 12, in <module>
+    from handlers.wechat import wechat
+  File "/home/nightwish/elfin/handlers/wechat.py", line 17, in <module>
+    from scripts.send_photo import upload_photo
+  File "/home/nightwish/elfin/scripts/send_photo.py", line 51
+    r = session.post(upload_photo_url, data=data, files={'photo':('1.jpg', photo, 'image/jpeg'})
+                                                                                              ^
+SyntaxError: invalid syntax

@@ -16,14 +16,11 @@ home_dict = {'home1':1,
 def home(wechat_id, key):
     user = get_value('id', 'xiezhua_id', wechat_id=wechat_id)
 
-    headers = {}
-    headers['Authorization'] = user['xiezhua_id']
-
     data = {}
     data['id'] = user['id']
     data['page'] = home_dict[key]
 
-    r = requests.get(home_url, params=data, headers=headers)
+    r = requests.get(home_url, params=data, auth=tuple(user['xiezhua_id']))
     assert r.status_code==200
     
     home_original = json.loads(r.text.replace('=',':'), encoding='GB18030')

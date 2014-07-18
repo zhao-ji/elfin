@@ -12,6 +12,10 @@ def del_item(**query):
     mongo.elfin.remove(query)
 
 def get_value(*keys, **query):
-    user = mongo.elfin.find_one(query,
+    if keys:
+        user = mongo.elfin.find_one(query,
            {i:1 for i in keys})
+    else:
+        user = mongo.elfin.find_one(query)
+
     return user

@@ -11,11 +11,8 @@ from socrates.set import log, mongo
 
 POST_URL = 'http://weilairiji.com/api/statuses/update.json' 
 
-def diff_from_password(talk, pwd_str):
-    pwd_base64 = pwd_str.lstrip('Basic').strip()
-    pwd_with_mail = pwd_base64.decode('base64')
-    pwd = pwd_with_mail[pwd_with_mail.find(':')+1:]
-    assert pwd not in talk, hanzi.SENSITIVE
+def diff_from_password(talk, pwd_list):
+    assert pwd_list[1] not in talk, hanzi.SENSITIVE
 
 def diff_from_old(talk, old_hash):
     new_hash = hash(talk)
@@ -26,28 +23,26 @@ def less_than_300(talk):
         raise OverflowError
 
 def slice_talk(talk):
-    pass
+    talk_list = [talk[i:i + 295] for i in range(0, len(talk), 295)]
+    return map(lambda string: u'【' + str(1 + talk_list.index(string)) + u'】' + string, talk_list)
 
 def send_ok_ret(user):
     ret_state = user.get('ret', 1)
     return '' if ret_state is 0 else hanzi.SEND_OK 
 
 def transmit(user, talk,touser=None):
-    headers = {}
-    headers['Authorization'] = user['xiezhua_id']
-
     data = {}
     data['status'] = talk.encode('GB18030')
     data['source'] = user['tail'].encode('GB18030')
     data['in_reply_to_status_id'] = ''
     data['status_type'] = 'talk'
 
-    transmit_ret = requests.post(POST_URL, data=data, headers=headers)
+    transmit_ret = requests.post(POST_URL, data=data, auth=tuple(user['xiezhua_id']))
 
     if transmit_ret.status_code in [404, 500, 503]:
         raise RuntimeWarning
     elif transmit_ret.status_code in [401, 403]:
-        mongo.elfin.remove({'xiezhua_id':xiezhua_id})
+        mongo.elfin.remove(user)
         raise UserWarning
     elif transmit_ret.status_code is 200:
         return send_ok_ret(user)
@@ -65,7 +60,7 @@ def send(fromUser, talk):
         return e
     except OverflowError:
         slice_ret = map(lambda talk: transmit(user,talk), slice_talk(talk))
-        reduce(sum, slice_ret)
+        return reduce(lambda x, y: x + '\n' + y, slice_ret)
     else:
         try:
             send_ok_ret = transmit(user, talk)
