@@ -1,11 +1,18 @@
 {% extends "base.html" %}
 {% block form %}
-<form method="post" action={{action}}>
-    <p>{{info}}</p>
-    <h3>邮箱：</h3>
-    <p><input type="text" name="email"></p>
-    <h3>登录密码：</h3>
-    <p><input type="password" name="psw"></p>
-    <p><input type="submit" value="绑定"></p>
+<form role="form" method="post" action={{action}}>
+<div class="row">
+            <div class="form-group col-xs-3">
+                <lable>邮箱</lable>
+                <input class="form-control  " type="email" name="email" placeholder="输入邮箱">
+                <span class="help-block">注意：是邮箱而不是蟹爪号</span>
+            </div></div>
+<div class="row">
+            <div class="form_group col-xs-3">
+                <lable>密码</lable>
+                <input class="form-control" type="password" name="psw" placeholder="输入密码">
+            </div></div>
+            <div class="row">
+        <button type="submit" class="btn btn-primary">绑定</button></div>
 </form>
 {% end %}

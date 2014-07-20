@@ -10,8 +10,8 @@ import tornado.ioloop
 import tornado.httpserver
 
 from handlers.wechat import wechat
-from handlers.bind import *
-from handlers.tail import *
+from handlers.bind import bind
+from handlers.userset import userset
 
 from socrates.set import mongo
 
@@ -23,14 +23,13 @@ static_path = os.path.join(os.path.dirname(__file__), 'static')
 
 handlers = [ (r'/wechat', wechat),
              (r'/bind/(.*)', bind),
-             (r'/tail/(.*)', tail),
+             (r'/userset/(.*)', userset),
              (r'/static/(.*)', 
              tornado.web.StaticFileHandler,
              {'path': static_path}),
            ]
 
 if __name__ == '__main__':
-    mongo.authenticate('elfin', 'sljfZ5weyil')
     tornado.options.parse_command_line()
     app = tornado.web.Application(handlers=handlers,
                             template_path=template_path,)

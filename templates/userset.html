@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+{% block form %}
+        <form role="form" method="post" action={{action}}>
+            <div class="form-group">
+                <lable>尾巴:</lable>
+                <input class="form-control" type="text" name="tail" value="蟹爪小精灵">
+            </div>
+            <button class="btn btn-primary" type="submit">提交</button>
+        </form>
+        <form role="form" method="post" action={{action}}>
+            <div class="form-control">
+                <label>发送成功后</label>
+                <select name="ret" onchange="ret_change()">
+                    <option value="0" selected="selected">不需要回复</option>
+                    <option value="1">需要回复</option>
+                </select>
+            </div>
+            <div class="form-control" hidden="hidden" id="div_method">
+            <label>回复内容为</label>
+            <select name="method" onchange="method_change()">
+                <option value="default" selected="selected">随机选择</option>
+                <option value="custom">自定义</option>
+            </select>
+            </div>
+            <div class="form-control" hidden="hidden" id="div_text">
+            <label>自定义内容</label>
+            <input type="text" name="custom_ret" value="发射成功"> 
+            </div>
+        <button type="submit" class="btn btn-primary">提交</button>
+        </form>
+        <script type="text/javascript">            
+                function ret_change(){
+                    var ret_value = $("[name='ret']").val();
+                    if (ret_value=="1") {$("#div_method").show()}
+                    else {
+                        $("#div_method").hide();
+                        $("#div_text").hide();
+                    }
+                }
+                function method_change() {
+                    var method_value = $("[name='method']").val();
+                    if (method_value=="custom") {$("#div_text").show()}
+                    else {$("#div_text").hide()}
+                }
+        </script>
+{% end %} 

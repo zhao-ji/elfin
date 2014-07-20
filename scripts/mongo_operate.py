@@ -11,6 +11,9 @@ def whether_login(wechat_id):
 def del_item(**query):
     mongo.elfin.remove(query)
 
+def save_user(user):
+    mongo.elfin.save(user)
+
 def get_value(*keys, **query):
     if keys:
         user = mongo.elfin.find_one(query,
