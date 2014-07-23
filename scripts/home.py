@@ -26,4 +26,5 @@ def home(wechat_id, key):
     home_original = json.loads(r.text.replace('=',':'), encoding='GB18030')
     ret = '\n\n'.join(map(\
      lambda item: item['text'], home_original))
+    logging.info(ret)
     return ret

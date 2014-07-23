@@ -5,8 +5,9 @@ h2,.s{border-bottom:1px solid #ccc}
 h1,h2,h3,h6,div,li,p{margin:0 0;padding:2px 2px;font-size:15px}
 li{padding:5px 5px 5px 0px;font-size:16px}
 input{border:1px solid #9CCFFF;border-radius:30px;font-size:18px;padding:10px;}
-a {color:#06c; text-decoration:underline;padding:5px }
-input[type="submit"]{  background:#fff;border:1px solid #eaeaea;border-radius:10px;color:#0066CC;margin:3px;padding:2px 16px;}
+select{border:1px solid #9CCFFF;border-radius:30px;font-size:18px;padding:10px;}
+a{color:#06c; text-decoration:underline;padding:5px }
+input[type="submit"]{background:#fff;border:1px solid #eaeaea;border-radius:10px;color:#0066CC;margin:3px;padding:2px 16px;}
 h1{background:#8FE1FF}
 h2{background:#d2edf6}
 h6{background:#fffcaa;border-bottom:1px solid #ffed00}

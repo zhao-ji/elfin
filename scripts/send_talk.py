@@ -27,8 +27,9 @@ def slice_talk(talk):
     return map(lambda string: u'【' + str(1 + talk_list.index(string)) + u'】' + string, talk_list)
 
 def send_ok_ret(user):
-    ret_state = user.get('ret', 1)
-    return '' if ret_state is 0 else hanzi.SEND_OK 
+    ret_state = user.get('ret')
+    if ret_state is 0:return ''
+    return user.get('custom_ret', hanzi.SEND_OK)
 
 def transmit(user, talk,touser=None):
     data = {}

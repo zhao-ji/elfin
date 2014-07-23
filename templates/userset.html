@@ -1,56 +1,23 @@
 {% extends "base.html" %}
 {% block form %}
-<form role="form" method="post" action={{action}}>
-        <div class="row">
-            <div class="form-group col-xs-3">
-                <lable>尾巴:</lable>
-                <input class="form-control" type="text" name="tail" value="蟹爪小精灵">
-            </div>
-            <button class="btn btn-primary" type="submit">提交</button>
-        </div>
-</form>
-<form role="form" method="post" action={{action}}>
-        <div class="row">
-            <div class="form-control col-xs-3">
-                <label>发送成功后</label>
-                <select name="ret" onchange="ret_change()">
-                    <option value="0" selected="selected">不需要回复</option>
-                    <option value="1">需要回复</option>
-                </select>
-            </div>
-        </div>
-        <div class="row">
-            <div class="form-control col-xs-3" hidden="hidden" id="div_method">
-            <label>回复内容为</label>
-            <select name="method" onchange="method_change()">
-                <option value="default" selected="selected">随机选择</option>
-                <option value="custom">自定义</option>
-            </select>
-            </div>
-        </div>
-        <div class="row">
-            <div class="form-control col-xs-3" hidden="hidden" id="div_text">
-            <label>自定义内容</label>
-            <input type="text" name="custom_ret" value="发射成功"> 
-            </div>
-        </div>
-        <div class="row">
-            <button type="submit" class="btn btn-primary col-xs-1 col-xs-offset-1">提交</button>
-        </div>
+        <form method="post" action={{action}}>
+                <h3>尾巴:</h3>
+                <p><input type="text" name="tail" value="蟹爪小精灵"></p>
+                <p><input value="提交" type="submit"></p>
         </form>
-        <script type="text/javascript">            
-                function ret_change(){
-                    var ret_value = $("[name='ret']").val();
-                    if (ret_value=="1") {$("#div_method").show()}
-                    else {
-                        $("#div_method").hide();
-                        $("#div_text").hide();
-                    }
-                }
-                function method_change() {
-                    var method_value = $("[name='method']").val();
-                    if (method_value=="custom") {$("#div_text").show()}
-                    else {$("#div_text").hide()}
-                }
-        </script>
+        <form method="post" action={{action}}>
+                <h3>发送成功后</h3>
+                <select name="ret">
+                    <p><option value="0" selected="selected">不需要回复</option></p>
+                    <p><option value="1">需要回复</option></p>
+                </select>
+            <h3>回复内容为</h3>
+            <select name="method">
+                <p><option value="default" selected="selected">随机选择</option></p>
+                <p><option value="custom">自定义</option></p>
+            </select>
+            <h3>自定义内容</h3>
+            <p><input type="text" name="custom_ret" value="发射成功"></p>
+            <p><input type="submit" value="提交"></p>
+        </form>
 {% end %} 

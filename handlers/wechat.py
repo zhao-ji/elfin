@@ -76,14 +76,13 @@ class wechat(tornado.web.RequestHandler):
                     else:
                         Feedback = home(fromUser, key)
                         ret_render(Feedback)
-                    #finally:
                
                 elif key in ['tml1', 'tml2', 'tml3']:
                     ret_render('hello')
                 elif key in ['at_msg', 'pri_msg']: 
                     ret_render('hello')
                 elif key == 'tail':
-                    ret_render(hanzi.USERSET%fromUser)
+                    ret_render(hanzi.USET%fromUser)
                 elif key == 'open_msg': 
                     ret_render('hello')
                 elif key == 'resent_visitor': 
