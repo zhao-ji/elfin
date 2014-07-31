@@ -48,6 +48,10 @@ def upload_photo(wechat_id, pic_url, pic_id):
     data['phototitle'] = (hanzi.WECHATPIC.decode('utf-8') + pic_id).encode('GB18030')
     data['action'] = 'upload'
 
-    r = session.post(upload_photo_url, data=data, files={'photo':('1.jpg', photo, 'image/jpeg')})
+    files = {}
+    files['photo'] = ('1.jpg', photo, 'image/jpeg')
+    files['phototitle'] = (hanzi.WECHATPIC.decode('utf-8') + pic_id).encode('GB18030')
+
+    r = session.post(upload_photo_url, data=data, files=files)
     logging.info(r.text)
     return send_ok_ret(user) if r.status_code==200 else 'error'

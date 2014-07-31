@@ -8,6 +8,7 @@ import requests
 
 from socrates import hanzi 
 from socrates.set import log, mongo
+from scripts import simi
 
 POST_URL = 'http://weilairiji.com/api/statuses/update.json' 
 
@@ -26,10 +27,10 @@ def slice_talk(talk):
     talk_list = [talk[i:i + 295] for i in range(0, len(talk), 295)]
     return map(lambda string: u'【' + str(1 + talk_list.index(string)) + u'】' + string, talk_list)
 
-def send_ok_ret(user):
+def send_ok_ret(user, talk):
     ret_state = user.get('ret')
     if ret_state is 0:return ''
-    return user.get('custom_ret', hanzi.SEND_OK)
+    return user.get('custom_ret', simi.simi(talk))
 
 def transmit(user, talk,touser=None):
     data = {}
@@ -46,7 +47,7 @@ def transmit(user, talk,touser=None):
         mongo.elfin.remove(user)
         raise UserWarning
     elif transmit_ret.status_code is 200:
-        return send_ok_ret(user)
+        return send_ok_ret(user, talk)
     else:
         raise FutureWarning
 

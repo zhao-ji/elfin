@@ -1,8 +1,8 @@
 # coding=utf-8
 
 '''wechat.py'''
-HELLO = '''欢迎关注蟹爪小精灵，请点击<a href="http://bandwagon.shijunzi.info/elfin/bind/%s">这里</a>绑定'''
-USET = '''欢迎设置蟹爪小精灵，请点击<a href="http://bandwagon.shijunzi.info/elfin/userset/%s">这里</a>设置'''
+HELLO = 'Welcome to elfin, please click <a href="http://bandwagon.shijunzi.info/elfin/bind/%s">here</a> to bind'
+USET = u'''欢迎设置蟹爪小精灵，请点击<a href="http://bandwagon.shijunzi.info/elfin/userset/%s">这里</a>设置'''
 HELP = "有不懂的上蟹爪@雷锋"
 SENSITIVE = "请勿发送密码"
 REPEAT = "请勿重复发送"
@@ -23,5 +23,5 @@ ERR_UNKOWN = '未知错误，联系雷锋'
 NOT_NULL = '尾巴不要为空'
 TAIL_OK = '小精灵尾巴更换成功！'
 TAIL_ERR = '尾巴更换失败，请稍候重试'
-CHANGE_TAIL = '尾巴更改为：%s'
+CHANGE_TAIL = "尾巴更改为：%s"
 USERSET = '设置小精灵'

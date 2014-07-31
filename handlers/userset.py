@@ -22,7 +22,7 @@ class userset(tornado.web.RequestHandler):
         if tail:
             user['tail'] = tail[0]
             try:
-                transmit(user, hanzi.CHANGE_TAIL%tail[0])
+                transmit(user, 'Change tail to ' + tail[0])
             except:
                 self.write(hanzi.TAIL_ERR)
             else:
@@ -30,7 +30,7 @@ class userset(tornado.web.RequestHandler):
                 save_user(user)
                 self.write(hanzi.TAIL_OK)
             finally:
-                logging.info(user['id'] + ':' + user['tail'])
+                logging.info(str(user['id']) + ':' + user['tail'])
         elif ret:
             if ret[0]=='0':
                 user['ret'] = 0
@@ -42,6 +42,8 @@ class userset(tornado.web.RequestHandler):
                 if method=='custom':
                     custom_ret = self.get_argument('custom_ret')
                     user['custom_ret'] = custom_ret
+                else:
+                    user.pop('custom_ret')
                 del_item(wechat_id=wechat_id)
                 save_user(user)
             self.write('ok')

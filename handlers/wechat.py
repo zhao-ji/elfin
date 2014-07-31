@@ -4,6 +4,7 @@
 import os
 import sys
 import time
+import logging
 import xml.etree.ElementTree as ET
 
 import tornado.httpserver
@@ -44,7 +45,7 @@ class wechat(tornado.web.RequestHandler):
                 whether_login(fromUser) 
             except AssertionError:
                 del_item(wechat_id=fromUser)
-                Feedback = hanzi.HELLO%fromUser
+                Feedback = (hanzi.HELLO)%fromUser
                 ret_render(Feedback)
             else:
                 Feedback = send(fromUser, Text)
