@@ -5,10 +5,10 @@ import json
 
 import requests
 
-SIMI_URL = 'http://sandbox.api.simsimi.com/request.p'
+SIMI_URL = 'http://api.simsimi.com/request.p'
 def simi(talk):
     params = {}
-    params['key'] = '7809eac7-d8df-494c-b430-98412e330a00'
+    params['key'] = 'b031132b-28ab-4769-b560-96ebddf70c1e'
     params['lc'] = 'ch'
     params['text'] = talk
 

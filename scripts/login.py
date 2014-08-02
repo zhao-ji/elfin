@@ -25,7 +25,7 @@ class login:
         self.status_code = self.bind_ret.status_code
         self.xiezhua_id = [email, psw]
         self.hash = 0
-        self.ret = 1
+        self.ret = ''
 
     def analyses(self):
         ret_json = self.bind_ret.text.replace('=', ':')

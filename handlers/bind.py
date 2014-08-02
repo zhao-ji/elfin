@@ -32,7 +32,7 @@ class bind(tornado.web.RequestHandler):
             elfin['ret'] = _login.ret
             mongo.elfin.remove({'id':elfin['id']})
             mongo.elfin.insert(elfin)
-            self.render('bind.html', info=hanzi.BIND_OK, action=action, time=time.ctime())
+            self.write(hanzi.BIND_OK)
 
         elif _login.status_code == 401:
             action = '/elfin/bind/' + wechat_id

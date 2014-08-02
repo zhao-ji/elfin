@@ -20,5 +20,4 @@ def get_value(*keys, **query):
            {i:1 for i in keys})
     else:
         user = mongo.elfin.find_one(query)
-
     return user

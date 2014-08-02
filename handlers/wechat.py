@@ -7,6 +7,7 @@ import time
 import logging
 import xml.etree.ElementTree as ET
 
+from gevent import spawn, joinall
 import tornado.httpserver
 import tornado.web
 
@@ -17,6 +18,7 @@ from scripts.mongo_operate import whether_login, del_item
 from scripts.send_talk import send
 from scripts.send_photo import upload_photo
 from scripts.home import home
+from scripts.simi import simi
 
 sys.path.append(os.path.join(os.path.dirname(os.path.abspath(__file__)), os.path.pardir))
 
@@ -30,11 +32,10 @@ class wechat(tornado.web.RequestHandler):
             self.write(echostr)
 
     def post(self):
-        ret_render = lambda ret_str: self.render('text.xml',
-                                            toUser=fromUser,
-                                           time=time.time(),
-                                               text=ret_str,
-                                                )
+        ret_render = lambda ret_str: self.render(
+                     'text.xml', toUser=fromUser, 
+                     time=time.time(), text=ret_str,
+                     )
         xml = self.request.body
         xml = ET.fromstring(xml)
         fromUser = xml.find('FromUserName').text
@@ -46,10 +47,15 @@ class wechat(tornado.web.RequestHandler):
             except AssertionError:
                 del_item(wechat_id=fromUser)
                 Feedback = (hanzi.HELLO)%fromUser
+                logging.info(Feedback)
                 ret_render(Feedback)
             else:
-                Feedback = send(fromUser, Text)
-                ret_render(Feedback)
+                task_simi = spawn(simi, Text)
+                task_send = spawn(send, fromUser, Text)
+                joinall([task_simi, task_send])
+                logging.info(Text)
+                logging.info(task_simi.value)
+                ret_render(task_send.value) if bool(task_send.value) else ret_render(task_simi.value)
 
         elif MsgType == 'image':
             picurl   = xml.find("PicUrl").text

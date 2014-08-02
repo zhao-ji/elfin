@@ -8,16 +8,11 @@
         <form method="post" action={{action}}>
                 <h3>发送成功后</h3>
                 <select name="ret">
-                    <p><option value="0" selected="selected">不需要回复</option></p>
-                    <p><option value="1">需要回复</option></p>
+                    <p><option value="0" selected="selected">小黄鸡</option></p>
+                    <p><option value="1">自定义</option></p>
                 </select>
-            <h3>回复内容为</h3>
-            <select name="method">
-                <p><option value="default" selected="selected">随机选择</option></p>
-                <p><option value="custom">自定义</option></p>
-            </select>
-            <h3>自定义内容</h3>
-            <p><input type="text" name="custom_ret" value="发射成功"></p>
-            <p><input type="submit" value="提交"></p>
+                <h3>自定义内容</h3>
+                <p><input type="text" name="custom" value="发射成功"></p>
+                <p><input type="submit" value="提交"></p>
         </form>
 {% end %} 

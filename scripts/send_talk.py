@@ -1,14 +1,12 @@
 #! /usr/bin/python
 # coding: utf-8
 
-import random
 import logging
 
 import requests
 
 from socrates import hanzi 
 from socrates.set import log, mongo
-from scripts import simi
 
 POST_URL = 'http://weilairiji.com/api/statuses/update.json' 
 
@@ -27,11 +25,6 @@ def slice_talk(talk):
     talk_list = [talk[i:i + 295] for i in range(0, len(talk), 295)]
     return map(lambda string: u'【' + str(1 + talk_list.index(string)) + u'】' + string, talk_list)
 
-def send_ok_ret(user, talk):
-    ret_state = user.get('ret')
-    if ret_state is 0:return ''
-    return user.get('custom_ret', simi.simi(talk))
-
 def transmit(user, talk,touser=None):
     data = {}
     data['status'] = talk.encode('GB18030')
@@ -47,7 +40,7 @@ def transmit(user, talk,touser=None):
         mongo.elfin.remove(user)
         raise UserWarning
     elif transmit_ret.status_code is 200:
-        return send_ok_ret(user, talk)
+        return
     else:
         raise FutureWarning
 
@@ -61,11 +54,11 @@ def send(fromUser, talk):
         logging.info(e)
         return e
     except OverflowError:
-        slice_ret = map(lambda talk: transmit(user,talk), slice_talk(talk))
-        return reduce(lambda x, y: x + '\n' + y, slice_ret)
+        map(lambda talk: transmit(user,talk), slice_talk(talk))
+        return user.get('ret', '')
     else:
         try:
-            send_ok_ret = transmit(user, talk)
+            transmit(user, talk)
         except RuntimeWarning:
             return hanzi.ERR_SERVER
         except UserWarning:
@@ -74,6 +67,6 @@ def send(fromUser, talk):
             return hanzi.ERR_UNKOWN
         else:
             mongo.elfin.update({'id':user['id']},{'$set':{'hash':hash(talk)}})
-            return send_ok_ret
+            return user.get('ret', '')
     finally:
         logging.info(str(user['id']) + ' : ' + talk)

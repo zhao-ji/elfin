@@ -7,7 +7,6 @@ import requests
 from socrates import hanzi
 from socrates.set import log
 from scripts.mongo_operate import get_value
-from scripts.send_talk import send_ok_ret
 
 def get_photo_stream(pic_url, msgid):
     headers = {}
@@ -50,8 +49,6 @@ def upload_photo(wechat_id, pic_url, pic_id):
 
     files = {}
     files['photo'] = ('1.jpg', photo, 'image/jpeg')
-    files['phototitle'] = (hanzi.WECHATPIC.decode('utf-8') + pic_id).encode('GB18030')
 
     r = session.post(upload_photo_url, data=data, files=files)
-    logging.info(r.text)
-    return send_ok_ret(user) if r.status_code==200 else 'error'
+    return hanzi.SEND_OK if r.status_code==200 else hanzi.SEND_FAIL
