@@ -30,6 +30,7 @@ class bind(tornado.web.RequestHandler):
             elfin['tail'] = hanzi.DEVICE
             elfin['hash'] = _login.hash
             elfin['ret'] = _login.ret
+            elfin['session'] = _login.session
             mongo.elfin.remove({'id':elfin['id']})
             mongo.elfin.insert(elfin)
             self.write(hanzi.BIND_OK)

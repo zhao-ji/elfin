@@ -10,6 +10,8 @@ SEND_OK = "发射成功"
 SEND_FAIL = "发射失败"
 WECHATPIC = '微信图片'
 DEVICE = '蟹爪小精灵'
+AT_MESSAGE = '您有{}条未读@'
+PRIVATE_MESSAGE = '您有{}条未读私信'
 
 '''bind.py'''
 BIND = '绑定蟹爪'
@@ -25,5 +27,5 @@ NOT_NULL = '尾巴不要为空'
 TAIL_OK = '小精灵尾巴更换成功！'
 RET_OK = '回复设置成功'
 TAIL_ERR = '尾巴更换失败，请稍候重试'
-CHANGE_TAIL = '''尾巴更改为：%s'''
+CHANGE_TAIL = '''尾巴更改为：{}'''
 USERSET = '设置小精灵'
