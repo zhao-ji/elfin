@@ -7,6 +7,7 @@ import requests
 
 from socrates import hanzi
 from socrates.set import log
+from scripts import session_get
 
 POST_URL = 'http://weilairiji.com/api/statuses/update.json'
 
@@ -14,6 +15,7 @@ class login:
     xieban = 0
     user_name = ''
     protected = 0
+    id = 0
 
     def __init__(self, email=None, psw=None):
         __data = {}
@@ -36,3 +38,4 @@ class login:
         else:
             user_info = ret_list[0]['user']
             self.id = int(user_info['id'])
+            self.session = session_get.get_session(self.xiezhua_id)

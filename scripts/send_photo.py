@@ -1,12 +1,14 @@
 # coding: utf-8
 
 import logging
+import pickle
 
 import requests
 
 from socrates import hanzi
 from socrates.set import log
-from scripts.mongo_operate import get_value
+from scripts.mongo_operate import update_user, get_user_value
+from scripts.session_get import get_session
 
 def get_photo_stream(pic_url, msgid):
     headers = {}
@@ -24,22 +26,22 @@ def get_photo_stream(pic_url, msgid):
     f.close()
     return open(filename, 'rb')
 
-def get_session(xiezhua_id):
-
-    login_url = 'http://m.weilairiji.com/index.php?op=login'
-    s = requests.Session()
-
-    data = {}
-    data['loginaccount'] = xiezhua_id[0]
-    data['loginpass'] = xiezhua_id[1]
-    data['action'] = 'login'
-
-    r = s.post(login_url, data=data)
-    return s
+#def get_session(xiezhua_id):
+#
+#    login_url = 'http://m.weilairiji.com/index.php?op=login'
+#    s = requests.Session()
+#
+#    data = {}
+#    data['loginaccount'] = xiezhua_id[0]
+#    data['loginpass'] = xiezhua_id[1]
+#    data['action'] = 'login'
+#
+#    r = s.post(login_url, data=data)
+#    return s
 
 def upload_photo(wechat_id, pic_url, pic_id):
-    user = get_value(wechat_id=wechat_id)
-    session = get_session(user['xiezhua_id'])
+    user = get_user_value(wechat_id=wechat_id)
+    #session = get_session(user['xiezhua_id'])
     photo = get_photo_stream(pic_url, pic_id)
 
     upload_photo_url = 'http://m.weilairiji.com/index.php?op=sendphoto&tsid='
@@ -50,5 +52,13 @@ def upload_photo(wechat_id, pic_url, pic_id):
     files = {}
     files['photo'] = ('1.jpg', photo, 'image/jpeg')
 
+    if user.has_key('session'):
+        session = pickle.loads(user.get('session'))
+    else:
+        session = get_session(user.get('xiezhua_id'))
     r = session.post(upload_photo_url, data=data, files=files)
-    return hanzi.SEND_OK if r.status_code==200 else hanzi.SEND_FAIL
+    if r.status_code==200:
+        update_user({'xiezhua_id':user.get('xiezhua_id')}, hash=hash(photo))
+        return hanzi.SEND_OK 
+    else:
+        return hanzi.SEND_FAIL
