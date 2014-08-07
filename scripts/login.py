@@ -1,6 +1,7 @@
 # coding: utf-8
 
 import json
+import pickle
 import logging
 
 import requests
@@ -38,4 +39,4 @@ class login:
         else:
             user_info = ret_list[0]['user']
             self.id = int(user_info['id'])
-            self.session = session_get.get_session(self.xiezhua_id)
+            self.session = pickle.dumps(session_get.get_session(self.xiezhua_id))

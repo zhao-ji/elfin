@@ -70,7 +70,7 @@ class wechat(tornado.web.RequestHandler):
             if event == 'subscribe':
                 ret_render(hanzi.HELLO%fromUser)
             elif event == 'unsubscribe':
-                pass
+                del_user(wechat_id=fromUser)
             elif event == 'CLICK':
                 key = xml.find("EventKey").text
                 if key == 'help':
