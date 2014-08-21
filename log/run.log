@@ -27865,3 +27865,4 @@ TypeError: 'NoneType' object has no attribute '__getitem__'
 2014-08-21 14:22:53 wechat.py[line:59] INFO 小黄鸡
 2014-08-21 14:22:53 wechat.py[line:60] INFO 主人有事嘛
 2014-08-21 14:22:53 web.py[line:1728] INFO 200 POST /wechat?signature=0ec32da94b8b852c2016d76d212a34df35c52505&timestamp=1408602171&nonce=690699130 (127.0.0.1) 1426.37ms
+2014-08-21 14:26:09 web.py[line:1728] WARNING 404 GET / (23.252.104.24) 0.67ms

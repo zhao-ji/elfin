@@ -2269,3 +2269,8 @@ Thu Aug 21 14:08:43 [clientcursormon] mem (MB) res:10 virt:159 mapped:64
 Thu Aug 21 14:13:43 [clientcursormon] mem (MB) res:10 virt:159 mapped:64
 Thu Aug 21 14:18:43 [clientcursormon] mem (MB) res:10 virt:159 mapped:64
 Thu Aug 21 14:23:43 [clientcursormon] mem (MB) res:10 virt:159 mapped:64
+Thu Aug 21 14:26:10 [initandlisten] connection accepted from 23.252.104.24:46390 #287
+Thu Aug 21 14:26:10 [conn287] end connection 23.252.104.24:46390
+Thu Aug 21 14:26:10 [initandlisten] connection accepted from 23.252.104.24:46391 #288
+Thu Aug 21 14:26:11 [conn288] end connection 23.252.104.24:46391
+Thu Aug 21 14:28:43 [clientcursormon] mem (MB) res:10 virt:159 mapped:64
