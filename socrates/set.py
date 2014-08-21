@@ -10,6 +10,10 @@ log = logging.basicConfig(filename='/home/nightwish/elfin/log/run.log',
                     )
 
 
+open_line_url = 'http://m.weilairiji.com/index.php?op=browse'
+time_line_url = 'http://m.weilairiji.com/index.php?op=index&page={}'
+
+
 '''  [1] list   timeline of each user
      [2] list   recent visiters of each user
      [3] string @, private message

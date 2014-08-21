@@ -20,7 +20,7 @@ from scripts.send_photo import upload_photo
 from scripts.home import home
 from scripts.simi import simi
 from scripts.hot_word_get import hot_word
-from scripts.open_line_get import open_line
+from scripts.timeline_get import open_line, time_line
 from scripts.message_get import get_message_num
 
 sys.path.append(os.path.join(os.path.dirname(os.path.abspath(__file__)), os.path.pardir))
@@ -88,7 +88,8 @@ class wechat(tornado.web.RequestHandler):
                         ret_render(Feedback)
                
                 elif key in ['tml1', 'tml2', 'tml3']:
-                    ret_render('hello')
+                    time_lines = time_line(key, fromUser)
+                    ret_render(time_lines)
                 elif key in ['at_msg', 'private_msg']: 
                     message_num = get_message_num(key, fromUser)
                     ret_render(message_num)

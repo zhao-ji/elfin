@@ -27866,3 +27866,1634 @@ TypeError: 'NoneType' object has no attribute '__getitem__'
 2014-08-21 14:22:53 wechat.py[line:60] INFO 主人有事嘛
 2014-08-21 14:22:53 web.py[line:1728] INFO 200 POST /wechat?signature=0ec32da94b8b852c2016d76d212a34df35c52505&timestamp=1408602171&nonce=690699130 (127.0.0.1) 1426.37ms
 2014-08-21 14:26:09 web.py[line:1728] WARNING 404 GET / (23.252.104.24) 0.67ms
+2014-08-21 14:39:09 connectionpool.py[line:171] INFO Starting new HTTP connection (1): api.simsimi.com
+2014-08-21 14:39:09 connectionpool.py[line:171] INFO Starting new HTTP connection (1): weilairiji.com
+2014-08-21 14:39:11 send_talk.py[line:72] INFO 1073 : 看到所有的私交甚笃的C姓指控都对准陈柏霖时候，我终于明白喊柯振东加油的人是什么心情了…我只想说，亲爱的张士豪，快跑。
+2014-08-21 14:39:11 wechat.py[line:59] INFO 看到所有的私交甚笃的C姓指控都对准陈柏霖时候，我终于明白喊柯振东加油的人是什么心情了…我只想说，亲爱的张士豪，快跑。
+2014-08-21 14:39:11 wechat.py[line:60] INFO 这是纱嘉的诡计，让大家误以为“尸体”已经“离开”了。而实际上尉迟君。。。
+2014-08-21 14:39:11 web.py[line:1728] INFO 200 POST /wechat?signature=d23500b40338a13658ae24318f8d4dcbfa763c78&timestamp=1408603148&nonce=219797115 (127.0.0.1) 1965.00ms
+2014-08-21 15:03:06 connectionpool.py[line:657] INFO Starting new HTTPS connection (1): api.weixin.qq.com
+2014-08-21 15:03:07 get_access_token.py[line:34] INFO access_token:ZOC4Bu-X3nmuLZplJNso1eQPQNSIKQgjMb_CbPhpyCx5hytX1KtZMTAt6v13M-d2vYC6E5sAp2BMe2-R10WmGw
+2014-08-21 15:03:28 connectionpool.py[line:180] INFO Starting new HTTP connection (1): api.simsimi.com
+2014-08-21 15:03:28 connectionpool.py[line:180] INFO Starting new HTTP connection (1): weilairiji.com
+2014-08-21 15:03:32 send_talk.py[line:72] INFO 24579 : 你好
+2014-08-21 15:03:32 wechat.py[line:59] INFO 你好
+2014-08-21 15:03:32 wechat.py[line:60] INFO 我很好！
+2014-08-21 15:03:32 web.py[line:1728] INFO 200 POST /wechat?signature=3fcd5307511b5582aac5ab909d8794e913954b8e&timestamp=1408604607&nonce=805107064 (127.0.0.1) 3566.00ms
+2014-08-21 15:04:33 connectionpool.py[line:180] INFO Starting new HTTP connection (1): m.weilairiji.com
+2014-08-21 15:04:35 web.py[line:1305] ERROR Uncaught exception POST /wechat?signature=e1e21223e8b04f71f3fa3d732e27c94a27327223&timestamp=1408604673&nonce=628408141 (127.0.0.1)
+HTTPRequest(protocol='http', host='127.0.0.1:9001', method='POST', uri='/wechat?signature=e1e21223e8b04f71f3fa3d732e27c94a27327223&timestamp=1408604673&nonce=628408141', version='HTTP/1.0', remote_ip='127.0.0.1', headers={'Content-Length': '284', 'Host': '127.0.0.1:9001', 'Pragma': 'no-cache', 'Content-Type': 'text/xml', 'Connection': 'close', 'Accept': '*/*', 'User-Agent': 'Mozilla/4.0'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1218, in _when_complete
+    callback()
+  File "/usr/local/lib/python2.7/dist-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1239, in _execute_method
+    self._when_complete(method(*self.path_args, **self.path_kwargs),
+  File "/home/nightwish/elfin/handlers/wechat.py", line 98, in post
+    open_lines = open_line()
+  File "/home/nightwish/elfin/scripts/open_line_get.py", line 12, in open_line
+    open_line_init = pq(url=open_line_url)
+  File "/usr/local/lib/python2.7/dist-packages/pyquery-1.2.8-py2.7.egg/pyquery/pyquery.py", line 201, in __init__
+    elements = fromstring(html, self.parser)
+  File "/usr/local/lib/python2.7/dist-packages/pyquery-1.2.8-py2.7.egg/pyquery/pyquery.py", line 90, in fromstring
+    result = custom_parser(context)
+  File "/usr/lib/python2.7/dist-packages/lxml/html/__init__.py", line 634, in fromstring
+    doc = document_fromstring(html, parser=parser, base_url=base_url, **kw)
+  File "/usr/lib/python2.7/dist-packages/lxml/html/__init__.py", line 532, in document_fromstring
+    value = etree.fromstring(html, parser, **kw)
+  File "lxml.etree.pyx", line 2754, in lxml.etree.fromstring (src/lxml/lxml.etree.c:54631)
+  File "parser.pxi", line 1569, in lxml.etree._parseMemoryDocument (src/lxml/lxml.etree.c:82659)
+ValueError: Unicode strings with encoding declaration are not supported.
+2014-08-21 15:04:35 web.py[line:1728] ERROR 500 POST /wechat?signature=e1e21223e8b04f71f3fa3d732e27c94a27327223&timestamp=1408604673&nonce=628408141 (127.0.0.1) 1368.89ms
+2014-08-21 15:26:13 web.py[line:1728] WARNING 404 GET / (23.252.104.24) 0.76ms
+2014-08-21 15:43:47 connectionpool.py[line:180] INFO Starting new HTTP connection (1): api.simsimi.com
+2014-08-21 15:43:47 connectionpool.py[line:180] INFO Starting new HTTP connection (1): weilairiji.com
+2014-08-21 15:43:48 send_talk.py[line:72] INFO 1073 : 看评论里有人说F是Feynman…噗噗噗…
+2014-08-21 15:43:48 wechat.py[line:59] INFO 看评论里有人说F是Feynman…噗噗噗…
+2014-08-21 15:43:48 wechat.py[line:60] INFO 哈哈
+2014-08-21 15:43:48 web.py[line:1728] INFO 200 POST /wechat?signature=fd57b4c2900f70e9ad092a71cb6a87cb064ac1ea&timestamp=1408607026&nonce=1272963508 (127.0.0.1) 1378.38ms
+2014-08-21 16:03:07 connectionpool.py[line:657] INFO Starting new HTTPS connection (1): api.weixin.qq.com
+2014-08-21 16:03:09 get_access_token.py[line:34] INFO access_token:8JPUqzOy23XaPNVbN7v9B5vNlcX3kz57MPN-sUr0_reVwX9-oeWHGk8wBraeg-AT8eRwi_hE3jLhfnClkY4xtQ
+2014-08-21 16:15:34 connectionpool.py[line:180] INFO Starting new HTTP connection (1): api.simsimi.com
+2014-08-21 16:15:35 connectionpool.py[line:180] INFO Starting new HTTP connection (1): weilairiji.com
+2014-08-21 16:15:36 send_talk.py[line:72] INFO 3714 : 郁闷，在不确定对方同不同意我们参加之前就叫我们去唱k，然后在我疑问之后才去问人家，大概对方是不愿意，就说还不肯定是今晚去。。所谓的善意的谎言，其实一开始就不该告诉我们啊
+2014-08-21 16:15:36 wechat.py[line:59] INFO 郁闷，在不确定对方同不同意我们参加之前就叫我们去唱k，然后在我疑问之后才去问人家，大概对方是不愿意，就说还不肯定是今晚去。。所谓的善意的谎言，其实一开始就不该告诉我们啊
+2014-08-21 16:15:36 wechat.py[line:60] INFO 好啊,主人你好漂亮
+2014-08-21 16:15:36 web.py[line:1728] INFO 200 POST /wechat?signature=e336e7d07697f31d83a8eb750fee0133e76ba69f&timestamp=1408608933&nonce=1866102827 (127.0.0.1) 1611.08ms
+2014-08-21 16:21:15 connectionpool.py[line:180] INFO Starting new HTTP connection (1): m.weilairiji.com
+2014-08-21 16:21:16 web.py[line:1305] ERROR Uncaught exception POST /wechat?signature=e0533464931be5504166c7d5bf840a1a39c89af8&timestamp=1408609275&nonce=1218842973 (127.0.0.1)
+HTTPRequest(protocol='http', host='127.0.0.1:9001', method='POST', uri='/wechat?signature=e0533464931be5504166c7d5bf840a1a39c89af8&timestamp=1408609275&nonce=1218842973', version='HTTP/1.0', remote_ip='127.0.0.1', headers={'Content-Length': '284', 'Host': '127.0.0.1:9001', 'Pragma': 'no-cache', 'Content-Type': 'text/xml', 'Connection': 'close', 'Accept': '*/*', 'User-Agent': 'Mozilla/4.0'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1218, in _when_complete
+    callback()
+  File "/usr/local/lib/python2.7/dist-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1239, in _execute_method
+    self._when_complete(method(*self.path_args, **self.path_kwargs),
+  File "/home/nightwish/elfin/handlers/wechat.py", line 98, in post
+    open_lines = open_line()
+  File "/home/nightwish/elfin/scripts/open_line_get.py", line 38, in open_line
+    open_line = ''.join([talk.encode('utf-8') for talk in open_talk_list])
+AttributeError: 'list' object has no attribute 'encode'
+2014-08-21 16:21:16 web.py[line:1728] ERROR 500 POST /wechat?signature=e0533464931be5504166c7d5bf840a1a39c89af8&timestamp=1408609275&nonce=1218842973 (127.0.0.1) 1416.54ms
+2014-08-21 16:26:03 connectionpool.py[line:180] INFO Starting new HTTP connection (1): m.weilairiji.com
+2014-08-21 16:26:04 open_line_get.py[line:36] INFO 11
+2014-08-21 16:26:04 open_line_get.py[line:39] INFO 4
+2014-08-21 16:26:04 open_line_get.py[line:39] INFO 4
+2014-08-21 16:26:04 open_line_get.py[line:39] INFO 4
+2014-08-21 16:26:04 open_line_get.py[line:39] INFO 4
+2014-08-21 16:26:04 open_line_get.py[line:39] INFO 4
+2014-08-21 16:26:04 open_line_get.py[line:39] INFO 2
+2014-08-21 16:26:04 open_line_get.py[line:39] INFO 2
+2014-08-21 16:26:04 open_line_get.py[line:39] INFO 4
+2014-08-21 16:26:04 open_line_get.py[line:39] INFO 1
+2014-08-21 16:26:04 open_line_get.py[line:39] INFO 2
+2014-08-21 16:26:04 open_line_get.py[line:39] INFO 4
+2014-08-21 16:26:04 open_line_get.py[line:42] INFO 宁馨秋雪:！   我在相册上传了一张照片： 为毛吃什么都是饿的感觉 ? 为毛我的四个月的比别人六个月的都要大的样子 ?占占天天早上五点起来给我熬粥、炒菜、煮鸡蛋，尼玛我现在就是一个吃货，还一个劲的瘦下去!: 宁馨秋雪:！   我在相册上传了一张照片： 20140821160821938943: 老妖: 女生生日快乐思密达~~么么哒   @ 黑眼圈女王.= =: 老妖: 跟陈柏霖有什么关系？？   @ SapphiReeee.| Call Me Miss 骨感。: 老妖: 身体不习惯。。我现在好像没有以前懒觉那么多了。。还是很懒很困缺很多觉但是不会像以前那么不好起来了。。   @ 鬼鬼.: 朝夕。: 怪不得最近心情起伏比较大。。。 
+朝夕。: 世界就像是个巨大的马戏团/它让你兴奋，却让我惶恐/ 
+因为我知道散场后永远是 /有限温存，无限辛酸—卓别林《致乌娜》 
+Se7en.: 大陆那个说法还真没听过= =还是比较喜欢宠物小精灵   RT Sic semper tyrannis: 香港叫「宠物小精灵」，台湾叫「神奇宝贝」，中国大陆叫「精灵宝可梦」，盗版汉化玩家叫「口袋妖怪」
+Se7en.: 我就不懂为什么一有约全部都会挤到同一个时间一起来 闲的时候又没有人来找←_← 
+老妖: 我忘了在哪儿看的，说如果一直运动没什么效果的话就改变一下。比如说从晚上变成早上。。。我晚上也有运动的╯﹏╰   @ 鬼鬼.: 
+2014-08-21 16:26:04 web.py[line:1728] INFO 200 POST /wechat?signature=84a689a302d18cb2e46699d2b7ecbcd8222d3be8&timestamp=1408609562&nonce=126719273 (127.0.0.1) 1376.81ms
+2014-08-21 16:26:13 web.py[line:1728] WARNING 404 GET / (23.252.104.24) 0.62ms
+2014-08-21 16:27:49 connectionpool.py[line:180] INFO Starting new HTTP connection (1): m.weilairiji.com
+2014-08-21 16:27:50 open_line_get.py[line:36] INFO 11
+2014-08-21 16:27:50 open_line_get.py[line:39] INFO 4
+2014-08-21 16:27:50 open_line_get.py[line:39] INFO 4
+2014-08-21 16:27:50 open_line_get.py[line:39] INFO 4
+2014-08-21 16:27:50 open_line_get.py[line:39] INFO 4
+2014-08-21 16:27:50 open_line_get.py[line:39] INFO 4
+2014-08-21 16:27:50 open_line_get.py[line:39] INFO 2
+2014-08-21 16:27:50 open_line_get.py[line:39] INFO 2
+2014-08-21 16:27:50 open_line_get.py[line:39] INFO 4
+2014-08-21 16:27:50 open_line_get.py[line:39] INFO 1
+2014-08-21 16:27:50 open_line_get.py[line:39] INFO 2
+2014-08-21 16:27:50 open_line_get.py[line:39] INFO 4
+2014-08-21 16:27:50 open_line_get.py[line:42] INFO 宁馨秋雪:！   我在相册上传了一张照片： 为毛吃什么都是饿的感觉 ? 为毛我的四个月的比别人六个月的都要大的样子 ?占占天天早上五点起来给我熬粥、炒菜、煮鸡蛋，尼玛我现在就是一个吃货，还一个劲的瘦下去!: 宁馨秋雪:！   我在相册上传了一张照片： 20140821160821938943: 老妖: 女生生日快乐思密达~~么么哒   @ 黑眼圈女王.= =: 老妖: 跟陈柏霖有什么关系？？   @ SapphiReeee.| Call Me Miss 骨感。: 老妖: 身体不习惯。。我现在好像没有以前懒觉那么多了。。还是很懒很困缺很多觉但是不会像以前那么不好起来了。。   @ 鬼鬼.: 朝夕。: 怪不得最近心情起伏比较大。。。 
+
+朝夕。: 世界就像是个巨大的马戏团/它让你兴奋，却让我惶恐/ 
+因为我知道散场后永远是 /有限温存，无限辛酸—卓别林《致乌娜》 
+
+Se7en.: 大陆那个说法还真没听过= =还是比较喜欢宠物小精灵   RT Sic semper tyrannis: 香港叫「宠物小精灵」，台湾叫「神奇宝贝」，中国大陆叫「精灵宝可梦」，盗版汉化玩家叫「口袋妖怪」
+
+Se7en.: 我就不懂为什么一有约全部都会挤到同一个时间一起来 闲的时候又没有人来找←_← 
+
+老妖: 我忘了在哪儿看的，说如果一直运动没什么效果的话就改变一下。比如说从晚上变成早上。。。我晚上也有运动的╯﹏╰   @ 鬼鬼.: 
+2014-08-21 16:27:50 web.py[line:1728] INFO 200 POST /wechat?signature=106742391ee81983ba12736f07ec5d544945abfc&timestamp=1408609668&nonce=1418937511 (127.0.0.1) 1346.49ms
+2014-08-21 16:31:56 connectionpool.py[line:180] INFO Starting new HTTP connection (1): m.weilairiji.com
+2014-08-21 16:31:58 open_line_get.py[line:36] INFO 11
+2014-08-21 16:31:58 open_line_get.py[line:39] INFO 4
+2014-08-21 16:31:58 open_line_get.py[line:39] INFO 4
+2014-08-21 16:31:58 open_line_get.py[line:39] INFO 4
+2014-08-21 16:31:58 open_line_get.py[line:39] INFO 4
+2014-08-21 16:31:58 open_line_get.py[line:39] INFO 4
+2014-08-21 16:31:58 open_line_get.py[line:39] INFO 2
+2014-08-21 16:31:58 open_line_get.py[line:39] INFO 2
+2014-08-21 16:31:58 open_line_get.py[line:39] INFO 4
+2014-08-21 16:31:58 open_line_get.py[line:39] INFO 1
+2014-08-21 16:31:58 open_line_get.py[line:39] INFO 2
+2014-08-21 16:31:58 open_line_get.py[line:39] INFO 4
+2014-08-21 16:31:58 open_line_get.py[line:42] INFO 宁馨秋雪:！   我在相册上传了一张照片： 为毛吃什么都是饿的感觉 ? 为毛我的四个月的比别人六个月的都要大的样子 ?占占天天早上五点起来给我熬粥、炒菜、煮鸡蛋，尼玛我现在就是一个吃货，还一个劲的瘦下去!: 宁馨秋雪:！   我在相册上传了一张照片： 20140821160821938943: 老妖: 女生生日快乐思密达~~么么哒   @ 黑眼圈女王.= =: 老妖: 跟陈柏霖有什么关系？？   @ SapphiReeee.| Call Me Miss 骨感。: 老妖: 身体不习惯。。我现在好像没有以前懒觉那么多了。。还是很懒很困缺很多觉但是不会像以前那么不好起来了。。   @ 鬼鬼.: 朝夕。 :  怪不得最近心情起伏比较大。。。 
+
+朝夕。 :  世界就像是个巨大的马戏团/它让你兴奋，却让我惶恐/ 
+因为我知道散场后永远是 /有限温存，无限辛酸—卓别林《致乌娜》 
+
+Se7en.: 大陆那个说法还真没听过= =还是比较喜欢宠物小精灵   RT Sic semper tyrannis: 香港叫「宠物小精灵」，台湾叫「神奇宝贝」，中国大陆叫「精灵宝可梦」，盗版汉化玩家叫「口袋妖怪」
+
+Se7en. :  我就不懂为什么一有约全部都会挤到同一个时间一起来 闲的时候又没有人来找←_← 
+
+老妖: 我忘了在哪儿看的，说如果一直运动没什么效果的话就改变一下。比如说从晚上变成早上。。。我晚上也有运动的╯﹏╰   @ 鬼鬼.: 
+2014-08-21 16:31:58 web.py[line:1728] INFO 200 POST /wechat?signature=bb19c12f4644c687d9a31d85b4d1f9f1ae0ec954&timestamp=1408609916&nonce=705534906 (127.0.0.1) 1325.61ms
+2014-08-21 16:36:55 connectionpool.py[line:180] INFO Starting new HTTP connection (1): m.weilairiji.com
+2014-08-21 16:36:57 open_line_get.py[line:36] INFO 11
+2014-08-21 16:36:57 open_line_get.py[line:39] INFO 4
+2014-08-21 16:36:57 open_line_get.py[line:39] INFO 4
+2014-08-21 16:36:57 open_line_get.py[line:39] INFO 3
+2014-08-21 16:36:57 open_line_get.py[line:39] INFO 3
+2014-08-21 16:36:57 open_line_get.py[line:39] INFO 3
+2014-08-21 16:36:57 open_line_get.py[line:39] INFO 2
+2014-08-21 16:36:57 open_line_get.py[line:39] INFO 2
+2014-08-21 16:36:57 open_line_get.py[line:39] INFO 4
+2014-08-21 16:36:57 open_line_get.py[line:39] INFO 1
+2014-08-21 16:36:57 open_line_get.py[line:39] INFO 2
+2014-08-21 16:36:57 open_line_get.py[line:39] INFO 3
+2014-08-21 16:36:57 open_line_get.py[line:42] INFO 宁馨秋雪:！   我在相册上传了一张照片： 为毛吃什么都是饿的感觉 ? 为毛我的四个月的比别人六个月的都要大的样子 ?占占天天早上五点起来给我熬粥、炒菜、煮鸡蛋，尼玛我现在就是一个吃货，还一个劲的瘦下去!: 宁馨秋雪:！   我在相册上传了一张照片： 20140821160821938943: 老妖@黑眼圈女王.= = :  女生生日快乐思密达~~么么哒 
+
+老妖@SapphiReeee.| Call Me Miss 骨感。 :  跟陈柏霖有什么关系？？ 
+
+老妖@鬼鬼. :  身体不习惯。。我现在好像没有以前懒觉那么多了。。还是很懒很困缺很多觉但是不会像以前那么不好起来了。。 
+
+朝夕。 :  怪不得最近心情起伏比较大。。。 
+
+朝夕。 :  世界就像是个巨大的马戏团/它让你兴奋，却让我惶恐/ 
+因为我知道散场后永远是 /有限温存，无限辛酸—卓别林《致乌娜》 
+
+Se7en.: 大陆那个说法还真没听过= =还是比较喜欢宠物小精灵   RT Sic semper tyrannis: 香港叫「宠物小精灵」，台湾叫「神奇宝贝」，中国大陆叫「精灵宝可梦」，盗版汉化玩家叫「口袋妖怪」
+
+Se7en. :  我就不懂为什么一有约全部都会挤到同一个时间一起来 闲的时候又没有人来找←_← 
+
+老妖@鬼鬼. :  我忘了在哪儿看的，说如果一直运动没什么效果的话就改变一下。比如说从晚上变成早上。。。我晚上也有运动的╯﹏╰ 
+
+
+2014-08-21 16:36:57 web.py[line:1728] INFO 200 POST /wechat?signature=aba5505a11f424411f8effda98e87a764eec172d&timestamp=1408610215&nonce=285612965 (127.0.0.1) 1442.21ms
+2014-08-21 16:40:58 connectionpool.py[line:180] INFO Starting new HTTP connection (1): m.weilairiji.com
+2014-08-21 16:41:01 web.py[line:1728] INFO 200 POST /wechat?signature=c5884a2ba488a3180191a0eeaf5a41082730e647&timestamp=1408610458&nonce=551496917 (127.0.0.1) 2976.67ms
+2014-08-21 16:48:04 connectionpool.py[line:180] INFO Starting new HTTP connection (1): m.weilairiji.com
+2014-08-21 16:48:06 open_line_get.py[line:40] INFO 宁馨秋雪:！   我在相册上传了一张照片： 为毛吃什么都是饿的感觉 ? 为毛我的四个月的比别人六个月的都要大的样子 ?占占天天早上五点起来给我熬粥、炒菜、煮鸡蛋，尼玛我现在就是一个吃货，还一个劲的瘦下去!: 宁馨秋雪:！   我在相册上传了一张照片： 20140821160821938943: 老妖@黑眼圈女王.= = :  女生生日快乐思密达~~么么哒 
+
+老妖@SapphiReeee.| Call Me Miss 骨感。 :  跟陈柏霖有什么关系？？ 
+
+老妖@鬼鬼. :  身体不习惯。。我现在好像没有以前懒觉那么多了。。还是很懒很困缺很多觉但是不会像以前那么不好起来了。。 
+
+朝夕。 :  怪不得最近心情起伏比较大。。。 
+
+朝夕。 :  世界就像是个巨大的马戏团/它让你兴奋，却让我惶恐/ 
+因为我知道散场后永远是 /有限温存，无限辛酸—卓别林《致乌娜》 
+
+Se7en.: 大陆那个说法还真没听过= =还是比较喜欢宠物小精灵   RT Sic semper tyrannis: 香港叫「宠物小精灵」，台湾叫「神奇宝贝」，中国大陆叫「精灵宝可梦」，盗版汉化玩家叫「口袋妖怪」
+
+Se7en. :  我就不懂为什么一有约全部都会挤到同一个时间一起来 闲的时候又没有人来找←_← 
+
+老妖@鬼鬼. :  我忘了在哪儿看的，说如果一直运动没什么效果的话就改变一下。比如说从晚上变成早上。。。我晚上也有运动的╯﹏╰ 
+
+
+2014-08-21 16:48:06 web.py[line:1728] INFO 200 POST /wechat?signature=ce63998b9b7235b3863e9cb1bab4f8329f03f54e&timestamp=1408610884&nonce=2130122899 (127.0.0.1) 1463.02ms
+2014-08-21 16:50:20 connectionpool.py[line:180] INFO Starting new HTTP connection (1): m.weilairiji.com
+2014-08-21 16:50:21 open_line_get.py[line:40] INFO 宁馨秋雪:！   我在相册上传了一张照片： 为毛吃什么都是饿的感觉 ? 为毛我的四个月的比别人六个月的都要大的样子 ?占占天天早上五点起来给我熬粥、炒菜、煮鸡蛋，尼玛我现在就是一个吃货，还一个劲的瘦下去!: 宁馨秋雪:！   我在相册上传了一张照片： 20140821160821938943: 老妖@黑眼圈女王.= = :  女生生日快乐思密达~~么么哒 
+
+老妖@SapphiReeee.| Call Me Miss 骨感。 :  跟陈柏霖有什么关系？？ 
+
+老妖@鬼鬼. :  身体不习惯。。我现在好像没有以前懒觉那么多了。。还是很懒很困缺很多觉但是不会像以前那么不好起来了。。 
+
+朝夕。 :  怪不得最近心情起伏比较大。。。 
+
+朝夕。 :  世界就像是个巨大的马戏团/它让你兴奋，却让我惶恐/ 
+因为我知道散场后永远是 /有限温存，无限辛酸—卓别林《致乌娜》 
+
+Se7en.: 大陆那个说法还真没听过= =还是比较喜欢宠物小精灵   RT Sic semper tyrannis: 香港叫「宠物小精灵」，台湾叫「神奇宝贝」，中国大陆叫「精灵宝可梦」，盗版汉化玩家叫「口袋妖怪」
+
+Se7en. :  我就不懂为什么一有约全部都会挤到同一个时间一起来 闲的时候又没有人来找←_← 
+
+老妖@鬼鬼. :  我忘了在哪儿看的，说如果一直运动没什么效果的话就改变一下。比如说从晚上变成早上。。。我晚上也有运动的╯﹏╰ 
+
+
+2014-08-21 16:50:21 web.py[line:1728] INFO 200 POST /wechat?signature=0a56563f8ada154f68cc0dbb15f04133c4d4a346&timestamp=1408611020&nonce=581316480 (127.0.0.1) 1369.58ms
+2014-08-21 16:54:06 connectionpool.py[line:180] INFO Starting new HTTP connection (1): m.weilairiji.com
+2014-08-21 16:54:08 open_line_get.py[line:40] INFO 宁馨秋雪:！   我在相册上传了一张照片： 为毛吃什么都是饿的感觉 ? 为毛我的四个月的比别人六个月的都要大的样子 ?占占天天早上五点起来给我熬粥、炒菜、煮鸡蛋，尼玛我现在就是一个吃货，还一个劲的瘦下去!: 宁馨秋雪:！   我在相册上传了一张照片： 20140821160821938943: 老妖@黑眼圈女王.= = :  女生生日快乐思密达~~么么哒 
+
+老妖@SapphiReeee.| Call Me Miss 骨感。 :  跟陈柏霖有什么关系？？ 
+
+老妖@鬼鬼. :  身体不习惯。。我现在好像没有以前懒觉那么多了。。还是很懒很困缺很多觉但是不会像以前那么不好起来了。。 
+
+朝夕。 :  怪不得最近心情起伏比较大。。。 
+
+朝夕。 :  世界就像是个巨大的马戏团/它让你兴奋，却让我惶恐/ 
+因为我知道散场后永远是 /有限温存，无限辛酸—卓别林《致乌娜》 
+
+Se7en.: 大陆那个说法还真没听过= =还是比较喜欢宠物小精灵   RT Sic semper tyrannis: 香港叫「宠物小精灵」，台湾叫「神奇宝贝」，中国大陆叫「精灵宝可梦」，盗版汉化玩家叫「口袋妖怪」
+
+Se7en. :  我就不懂为什么一有约全部都会挤到同一个时间一起来 闲的时候又没有人来找←_← 
+
+老妖@鬼鬼. :  我忘了在哪儿看的，说如果一直运动没什么效果的话就改变一下。比如说从晚上变成早上。。。我晚上也有运动的╯﹏╰ 
+
+
+2014-08-21 16:54:08 web.py[line:1728] INFO 200 POST /wechat?signature=ff0a207dd04cde15db721d63a2778b4110947d89&timestamp=1408611246&nonce=424965410 (127.0.0.1) 1374.51ms
+2014-08-21 16:54:56 connectionpool.py[line:180] INFO Starting new HTTP connection (1): m.weilairiji.com
+2014-08-21 16:54:57 open_line_get.py[line:40] INFO 宁馨秋雪:！   我在相册上传了一张照片： 为毛吃什么都是饿的感觉 ? 为毛我的四个月的比别人六个月的都要大的样子 ?占占天天早上五点起来给我熬粥、炒菜、煮鸡蛋，尼玛我现在就是一个吃货，还一个劲的瘦下去!: 宁馨秋雪:！   我在相册上传了一张照片： 20140821160821938943: 老妖@黑眼圈女王.= = :  女生生日快乐思密达~~么么哒 
+
+老妖@SapphiReeee.| Call Me Miss 骨感。 :  跟陈柏霖有什么关系？？ 
+
+老妖@鬼鬼. :  身体不习惯。。我现在好像没有以前懒觉那么多了。。还是很懒很困缺很多觉但是不会像以前那么不好起来了。。 
+
+朝夕。 :  怪不得最近心情起伏比较大。。。 
+
+朝夕。 :  世界就像是个巨大的马戏团/它让你兴奋，却让我惶恐/ 
+因为我知道散场后永远是 /有限温存，无限辛酸—卓别林《致乌娜》 
+
+Se7en.: 大陆那个说法还真没听过= =还是比较喜欢宠物小精灵   RT Sic semper tyrannis: 香港叫「宠物小精灵」，台湾叫「神奇宝贝」，中国大陆叫「精灵宝可梦」，盗版汉化玩家叫「口袋妖怪」
+
+Se7en. :  我就不懂为什么一有约全部都会挤到同一个时间一起来 闲的时候又没有人来找←_← 
+
+老妖@鬼鬼. :  我忘了在哪儿看的，说如果一直运动没什么效果的话就改变一下。比如说从晚上变成早上。。。我晚上也有运动的╯﹏╰ 
+
+
+2014-08-21 16:54:57 web.py[line:1728] INFO 200 POST /wechat?signature=b74b4d7b433c7659251a689d9eb284e143cc1b60&timestamp=1408611295&nonce=1821725511 (127.0.0.1) 1285.55ms
+2014-08-21 17:01:49 connectionpool.py[line:180] INFO Starting new HTTP connection (1): m.weilairiji.com
+2014-08-21 17:01:50 open_line_get.py[line:40] INFO 老妖@黑眼圈女王.= = :  女生生日快乐思密达~~么么哒 
+
+老妖@SapphiReeee.| Call Me Miss 骨感。 :  跟陈柏霖有什么关系？？ 
+
+老妖@鬼鬼. :  身体不习惯。。我现在好像没有以前懒觉那么多了。。还是很懒很困缺很多觉但是不会像以前那么不好起来了。。 
+
+朝夕。 :  怪不得最近心情起伏比较大。。。 
+
+朝夕。 :  世界就像是个巨大的马戏团/它让你兴奋，却让我惶恐/ 
+因为我知道散场后永远是 /有限温存，无限辛酸—卓别林《致乌娜》 
+
+Se7en.: 大陆那个说法还真没听过= =还是比较喜欢宠物小精灵   RT Sic semper tyrannis: 香港叫「宠物小精灵」，台湾叫「神奇宝贝」，中国大陆叫「精灵宝可梦」，盗版汉化玩家叫「口袋妖怪」
+
+Se7en. :  我就不懂为什么一有约全部都会挤到同一个时间一起来 闲的时候又没有人来找←_← 
+
+老妖@鬼鬼. :  我忘了在哪儿看的，说如果一直运动没什么效果的话就改变一下。比如说从晚上变成早上。。。我晚上也有运动的╯﹏╰ 
+
+
+2014-08-21 17:01:50 web.py[line:1728] INFO 200 POST /wechat?signature=e948327eb1b314704a14dfa8bb7b0f4979bf85ba&timestamp=1408611709&nonce=873874359 (127.0.0.1) 1327.56ms
+2014-08-21 17:03:09 connectionpool.py[line:657] INFO Starting new HTTPS connection (1): api.weixin.qq.com
+2014-08-21 17:03:11 get_access_token.py[line:34] INFO access_token:8JPUqzOy23XaPNVbN7v9B7Mj07amXseiakTFAylAy_MQImWV6niJsYzMZi6Gh_v2525N4KcKASmfec8U4-sYzQ
+2014-08-21 17:24:53 connectionpool.py[line:180] INFO Starting new HTTP connection (1): api.simsimi.com
+2014-08-21 17:24:54 connectionpool.py[line:180] INFO Starting new HTTP connection (1): weilairiji.com
+2014-08-21 17:24:55 send_talk.py[line:72] INFO 3714 : 其实不应该。。他还是叫了我们。。我觉得我很尴尬
+2014-08-21 17:24:55 wechat.py[line:59] INFO 其实不应该。。他还是叫了我们。。我觉得我很尴尬
+2014-08-21 17:24:55 wechat.py[line:60] INFO 怎么了？明明好好的不是吗。
+2014-08-21 17:24:55 web.py[line:1728] INFO 200 POST /wechat?signature=16e6c00a1c15c3e76d9a57f391f19544ed220a06&timestamp=1408613092&nonce=889374172 (127.0.0.1) 1683.82ms
+2014-08-21 17:25:47 connectionpool.py[line:180] INFO Starting new HTTP connection (1): api.simsimi.com
+2014-08-21 17:25:47 connectionpool.py[line:180] INFO Starting new HTTP connection (1): weilairiji.com
+2014-08-21 17:25:48 send_talk.py[line:72] INFO 34158 : 上得山多终遇虎
+2014-08-21 17:25:48 wechat.py[line:59] INFO 上得山多终遇虎
+2014-08-21 17:25:48 wechat.py[line:60] INFO 轶爷的妞
+2014-08-21 17:25:48 web.py[line:1728] INFO 200 POST /wechat?signature=39398c3d35bbd881ceead65f368cfcb51a4c37c8&timestamp=1408613145&nonce=2097121238 (127.0.0.1) 1481.90ms
+2014-08-21 17:26:12 web.py[line:1728] WARNING 404 GET / (23.252.104.24) 0.38ms
+2014-08-21 17:27:40 connectionpool.py[line:180] INFO Starting new HTTP connection (1): m.weilairiji.com
+2014-08-21 17:27:41 timeline_operate.py[line:35] INFO 林不该 :  上得山多终遇虎 
+
+Se7en. :  啊 有点想买个手拿包TUT 
+
+老妖@黑眼圈女王.= = :  女生生日快乐思密达~~么么哒 
+
+老妖@SapphiReeee.| Call Me Miss 骨感。 :  跟陈柏霖有什么关系？？ 
+
+老妖@鬼鬼. :  身体不习惯。。我现在好像没有以前懒觉那么多了。。还是很懒很困缺很多觉但是不会像以前那么不好起来了。。 
+
+朝夕。 :  怪不得最近心情起伏比较大。。。 
+
+朝夕。 :  世界就像是个巨大的马戏团/它让你兴奋，却让我惶恐/ 
+因为我知道散场后永远是 /有限温存，无限辛酸—卓别林《致乌娜》 
+
+Se7en.: 大陆那个说法还真没听过= =还是比较喜欢宠物小精灵   RT Sic semper tyrannis: 香港叫「宠物小精灵」，台湾叫「神奇宝贝」，中国大陆叫「精灵宝可梦」，盗版汉化玩家叫「口袋妖怪」
+
+
+2014-08-21 17:27:41 web.py[line:1728] INFO 200 POST /wechat?signature=9ebed74800db0996a6288111a6e4ed161846e959&timestamp=1408613259&nonce=854554283 (127.0.0.1) 1302.18ms
+2014-08-21 17:27:52 connectionpool.py[line:180] INFO Starting new HTTP connection (1): weilairiji.com
+2014-08-21 17:27:53 home.py[line:29] INFO 你好
+
+小黄鸡
+
+hello
+
+发现一个喜欢的女乐手。武汉大学计科毕业，想法很贴！
+
+房祖名案发于东城区，现在被拘留在东城区看守所。估计就在一筒，没准就呆在我呆过的那个号子。
+
+我觉得不能白坐了一个月的牢，总得写点什么
+
+【猫一样的女子一定是每天徒手抓耗子的女子】
+
+劫持 污染 投毒 DNS三板斧
+
+twitter和facebook还真是大毒草，谷歌和油管都能上了，这俩还是上不了。究竟用了什么变态的封锁手段？
+
+美特斯邦威 不走寻常路
+
+其实地上处处是路，哪条路走的人多了，也便被封成死路。它们就是要把国人圈在酱缸里。
+
+@哗啦哗啦殿下 慢，等会就出现了
+
+「都有自命不凡的几年，像一大扎青菜，滚水里过过，就实在了。」
+
+今天下午路过楼梯间，从门缝里偶然瞥见某大叔嘴里叼着烟在摸保洁阿姨。怎么办，我会不会有生命危险？我不知道他们看没看见我，因为我在门缝后面瞅了好久。
+
+mike说，下班后你老是不走，要不以后你叫外卖吧，公司给你报。
+
+今晚吃什么？
+
+@�      怂| 点下头笑一下然后往车里冲就好，别管那么多，我就是这么干的！
+
+因为晚出晚归跟出租屋内的租友长期见不到面，大家已经跟我有了距离感。她们问为什么你加班到那么晚，为什么周六还上一天班？我怎么说呢，如果我说我在做一些自己想做的东西她们肯定理解不了，所以我就说对，活太TM多了。
+
+怎么得罪小黄鸡了，回复老是一些黄暴的内容。
+
+昨晚做了噩梦，今天很累。大概是因为睡觉把手放在了肚子上，妈妈我再也不敢了。
+2014-08-21 17:27:53 web.py[line:1728] INFO 200 POST /wechat?signature=95f36faba60c7e6ab02dd8b594638780f9349cf6&timestamp=1408613272&nonce=894437484 (127.0.0.1) 1323.89ms
+2014-08-21 17:28:02 web.py[line:1305] ERROR Uncaught exception POST /wechat?signature=f72fcae6876974a8946953d05b3d99272a6eddca&timestamp=1408613282&nonce=1174935290 (127.0.0.1)
+HTTPRequest(protocol='http', host='127.0.0.1:9001', method='POST', uri='/wechat?signature=f72fcae6876974a8946953d05b3d99272a6eddca&timestamp=1408613282&nonce=1174935290', version='HTTP/1.0', remote_ip='127.0.0.1', headers={'Content-Length': '278', 'Host': '127.0.0.1:9001', 'Pragma': 'no-cache', 'Content-Type': 'text/xml', 'Connection': 'close', 'Accept': '*/*', 'User-Agent': 'Mozilla/4.0'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1218, in _when_complete
+    callback()
+  File "/usr/local/lib/python2.7/dist-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1239, in _execute_method
+    self._when_complete(method(*self.path_args, **self.path_kwargs),
+  File "/home/nightwish/elfin/handlers/wechat.py", line 91, in post
+    time_lines = time_line(key, fromUser)
+  File "/home/nightwish/elfin/scripts/timeline_get.py", line 25, in time_line
+    time_line_ret = session.get(url=time_line_url.format(tml_dict(key)))
+TypeError: 'dict' object is not callable
+2014-08-21 17:28:02 web.py[line:1728] ERROR 500 POST /wechat?signature=f72fcae6876974a8946953d05b3d99272a6eddca&timestamp=1408613282&nonce=1174935290 (127.0.0.1) 4.70ms
+2014-08-21 17:29:15 connectionpool.py[line:180] INFO Starting new HTTP connection (1): m.weilairiji.com
+2014-08-21 17:29:17 timeline_operate.py[line:35] INFO 孙悟空在我们村^【junaida】@となりのうさぎくん :  不会有我这么难养的……宠物吧…一养19年 
+
+阿花。 :  好饿 
+
+宋青柚 :  必须要改。祝明天是一个新开始。安 
+
+宋青柚 :  这个假期有很多计划比如学英语画地图看小说写东西练回琴健身化妆摄影看剧等等等等至今大概只有一半get到我到底干了些什么 
+
+宋青柚 :  假期又快到尾声了。这个暑假最舒服没作业可是我丢掉了看书的好习惯只会玩手机平板不断购物真是够丧心病狂了必须停止 
+
+阿修。 :  每天都被晚安爱你的不同语言表达方式甜哭（。） 
+
+孙悟空在我们村^【junaida】 :  想效仿多多…我和我妈说妈妈我要是洗两年的碗和衣服加给你们做早餐能不能让我养只猫或狗？我妈一脸嫌恶说家里不能养畜生，一直强调掉毛脏臭……说我以后自己养去把那些流浪猫狗都收着我自己照顾就成她绝不管我…就是想在青年的时候有个宠物嘛:-( 
+
+二十三岁 :  发现一个喜欢的女乐手。武汉大学计科毕业，想法很贴！ 
+
+是你咯 :  上海到长春又通了一班高铁 过滁州了老徐比我早到半小时还是长春站 真是爽歪歪。。可怜几个浙江的被我拉下水硬要坐过常州的一班 还是长春西 多花打车钱 。我。。对不住你们 
+
+柒-11 :  不懂 困惑 
+
+小心眼的贱货 :  给我再去相信的勇气 越过谎言去拥抱你 
+
+散步 :  不过说了这么多屁话，我还是相信这个世界上好人多，因为即使这么戒备，我也搭过陌生小哥的车，活着。 
+
+散步 :  后来我开起高度戒备模式，去年注意到出租屋门口的烟头差点吓尿了，经常三更半夜爬起来从猫眼往外看门口有没有人在蹲守。上厕所也盯着隔间格挡地面的空隙，上车也盯着包子拉链，陌生人问路也是双眼盯住他再指路，不敢完全背对，哎，今后要是养个闺女也真挺累的。 
+
+二十三岁 :  房祖名案发于东城区，现在被拘留在东城区看守所。估计就在一筒，没准就呆在我呆过的那个号子。 
+
+二十三岁 :  我觉得不能白坐了一个月的牢，总得写点什么 
+
+散步 :  大二有次也是，早上往学校赶，大概七点多吧路上上班的人还是蛮多的，路过一辆车门大开的轿车被喊住了，指着车前玻璃说帮个忙看下车上贴的啥广告他看不清，我就绕到车头去看，结果他让我坐到车里来看说是在里面的，当时就觉得不对劲扭头立马走了。这人可能也是逻辑不太好。 
+
+阿花。@老妖 :  好吧。老规矩。 
+
+散步 :  【2】不明的中年人给挠松手了我那真是一刻不敢耽搁，撒腿就跑，愣是没敢回头看他追上来没，因为回头就要影响速度啊，一口气跑到家腿都是抖的。然后那天早早的等在我妈下班的路口，就等见到她抱着她嚎。 
+
+散步 :  【1】　　五年级的时候吧，学校组织大家看电影，看完了就解散了，我跟同学顺路一块回家，旁边广场搭了台子在演出，人挺多挺热闹，我俩也是闲的，就凑上去看。但是没一会我同学扯了扯我说 感觉有人在盯着我们，当时也没在意，绕到台子另一边又继续看。结果踏马这个时候同学她爸爸来接她了，跟她再见完我一个人也不想看了，就转身打算走回家。还没走两步，一个中年男人冲到我面前揪着我衣服领子特别严厉的大声说“还不回家写作业！作业都没写完还在外边玩儿！”，然后把我往路边拖，我靠我那个时候吓死了，还叫不出来，就一直低声哼唧“我不认识你你踏马是谁”，一直蹬他，抠他手，挠他胳膊，也得感谢我妈没强迫我把手指甲剪得齐肉短，把意图 
+
+二十三岁 :  【猫一样的女子一定是每天徒手抓耗子的女子】 
+
+
+2014-08-21 17:29:17 web.py[line:1728] INFO 200 POST /wechat?signature=2d930a9acaf65800abd47ca8e3ed5171965b7ecc&timestamp=1408613355&nonce=342380946 (127.0.0.1) 2010.54ms
+2014-08-21 17:29:31 connectionpool.py[line:180] INFO Starting new HTTP connection (1): m.weilairiji.com
+2014-08-21 17:29:33 timeline_operate.py[line:35] INFO SapphiReeee.| Call Me Miss 骨感。@老妖 :  房供出120个艺人。三个已锁定，两个C姓，一个H姓。C的一个私交甚好，不是陈柏霖是谁………(┬＿┬) 
+
+SapphiReeee.| Call Me Miss 骨感。 :  看评论里有人说F是Feynman…噗噗噗… 
+
+朝夕。 :  怪不得最近心情起伏比较大。。。 
+
+朝夕。 :  世界就像是个巨大的马戏团/它让你兴奋，却让我惶恐/ 
+因为我知道散场后永远是 /有限温存，无限辛酸—卓别林《致乌娜》 
+
+二十三岁 :  你好 
+
+SapphiReeee.| Call Me Miss 骨感。 :  看到所有的私交甚笃的C姓指控都对准陈柏霖时候，我终于明白喊柯振东加油的人是什么心情了…我只想说，亲爱的张士豪，快跑。 
+
+二十三岁 :  小黄鸡 
+
+二十三岁 :  hello 
+
+ゞ      怂| :  开始同事CX代购化妆品我挺不喜欢的毕竟旁边坐个整天跟你交流化妆品的人多少有点说不出的麻烦。不过慢慢发现她挺负责的各类化妆品都会自己亲身试过再推荐给别人。 
+
+ゞ      怂| :  等考完试就要整部整部的追漫太久不看感觉自己越来越暗黑阴冷了、 
+
+SapphiReeee.| Call Me Miss 骨感。 :  张士豪，快跑… 
+
+阿修。 :  『快加入我摸鱼大军！』『被你传染了摸鱼好嘛ww』『就说！』『嫁鱼随鱼（。』够了233 
+
+阿修。 :  基本每天都有一句话让我doki一下……热恋期棒棒的…… 
+
+单向街 :  上班路上看到一个小孩儿，死死拽着爷爷的行李箱，一边哭着一边声嘶力竭的喊到，我不要你走！！！我不要你走！！！ 
+
+单向街 :  今天做了一个超级无厘头无逻辑的梦，我回到了一中，那里有许多纪念乌龟可以领养，可是突然却发了洪水，冲跑了好多乌龟和莘莘学子，我奋力救起一只乌龟，以百米冲刺的速度朝门口跑去，突然我脚底一滑摔了个底朝天，爬起来一看，乌龟壳被摔碎了，那只没有壳的乌龟变成了一只没有壳的蜗牛。。。 
+
+ゞ      怂| :  目标是挣钱花但现在还处在攒钱花的状态.. ╮(╯▽╰)╭ 
+
+弱智儿童就是我 :  啊呀，今天车子错过啦！ 
+
+ゞ      怂| :  最喜欢在公交车的车门前端详我的腿。又细又长。我觉得先生可以拿这车门去配副眼镜。 
+
+阿花。 :  感觉热身的差不多了，明天开始跑起来。 
+
+孙悟空在我们村^【junaida】@Sic semper tyrannis :  想要可以抱的… 
+
+
+2014-08-21 17:29:33 web.py[line:1728] INFO 200 POST /wechat?signature=1a16e7aec97e4a776f7e47a7ac74398516b86d23&timestamp=1408613371&nonce=1773118915 (127.0.0.1) 2080.35ms
+2014-08-21 17:29:41 connectionpool.py[line:180] INFO Starting new HTTP connection (1): m.weilairiji.com
+2014-08-21 17:29:43 timeline_operate.py[line:35] INFO 琵池 :  温柔要有，但不是妥协；我们要在安静中，不慌不忙地刚强。——林徽因 
+
+SapphiReeee.| Call Me Miss 骨感。 :  你90的……………………我一直以为你86啊85啊的…… 
+
+RT@Mr Qin :  一个没怎么说过话的同事问我，你多大啊？我说我90年的，他说，啊？？才25啊？？我以为你有孩子了呢……顿时我觉得……
+
+阿修。@上砂川 :  不能再好了（ 
+
+ゞ      怂| :  特味儿的馁姑娘！！今天坐在我左边！！空调的上风口踏马哒！！还用我计算器踏马哒！！ 
+
+阿修。 :  今天做了一个下午头发，大概是拉直和染色，褐色的样子。 
+
+阿修。 :  每天都在卧槽这人怎么可以这么烦、卧槽我怎么可以这么烦和卧槽我们怎么可以这么烦中度过…… 
+
+exeggcute :  今天得知一个同事周一健身时心脏病复发去世，忍不住心酸落泪，虽然认识才不久也就见过几次。人事无常，珍惜当下，真的是要照顾好自己的身体。 
+
+阿花。@老妖 :  斜眼 
+
+是你咯 :  有几个快递动都不动。。几天到呐 
+
+是你咯 :  第一次长春买东西今天拍明天到 ==一件线衫下架了退款==衰 
+
+是你咯 :  在看陀枪师姐I ~ 
+
+二十三岁 :  劫持 污染 投毒 DNS三板斧 
+
+宋青柚 :  发廊播着miracle好像回到初一但时间过去了就是过去了 
+
+弱智儿童就是我 :  总觉得用724白泥这款会起痘。 
+
+阿修。 :  8/6认识，8/14脱团。#论两个深井冰的效率 
+
+小哆哆の☆ :  最近。 
+
+小哆哆の☆ :  好复杂啊。 
+
+小哆哆の☆ :  我的博客大巴~~~ 我把它 拿来 跟 曾小锋 一起分享了。。。。。。。  哗啦啦  也不知道  他看到哪里了。看得时候 是什么心情·~~ 
+
+小哆哆の☆ :  就是不知道 还要过几天才能走~~~~ 
+
+小哆哆の☆ :  终于有勇气 。 
+
+
+2014-08-21 17:29:43 web.py[line:1728] INFO 200 POST /wechat?signature=47968e75cde7a821c87efba8e0a8d8e1b15a25de&timestamp=1408613380&nonce=1891245651 (127.0.0.1) 2025.82ms
+2014-08-21 17:30:57 connectionpool.py[line:180] INFO Starting new HTTP connection (1): m.weilairiji.com
+2014-08-21 17:31:00 web.py[line:1728] INFO 200 POST /wechat?signature=cd767d2e8903d32631aa2b033f225aad9187cfa9&timestamp=1408613457&nonce=18751995 (127.0.0.1) 2553.03ms
+2014-08-21 17:31:08 connectionpool.py[line:180] INFO Starting new HTTP connection (1): m.weilairiji.com
+2014-08-21 17:31:10 web.py[line:1728] INFO 200 POST /wechat?signature=5c8b4345d413c6cd4540249a202391ac8afff0ab&timestamp=1408613467&nonce=889924722 (127.0.0.1) 2509.05ms
+2014-08-21 17:31:14 connectionpool.py[line:180] INFO Starting new HTTP connection (1): m.weilairiji.com
+2014-08-21 17:31:15 timeline_operate.py[line:35] INFO 林不该 :  上得山多终遇虎 
+
+Se7en. :  啊 有点想买个手拿包TUT 
+
+老妖@黑眼圈女王.= = :  女生生日快乐思密达~~么么哒 
+
+老妖@SapphiReeee.| Call Me Miss 骨感。 :  跟陈柏霖有什么关系？？ 
+
+老妖@鬼鬼. :  身体不习惯。。我现在好像没有以前懒觉那么多了。。还是很懒很困缺很多觉但是不会像以前那么不好起来了。。 
+
+朝夕。 :  怪不得最近心情起伏比较大。。。 
+
+朝夕。 :  世界就像是个巨大的马戏团/它让你兴奋，却让我惶恐/ 
+因为我知道散场后永远是 /有限温存，无限辛酸—卓别林《致乌娜》 
+
+Se7en.: 大陆那个说法还真没听过= =还是比较喜欢宠物小精灵   RT Sic semper tyrannis: 香港叫「宠物小精灵」，台湾叫「神奇宝贝」，中国大陆叫「精灵宝可梦」，盗版汉化玩家叫「口袋妖怪」
+
+
+2014-08-21 17:31:15 web.py[line:1728] INFO 200 POST /wechat?signature=d6ca99424300021f5b3afa8513109247d0d40f7b&timestamp=1408613473&nonce=715094884 (127.0.0.1) 1064.14ms
+2014-08-21 17:31:24 web.py[line:1728] INFO 200 POST /wechat?signature=7dd635daeef2408310ebdf0f7da829a3e2139ada&timestamp=1408613484&nonce=1207112950 (127.0.0.1) 0.95ms
+2014-08-21 17:36:30 web.py[line:1305] ERROR Uncaught exception POST /wechat?signature=7820d2f122ceee79ebdbf5fdb2109aca954b30df&timestamp=1408613788&nonce=1423479166 (127.0.0.1)
+HTTPRequest(protocol='http', host='127.0.0.1:9001', method='POST', uri='/wechat?signature=7820d2f122ceee79ebdbf5fdb2109aca954b30df&timestamp=1408613788&nonce=1423479166', version='HTTP/1.0', remote_ip='127.0.0.1', headers={'Content-Length': '278', 'Host': '127.0.0.1:9001', 'Pragma': 'no-cache', 'Content-Type': 'text/xml', 'Connection': 'close', 'Accept': '*/*', 'User-Agent': 'Mozilla/4.0'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1218, in _when_complete
+    callback()
+  File "/usr/local/lib/python2.7/dist-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1239, in _execute_method
+    self._when_complete(method(*self.path_args, **self.path_kwargs),
+  File "/home/nightwish/elfin/handlers/wechat.py", line 91, in post
+    time_lines = time_line(key, fromUser)
+  File "/home/nightwish/elfin/scripts/timeline_get.py", line 23, in time_line
+    session = get_session(user['wechat_id'])
+TypeError: 'NoneType' object has no attribute '__getitem__'
+2014-08-21 17:36:30 web.py[line:1728] ERROR 500 POST /wechat?signature=7820d2f122ceee79ebdbf5fdb2109aca954b30df&timestamp=1408613788&nonce=1423479166 (127.0.0.1) 5.33ms
+2014-08-21 17:36:46 web.py[line:1728] INFO 200 POST /wechat?signature=206f4d010cfaef828994200abcadb0f5341eaada&timestamp=1408613804&nonce=2096706440 (127.0.0.1) 1.36ms
+2014-08-21 17:38:57 connectionpool.py[line:180] INFO Starting new HTTP connection (1): api.simsimi.com
+2014-08-21 17:38:57 connectionpool.py[line:180] INFO Starting new HTTP connection (1): weilairiji.com
+2014-08-21 17:38:58 send_talk.py[line:72] INFO 3673 :  强烈要求真心话功能吖 但在微信刷真心话会不会跟无感啊
+2014-08-21 17:38:58 wechat.py[line:59] INFO  强烈要求真心话功能吖 但在微信刷真心话会不会跟无感啊
+2014-08-21 17:38:58 wechat.py[line:60] INFO 你暗恋过的男生姓名拼音开头字母
+2014-08-21 17:38:58 web.py[line:1728] INFO 200 POST /wechat?signature=b41150e8bbe6803abd9528823d32615baf1501f4&timestamp=1408613936&nonce=1098122974 (127.0.0.1) 1552.49ms
+2014-08-21 17:40:05 web.py[line:1305] ERROR Uncaught exception POST /wechat?signature=14a97bc1d40e1bb587cc7abcf6011e144810c060&timestamp=1408614005&nonce=253895695 (127.0.0.1)
+HTTPRequest(protocol='http', host='127.0.0.1:9001', method='POST', uri='/wechat?signature=14a97bc1d40e1bb587cc7abcf6011e144810c060&timestamp=1408614005&nonce=253895695', version='HTTP/1.0', remote_ip='127.0.0.1', headers={'Content-Length': '278', 'Host': '127.0.0.1:9001', 'Pragma': 'no-cache', 'Content-Type': 'text/xml', 'Connection': 'close', 'Accept': '*/*', 'User-Agent': 'Mozilla/4.0'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1218, in _when_complete
+    callback()
+  File "/usr/local/lib/python2.7/dist-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1239, in _execute_method
+    self._when_complete(method(*self.path_args, **self.path_kwargs),
+  File "/home/nightwish/elfin/handlers/wechat.py", line 91, in post
+    time_lines = time_line(key, fromUser)
+  File "/home/nightwish/elfin/scripts/timeline_get.py", line 19, in time_line
+    session = session_dict['session']
+KeyError: 'session'
+2014-08-21 17:40:05 web.py[line:1728] ERROR 500 POST /wechat?signature=14a97bc1d40e1bb587cc7abcf6011e144810c060&timestamp=1408614005&nonce=253895695 (127.0.0.1) 3.47ms
+2014-08-21 17:41:12 web.py[line:1728] INFO 200 POST /wechat?signature=358c68c386764bca8fe3c76e00a6d803cc6a9e31&timestamp=1408614071&nonce=122593771 (127.0.0.1) 0.99ms
+2014-08-21 17:41:27 web.py[line:1728] INFO 200 POST /wechat?signature=8f60a0f24fbb30cb670b6aa9fbc3dc22cbe3b470&timestamp=1408614087&nonce=1074092588 (127.0.0.1) 13.05ms
+2014-08-21 17:41:42 connectionpool.py[line:180] INFO Starting new HTTP connection (1): weilairiji.com
+2014-08-21 17:41:44 home.py[line:29] INFO 不知道明天眼睛会不会肿
+
+香草阿法奇朵真是真爱
+
+老夫老妻的感觉越来越重了呀
+
+因为要看电影 所以早起 很久没有听到康定小情歌了 康康仍然是我最喜欢的电台DJ
+
+忙活了一天终于忙完老板和妹子都回来了 结果刚刚听他们说话的时候 突然意识到 她们早上并不是为了跑渠道而出去的 是为了帮老板看多肉才出去的 有点心塞 
+
+做活动真的能让人迅速的成长学习颇多 因为被x翻的时候你就必须坚强的挺过来 顺便我真的觉得直男没什么意思呀 一个眼神我就知道你心里想的是什么惹 喝喝
+
+妹子们不在出去谈合作商 一个人忙的被x翻 
+
+每个人都有自己的特殊品质 不要刻意去模仿 其实你拥有的也不差啊
+
+只要你轻轻一笑 我的心就迷醉
+
+这特么什么睡眠质量 几个小时前 翻来覆去的睡不着头疼愈烈裂 终于睡着了 又特么醒了 现在又睡不着了 fuck my life
+
+半年刷了hof和查餐厅 hof的致命巧克力并没有很致命 查餐厅也没有想象中那么美味 倒是味道很干净 大概这些传说中的美食跟爱情都是一样 其实吃到了也不过如此 在一起半年已经有老夫老妻的感觉 想了很久的半年 其实也过的略索然无味 但挽着一起瞎晃 闲聊 陪她试鞋子的时候 就觉得 这样也不错 毕竟平淡是真吧 爱情的本质大概本来就是那样 熟悉的人 在一起做很平常又重复的事 说简单没内容的话题 其实也蛮美好的 不管怎么样 半年快乐
+
+曹格格QAQ
+
+实习快点结束好伐 最近我觉得我快被玩死了
+
+刚立秋天就变得很凉爽 希望以后夏天越来越短
+
+最近手好残
+
+@浅 叉 在出租车里撑阳伞！
+
+今天怎么一早上就那么不顺
+
+明天又是嘎亮日-_-
+
+@Sic semper tyrannis 快来咬我呀~
+
+终于发工资了 我特么好开心 财务扔给我一叠红颜色的毛爷爷我就哈哈哈哈哈哈哈哈 人生第一次拿那么多工资阿！！
+2014-08-21 17:41:44 web.py[line:1728] INFO 200 POST /wechat?signature=37a70ae40cfd197a69fdcbbd4f27ac026e5fd151&timestamp=1408614101&nonce=500092488 (127.0.0.1) 2007.59ms
+2014-08-21 17:41:57 web.py[line:1305] ERROR Uncaught exception POST /wechat?signature=237e7906e5d1473970efe7863b82cc7dc84ffeaa&timestamp=1408614116&nonce=119322696 (127.0.0.1)
+HTTPRequest(protocol='http', host='127.0.0.1:9001', method='POST', uri='/wechat?signature=237e7906e5d1473970efe7863b82cc7dc84ffeaa&timestamp=1408614116&nonce=119322696', version='HTTP/1.0', remote_ip='127.0.0.1', headers={'Content-Length': '278', 'Host': '127.0.0.1:9001', 'Pragma': 'no-cache', 'Content-Type': 'text/xml', 'Connection': 'close', 'Accept': '*/*', 'User-Agent': 'Mozilla/4.0'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1218, in _when_complete
+    callback()
+  File "/usr/local/lib/python2.7/dist-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1239, in _execute_method
+    self._when_complete(method(*self.path_args, **self.path_kwargs),
+  File "/home/nightwish/elfin/handlers/wechat.py", line 91, in post
+    time_lines = time_line(key, fromUser)
+  File "/home/nightwish/elfin/scripts/timeline_get.py", line 23, in time_line
+    session = get_session(user['wechat_id'])
+TypeError: 'NoneType' object has no attribute '__getitem__'
+2014-08-21 17:41:57 web.py[line:1728] ERROR 500 POST /wechat?signature=237e7906e5d1473970efe7863b82cc7dc84ffeaa&timestamp=1408614116&nonce=119322696 (127.0.0.1) 3.66ms
+2014-08-21 17:41:58 web.py[line:1305] ERROR Uncaught exception POST /wechat?signature=99942134b6c6e478d3026696156a659b54c51d6a&timestamp=1408614117&nonce=1957883935 (127.0.0.1)
+HTTPRequest(protocol='http', host='127.0.0.1:9001', method='POST', uri='/wechat?signature=99942134b6c6e478d3026696156a659b54c51d6a&timestamp=1408614117&nonce=1957883935', version='HTTP/1.0', remote_ip='127.0.0.1', headers={'Content-Length': '285', 'Host': '127.0.0.1:9001', 'Pragma': 'no-cache', 'Content-Type': 'text/xml', 'Connection': 'close', 'Accept': '*/*', 'User-Agent': 'Mozilla/4.0'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1218, in _when_complete
+    callback()
+  File "/usr/local/lib/python2.7/dist-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1239, in _execute_method
+    self._when_complete(method(*self.path_args, **self.path_kwargs),
+  File "/home/nightwish/elfin/handlers/wechat.py", line 94, in post
+    message_num = get_message_num(key, fromUser)
+  File "/home/nightwish/elfin/scripts/message_get.py", line 21, in get_message_num
+    session = session_dict['session']
+KeyError: 'session'
+2014-08-21 17:41:58 web.py[line:1728] ERROR 500 POST /wechat?signature=99942134b6c6e478d3026696156a659b54c51d6a&timestamp=1408614117&nonce=1957883935 (127.0.0.1) 2.98ms
+2014-08-21 17:42:11 web.py[line:1305] ERROR Uncaught exception POST /wechat?signature=0546fbce9ede79db529792710b8fc436bd3f2639&timestamp=1408614131&nonce=1646780026 (127.0.0.1)
+HTTPRequest(protocol='http', host='127.0.0.1:9001', method='POST', uri='/wechat?signature=0546fbce9ede79db529792710b8fc436bd3f2639&timestamp=1408614131&nonce=1646780026', version='HTTP/1.0', remote_ip='127.0.0.1', headers={'Content-Length': '278', 'Host': '127.0.0.1:9001', 'Pragma': 'no-cache', 'Content-Type': 'text/xml', 'Connection': 'close', 'Accept': '*/*', 'User-Agent': 'Mozilla/4.0'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1218, in _when_complete
+    callback()
+  File "/usr/local/lib/python2.7/dist-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1239, in _execute_method
+    self._when_complete(method(*self.path_args, **self.path_kwargs),
+  File "/home/nightwish/elfin/handlers/wechat.py", line 91, in post
+    time_lines = time_line(key, fromUser)
+  File "/home/nightwish/elfin/scripts/timeline_get.py", line 19, in time_line
+    session = session_dict['session']
+KeyError: 'session'
+2014-08-21 17:42:11 web.py[line:1728] ERROR 500 POST /wechat?signature=0546fbce9ede79db529792710b8fc436bd3f2639&timestamp=1408614131&nonce=1646780026 (127.0.0.1) 4.92ms
+2014-08-21 17:42:39 web.py[line:1305] ERROR Uncaught exception POST /wechat?signature=4f47ab19b89617e9e466d103e3fbfee9077fbf5d&timestamp=1408614159&nonce=468392918 (127.0.0.1)
+HTTPRequest(protocol='http', host='127.0.0.1:9001', method='POST', uri='/wechat?signature=4f47ab19b89617e9e466d103e3fbfee9077fbf5d&timestamp=1408614159&nonce=468392918', version='HTTP/1.0', remote_ip='127.0.0.1', headers={'Content-Length': '278', 'Host': '127.0.0.1:9001', 'Pragma': 'no-cache', 'Content-Type': 'text/xml', 'Connection': 'close', 'Accept': '*/*', 'User-Agent': 'Mozilla/4.0'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1218, in _when_complete
+    callback()
+  File "/usr/local/lib/python2.7/dist-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1239, in _execute_method
+    self._when_complete(method(*self.path_args, **self.path_kwargs),
+  File "/home/nightwish/elfin/handlers/wechat.py", line 91, in post
+    time_lines = time_line(key, fromUser)
+  File "/home/nightwish/elfin/scripts/timeline_get.py", line 23, in time_line
+    session = get_session(user['wechat_id'])
+TypeError: 'NoneType' object has no attribute '__getitem__'
+2014-08-21 17:42:39 web.py[line:1728] ERROR 500 POST /wechat?signature=4f47ab19b89617e9e466d103e3fbfee9077fbf5d&timestamp=1408614159&nonce=468392918 (127.0.0.1) 3.22ms
+2014-08-21 17:43:03 web.py[line:1305] ERROR Uncaught exception POST /wechat?signature=8fb6804e273a04cf0d643070ea8a6e916a31c5c8&timestamp=1408614183&nonce=837962780 (127.0.0.1)
+HTTPRequest(protocol='http', host='127.0.0.1:9001', method='POST', uri='/wechat?signature=8fb6804e273a04cf0d643070ea8a6e916a31c5c8&timestamp=1408614183&nonce=837962780', version='HTTP/1.0', remote_ip='127.0.0.1', headers={'Content-Length': '278', 'Host': '127.0.0.1:9001', 'Pragma': 'no-cache', 'Content-Type': 'text/xml', 'Connection': 'close', 'Accept': '*/*', 'User-Agent': 'Mozilla/4.0'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1218, in _when_complete
+    callback()
+  File "/usr/local/lib/python2.7/dist-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1239, in _execute_method
+    self._when_complete(method(*self.path_args, **self.path_kwargs),
+  File "/home/nightwish/elfin/handlers/wechat.py", line 91, in post
+    time_lines = time_line(key, fromUser)
+  File "/home/nightwish/elfin/scripts/timeline_get.py", line 19, in time_line
+    session = session_dict['session']
+KeyError: 'session'
+2014-08-21 17:43:03 web.py[line:1728] ERROR 500 POST /wechat?signature=8fb6804e273a04cf0d643070ea8a6e916a31c5c8&timestamp=1408614183&nonce=837962780 (127.0.0.1) 2.38ms
+2014-08-21 17:43:11 connectionpool.py[line:180] INFO Starting new HTTP connection (1): m.weilairiji.com
+2014-08-21 17:43:12 timeline_operate.py[line:35] INFO 林不该 :  上得山多终遇虎 
+
+Se7en. :  啊 有点想买个手拿包TUT 
+
+老妖@黑眼圈女王.= = :  女生生日快乐思密达~~么么哒 
+
+老妖@SapphiReeee.| Call Me Miss 骨感。 :  跟陈柏霖有什么关系？？ 
+
+老妖@鬼鬼. :  身体不习惯。。我现在好像没有以前懒觉那么多了。。还是很懒很困缺很多觉但是不会像以前那么不好起来了。。 
+
+朝夕。 :  怪不得最近心情起伏比较大。。。 
+
+朝夕。 :  世界就像是个巨大的马戏团/它让你兴奋，却让我惶恐/ 
+因为我知道散场后永远是 /有限温存，无限辛酸—卓别林《致乌娜》 
+
+Se7en.: 大陆那个说法还真没听过= =还是比较喜欢宠物小精灵   RT Sic semper tyrannis: 香港叫「宠物小精灵」，台湾叫「神奇宝贝」，中国大陆叫「精灵宝可梦」，盗版汉化玩家叫「口袋妖怪」
+
+
+2014-08-21 17:43:12 web.py[line:1728] INFO 200 POST /wechat?signature=4f96258f3ea0656a2fbd72c408ea199df5786f8f&timestamp=1408614191&nonce=554809934 (127.0.0.1) 1333.14ms
+2014-08-21 17:43:17 web.py[line:1728] INFO 200 POST /wechat?signature=101e945f20981cec9d1e65ec548be873f374ccf0&timestamp=1408614197&nonce=1068410299 (127.0.0.1) 1.51ms
+2014-08-21 17:43:24 web.py[line:1728] INFO 200 POST /wechat?signature=2048c2365f7168d8f367b4d149f0b767367793a9&timestamp=1408614204&nonce=309711918 (127.0.0.1) 1.07ms
+2014-08-21 17:45:02 web.py[line:1305] ERROR Uncaught exception POST /wechat?signature=9b175ba35147aaf01fecc4dff4f01397f3cbaf04&timestamp=1408614302&nonce=1689260605 (127.0.0.1)
+HTTPRequest(protocol='http', host='127.0.0.1:9001', method='POST', uri='/wechat?signature=9b175ba35147aaf01fecc4dff4f01397f3cbaf04&timestamp=1408614302&nonce=1689260605', version='HTTP/1.0', remote_ip='127.0.0.1', headers={'Content-Length': '278', 'Host': '127.0.0.1:9001', 'Pragma': 'no-cache', 'Content-Type': 'text/xml', 'Connection': 'close', 'Accept': '*/*', 'User-Agent': 'Mozilla/4.0'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1218, in _when_complete
+    callback()
+  File "/usr/local/lib/python2.7/dist-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1239, in _execute_method
+    self._when_complete(method(*self.path_args, **self.path_kwargs),
+  File "/home/nightwish/elfin/handlers/wechat.py", line 91, in post
+    time_lines = time_line(key, fromUser)
+  File "/home/nightwish/elfin/scripts/timeline_get.py", line 23, in time_line
+    session = get_session(user['wechat_id'])
+TypeError: 'NoneType' object has no attribute '__getitem__'
+2014-08-21 17:45:02 web.py[line:1728] ERROR 500 POST /wechat?signature=9b175ba35147aaf01fecc4dff4f01397f3cbaf04&timestamp=1408614302&nonce=1689260605 (127.0.0.1) 5.19ms
+2014-08-21 17:45:19 connectionpool.py[line:180] INFO Starting new HTTP connection (1): api.simsimi.com
+2014-08-21 17:45:20 connectionpool.py[line:180] INFO Starting new HTTP connection (1): weilairiji.com
+2014-08-21 17:45:21 send_talk.py[line:72] INFO 13771 : 我靠 忘刮腿毛了
+2014-08-21 17:45:21 wechat.py[line:59] INFO 我靠 忘刮腿毛了
+2014-08-21 17:45:21 wechat.py[line:60] INFO 你懂什么是善意的谎言吗
+2014-08-21 17:45:21 web.py[line:1728] INFO 200 POST /wechat?signature=66c13c02de43459735b9b1a7aaa9214681a84651&timestamp=1408614319&nonce=480584885 (127.0.0.1) 1495.27ms
+2014-08-21 17:45:21 web.py[line:1728] INFO 200 POST /wechat?signature=e126e7cac7aacdf132186055a35c9388b6f9c5e8&timestamp=1408614320&nonce=928340623 (127.0.0.1) 1.33ms
+2014-08-21 17:45:23 connectionpool.py[line:180] INFO Starting new HTTP connection (1): m.weilairiji.com
+2014-08-21 17:45:24 timeline_operate.py[line:35] INFO 林不该 :  上得山多终遇虎 
+
+Se7en. :  啊 有点想买个手拿包TUT 
+
+老妖@黑眼圈女王.= = :  女生生日快乐思密达~~么么哒 
+
+老妖@SapphiReeee.| Call Me Miss 骨感。 :  跟陈柏霖有什么关系？？ 
+
+老妖@鬼鬼. :  身体不习惯。。我现在好像没有以前懒觉那么多了。。还是很懒很困缺很多觉但是不会像以前那么不好起来了。。 
+
+朝夕。 :  怪不得最近心情起伏比较大。。。 
+
+朝夕。 :  世界就像是个巨大的马戏团/它让你兴奋，却让我惶恐/ 
+因为我知道散场后永远是 /有限温存，无限辛酸—卓别林《致乌娜》 
+
+Se7en.: 大陆那个说法还真没听过= =还是比较喜欢宠物小精灵   RT Sic semper tyrannis: 香港叫「宠物小精灵」，台湾叫「神奇宝贝」，中国大陆叫「精灵宝可梦」，盗版汉化玩家叫「口袋妖怪」
+
+
+2014-08-21 17:45:24 web.py[line:1728] INFO 200 POST /wechat?signature=49e95c2dda27648f77bda07d09c7bd22a562b3f5&timestamp=1408614323&nonce=1323845256 (127.0.0.1) 1276.79ms
+2014-08-21 17:45:25 connectionpool.py[line:180] INFO Starting new HTTP connection (1): m.weilairiji.com
+2014-08-21 17:45:26 timeline_operate.py[line:35] INFO 林不该 :  上得山多终遇虎 
+
+Se7en. :  啊 有点想买个手拿包TUT 
+
+老妖@黑眼圈女王.= = :  女生生日快乐思密达~~么么哒 
+
+老妖@SapphiReeee.| Call Me Miss 骨感。 :  跟陈柏霖有什么关系？？ 
+
+老妖@鬼鬼. :  身体不习惯。。我现在好像没有以前懒觉那么多了。。还是很懒很困缺很多觉但是不会像以前那么不好起来了。。 
+
+朝夕。 :  怪不得最近心情起伏比较大。。。 
+
+朝夕。 :  世界就像是个巨大的马戏团/它让你兴奋，却让我惶恐/ 
+因为我知道散场后永远是 /有限温存，无限辛酸—卓别林《致乌娜》 
+
+Se7en.: 大陆那个说法还真没听过= =还是比较喜欢宠物小精灵   RT Sic semper tyrannis: 香港叫「宠物小精灵」，台湾叫「神奇宝贝」，中国大陆叫「精灵宝可梦」，盗版汉化玩家叫「口袋妖怪」
+
+
+2014-08-21 17:45:26 web.py[line:1728] INFO 200 POST /wechat?signature=45e714a485dd7825d628d948f19ae6bc579da8af&timestamp=1408614324&nonce=1672298838 (127.0.0.1) 1295.67ms
+2014-08-21 17:45:39 connectionpool.py[line:180] INFO Starting new HTTP connection (1): api.simsimi.com
+2014-08-21 17:45:39 connectionpool.py[line:180] INFO Starting new HTTP connection (1): weilairiji.com
+2014-08-21 17:45:40 send_talk.py[line:72] INFO 47654 : 
+2014-08-21 17:45:40 wechat.py[line:59] INFO 
+2014-08-21 17:45:40 wechat.py[line:60] INFO None
+2014-08-21 17:45:40 web.py[line:1728] INFO 200 POST /wechat?signature=0160e1577d330f93f2a27a5992d14575f5de7b01&timestamp=1408614339&nonce=1686803747 (127.0.0.1) 1377.29ms
+2014-08-21 17:45:48 web.py[line:1728] INFO 200 POST /wechat?signature=ef2531b9dd3ad46acc2238b4b9c19b7aa77527ce&timestamp=1408614348&nonce=587216128 (127.0.0.1) 2.15ms
+2014-08-21 17:46:03 web.py[line:1305] ERROR Uncaught exception POST /wechat?signature=ca5a57dfc2f9f58bb37f4db616a50efc906c4cdc&timestamp=1408614363&nonce=1916067014 (127.0.0.1)
+HTTPRequest(protocol='http', host='127.0.0.1:9001', method='POST', uri='/wechat?signature=ca5a57dfc2f9f58bb37f4db616a50efc906c4cdc&timestamp=1408614363&nonce=1916067014', version='HTTP/1.0', remote_ip='127.0.0.1', headers={'Content-Length': '278', 'Host': '127.0.0.1:9001', 'Pragma': 'no-cache', 'Content-Type': 'text/xml', 'Connection': 'close', 'Accept': '*/*', 'User-Agent': 'Mozilla/4.0'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1218, in _when_complete
+    callback()
+  File "/usr/local/lib/python2.7/dist-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1239, in _execute_method
+    self._when_complete(method(*self.path_args, **self.path_kwargs),
+  File "/home/nightwish/elfin/handlers/wechat.py", line 91, in post
+    time_lines = time_line(key, fromUser)
+  File "/home/nightwish/elfin/scripts/timeline_get.py", line 19, in time_line
+    session = session_dict['session']
+KeyError: 'session'
+2014-08-21 17:46:03 web.py[line:1728] ERROR 500 POST /wechat?signature=ca5a57dfc2f9f58bb37f4db616a50efc906c4cdc&timestamp=1408614363&nonce=1916067014 (127.0.0.1) 12.35ms
+2014-08-21 17:46:09 web.py[line:1305] ERROR Uncaught exception POST /wechat?signature=5e9e6a9e8f170a195debbf6a0774138bee6085e8&timestamp=1408614369&nonce=1043353717 (127.0.0.1)
+HTTPRequest(protocol='http', host='127.0.0.1:9001', method='POST', uri='/wechat?signature=5e9e6a9e8f170a195debbf6a0774138bee6085e8&timestamp=1408614369&nonce=1043353717', version='HTTP/1.0', remote_ip='127.0.0.1', headers={'Content-Length': '278', 'Host': '127.0.0.1:9001', 'Pragma': 'no-cache', 'Content-Type': 'text/xml', 'Connection': 'close', 'Accept': '*/*', 'User-Agent': 'Mozilla/4.0'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1218, in _when_complete
+    callback()
+  File "/usr/local/lib/python2.7/dist-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1239, in _execute_method
+    self._when_complete(method(*self.path_args, **self.path_kwargs),
+  File "/home/nightwish/elfin/handlers/wechat.py", line 91, in post
+    time_lines = time_line(key, fromUser)
+  File "/home/nightwish/elfin/scripts/timeline_get.py", line 19, in time_line
+    session = session_dict['session']
+KeyError: 'session'
+2014-08-21 17:46:09 web.py[line:1728] ERROR 500 POST /wechat?signature=5e9e6a9e8f170a195debbf6a0774138bee6085e8&timestamp=1408614369&nonce=1043353717 (127.0.0.1) 2.07ms
+2014-08-21 17:46:14 web.py[line:1305] ERROR Uncaught exception POST /wechat?signature=889613dd7d3ed8d23a7381f4b56ecd0ddd1f1100&timestamp=1408614374&nonce=496081151 (127.0.0.1)
+HTTPRequest(protocol='http', host='127.0.0.1:9001', method='POST', uri='/wechat?signature=889613dd7d3ed8d23a7381f4b56ecd0ddd1f1100&timestamp=1408614374&nonce=496081151', version='HTTP/1.0', remote_ip='127.0.0.1', headers={'Content-Length': '278', 'Host': '127.0.0.1:9001', 'Pragma': 'no-cache', 'Content-Type': 'text/xml', 'Connection': 'close', 'Accept': '*/*', 'User-Agent': 'Mozilla/4.0'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1218, in _when_complete
+    callback()
+  File "/usr/local/lib/python2.7/dist-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1239, in _execute_method
+    self._when_complete(method(*self.path_args, **self.path_kwargs),
+  File "/home/nightwish/elfin/handlers/wechat.py", line 91, in post
+    time_lines = time_line(key, fromUser)
+  File "/home/nightwish/elfin/scripts/timeline_get.py", line 19, in time_line
+    session = session_dict['session']
+KeyError: 'session'
+2014-08-21 17:46:14 web.py[line:1728] ERROR 500 POST /wechat?signature=889613dd7d3ed8d23a7381f4b56ecd0ddd1f1100&timestamp=1408614374&nonce=496081151 (127.0.0.1) 2.25ms
+2014-08-21 17:46:15 web.py[line:1305] ERROR Uncaught exception POST /wechat?signature=c98ce2a290ada02596e747c867bb91b2324af763&timestamp=1408614375&nonce=1380139708 (127.0.0.1)
+HTTPRequest(protocol='http', host='127.0.0.1:9001', method='POST', uri='/wechat?signature=c98ce2a290ada02596e747c867bb91b2324af763&timestamp=1408614375&nonce=1380139708', version='HTTP/1.0', remote_ip='127.0.0.1', headers={'Content-Length': '278', 'Host': '127.0.0.1:9001', 'Pragma': 'no-cache', 'Content-Type': 'text/xml', 'Connection': 'close', 'Accept': '*/*', 'User-Agent': 'Mozilla/4.0'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1218, in _when_complete
+    callback()
+  File "/usr/local/lib/python2.7/dist-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1239, in _execute_method
+    self._when_complete(method(*self.path_args, **self.path_kwargs),
+  File "/home/nightwish/elfin/handlers/wechat.py", line 91, in post
+    time_lines = time_line(key, fromUser)
+  File "/home/nightwish/elfin/scripts/timeline_get.py", line 19, in time_line
+    session = session_dict['session']
+KeyError: 'session'
+2014-08-21 17:46:15 web.py[line:1728] ERROR 500 POST /wechat?signature=c98ce2a290ada02596e747c867bb91b2324af763&timestamp=1408614375&nonce=1380139708 (127.0.0.1) 1.97ms
+2014-08-21 17:46:21 web.py[line:1305] ERROR Uncaught exception POST /wechat?signature=27063e47020ad184729c7fef9f8455107b80ed12&timestamp=1408614381&nonce=1379203829 (127.0.0.1)
+HTTPRequest(protocol='http', host='127.0.0.1:9001', method='POST', uri='/wechat?signature=27063e47020ad184729c7fef9f8455107b80ed12&timestamp=1408614381&nonce=1379203829', version='HTTP/1.0', remote_ip='127.0.0.1', headers={'Content-Length': '278', 'Host': '127.0.0.1:9001', 'Pragma': 'no-cache', 'Content-Type': 'text/xml', 'Connection': 'close', 'Accept': '*/*', 'User-Agent': 'Mozilla/4.0'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1218, in _when_complete
+    callback()
+  File "/usr/local/lib/python2.7/dist-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1239, in _execute_method
+    self._when_complete(method(*self.path_args, **self.path_kwargs),
+  File "/home/nightwish/elfin/handlers/wechat.py", line 91, in post
+    time_lines = time_line(key, fromUser)
+  File "/home/nightwish/elfin/scripts/timeline_get.py", line 19, in time_line
+    session = session_dict['session']
+KeyError: 'session'
+2014-08-21 17:46:21 web.py[line:1728] ERROR 500 POST /wechat?signature=27063e47020ad184729c7fef9f8455107b80ed12&timestamp=1408614381&nonce=1379203829 (127.0.0.1) 2.56ms
+2014-08-21 17:48:10 connectionpool.py[line:180] INFO Starting new HTTP connection (1): m.weilairiji.com
+2014-08-21 17:48:12 timeline_operate.py[line:35] INFO 柒-11 :   强烈要求真心话功能吖 但在微信刷真心话会不会跟无感啊 
+
+林不该 :  上得山多终遇虎 
+
+Se7en. :  啊 有点想买个手拿包TUT 
+
+鬼鬼.@老妖 :  好吧。。我就是觉得运动完特累就想睡了。。 
+
+Mr Qin :  用在看Kindle套上的时间比看Kindle多，用在亚马逊浏览犹豫买不买呢的时间比看书多。 
+
+Se7en. :  大陆那个说法还真没听过= =还是比较喜欢宠物小精灵 
+
+RT@Sic semper tyrannis :  香港叫「宠物小精灵」，台湾叫「神奇宝贝」，中国大陆叫「精灵宝可梦」，盗版汉化玩家叫「口袋妖怪」
+
+鬼鬼. :  能把持住自己守住清净会带来更大的成就感呢 
+
+鬼鬼. :  跟我们家大全聊会儿真是神清气爽身心愉悦啊～ 
+
+Sic semper tyrannis :  香港叫「宠物小精灵」，台湾叫「神奇宝贝」，中国大陆叫「精灵宝可梦」，盗版汉化玩家叫「口袋妖怪」 
+
+鬼鬼.@老妖 :  还有这说法。。可是我早上实在不行，勉强爬起来运动一整天都犯困。。 
+
+Se7en. :  我就不懂为什么一有约全部都会挤到同一个时间一起来 闲的时候又没有人来找←_← 
+
+朵依. |身后是绝路 :  “我最多与你好  为何旧时为能遇到” 
+
+       Kua. :  全世界早安。 
+
+鬼鬼. :  同。。。所以我都晚上运动。。。早上只能上班点起，能多睡一分钟算一分钟。。。。。。 
+
+RT@老妖 :  早起…真的很不适合我！！困爆了！！！
+
+阿修。 :  『快加入我摸鱼大军！』『被你传染了摸鱼好嘛ww』『就说！』『嫁鱼随鱼（。』够了233 
+
+阿修。 :  基本每天都有一句话让我doki一下……热恋期棒棒的…… 
+
+林不该 :  哦漏眼睛越来越疼了不会是眼癌吧 
+
+Sic semper tyrannis@孙悟空在我们村^【junaida】 :  去找个男宠。。 
+
+孙悟空在我们村^【junaida】@Sic semper tyrannis :  想要可以抱的… 
+
+孙悟空在我们村^【junaida】@となりのうさぎくん :  不会有我这么难养的……宠物吧…一养19年 
+
+
+2014-08-21 17:48:12 web.py[line:1728] INFO 200 POST /wechat?signature=0c582e1f9152bd3a0538da8b83d0ff0b99d96266&timestamp=1408614490&nonce=1509825500 (127.0.0.1) 2022.15ms
+2014-08-21 17:48:20 web.py[line:1305] ERROR Uncaught exception POST /wechat?signature=d02957991171c268c5e11014d247b86acbe6e9f6&timestamp=1408614499&nonce=2109837622 (127.0.0.1)
+HTTPRequest(protocol='http', host='127.0.0.1:9001', method='POST', uri='/wechat?signature=d02957991171c268c5e11014d247b86acbe6e9f6&timestamp=1408614499&nonce=2109837622', version='HTTP/1.0', remote_ip='127.0.0.1', headers={'Content-Length': '280', 'Host': '127.0.0.1:9001', 'Pragma': 'no-cache', 'Content-Type': 'text/xml', 'Connection': 'close', 'Accept': '*/*', 'User-Agent': 'Mozilla/4.0'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1218, in _when_complete
+    callback()
+  File "/usr/local/lib/python2.7/dist-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1239, in _execute_method
+    self._when_complete(method(*self.path_args, **self.path_kwargs),
+  File "/home/nightwish/elfin/handlers/wechat.py", line 94, in post
+    message_num = get_message_num(key, fromUser)
+  File "/home/nightwish/elfin/scripts/message_get.py", line 25, in get_message_num
+    session = get_session(user['wechat_id'])
+TypeError: 'NoneType' object has no attribute '__getitem__'
+2014-08-21 17:48:20 web.py[line:1728] ERROR 500 POST /wechat?signature=d02957991171c268c5e11014d247b86acbe6e9f6&timestamp=1408614499&nonce=2109837622 (127.0.0.1) 4.38ms
+2014-08-21 17:48:22 connectionpool.py[line:180] INFO Starting new HTTP connection (1): m.weilairiji.com
+2014-08-21 17:48:32 timeline_operate.py[line:35] INFO 阿花。 :  我靠 忘刮腿毛了 
+
+鬼鬼.@老妖 :  好吧。。我就是觉得运动完特累就想睡了。。 
+
+SapphiReeee.| Call Me Miss 骨感。@老妖 :  房供出120个艺人。三个已锁定，两个C姓，一个H姓。C的一个私交甚好，不是陈柏霖是谁………(┬＿┬) 
+
+SapphiReeee.| Call Me Miss 骨感。 :  看评论里有人说F是Feynman…噗噗噗… 
+
+老妖@SapphiReeee.| Call Me Miss 骨感。 :  跟陈柏霖有什么关系？？ 
+
+老妖@鬼鬼. :  身体不习惯。。我现在好像没有以前懒觉那么多了。。还是很懒很困缺很多觉但是不会像以前那么不好起来了。。 
+
+SapphiReeee.| Call Me Miss 骨感。 :  看到所有的私交甚笃的C姓指控都对准陈柏霖时候，我终于明白喊柯振东加油的人是什么心情了…我只想说，亲爱的张士豪，快跑。 
+
+鬼鬼. :  能把持住自己守住清净会带来更大的成就感呢 
+
+鬼鬼. :  跟我们家大全聊会儿真是神清气爽身心愉悦啊～ 
+
+Sic semper tyrannis :  香港叫「宠物小精灵」，台湾叫「神奇宝贝」，中国大陆叫「精灵宝可梦」，盗版汉化玩家叫「口袋妖怪」 
+
+鬼鬼.@老妖 :  还有这说法。。可是我早上实在不行，勉强爬起来运动一整天都犯困。。 
+
+老妖@鬼鬼. :  我忘了在哪儿看的，说如果一直运动没什么效果的话就改变一下。比如说从晚上变成早上。。。我晚上也有运动的╯﹏╰ 
+
+SapphiReeee.| Call Me Miss 骨感。 :  张士豪，快跑… 
+
+鬼鬼. :  同。。。所以我都晚上运动。。。早上只能上班点起，能多睡一分钟算一分钟。。。。。。 
+
+RT@老妖 :  早起…真的很不适合我！！困爆了！！！
+
+老妖 :  早起…真的很不适合我！！困爆了！！！ 
+
+阿修。 :  『快加入我摸鱼大军！』『被你传染了摸鱼好嘛ww』『就说！』『嫁鱼随鱼（。』够了233 
+
+阿修。 :  基本每天都有一句话让我doki一下……热恋期棒棒的…… 
+
+Sic semper tyrannis@孙悟空在我们村^【junaida】 :  去找个男宠。。 
+
+Richie :  +10000 
+
+RT@where have all the flowers gone。 :  不想上班！！！！
+
+阿花。 :  感觉热身的差不多了，明天开始跑起来。 
+
+
+2014-08-21 17:48:32 web.py[line:1728] INFO 200 POST /wechat?signature=ad51df49615f8f827ad697258151de31bcd1b9b8&timestamp=1408614502&nonce=722732861 (127.0.0.1) 10247.41ms
+2014-08-21 17:48:32 connectionpool.py[line:180] INFO Starting new HTTP connection (1): m.weilairiji.com
+2014-08-21 17:48:34 timeline_operate.py[line:35] INFO 阿花。 :  我靠 忘刮腿毛了 
+
+鬼鬼.@老妖 :  好吧。。我就是觉得运动完特累就想睡了。。 
+
+SapphiReeee.| Call Me Miss 骨感。@老妖 :  房供出120个艺人。三个已锁定，两个C姓，一个H姓。C的一个私交甚好，不是陈柏霖是谁………(┬＿┬) 
+
+SapphiReeee.| Call Me Miss 骨感。 :  看评论里有人说F是Feynman…噗噗噗… 
+
+老妖@SapphiReeee.| Call Me Miss 骨感。 :  跟陈柏霖有什么关系？？ 
+
+老妖@鬼鬼. :  身体不习惯。。我现在好像没有以前懒觉那么多了。。还是很懒很困缺很多觉但是不会像以前那么不好起来了。。 
+
+SapphiReeee.| Call Me Miss 骨感。 :  看到所有的私交甚笃的C姓指控都对准陈柏霖时候，我终于明白喊柯振东加油的人是什么心情了…我只想说，亲爱的张士豪，快跑。 
+
+鬼鬼. :  能把持住自己守住清净会带来更大的成就感呢 
+
+鬼鬼. :  跟我们家大全聊会儿真是神清气爽身心愉悦啊～ 
+
+Sic semper tyrannis :  香港叫「宠物小精灵」，台湾叫「神奇宝贝」，中国大陆叫「精灵宝可梦」，盗版汉化玩家叫「口袋妖怪」 
+
+鬼鬼.@老妖 :  还有这说法。。可是我早上实在不行，勉强爬起来运动一整天都犯困。。 
+
+老妖@鬼鬼. :  我忘了在哪儿看的，说如果一直运动没什么效果的话就改变一下。比如说从晚上变成早上。。。我晚上也有运动的╯﹏╰ 
+
+SapphiReeee.| Call Me Miss 骨感。 :  张士豪，快跑… 
+
+鬼鬼. :  同。。。所以我都晚上运动。。。早上只能上班点起，能多睡一分钟算一分钟。。。。。。 
+
+RT@老妖 :  早起…真的很不适合我！！困爆了！！！
+
+老妖 :  早起…真的很不适合我！！困爆了！！！ 
+
+阿修。 :  『快加入我摸鱼大军！』『被你传染了摸鱼好嘛ww』『就说！』『嫁鱼随鱼（。』够了233 
+
+阿修。 :  基本每天都有一句话让我doki一下……热恋期棒棒的…… 
+
+Sic semper tyrannis@孙悟空在我们村^【junaida】 :  去找个男宠。。 
+
+Richie :  +10000 
+
+RT@where have all the flowers gone。 :  不想上班！！！！
+
+阿花。 :  感觉热身的差不多了，明天开始跑起来。 
+
+
+2014-08-21 17:48:34 web.py[line:1728] INFO 200 POST /wechat?signature=ad51df49615f8f827ad697258151de31bcd1b9b8&timestamp=1408614502&nonce=722732861 (127.0.0.1) 2066.46ms
+2014-08-21 17:48:35 connectionpool.py[line:180] INFO Starting new HTTP connection (1): m.weilairiji.com
+2014-08-21 17:48:36 timeline_operate.py[line:35] INFO 阿花。 :  我靠 忘刮腿毛了 
+
+鬼鬼.@老妖 :  好吧。。我就是觉得运动完特累就想睡了。。 
+
+SapphiReeee.| Call Me Miss 骨感。@老妖 :  房供出120个艺人。三个已锁定，两个C姓，一个H姓。C的一个私交甚好，不是陈柏霖是谁………(┬＿┬) 
+
+SapphiReeee.| Call Me Miss 骨感。 :  看评论里有人说F是Feynman…噗噗噗… 
+
+老妖@SapphiReeee.| Call Me Miss 骨感。 :  跟陈柏霖有什么关系？？ 
+
+老妖@鬼鬼. :  身体不习惯。。我现在好像没有以前懒觉那么多了。。还是很懒很困缺很多觉但是不会像以前那么不好起来了。。 
+
+SapphiReeee.| Call Me Miss 骨感。 :  看到所有的私交甚笃的C姓指控都对准陈柏霖时候，我终于明白喊柯振东加油的人是什么心情了…我只想说，亲爱的张士豪，快跑。 
+
+鬼鬼. :  能把持住自己守住清净会带来更大的成就感呢 
+
+鬼鬼. :  跟我们家大全聊会儿真是神清气爽身心愉悦啊～ 
+
+Sic semper tyrannis :  香港叫「宠物小精灵」，台湾叫「神奇宝贝」，中国大陆叫「精灵宝可梦」，盗版汉化玩家叫「口袋妖怪」 
+
+鬼鬼.@老妖 :  还有这说法。。可是我早上实在不行，勉强爬起来运动一整天都犯困。。 
+
+老妖@鬼鬼. :  我忘了在哪儿看的，说如果一直运动没什么效果的话就改变一下。比如说从晚上变成早上。。。我晚上也有运动的╯﹏╰ 
+
+SapphiReeee.| Call Me Miss 骨感。 :  张士豪，快跑… 
+
+鬼鬼. :  同。。。所以我都晚上运动。。。早上只能上班点起，能多睡一分钟算一分钟。。。。。。 
+
+RT@老妖 :  早起…真的很不适合我！！困爆了！！！
+
+老妖 :  早起…真的很不适合我！！困爆了！！！ 
+
+阿修。 :  『快加入我摸鱼大军！』『被你传染了摸鱼好嘛ww』『就说！』『嫁鱼随鱼（。』够了233 
+
+阿修。 :  基本每天都有一句话让我doki一下……热恋期棒棒的…… 
+
+Sic semper tyrannis@孙悟空在我们村^【junaida】 :  去找个男宠。。 
+
+Richie :  +10000 
+
+RT@where have all the flowers gone。 :  不想上班！！！！
+
+阿花。 :  感觉热身的差不多了，明天开始跑起来。 
+
+
+2014-08-21 17:48:36 web.py[line:1728] INFO 200 POST /wechat?signature=ad51df49615f8f827ad697258151de31bcd1b9b8&timestamp=1408614502&nonce=722732861 (127.0.0.1) 1739.71ms
+2014-08-21 17:48:48 connectionpool.py[line:180] INFO Starting new HTTP connection (1): m.weilairiji.com
+2014-08-21 17:48:50 timeline_operate.py[line:35] INFO 孙悟空在我们村^【junaida】@Sic semper tyrannis :  想要可以抱的… 
+
+阿花。 :  好饿 
+
+Richie :  好久没有这么早去下井了 
+
+宋青柚 :  必须要改。祝明天是一个新开始。安 
+
+宋青柚 :  这个假期有很多计划比如学英语画地图看小说写东西练回琴健身化妆摄影看剧等等等等至今大概只有一半get到我到底干了些什么 
+
+宋青柚 :  假期又快到尾声了。这个暑假最舒服没作业可是我丢掉了看书的好习惯只会玩手机平板不断购物真是够丧心病狂了必须停止 
+
+排骨珣 :  竟然停气了 
+
+阿修。 :  每天都被晚安爱你的不同语言表达方式甜哭（。） 
+
+排骨珣 :  对了。 今天发工资了！ 
+
+Sic semper tyrannis@孙悟空在我们村^【junaida】 :  养鱼去吧。哈哈 
+
+Sic semper tyrannis :  我已空仓。感觉良好 
+
+孙悟空在我们村^【junaida】 :  想效仿多多…我和我妈说妈妈我要是洗两年的碗和衣服加给你们做早餐能不能让我养只猫或狗？我妈一脸嫌恶说家里不能养畜生，一直强调掉毛脏臭……说我以后自己养去把那些流浪猫狗都收着我自己照顾就成她绝不管我…就是想在青年的时候有个宠物嘛:-( 
+
+老妖@阿花。 :  嗯！！！！！ 
+
+阿花。@老妖 :  好吧。老规矩。 
+
+SapphiReeee.| Call Me Miss 骨感。 :  你90的……………………我一直以为你86啊85啊的…… 
+
+RT@Mr Qin :  一个没怎么说过话的同事问我，你多大啊？我说我90年的，他说，啊？？才25啊？？我以为你有孩子了呢……顿时我觉得……
+
+老妖@阿花。 :  别这样！！我今天一定早早睡明天早起！！ 
+
+老妖 :  我去！！。。哎！这种事只有发生在自己身边的时候才觉得这么近。。 
+
+RT@exeggcute :  今天得知一个同事周一健身时心脏病复发去世，忍不住心酸落泪，虽然认识才不久也就见过几次。人事无常，珍惜当下，真的是要照顾好自己的身体。
+
+阿修。 :  今天做了一个下午头发，大概是拉直和染色，褐色的样子。 
+
+阿修。 :  每天都在卧槽这人怎么可以这么烦、卧槽我怎么可以这么烦和卧槽我们怎么可以这么烦中度过…… 
+
+阿花。@老妖 :  斜眼 
+
+
+2014-08-21 17:48:50 web.py[line:1728] INFO 200 POST /wechat?signature=bab6ffaf7427a93709c59550c72c88f4486d1763&timestamp=1408614528&nonce=792459551 (127.0.0.1) 2084.08ms
+2014-08-21 17:48:54 connectionpool.py[line:180] INFO Starting new HTTP connection (1): weilairiji.com
+2014-08-21 17:48:56 home.py[line:29] INFO 老板又送来一个学打票的人！说的嘴都干了！
+
+困疯了
+
+@SapphiReeee.| Call Me Miss 骨感。 我，只关心小蛮腰
+
+感觉自己泪点越来越低了。。。
+
+今天一天木有出大门一步！只是睡到自然醒的计划又破碎了！下星期再说吧！
+
+@SapphiReeee.| Call Me Miss 骨感。 好瘦
+
+老板的妈咪在这里，可是我就是找不到话题可以和她聊天，我倒是没什么，就是觉得她好像蛮尴尬
+
+离婚律师里，十个肉筋，十个腰子，一个馒头片，一个疙瘩汤，才38。天朝的物价什么时候这么便宜了？还不是路边摊。。。
+
+都三点了，我又困了，眼睛睁不开了
+
+RT林不该 没有尿到店里就很不错了，他们再来我只说这次不要尿店里，人家就生气的走了！
+
+下雨了，天气变凉了！
+
+带着怀抱的小孩子来彩票站。还嫌弃他不听话，这个家长怎么想的！
+
+这两天胃不太舒服
+
+本来想自己吃火锅的，结果变成伺候别人吃。郁闷。
+
+等老妈回来我就去买菜！晚上准备吃火锅，得到批准了
+
+出车祸了，一个小货车和出租车撞一起了，出租车前面都变形了
+
+想吃火锅还要和老妈申请。
+
+我想吃火锅，最近想吃的东西太多了
+
+输了三千还不甘心，晚上还要来，赌博上瘾的
+
+在看法网狙击。
+2014-08-21 17:48:56 web.py[line:1728] INFO 200 POST /wechat?signature=c6869e30298b762c847b52f817621b8831656838&timestamp=1408614534&nonce=2010772856 (127.0.0.1) 1878.43ms
+2014-08-21 17:48:56 connectionpool.py[line:180] INFO Starting new HTTP connection (1): m.weilairiji.com
+2014-08-21 17:49:05 web.py[line:1728] INFO 200 POST /wechat?signature=724f538fa8deedac57d26c9b9fd5eaf5bd046d75&timestamp=1408614545&nonce=812413553 (127.0.0.1) 6.25ms
+2014-08-21 17:49:09 web.py[line:1305] ERROR Uncaught exception POST /wechat?signature=78121d474888935ae70b5a9e449bc381fc2dd12a&timestamp=1408614549&nonce=1642603565 (127.0.0.1)
+HTTPRequest(protocol='http', host='127.0.0.1:9001', method='POST', uri='/wechat?signature=78121d474888935ae70b5a9e449bc381fc2dd12a&timestamp=1408614549&nonce=1642603565', version='HTTP/1.0', remote_ip='127.0.0.1', headers={'Content-Length': '278', 'Host': '127.0.0.1:9001', 'Pragma': 'no-cache', 'Content-Type': 'text/xml', 'Connection': 'close', 'Accept': '*/*', 'User-Agent': 'Mozilla/4.0'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1218, in _when_complete
+    callback()
+  File "/usr/local/lib/python2.7/dist-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1239, in _execute_method
+    self._when_complete(method(*self.path_args, **self.path_kwargs),
+  File "/home/nightwish/elfin/handlers/wechat.py", line 91, in post
+    time_lines = time_line(key, fromUser)
+  File "/home/nightwish/elfin/scripts/timeline_get.py", line 19, in time_line
+    logging.info(str(session_dict))
+NameError: global name 'logging' is not defined
+2014-08-21 17:49:09 web.py[line:1728] ERROR 500 POST /wechat?signature=78121d474888935ae70b5a9e449bc381fc2dd12a&timestamp=1408614549&nonce=1642603565 (127.0.0.1) 3.46ms
+2014-08-21 17:50:22 web.py[line:1728] INFO 200 POST /wechat?signature=f0a60f748992ee15d2cee5d22911a9f69678a2e0&timestamp=1408614621&nonce=221130378 (127.0.0.1) 0.92ms
+2014-08-21 17:50:31 connectionpool.py[line:180] INFO Starting new HTTP connection (1): m.weilairiji.com
+2014-08-21 17:50:32 timeline_operate.py[line:35] INFO 林不该 :  上得山多终遇虎 
+
+Se7en. :  啊 有点想买个手拿包TUT 
+
+老妖@黑眼圈女王.= = :  女生生日快乐思密达~~么么哒 
+
+老妖@SapphiReeee.| Call Me Miss 骨感。 :  跟陈柏霖有什么关系？？ 
+
+老妖@鬼鬼. :  身体不习惯。。我现在好像没有以前懒觉那么多了。。还是很懒很困缺很多觉但是不会像以前那么不好起来了。。 
+
+朝夕。 :  怪不得最近心情起伏比较大。。。 
+
+朝夕。 :  世界就像是个巨大的马戏团/它让你兴奋，却让我惶恐/ 
+因为我知道散场后永远是 /有限温存，无限辛酸—卓别林《致乌娜》 
+
+Se7en.: 大陆那个说法还真没听过= =还是比较喜欢宠物小精灵   RT Sic semper tyrannis: 香港叫「宠物小精灵」，台湾叫「神奇宝贝」，中国大陆叫「精灵宝可梦」，盗版汉化玩家叫「口袋妖怪」
+
+
+2014-08-21 17:50:32 web.py[line:1728] INFO 200 POST /wechat?signature=6cb9aa6aaa07e4e425bd90e2f1fa24dc5fe1fdd3&timestamp=1408614631&nonce=1271303578 (127.0.0.1) 1083.75ms
+2014-08-21 17:51:03 timeline_get.py[line:20] INFO {u'session': u"ccopy_reg\n_reconstructor\np0\n(crequests.sessions\nSession\np1\nc__builtin__\nobject\np2\nNtp3\nRp4\n(dp5\nS'cookies'\np6\ng0\n(crequests.cookies\nRequestsCookieJar\np7\ng2\nNtp8\nRp9\n(dp10\nS'_now'\np11\nI1407209314\nsS'_policy'\np12\n(icookielib\nDefaultCookiePolicy\np13\n(dp14\nS'strict_rfc2965_unverifiable'\np15\nI01\nsS'strict_ns_domain'\np16\nI0\nsS'_allowed_domains'\np17\nNsS'rfc2109_as_netscape'\np18\nNsS'rfc2965'\np19\nI00\nsS'strict_domain'\np20\nI00\nsg11\nI1407209314\nsS'strict_ns_set_path'\np21\nI00\nsS'strict_ns_unverifiable'\np22\nI00\nsS'strict_ns_set_initial_dollar'\np23\nI00\nsS'hide_cookie2'\np24\nI00\nsS'_blocked_domains'\np25\n(tsS'netscape'\np26\nI01\nsbsS'_cookies'\np27\n(dp28\nS'm.weilairiji.com'\np29\n(dp30\nS'/'\np31\n(dp32\nS'wapcookie'\np33\n(icookielib\nCookie\np34\n(dp35\nS'comment'\np36\nNsS'domain'\np37\ng29\nsS'name'\np38\ng33\nsS'domain_initial_dot'\np39\nI00\nsS'expires'\np40\nNsS'value'\np41\nS'eca9bgddDZGPFNpbD9TCGTciqKh15muIVWfrlkUo1qOxs4hrVD2drrVx1QOBI%2BOj7YmODBkW3VXH08trip9lUCD6hw'\np42\nsS'domain_specified'\np43\nI00\nsS'_rest'\np44\n(dp45\nsS'version'\np46\nI0\nsS'port_specified'\np47\nI00\nsS'rfc2109'\np48\nI00\nsS'discard'\np49\nI01\nsS'path_specified'\np50\nI00\nsS'path'\np51\ng31\nsS'port'\np52\nNsS'comment_url'\np53\nNsS'secure'\np54\nI00\nsbsssS'.weilairiji.com'\np55\n(dp56\ng31\n(dp57\nS'wapcookie'\np58\n(icookielib\nCookie\np59\n(dp60\ng36\nNsg37\ng55\nsg38\ng58\nsg39\nI01\nsg40\nNsg41\nS'eca9bgddDZGPFNpbD9TCGTciqKh15muIVWfrlkUo1qOxs4hrVD2drrVx1QOBI%2BOj7YmODBkW3VXH08trip9lUCD6hw'\np61\nsg43\nI01\nsg44\n(dp62\nsg46\nI0\nsg47\nI00\nsg48\nI00\nsg49\nI01\nsg50\nI01\nsg51\ng31\nsg52\nNsg53\nNsg54\nI00\nsbssssbsS'stream'\np63\nI00\nsS'hooks'\np64\n(dp65\nS'response'\np66\n(lp67\nssS'auth'\np68\nNsS'trust_env'\np69\nI01\nsS'headers'\np70\ng0\n(crequests.structures\nCaseInsensitiveDict\np71\ng2\nNtp72\nRp73\n(dp74\nS'_store'\np75\n(dp76\nS'accept-encoding'\np77\n(S'Accept-Encoding'\np78\nS'gzip, deflate, compress'\np79\ntp80\nsS'accept'\np81\n(S'Accept'\np82\nS'*/*'\np83\ntp84\nsS'user-agent'\np85\n(S'User-Agent'\np86\nS'python-requests/2.2.1 CPython/2.7.3 Linux/2.6.32-042stab090.5'\np87\ntp88\nssbsS'cert'\np89\nNsS'params'\np90\n(dp91\nsS'prefetch'\np92\nNsS'timeout'\np93\nNsS'verify'\np94\nI01\nsS'proxies'\np95\n(dp96\nsS'adapters'\np97\ncrequests.packages.urllib3.packages.ordered_dict\nOrderedDict\np98\n((lp99\n(lp100\nS'https://'\np101\nag0\n(crequests.adapters\nHTTPAdapter\np102\ng2\nNtp103\nRp104\n(dp105\nS'_pool_block'\np106\nI00\nsS'_pool_maxsize'\np107\nI10\nsS'max_retries'\np108\nI0\nsS'config'\np109\n(dp110\nsS'_pool_connections'\np111\nI10\nsbaa(lp112\nS'http://'\np113\nag0\n(g102\ng2\nNtp114\nRp115\n(dp116\ng106\nI00\nsg107\nI10\nsg108\nI0\nsg109\n(dp117\nsg111\nI10\nsbaatp118\nRp119\nsS'max_redirects'\np120\nI30\nsb.", u'_id': ObjectId('53ddcf8ce5bee450442ec095')}
+2014-08-21 17:51:03 connectionpool.py[line:180] INFO Starting new HTTP connection (1): m.weilairiji.com
+2014-08-21 17:51:05 timeline_operate.py[line:35] INFO 阿花。 :  我靠 忘刮腿毛了 
+
+柒-11 :   强烈要求真心话功能吖 但在微信刷真心话会不会跟无感啊 
+
+SapphiReeee.| Call Me Miss 骨感。@老妖 :  房供出120个艺人。三个已锁定，两个C姓，一个H姓。C的一个私交甚好，不是陈柏霖是谁………(┬＿┬) 
+
+SapphiReeee.| Call Me Miss 骨感。 :  看评论里有人说F是Feynman…噗噗噗… 
+
+朝夕。 :  怪不得最近心情起伏比较大。。。 
+
+朝夕。 :  世界就像是个巨大的马戏团/它让你兴奋，却让我惶恐/ 
+因为我知道散场后永远是 /有限温存，无限辛酸—卓别林《致乌娜》 
+
+SapphiReeee.| Call Me Miss 骨感。 :  看到所有的私交甚笃的C姓指控都对准陈柏霖时候，我终于明白喊柯振东加油的人是什么心情了…我只想说，亲爱的张士豪，快跑。 
+
+ゞ      怂| :  开始同事CX代购化妆品我挺不喜欢的毕竟旁边坐个整天跟你交流化妆品的人多少有点说不出的麻烦。不过慢慢发现她挺负责的各类化妆品都会自己亲身试过再推荐给别人。 
+
+ゞ      怂| :  等考完试就要整部整部的追漫太久不看感觉自己越来越暗黑阴冷了、 
+
+SapphiReeee.| Call Me Miss 骨感。 :  张士豪，快跑… 
+
+阿修。 :  『快加入我摸鱼大军！』『被你传染了摸鱼好嘛ww』『就说！』『嫁鱼随鱼（。』够了233 
+
+阿修。 :  基本每天都有一句话让我doki一下……热恋期棒棒的…… 
+
+单向街 :  上班路上看到一个小孩儿，死死拽着爷爷的行李箱，一边哭着一边声嘶力竭的喊到，我不要你走！！！我不要你走！！！ 
+
+单向街 :  今天做了一个超级无厘头无逻辑的梦，我回到了一中，那里有许多纪念乌龟可以领养，可是突然却发了洪水，冲跑了好多乌龟和莘莘学子，我奋力救起一只乌龟，以百米冲刺的速度朝门口跑去，突然我脚底一滑摔了个底朝天，爬起来一看，乌龟壳被摔碎了，那只没有壳的乌龟变成了一只没有壳的蜗牛。。。 
+
+ゞ      怂| :  目标是挣钱花但现在还处在攒钱花的状态.. ╮(╯▽╰)╭ 
+
+弱智儿童就是我 :  啊呀，今天车子错过啦！ 
+
+ゞ      怂| :  最喜欢在公交车的车门前端详我的腿。又细又长。我觉得先生可以拿这车门去配副眼镜。 
+
+阿花。 :  感觉热身的差不多了，明天开始跑起来。 
+
+孙悟空在我们村^【junaida】@Sic semper tyrannis :  想要可以抱的… 
+
+孙悟空在我们村^【junaida】@となりのうさぎくん :  不会有我这么难养的……宠物吧…一养19年 
+
+
+2014-08-21 17:51:05 web.py[line:1728] INFO 200 POST /wechat?signature=42e8e6f979e2139287c5ba34f7ca105ef6baafcf&timestamp=1408614662&nonce=2083832149 (127.0.0.1) 2228.95ms
+2014-08-21 17:51:06 timeline_get.py[line:20] INFO {u'_id': ObjectId('53db6fa8e5bee444077dc443')}
+2014-08-21 17:51:06 web.py[line:1305] ERROR Uncaught exception POST /wechat?signature=f38ddd6d912c35ae787caa88187fd6a74467bcc8&timestamp=1408614666&nonce=1931226096 (127.0.0.1)
+HTTPRequest(protocol='http', host='127.0.0.1:9001', method='POST', uri='/wechat?signature=f38ddd6d912c35ae787caa88187fd6a74467bcc8&timestamp=1408614666&nonce=1931226096', version='HTTP/1.0', remote_ip='127.0.0.1', headers={'Content-Length': '278', 'Host': '127.0.0.1:9001', 'Pragma': 'no-cache', 'Content-Type': 'text/xml', 'Connection': 'close', 'Accept': '*/*', 'User-Agent': 'Mozilla/4.0'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1218, in _when_complete
+    callback()
+  File "/usr/local/lib/python2.7/dist-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1239, in _execute_method
+    self._when_complete(method(*self.path_args, **self.path_kwargs),
+  File "/home/nightwish/elfin/handlers/wechat.py", line 91, in post
+    time_lines = time_line(key, fromUser)
+  File "/home/nightwish/elfin/scripts/timeline_get.py", line 21, in time_line
+    session = session_dict['session']
+KeyError: 'session'
+2014-08-21 17:51:06 web.py[line:1728] ERROR 500 POST /wechat?signature=f38ddd6d912c35ae787caa88187fd6a74467bcc8&timestamp=1408614666&nonce=1931226096 (127.0.0.1) 3.60ms
+2014-08-21 17:51:06 web.py[line:1728] INFO 200 POST /wechat?signature=3e4d52c7e10525f07caf9a1f42616d5383a4fbf3&timestamp=1408614666&nonce=651188786 (127.0.0.1) 1.26ms
+2014-08-21 17:51:09 web.py[line:1305] ERROR Uncaught exception POST /wechat?signature=29983d9b3e3ab55292b8fd4e7fd2a576ce771dc1&timestamp=1408614669&nonce=196584743 (127.0.0.1)
+HTTPRequest(protocol='http', host='127.0.0.1:9001', method='POST', uri='/wechat?signature=29983d9b3e3ab55292b8fd4e7fd2a576ce771dc1&timestamp=1408614669&nonce=196584743', version='HTTP/1.0', remote_ip='127.0.0.1', headers={'Content-Length': '278', 'Host': '127.0.0.1:9001', 'Pragma': 'no-cache', 'Content-Type': 'text/xml', 'Connection': 'close', 'Accept': '*/*', 'User-Agent': 'Mozilla/4.0'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1218, in _when_complete
+    callback()
+  File "/usr/local/lib/python2.7/dist-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1239, in _execute_method
+    self._when_complete(method(*self.path_args, **self.path_kwargs),
+  File "/home/nightwish/elfin/handlers/wechat.py", line 91, in post
+    time_lines = time_line(key, fromUser)
+  File "/home/nightwish/elfin/scripts/timeline_get.py", line 25, in time_line
+    session = get_session(user['xiezhua_id'])
+TypeError: 'NoneType' object has no attribute '__getitem__'
+2014-08-21 17:51:09 web.py[line:1728] ERROR 500 POST /wechat?signature=29983d9b3e3ab55292b8fd4e7fd2a576ce771dc1&timestamp=1408614669&nonce=196584743 (127.0.0.1) 16.39ms
+2014-08-21 17:51:13 web.py[line:1728] INFO 200 POST /wechat?signature=3c52edbc414b2a851b9633bddc5507fb2196029c&timestamp=1408614673&nonce=1647323814 (127.0.0.1) 2.81ms
+2014-08-21 17:51:24 timeline_get.py[line:20] INFO {u'_id': ObjectId('53db6fa8e5bee444077dc443')}
+2014-08-21 17:51:24 web.py[line:1305] ERROR Uncaught exception POST /wechat?signature=1ae9f38e3651901066f653ee65209b051c669499&timestamp=1408614683&nonce=521632142 (127.0.0.1)
+HTTPRequest(protocol='http', host='127.0.0.1:9001', method='POST', uri='/wechat?signature=1ae9f38e3651901066f653ee65209b051c669499&timestamp=1408614683&nonce=521632142', version='HTTP/1.0', remote_ip='127.0.0.1', headers={'Content-Length': '278', 'Host': '127.0.0.1:9001', 'Pragma': 'no-cache', 'Content-Type': 'text/xml', 'Connection': 'close', 'Accept': '*/*', 'User-Agent': 'Mozilla/4.0'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1218, in _when_complete
+    callback()
+  File "/usr/local/lib/python2.7/dist-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1239, in _execute_method
+    self._when_complete(method(*self.path_args, **self.path_kwargs),
+  File "/home/nightwish/elfin/handlers/wechat.py", line 91, in post
+    time_lines = time_line(key, fromUser)
+  File "/home/nightwish/elfin/scripts/timeline_get.py", line 21, in time_line
+    session = session_dict['session']
+KeyError: 'session'
+2014-08-21 17:51:24 web.py[line:1728] ERROR 500 POST /wechat?signature=1ae9f38e3651901066f653ee65209b051c669499&timestamp=1408614683&nonce=521632142 (127.0.0.1) 4.87ms
+2014-08-21 17:51:38 connectionpool.py[line:180] INFO Starting new HTTP connection (1): weilairiji.com
+2014-08-21 17:51:40 home.py[line:29] INFO 其实不应该。。他还是叫了我们。。我觉得我很尴尬
+
+郁闷，在不确定对方同不同意我们参加之前就叫我们去唱k，然后在我疑问之后才去问人家，大概对方是不愿意，就说还不肯定是今晚去。。所谓的善意的谎言，其实一开始就不该告诉我们啊
+
+赶不上车了
+
+邻座的怪同学终于看完了漫画。总觉得他俩的感情好飘忽，变来变去的。最后看到他们高三毕业了，突然有点不舍的。
+
+是不是很失败，大概连胡子也是我的错
+
+不开心，觉得落单了。
+
+好饿，吃完饭不到一个小时就肚子空空的，搞什么啊。
+
+大暴雨，跟小孩共用一把伞，衣服鞋子都湿了。上百人停在大门等雨势小再进去，可怎么等还是那样。。我俩就冒雨进去了。。看见了好多人就是没见到胡子
+
+阴雨天，凉快。带点初秋的气味。
+
+在对方明确的表达之前，不要相信所谓的自我感觉。
+
+都是我自以为的以为。吸取教训吧。不要再这样了。
+
+不怎么开心。
+
+之前我就隐隐约约觉得桃子是把她大姐介绍给了戴兄，但是她们一直背着我说不让我知道。然后我看到戴兄的微信也很平常就以为他们没有下文了。谁知道昨晚她俩又在偷偷的说什么什么，我就说是不是戴兄快要结婚了，跟你姐姐？她们很是惊讶我怎么会知道。我怎么不知道呢。。
+
+大概周四工具库那些人不会叫我们去唱k，不知道是谁生日，不认识我们。。
+
+@Mr Qin 是因为qinzhengogogo？
+
+又发生这种情况，我会胆怯的哗。。干嘛要看着我，搞得我吃饭时小心翼翼的，怕吃相不文雅，何况还是吃鱼。
+
+好久没看到过羊羊了。
+
+等下去考笔试。。
+
+就算是这样我的体重也不会下来。。看来我是那样的，瘦的时候吃再多也是瘦，胖了的话不吃也不会减下来。。
+
+肚子空空的，吃跟没吃一样。。
+2014-08-21 17:51:40 web.py[line:1728] INFO 200 POST /wechat?signature=14a2b63516cc7bf6ce1e5b8667debdfe602f4cbe&timestamp=1408614697&nonce=1481422009 (127.0.0.1) 1818.17ms
+2014-08-21 17:51:51 timeline_get.py[line:20] INFO {u'session': u"ccopy_reg\n_reconstructor\np0\n(crequests.sessions\nSession\np1\nc__builtin__\nobject\np2\nNtp3\nRp4\n(dp5\nS'cookies'\np6\ng0\n(crequests.cookies\nRequestsCookieJar\np7\ng2\nNtp8\nRp9\n(dp10\nS'_now'\np11\nI1407412107\nsS'_policy'\np12\n(icookielib\nDefaultCookiePolicy\np13\n(dp14\nS'strict_rfc2965_unverifiable'\np15\nI01\nsS'strict_ns_domain'\np16\nI0\nsS'_allowed_domains'\np17\nNsS'rfc2109_as_netscape'\np18\nNsS'rfc2965'\np19\nI00\nsS'strict_domain'\np20\nI00\nsg11\nI1407412107\nsS'strict_ns_set_path'\np21\nI00\nsS'strict_ns_unverifiable'\np22\nI00\nsS'strict_ns_set_initial_dollar'\np23\nI00\nsS'hide_cookie2'\np24\nI00\nsS'_blocked_domains'\np25\n(tsS'netscape'\np26\nI01\nsbsS'_cookies'\np27\n(dp28\nS'm.weilairiji.com'\np29\n(dp30\nS'/'\np31\n(dp32\nS'wapcookie'\np33\n(icookielib\nCookie\np34\n(dp35\nS'comment'\np36\nNsS'domain'\np37\ng29\nsS'name'\np38\ng33\nsS'domain_initial_dot'\np39\nI00\nsS'expires'\np40\nNsS'value'\np41\nS'352aYeF6b8z9Uki%2F4PfHx6kA05Iv9nTR%2FKle3qM82zUozSe%2F2XubARsiJ6jXHBOyYSvQUhUv1uRz61J7N%2Bnx%2BCw'\np42\nsS'domain_specified'\np43\nI00\nsS'_rest'\np44\n(dp45\nsS'version'\np46\nI0\nsS'port_specified'\np47\nI00\nsS'rfc2109'\np48\nI00\nsS'discard'\np49\nI01\nsS'path_specified'\np50\nI00\nsS'path'\np51\ng31\nsS'port'\np52\nNsS'comment_url'\np53\nNsS'secure'\np54\nI00\nsbsssS'.weilairiji.com'\np55\n(dp56\ng31\n(dp57\nS'wapcookie'\np58\n(icookielib\nCookie\np59\n(dp60\ng36\nNsg37\ng55\nsg38\ng58\nsg39\nI01\nsg40\nNsg41\nS'352aYeF6b8z9Uki%2F4PfHx6kA05Iv9nTR%2FKle3qM82zUozSe%2F2XubARsiJ6jXHBOyYSvQUhUv1uRz61J7N%2Bnx%2BCw'\np61\nsg43\nI01\nsg44\n(dp62\nsg46\nI0\nsg47\nI00\nsg48\nI00\nsg49\nI01\nsg50\nI01\nsg51\ng31\nsg52\nNsg53\nNsg54\nI00\nsbssssbsS'stream'\np63\nI00\nsS'hooks'\np64\n(dp65\nS'response'\np66\n(lp67\nssS'auth'\np68\nNsS'trust_env'\np69\nI01\nsS'headers'\np70\ng0\n(crequests.structures\nCaseInsensitiveDict\np71\ng2\nNtp72\nRp73\n(dp74\nS'_store'\np75\n(dp76\nS'accept-encoding'\np77\n(S'Accept-Encoding'\np78\nS'gzip, deflate, compress'\np79\ntp80\nsS'accept'\np81\n(S'Accept'\np82\nS'*/*'\np83\ntp84\nsS'user-agent'\np85\n(S'User-Agent'\np86\nS'python-requests/2.2.1 CPython/2.7.3 Linux/2.6.32-042stab090.5'\np87\ntp88\nssbsS'cert'\np89\nNsS'params'\np90\n(dp91\nsS'prefetch'\np92\nNsS'timeout'\np93\nNsS'verify'\np94\nI01\nsS'proxies'\np95\n(dp96\nsS'adapters'\np97\ncrequests.packages.urllib3.packages.ordered_dict\nOrderedDict\np98\n((lp99\n(lp100\nS'https://'\np101\nag0\n(crequests.adapters\nHTTPAdapter\np102\ng2\nNtp103\nRp104\n(dp105\nS'_pool_block'\np106\nI00\nsS'_pool_maxsize'\np107\nI10\nsS'max_retries'\np108\nI0\nsS'config'\np109\n(dp110\nsS'_pool_connections'\np111\nI10\nsbaa(lp112\nS'http://'\np113\nag0\n(g102\ng2\nNtp114\nRp115\n(dp116\ng106\nI00\nsg107\nI10\nsg108\nI0\nsg109\n(dp117\nsg111\nI10\nsbaatp118\nRp119\nsS'max_redirects'\np120\nI30\nsb.", u'_id': ObjectId('53db69cde5bee444077dc43c')}
+2014-08-21 17:51:51 connectionpool.py[line:180] INFO Starting new HTTP connection (1): m.weilairiji.com
+2014-08-21 17:51:53 timeline_operate.py[line:35] INFO Mr Qin :  用在看Kindle套上的时间比看Kindle多，用在亚马逊浏览犹豫买不买呢的时间比看书多。 
+
+ゞ      怂| :  开始同事CX代购化妆品我挺不喜欢的毕竟旁边坐个整天跟你交流化妆品的人多少有点说不出的麻烦。不过慢慢发现她挺负责的各类化妆品都会自己亲身试过再推荐给别人。 
+
+ゞ      怂| :  等考完试就要整部整部的追漫太久不看感觉自己越来越暗黑阴冷了、 
+
+阿修。 :  『快加入我摸鱼大军！』『被你传染了摸鱼好嘛ww』『就说！』『嫁鱼随鱼（。』够了233 
+
+阿修。 :  基本每天都有一句话让我doki一下……热恋期棒棒的…… 
+
+单向街 :  上班路上看到一个小孩儿，死死拽着爷爷的行李箱，一边哭着一边声嘶力竭的喊到，我不要你走！！！我不要你走！！！ 
+
+单向街 :  今天做了一个超级无厘头无逻辑的梦，我回到了一中，那里有许多纪念乌龟可以领养，可是突然却发了洪水，冲跑了好多乌龟和莘莘学子，我奋力救起一只乌龟，以百米冲刺的速度朝门口跑去，突然我脚底一滑摔了个底朝天，爬起来一看，乌龟壳被摔碎了，那只没有壳的乌龟变成了一只没有壳的蜗牛。。。 
+
+ゞ      怂| :  目标是挣钱花但现在还处在攒钱花的状态.. ╮(╯▽╰)╭ 
+
+ゞ      怂| :  最喜欢在公交车的车门前端详我的腿。又细又长。我觉得先生可以拿这车门去配副眼镜。 
+
+阿修。 :  每天都被晚安爱你的不同语言表达方式甜哭（。） 
+
+Mr Qin :  弟弟跟我说回河南祭祖了，我说别整没用的，你爷爷埋南京的，从此就是南京的太祖高皇帝了！弟弟问，那你呢？我说我是武帝啊，我爹文帝。弟弟说，你还没死呢怎么就有庙号了？……智者千虑，必有一失……第一次被丫呛到。。。 
+
+二十三岁 :  发现一个喜欢的女乐手。武汉大学计科毕业，想法很贴！ 
+
+散步 :  不过说了这么多屁话，我还是相信这个世界上好人多，因为即使这么戒备，我也搭过陌生小哥的车，活着。 
+
+散步 :  后来我开起高度戒备模式，去年注意到出租屋门口的烟头差点吓尿了，经常三更半夜爬起来从猫眼往外看门口有没有人在蹲守。上厕所也盯着隔间格挡地面的空隙，上车也盯着包子拉链，陌生人问路也是双眼盯住他再指路，不敢完全背对，哎，今后要是养个闺女也真挺累的。 
+
+二十三岁 :  房祖名案发于东城区，现在被拘留在东城区看守所。估计就在一筒，没准就呆在我呆过的那个号子。 
+
+二十三岁 :  我觉得不能白坐了一个月的牢，总得写点什么 
+
+散步 :  大二有次也是，早上往学校赶，大概七点多吧路上上班的人还是蛮多的，路过一辆车门大开的轿车被喊住了，指着车前玻璃说帮个忙看下车上贴的啥广告他看不清，我就绕到车头去看，结果他让我坐到车里来看说是在里面的，当时就觉得不对劲扭头立马走了。这人可能也是逻辑不太好。 
+
+散步 :  【2】不明的中年人给挠松手了我那真是一刻不敢耽搁，撒腿就跑，愣是没敢回头看他追上来没，因为回头就要影响速度啊，一口气跑到家腿都是抖的。然后那天早早的等在我妈下班的路口，就等见到她抱着她嚎。 
+
+散步 :  【1】　　五年级的时候吧，学校组织大家看电影，看完了就解散了，我跟同学顺路一块回家，旁边广场搭了台子在演出，人挺多挺热闹，我俩也是闲的，就凑上去看。但是没一会我同学扯了扯我说 感觉有人在盯着我们，当时也没在意，绕到台子另一边又继续看。结果踏马这个时候同学她爸爸来接她了，跟她再见完我一个人也不想看了，就转身打算走回家。还没走两步，一个中年男人冲到我面前揪着我衣服领子特别严厉的大声说“还不回家写作业！作业都没写完还在外边玩儿！”，然后把我往路边拖，我靠我那个时候吓死了，还叫不出来，就一直低声哼唧“我不认识你你踏马是谁”，一直蹬他，抠他手，挠他胳膊，也得感谢我妈没强迫我把手指甲剪得齐肉短，把意图 
+
+二十三岁 :  【猫一样的女子一定是每天徒手抓耗子的女子】 
+
+
+2014-08-21 17:51:53 web.py[line:1728] INFO 200 POST /wechat?signature=e2519f8eb967351f80fa793e361f024c512b600f&timestamp=1408614711&nonce=1464982200 (127.0.0.1) 2123.77ms
+2014-08-21 17:52:15 timeline_get.py[line:20] INFO {u'session': u"ccopy_reg\n_reconstructor\np0\n(crequests.sessions\nSession\np1\nc__builtin__\nobject\np2\nNtp3\nRp4\n(dp5\nS'cookies'\np6\ng0\n(crequests.cookies\nRequestsCookieJar\np7\ng2\nNtp8\nRp9\n(dp10\nS'_now'\np11\nI1407412107\nsS'_policy'\np12\n(icookielib\nDefaultCookiePolicy\np13\n(dp14\nS'strict_rfc2965_unverifiable'\np15\nI01\nsS'strict_ns_domain'\np16\nI0\nsS'_allowed_domains'\np17\nNsS'rfc2109_as_netscape'\np18\nNsS'rfc2965'\np19\nI00\nsS'strict_domain'\np20\nI00\nsg11\nI1407412107\nsS'strict_ns_set_path'\np21\nI00\nsS'strict_ns_unverifiable'\np22\nI00\nsS'strict_ns_set_initial_dollar'\np23\nI00\nsS'hide_cookie2'\np24\nI00\nsS'_blocked_domains'\np25\n(tsS'netscape'\np26\nI01\nsbsS'_cookies'\np27\n(dp28\nS'm.weilairiji.com'\np29\n(dp30\nS'/'\np31\n(dp32\nS'wapcookie'\np33\n(icookielib\nCookie\np34\n(dp35\nS'comment'\np36\nNsS'domain'\np37\ng29\nsS'name'\np38\ng33\nsS'domain_initial_dot'\np39\nI00\nsS'expires'\np40\nNsS'value'\np41\nS'352aYeF6b8z9Uki%2F4PfHx6kA05Iv9nTR%2FKle3qM82zUozSe%2F2XubARsiJ6jXHBOyYSvQUhUv1uRz61J7N%2Bnx%2BCw'\np42\nsS'domain_specified'\np43\nI00\nsS'_rest'\np44\n(dp45\nsS'version'\np46\nI0\nsS'port_specified'\np47\nI00\nsS'rfc2109'\np48\nI00\nsS'discard'\np49\nI01\nsS'path_specified'\np50\nI00\nsS'path'\np51\ng31\nsS'port'\np52\nNsS'comment_url'\np53\nNsS'secure'\np54\nI00\nsbsssS'.weilairiji.com'\np55\n(dp56\ng31\n(dp57\nS'wapcookie'\np58\n(icookielib\nCookie\np59\n(dp60\ng36\nNsg37\ng55\nsg38\ng58\nsg39\nI01\nsg40\nNsg41\nS'352aYeF6b8z9Uki%2F4PfHx6kA05Iv9nTR%2FKle3qM82zUozSe%2F2XubARsiJ6jXHBOyYSvQUhUv1uRz61J7N%2Bnx%2BCw'\np61\nsg43\nI01\nsg44\n(dp62\nsg46\nI0\nsg47\nI00\nsg48\nI00\nsg49\nI01\nsg50\nI01\nsg51\ng31\nsg52\nNsg53\nNsg54\nI00\nsbssssbsS'stream'\np63\nI00\nsS'hooks'\np64\n(dp65\nS'response'\np66\n(lp67\nssS'auth'\np68\nNsS'trust_env'\np69\nI01\nsS'headers'\np70\ng0\n(crequests.structures\nCaseInsensitiveDict\np71\ng2\nNtp72\nRp73\n(dp74\nS'_store'\np75\n(dp76\nS'accept-encoding'\np77\n(S'Accept-Encoding'\np78\nS'gzip, deflate, compress'\np79\ntp80\nsS'accept'\np81\n(S'Accept'\np82\nS'*/*'\np83\ntp84\nsS'user-agent'\np85\n(S'User-Agent'\np86\nS'python-requests/2.2.1 CPython/2.7.3 Linux/2.6.32-042stab090.5'\np87\ntp88\nssbsS'cert'\np89\nNsS'params'\np90\n(dp91\nsS'prefetch'\np92\nNsS'timeout'\np93\nNsS'verify'\np94\nI01\nsS'proxies'\np95\n(dp96\nsS'adapters'\np97\ncrequests.packages.urllib3.packages.ordered_dict\nOrderedDict\np98\n((lp99\n(lp100\nS'https://'\np101\nag0\n(crequests.adapters\nHTTPAdapter\np102\ng2\nNtp103\nRp104\n(dp105\nS'_pool_block'\np106\nI00\nsS'_pool_maxsize'\np107\nI10\nsS'max_retries'\np108\nI0\nsS'config'\np109\n(dp110\nsS'_pool_connections'\np111\nI10\nsbaa(lp112\nS'http://'\np113\nag0\n(g102\ng2\nNtp114\nRp115\n(dp116\ng106\nI00\nsg107\nI10\nsg108\nI0\nsg109\n(dp117\nsg111\nI10\nsbaatp118\nRp119\nsS'max_redirects'\np120\nI30\nsb.", u'_id': ObjectId('53db69cde5bee444077dc43c')}
+2014-08-21 17:52:15 connectionpool.py[line:180] INFO Starting new HTTP connection (1): m.weilairiji.com
+2014-08-21 17:52:16 timeline_operate.py[line:35] INFO Mr Qin :  用在看Kindle套上的时间比看Kindle多，用在亚马逊浏览犹豫买不买呢的时间比看书多。 
+
+ゞ      怂| :  开始同事CX代购化妆品我挺不喜欢的毕竟旁边坐个整天跟你交流化妆品的人多少有点说不出的麻烦。不过慢慢发现她挺负责的各类化妆品都会自己亲身试过再推荐给别人。 
+
+ゞ      怂| :  等考完试就要整部整部的追漫太久不看感觉自己越来越暗黑阴冷了、 
+
+阿修。 :  『快加入我摸鱼大军！』『被你传染了摸鱼好嘛ww』『就说！』『嫁鱼随鱼（。』够了233 
+
+阿修。 :  基本每天都有一句话让我doki一下……热恋期棒棒的…… 
+
+单向街 :  上班路上看到一个小孩儿，死死拽着爷爷的行李箱，一边哭着一边声嘶力竭的喊到，我不要你走！！！我不要你走！！！ 
+
+单向街 :  今天做了一个超级无厘头无逻辑的梦，我回到了一中，那里有许多纪念乌龟可以领养，可是突然却发了洪水，冲跑了好多乌龟和莘莘学子，我奋力救起一只乌龟，以百米冲刺的速度朝门口跑去，突然我脚底一滑摔了个底朝天，爬起来一看，乌龟壳被摔碎了，那只没有壳的乌龟变成了一只没有壳的蜗牛。。。 
+
+ゞ      怂| :  目标是挣钱花但现在还处在攒钱花的状态.. ╮(╯▽╰)╭ 
+
+ゞ      怂| :  最喜欢在公交车的车门前端详我的腿。又细又长。我觉得先生可以拿这车门去配副眼镜。 
+
+阿修。 :  每天都被晚安爱你的不同语言表达方式甜哭（。） 
+
+Mr Qin :  弟弟跟我说回河南祭祖了，我说别整没用的，你爷爷埋南京的，从此就是南京的太祖高皇帝了！弟弟问，那你呢？我说我是武帝啊，我爹文帝。弟弟说，你还没死呢怎么就有庙号了？……智者千虑，必有一失……第一次被丫呛到。。。 
+
+二十三岁 :  发现一个喜欢的女乐手。武汉大学计科毕业，想法很贴！ 
+
+散步 :  不过说了这么多屁话，我还是相信这个世界上好人多，因为即使这么戒备，我也搭过陌生小哥的车，活着。 
+
+散步 :  后来我开起高度戒备模式，去年注意到出租屋门口的烟头差点吓尿了，经常三更半夜爬起来从猫眼往外看门口有没有人在蹲守。上厕所也盯着隔间格挡地面的空隙，上车也盯着包子拉链，陌生人问路也是双眼盯住他再指路，不敢完全背对，哎，今后要是养个闺女也真挺累的。 
+
+二十三岁 :  房祖名案发于东城区，现在被拘留在东城区看守所。估计就在一筒，没准就呆在我呆过的那个号子。 
+
+二十三岁 :  我觉得不能白坐了一个月的牢，总得写点什么 
+
+散步 :  大二有次也是，早上往学校赶，大概七点多吧路上上班的人还是蛮多的，路过一辆车门大开的轿车被喊住了，指着车前玻璃说帮个忙看下车上贴的啥广告他看不清，我就绕到车头去看，结果他让我坐到车里来看说是在里面的，当时就觉得不对劲扭头立马走了。这人可能也是逻辑不太好。 
+
+散步 :  【2】不明的中年人给挠松手了我那真是一刻不敢耽搁，撒腿就跑，愣是没敢回头看他追上来没，因为回头就要影响速度啊，一口气跑到家腿都是抖的。然后那天早早的等在我妈下班的路口，就等见到她抱着她嚎。 
+
+散步 :  【1】　　五年级的时候吧，学校组织大家看电影，看完了就解散了，我跟同学顺路一块回家，旁边广场搭了台子在演出，人挺多挺热闹，我俩也是闲的，就凑上去看。但是没一会我同学扯了扯我说 感觉有人在盯着我们，当时也没在意，绕到台子另一边又继续看。结果踏马这个时候同学她爸爸来接她了，跟她再见完我一个人也不想看了，就转身打算走回家。还没走两步，一个中年男人冲到我面前揪着我衣服领子特别严厉的大声说“还不回家写作业！作业都没写完还在外边玩儿！”，然后把我往路边拖，我靠我那个时候吓死了，还叫不出来，就一直低声哼唧“我不认识你你踏马是谁”，一直蹬他，抠他手，挠他胳膊，也得感谢我妈没强迫我把手指甲剪得齐肉短，把意图 
+
+二十三岁 :  【猫一样的女子一定是每天徒手抓耗子的女子】 
+
+
+2014-08-21 17:52:16 web.py[line:1728] INFO 200 POST /wechat?signature=3cfe925f6599a54dad3b0a52ab7134b4046b8270&timestamp=1408614734&nonce=2005886680 (127.0.0.1) 1821.72ms
+2014-08-21 17:52:17 connectionpool.py[line:180] INFO Starting new HTTP connection (1): api.simsimi.com
+2014-08-21 17:52:18 connectionpool.py[line:180] INFO Starting new HTTP connection (1): weilairiji.com
+2014-08-21 17:52:19 send_talk.py[line:72] INFO 3714 : 好饿，吃完饭不久就饿到现在
+2014-08-21 17:52:19 wechat.py[line:59] INFO 好饿，吃完饭不久就饿到现在
+2014-08-21 17:52:19 wechat.py[line:60] INFO 那你下次表让她吃你做的饭……
+2014-08-21 17:52:19 web.py[line:1728] INFO 200 POST /wechat?signature=2f5d7a46d3582b01f513807204689be090ec7c98&timestamp=1408614737&nonce=519168 (127.0.0.1) 1636.91ms
+2014-08-21 17:54:25 timeline_get.py[line:20] INFO {u'session': u"ccopy_reg\n_reconstructor\np0\n(crequests.sessions\nSession\np1\nc__builtin__\nobject\np2\nNtp3\nRp4\n(dp5\nS'cookies'\np6\ng0\n(crequests.cookies\nRequestsCookieJar\np7\ng2\nNtp8\nRp9\n(dp10\nS'_now'\np11\nI1407209314\nsS'_policy'\np12\n(icookielib\nDefaultCookiePolicy\np13\n(dp14\nS'strict_rfc2965_unverifiable'\np15\nI01\nsS'strict_ns_domain'\np16\nI0\nsS'_allowed_domains'\np17\nNsS'rfc2109_as_netscape'\np18\nNsS'rfc2965'\np19\nI00\nsS'strict_domain'\np20\nI00\nsg11\nI1407209314\nsS'strict_ns_set_path'\np21\nI00\nsS'strict_ns_unverifiable'\np22\nI00\nsS'strict_ns_set_initial_dollar'\np23\nI00\nsS'hide_cookie2'\np24\nI00\nsS'_blocked_domains'\np25\n(tsS'netscape'\np26\nI01\nsbsS'_cookies'\np27\n(dp28\nS'm.weilairiji.com'\np29\n(dp30\nS'/'\np31\n(dp32\nS'wapcookie'\np33\n(icookielib\nCookie\np34\n(dp35\nS'comment'\np36\nNsS'domain'\np37\ng29\nsS'name'\np38\ng33\nsS'domain_initial_dot'\np39\nI00\nsS'expires'\np40\nNsS'value'\np41\nS'eca9bgddDZGPFNpbD9TCGTciqKh15muIVWfrlkUo1qOxs4hrVD2drrVx1QOBI%2BOj7YmODBkW3VXH08trip9lUCD6hw'\np42\nsS'domain_specified'\np43\nI00\nsS'_rest'\np44\n(dp45\nsS'version'\np46\nI0\nsS'port_specified'\np47\nI00\nsS'rfc2109'\np48\nI00\nsS'discard'\np49\nI01\nsS'path_specified'\np50\nI00\nsS'path'\np51\ng31\nsS'port'\np52\nNsS'comment_url'\np53\nNsS'secure'\np54\nI00\nsbsssS'.weilairiji.com'\np55\n(dp56\ng31\n(dp57\nS'wapcookie'\np58\n(icookielib\nCookie\np59\n(dp60\ng36\nNsg37\ng55\nsg38\ng58\nsg39\nI01\nsg40\nNsg41\nS'eca9bgddDZGPFNpbD9TCGTciqKh15muIVWfrlkUo1qOxs4hrVD2drrVx1QOBI%2BOj7YmODBkW3VXH08trip9lUCD6hw'\np61\nsg43\nI01\nsg44\n(dp62\nsg46\nI0\nsg47\nI00\nsg48\nI00\nsg49\nI01\nsg50\nI01\nsg51\ng31\nsg52\nNsg53\nNsg54\nI00\nsbssssbsS'stream'\np63\nI00\nsS'hooks'\np64\n(dp65\nS'response'\np66\n(lp67\nssS'auth'\np68\nNsS'trust_env'\np69\nI01\nsS'headers'\np70\ng0\n(crequests.structures\nCaseInsensitiveDict\np71\ng2\nNtp72\nRp73\n(dp74\nS'_store'\np75\n(dp76\nS'accept-encoding'\np77\n(S'Accept-Encoding'\np78\nS'gzip, deflate, compress'\np79\ntp80\nsS'accept'\np81\n(S'Accept'\np82\nS'*/*'\np83\ntp84\nsS'user-agent'\np85\n(S'User-Agent'\np86\nS'python-requests/2.2.1 CPython/2.7.3 Linux/2.6.32-042stab090.5'\np87\ntp88\nssbsS'cert'\np89\nNsS'params'\np90\n(dp91\nsS'prefetch'\np92\nNsS'timeout'\np93\nNsS'verify'\np94\nI01\nsS'proxies'\np95\n(dp96\nsS'adapters'\np97\ncrequests.packages.urllib3.packages.ordered_dict\nOrderedDict\np98\n((lp99\n(lp100\nS'https://'\np101\nag0\n(crequests.adapters\nHTTPAdapter\np102\ng2\nNtp103\nRp104\n(dp105\nS'_pool_block'\np106\nI00\nsS'_pool_maxsize'\np107\nI10\nsS'max_retries'\np108\nI0\nsS'config'\np109\n(dp110\nsS'_pool_connections'\np111\nI10\nsbaa(lp112\nS'http://'\np113\nag0\n(g102\ng2\nNtp114\nRp115\n(dp116\ng106\nI00\nsg107\nI10\nsg108\nI0\nsg109\n(dp117\nsg111\nI10\nsbaatp118\nRp119\nsS'max_redirects'\np120\nI30\nsb.", u'_id': ObjectId('53ddcf8ce5bee450442ec095')}
+2014-08-21 17:54:25 connectionpool.py[line:180] INFO Starting new HTTP connection (1): m.weilairiji.com
+2014-08-21 17:54:27 timeline_operate.py[line:35] INFO 阿花。 :  我靠 忘刮腿毛了 
+
+柒-11 :   强烈要求真心话功能吖 但在微信刷真心话会不会跟无感啊 
+
+SapphiReeee.| Call Me Miss 骨感。@老妖 :  房供出120个艺人。三个已锁定，两个C姓，一个H姓。C的一个私交甚好，不是陈柏霖是谁………(┬＿┬) 
+
+SapphiReeee.| Call Me Miss 骨感。 :  看评论里有人说F是Feynman…噗噗噗… 
+
+朝夕。 :  怪不得最近心情起伏比较大。。。 
+
+朝夕。 :  世界就像是个巨大的马戏团/它让你兴奋，却让我惶恐/ 
+因为我知道散场后永远是 /有限温存，无限辛酸—卓别林《致乌娜》 
+
+SapphiReeee.| Call Me Miss 骨感。 :  看到所有的私交甚笃的C姓指控都对准陈柏霖时候，我终于明白喊柯振东加油的人是什么心情了…我只想说，亲爱的张士豪，快跑。 
+
+ゞ      怂| :  开始同事CX代购化妆品我挺不喜欢的毕竟旁边坐个整天跟你交流化妆品的人多少有点说不出的麻烦。不过慢慢发现她挺负责的各类化妆品都会自己亲身试过再推荐给别人。 
+
+ゞ      怂| :  等考完试就要整部整部的追漫太久不看感觉自己越来越暗黑阴冷了、 
+
+SapphiReeee.| Call Me Miss 骨感。 :  张士豪，快跑… 
+
+阿修。 :  『快加入我摸鱼大军！』『被你传染了摸鱼好嘛ww』『就说！』『嫁鱼随鱼（。』够了233 
+
+阿修。 :  基本每天都有一句话让我doki一下……热恋期棒棒的…… 
+
+单向街 :  上班路上看到一个小孩儿，死死拽着爷爷的行李箱，一边哭着一边声嘶力竭的喊到，我不要你走！！！我不要你走！！！ 
+
+单向街 :  今天做了一个超级无厘头无逻辑的梦，我回到了一中，那里有许多纪念乌龟可以领养，可是突然却发了洪水，冲跑了好多乌龟和莘莘学子，我奋力救起一只乌龟，以百米冲刺的速度朝门口跑去，突然我脚底一滑摔了个底朝天，爬起来一看，乌龟壳被摔碎了，那只没有壳的乌龟变成了一只没有壳的蜗牛。。。 
+
+ゞ      怂| :  目标是挣钱花但现在还处在攒钱花的状态.. ╮(╯▽╰)╭ 
+
+弱智儿童就是我 :  啊呀，今天车子错过啦！ 
+
+ゞ      怂| :  最喜欢在公交车的车门前端详我的腿。又细又长。我觉得先生可以拿这车门去配副眼镜。 
+
+阿花。 :  感觉热身的差不多了，明天开始跑起来。 
+
+孙悟空在我们村^【junaida】@Sic semper tyrannis :  想要可以抱的… 
+
+孙悟空在我们村^【junaida】@となりのうさぎくん :  不会有我这么难养的……宠物吧…一养19年 
+
+
+2014-08-21 17:54:27 web.py[line:1728] INFO 200 POST /wechat?signature=82bf7045af934a8f8d2a8b287b8c0ccd8f490314&timestamp=1408614865&nonce=806620443 (127.0.0.1) 2121.84ms
+2014-08-21 17:54:36 timeline_get.py[line:20] INFO {u'session': u"ccopy_reg\n_reconstructor\np0\n(crequests.sessions\nSession\np1\nc__builtin__\nobject\np2\nNtp3\nRp4\n(dp5\nS'cookies'\np6\ng0\n(crequests.cookies\nRequestsCookieJar\np7\ng2\nNtp8\nRp9\n(dp10\nS'_now'\np11\nI1407209314\nsS'_policy'\np12\n(icookielib\nDefaultCookiePolicy\np13\n(dp14\nS'strict_rfc2965_unverifiable'\np15\nI01\nsS'strict_ns_domain'\np16\nI0\nsS'_allowed_domains'\np17\nNsS'rfc2109_as_netscape'\np18\nNsS'rfc2965'\np19\nI00\nsS'strict_domain'\np20\nI00\nsg11\nI1407209314\nsS'strict_ns_set_path'\np21\nI00\nsS'strict_ns_unverifiable'\np22\nI00\nsS'strict_ns_set_initial_dollar'\np23\nI00\nsS'hide_cookie2'\np24\nI00\nsS'_blocked_domains'\np25\n(tsS'netscape'\np26\nI01\nsbsS'_cookies'\np27\n(dp28\nS'm.weilairiji.com'\np29\n(dp30\nS'/'\np31\n(dp32\nS'wapcookie'\np33\n(icookielib\nCookie\np34\n(dp35\nS'comment'\np36\nNsS'domain'\np37\ng29\nsS'name'\np38\ng33\nsS'domain_initial_dot'\np39\nI00\nsS'expires'\np40\nNsS'value'\np41\nS'eca9bgddDZGPFNpbD9TCGTciqKh15muIVWfrlkUo1qOxs4hrVD2drrVx1QOBI%2BOj7YmODBkW3VXH08trip9lUCD6hw'\np42\nsS'domain_specified'\np43\nI00\nsS'_rest'\np44\n(dp45\nsS'version'\np46\nI0\nsS'port_specified'\np47\nI00\nsS'rfc2109'\np48\nI00\nsS'discard'\np49\nI01\nsS'path_specified'\np50\nI00\nsS'path'\np51\ng31\nsS'port'\np52\nNsS'comment_url'\np53\nNsS'secure'\np54\nI00\nsbsssS'.weilairiji.com'\np55\n(dp56\ng31\n(dp57\nS'wapcookie'\np58\n(icookielib\nCookie\np59\n(dp60\ng36\nNsg37\ng55\nsg38\ng58\nsg39\nI01\nsg40\nNsg41\nS'eca9bgddDZGPFNpbD9TCGTciqKh15muIVWfrlkUo1qOxs4hrVD2drrVx1QOBI%2BOj7YmODBkW3VXH08trip9lUCD6hw'\np61\nsg43\nI01\nsg44\n(dp62\nsg46\nI0\nsg47\nI00\nsg48\nI00\nsg49\nI01\nsg50\nI01\nsg51\ng31\nsg52\nNsg53\nNsg54\nI00\nsbssssbsS'stream'\np63\nI00\nsS'hooks'\np64\n(dp65\nS'response'\np66\n(lp67\nssS'auth'\np68\nNsS'trust_env'\np69\nI01\nsS'headers'\np70\ng0\n(crequests.structures\nCaseInsensitiveDict\np71\ng2\nNtp72\nRp73\n(dp74\nS'_store'\np75\n(dp76\nS'accept-encoding'\np77\n(S'Accept-Encoding'\np78\nS'gzip, deflate, compress'\np79\ntp80\nsS'accept'\np81\n(S'Accept'\np82\nS'*/*'\np83\ntp84\nsS'user-agent'\np85\n(S'User-Agent'\np86\nS'python-requests/2.2.1 CPython/2.7.3 Linux/2.6.32-042stab090.5'\np87\ntp88\nssbsS'cert'\np89\nNsS'params'\np90\n(dp91\nsS'prefetch'\np92\nNsS'timeout'\np93\nNsS'verify'\np94\nI01\nsS'proxies'\np95\n(dp96\nsS'adapters'\np97\ncrequests.packages.urllib3.packages.ordered_dict\nOrderedDict\np98\n((lp99\n(lp100\nS'https://'\np101\nag0\n(crequests.adapters\nHTTPAdapter\np102\ng2\nNtp103\nRp104\n(dp105\nS'_pool_block'\np106\nI00\nsS'_pool_maxsize'\np107\nI10\nsS'max_retries'\np108\nI0\nsS'config'\np109\n(dp110\nsS'_pool_connections'\np111\nI10\nsbaa(lp112\nS'http://'\np113\nag0\n(g102\ng2\nNtp114\nRp115\n(dp116\ng106\nI00\nsg107\nI10\nsg108\nI0\nsg109\n(dp117\nsg111\nI10\nsbaatp118\nRp119\nsS'max_redirects'\np120\nI30\nsb.", u'_id': ObjectId('53ddcf8ce5bee450442ec095')}
+2014-08-21 17:54:36 connectionpool.py[line:180] INFO Starting new HTTP connection (1): m.weilairiji.com
+2014-08-21 17:54:38 timeline_operate.py[line:35] INFO 阿花。 :  好饿 
+
+宋青柚 :  必须要改。祝明天是一个新开始。安 
+
+宋青柚 :  这个假期有很多计划比如学英语画地图看小说写东西练回琴健身化妆摄影看剧等等等等至今大概只有一半get到我到底干了些什么 
+
+宋青柚 :  假期又快到尾声了。这个暑假最舒服没作业可是我丢掉了看书的好习惯只会玩手机平板不断购物真是够丧心病狂了必须停止 
+
+阿修。 :  每天都被晚安爱你的不同语言表达方式甜哭（。） 
+
+孙悟空在我们村^【junaida】 :  想效仿多多…我和我妈说妈妈我要是洗两年的碗和衣服加给你们做早餐能不能让我养只猫或狗？我妈一脸嫌恶说家里不能养畜生，一直强调掉毛脏臭……说我以后自己养去把那些流浪猫狗都收着我自己照顾就成她绝不管我…就是想在青年的时候有个宠物嘛:-( 
+
+二十三岁 :  发现一个喜欢的女乐手。武汉大学计科毕业，想法很贴！ 
+
+是你咯 :  上海到长春又通了一班高铁 过滁州了老徐比我早到半小时还是长春站 真是爽歪歪。。可怜几个浙江的被我拉下水硬要坐过常州的一班 还是长春西 多花打车钱 。我。。对不住你们 
+
+柒-11 :  不懂 困惑 
+
+小心眼的贱货 :  给我再去相信的勇气 越过谎言去拥抱你 
+
+散步 :  不过说了这么多屁话，我还是相信这个世界上好人多，因为即使这么戒备，我也搭过陌生小哥的车，活着。 
+
+散步 :  后来我开起高度戒备模式，去年注意到出租屋门口的烟头差点吓尿了，经常三更半夜爬起来从猫眼往外看门口有没有人在蹲守。上厕所也盯着隔间格挡地面的空隙，上车也盯着包子拉链，陌生人问路也是双眼盯住他再指路，不敢完全背对，哎，今后要是养个闺女也真挺累的。 
+
+二十三岁 :  房祖名案发于东城区，现在被拘留在东城区看守所。估计就在一筒，没准就呆在我呆过的那个号子。 
+
+二十三岁 :  我觉得不能白坐了一个月的牢，总得写点什么 
+
+散步 :  大二有次也是，早上往学校赶，大概七点多吧路上上班的人还是蛮多的，路过一辆车门大开的轿车被喊住了，指着车前玻璃说帮个忙看下车上贴的啥广告他看不清，我就绕到车头去看，结果他让我坐到车里来看说是在里面的，当时就觉得不对劲扭头立马走了。这人可能也是逻辑不太好。 
+
+阿花。@老妖 :  好吧。老规矩。 
+
+散步 :  【2】不明的中年人给挠松手了我那真是一刻不敢耽搁，撒腿就跑，愣是没敢回头看他追上来没，因为回头就要影响速度啊，一口气跑到家腿都是抖的。然后那天早早的等在我妈下班的路口，就等见到她抱着她嚎。 
+
+散步 :  【1】　　五年级的时候吧，学校组织大家看电影，看完了就解散了，我跟同学顺路一块回家，旁边广场搭了台子在演出，人挺多挺热闹，我俩也是闲的，就凑上去看。但是没一会我同学扯了扯我说 感觉有人在盯着我们，当时也没在意，绕到台子另一边又继续看。结果踏马这个时候同学她爸爸来接她了，跟她再见完我一个人也不想看了，就转身打算走回家。还没走两步，一个中年男人冲到我面前揪着我衣服领子特别严厉的大声说“还不回家写作业！作业都没写完还在外边玩儿！”，然后把我往路边拖，我靠我那个时候吓死了，还叫不出来，就一直低声哼唧“我不认识你你踏马是谁”，一直蹬他，抠他手，挠他胳膊，也得感谢我妈没强迫我把手指甲剪得齐肉短，把意图 
+
+二十三岁 :  【猫一样的女子一定是每天徒手抓耗子的女子】 
+
+琵池 :  温柔要有，但不是妥协；我们要在安静中，不慌不忙地刚强。——林徽因 
+
+
+2014-08-21 17:54:38 web.py[line:1728] INFO 200 POST /wechat?signature=25c2ad6571a36e0572745ec24130ae0ed157bbab&timestamp=1408614876&nonce=140152921 (127.0.0.1) 2026.30ms
+2014-08-21 17:54:43 connectionpool.py[line:180] INFO Starting new HTTP connection (1): m.weilairiji.com
+2014-08-21 17:54:44 timeline_operate.py[line:35] INFO 林不该 :  上得山多终遇虎 
+
+Se7en. :  啊 有点想买个手拿包TUT 
+
+老妖@黑眼圈女王.= = :  女生生日快乐思密达~~么么哒 
+
+老妖@SapphiReeee.| Call Me Miss 骨感。 :  跟陈柏霖有什么关系？？ 
+
+老妖@鬼鬼. :  身体不习惯。。我现在好像没有以前懒觉那么多了。。还是很懒很困缺很多觉但是不会像以前那么不好起来了。。 
+
+朝夕。 :  怪不得最近心情起伏比较大。。。 
+
+朝夕。 :  世界就像是个巨大的马戏团/它让你兴奋，却让我惶恐/ 
+因为我知道散场后永远是 /有限温存，无限辛酸—卓别林《致乌娜》 
+
+Se7en.: 大陆那个说法还真没听过= =还是比较喜欢宠物小精灵   RT Sic semper tyrannis: 香港叫「宠物小精灵」，台湾叫「神奇宝贝」，中国大陆叫「精灵宝可梦」，盗版汉化玩家叫「口袋妖怪」
+
+
+2014-08-21 17:54:44 web.py[line:1728] INFO 200 POST /wechat?signature=bfa88550704f24ff6ab2d38b65fbd3958c6e20c8&timestamp=1408614883&nonce=2072368687 (127.0.0.1) 1041.98ms
+2014-08-21 17:55:04 timeline_get.py[line:20] INFO {u'session': u"ccopy_reg\n_reconstructor\np0\n(crequests.sessions\nSession\np1\nc__builtin__\nobject\np2\nNtp3\nRp4\n(dp5\nS'cookies'\np6\ng0\n(crequests.cookies\nRequestsCookieJar\np7\ng2\nNtp8\nRp9\n(dp10\nS'_now'\np11\nI1407209314\nsS'_policy'\np12\n(icookielib\nDefaultCookiePolicy\np13\n(dp14\nS'strict_rfc2965_unverifiable'\np15\nI01\nsS'strict_ns_domain'\np16\nI0\nsS'_allowed_domains'\np17\nNsS'rfc2109_as_netscape'\np18\nNsS'rfc2965'\np19\nI00\nsS'strict_domain'\np20\nI00\nsg11\nI1407209314\nsS'strict_ns_set_path'\np21\nI00\nsS'strict_ns_unverifiable'\np22\nI00\nsS'strict_ns_set_initial_dollar'\np23\nI00\nsS'hide_cookie2'\np24\nI00\nsS'_blocked_domains'\np25\n(tsS'netscape'\np26\nI01\nsbsS'_cookies'\np27\n(dp28\nS'm.weilairiji.com'\np29\n(dp30\nS'/'\np31\n(dp32\nS'wapcookie'\np33\n(icookielib\nCookie\np34\n(dp35\nS'comment'\np36\nNsS'domain'\np37\ng29\nsS'name'\np38\ng33\nsS'domain_initial_dot'\np39\nI00\nsS'expires'\np40\nNsS'value'\np41\nS'eca9bgddDZGPFNpbD9TCGTciqKh15muIVWfrlkUo1qOxs4hrVD2drrVx1QOBI%2BOj7YmODBkW3VXH08trip9lUCD6hw'\np42\nsS'domain_specified'\np43\nI00\nsS'_rest'\np44\n(dp45\nsS'version'\np46\nI0\nsS'port_specified'\np47\nI00\nsS'rfc2109'\np48\nI00\nsS'discard'\np49\nI01\nsS'path_specified'\np50\nI00\nsS'path'\np51\ng31\nsS'port'\np52\nNsS'comment_url'\np53\nNsS'secure'\np54\nI00\nsbsssS'.weilairiji.com'\np55\n(dp56\ng31\n(dp57\nS'wapcookie'\np58\n(icookielib\nCookie\np59\n(dp60\ng36\nNsg37\ng55\nsg38\ng58\nsg39\nI01\nsg40\nNsg41\nS'eca9bgddDZGPFNpbD9TCGTciqKh15muIVWfrlkUo1qOxs4hrVD2drrVx1QOBI%2BOj7YmODBkW3VXH08trip9lUCD6hw'\np61\nsg43\nI01\nsg44\n(dp62\nsg46\nI0\nsg47\nI00\nsg48\nI00\nsg49\nI01\nsg50\nI01\nsg51\ng31\nsg52\nNsg53\nNsg54\nI00\nsbssssbsS'stream'\np63\nI00\nsS'hooks'\np64\n(dp65\nS'response'\np66\n(lp67\nssS'auth'\np68\nNsS'trust_env'\np69\nI01\nsS'headers'\np70\ng0\n(crequests.structures\nCaseInsensitiveDict\np71\ng2\nNtp72\nRp73\n(dp74\nS'_store'\np75\n(dp76\nS'accept-encoding'\np77\n(S'Accept-Encoding'\np78\nS'gzip, deflate, compress'\np79\ntp80\nsS'accept'\np81\n(S'Accept'\np82\nS'*/*'\np83\ntp84\nsS'user-agent'\np85\n(S'User-Agent'\np86\nS'python-requests/2.2.1 CPython/2.7.3 Linux/2.6.32-042stab090.5'\np87\ntp88\nssbsS'cert'\np89\nNsS'params'\np90\n(dp91\nsS'prefetch'\np92\nNsS'timeout'\np93\nNsS'verify'\np94\nI01\nsS'proxies'\np95\n(dp96\nsS'adapters'\np97\ncrequests.packages.urllib3.packages.ordered_dict\nOrderedDict\np98\n((lp99\n(lp100\nS'https://'\np101\nag0\n(crequests.adapters\nHTTPAdapter\np102\ng2\nNtp103\nRp104\n(dp105\nS'_pool_block'\np106\nI00\nsS'_pool_maxsize'\np107\nI10\nsS'max_retries'\np108\nI0\nsS'config'\np109\n(dp110\nsS'_pool_connections'\np111\nI10\nsbaa(lp112\nS'http://'\np113\nag0\n(g102\ng2\nNtp114\nRp115\n(dp116\ng106\nI00\nsg107\nI10\nsg108\nI0\nsg109\n(dp117\nsg111\nI10\nsbaatp118\nRp119\nsS'max_redirects'\np120\nI30\nsb.", u'_id': ObjectId('53ddcf8ce5bee450442ec095')}
+2014-08-21 17:55:04 connectionpool.py[line:180] INFO Starting new HTTP connection (1): m.weilairiji.com
+2014-08-21 17:55:06 timeline_operate.py[line:35] INFO 阿花。 :  好饿 
+
+宋青柚 :  必须要改。祝明天是一个新开始。安 
+
+宋青柚 :  这个假期有很多计划比如学英语画地图看小说写东西练回琴健身化妆摄影看剧等等等等至今大概只有一半get到我到底干了些什么 
+
+宋青柚 :  假期又快到尾声了。这个暑假最舒服没作业可是我丢掉了看书的好习惯只会玩手机平板不断购物真是够丧心病狂了必须停止 
+
+阿修。 :  每天都被晚安爱你的不同语言表达方式甜哭（。） 
+
+孙悟空在我们村^【junaida】 :  想效仿多多…我和我妈说妈妈我要是洗两年的碗和衣服加给你们做早餐能不能让我养只猫或狗？我妈一脸嫌恶说家里不能养畜生，一直强调掉毛脏臭……说我以后自己养去把那些流浪猫狗都收着我自己照顾就成她绝不管我…就是想在青年的时候有个宠物嘛:-( 
+
+二十三岁 :  发现一个喜欢的女乐手。武汉大学计科毕业，想法很贴！ 
+
+是你咯 :  上海到长春又通了一班高铁 过滁州了老徐比我早到半小时还是长春站 真是爽歪歪。。可怜几个浙江的被我拉下水硬要坐过常州的一班 还是长春西 多花打车钱 。我。。对不住你们 
+
+柒-11 :  不懂 困惑 
+
+小心眼的贱货 :  给我再去相信的勇气 越过谎言去拥抱你 
+
+散步 :  不过说了这么多屁话，我还是相信这个世界上好人多，因为即使这么戒备，我也搭过陌生小哥的车，活着。 
+
+散步 :  后来我开起高度戒备模式，去年注意到出租屋门口的烟头差点吓尿了，经常三更半夜爬起来从猫眼往外看门口有没有人在蹲守。上厕所也盯着隔间格挡地面的空隙，上车也盯着包子拉链，陌生人问路也是双眼盯住他再指路，不敢完全背对，哎，今后要是养个闺女也真挺累的。 
+
+二十三岁 :  房祖名案发于东城区，现在被拘留在东城区看守所。估计就在一筒，没准就呆在我呆过的那个号子。 
+
+二十三岁 :  我觉得不能白坐了一个月的牢，总得写点什么 
+
+散步 :  大二有次也是，早上往学校赶，大概七点多吧路上上班的人还是蛮多的，路过一辆车门大开的轿车被喊住了，指着车前玻璃说帮个忙看下车上贴的啥广告他看不清，我就绕到车头去看，结果他让我坐到车里来看说是在里面的，当时就觉得不对劲扭头立马走了。这人可能也是逻辑不太好。 
+
+阿花。@老妖 :  好吧。老规矩。 
+
+散步 :  【2】不明的中年人给挠松手了我那真是一刻不敢耽搁，撒腿就跑，愣是没敢回头看他追上来没，因为回头就要影响速度啊，一口气跑到家腿都是抖的。然后那天早早的等在我妈下班的路口，就等见到她抱着她嚎。 
+
+散步 :  【1】　　五年级的时候吧，学校组织大家看电影，看完了就解散了，我跟同学顺路一块回家，旁边广场搭了台子在演出，人挺多挺热闹，我俩也是闲的，就凑上去看。但是没一会我同学扯了扯我说 感觉有人在盯着我们，当时也没在意，绕到台子另一边又继续看。结果踏马这个时候同学她爸爸来接她了，跟她再见完我一个人也不想看了，就转身打算走回家。还没走两步，一个中年男人冲到我面前揪着我衣服领子特别严厉的大声说“还不回家写作业！作业都没写完还在外边玩儿！”，然后把我往路边拖，我靠我那个时候吓死了，还叫不出来，就一直低声哼唧“我不认识你你踏马是谁”，一直蹬他，抠他手，挠他胳膊，也得感谢我妈没强迫我把手指甲剪得齐肉短，把意图 
+
+二十三岁 :  【猫一样的女子一定是每天徒手抓耗子的女子】 
+
+琵池 :  温柔要有，但不是妥协；我们要在安静中，不慌不忙地刚强。——林徽因 
+
+
+2014-08-21 17:55:06 web.py[line:1728] INFO 200 POST /wechat?signature=67ba705ada38bce129c7e3522643bfa37c008a4e&timestamp=1408614904&nonce=1531508315 (127.0.0.1) 2031.96ms
+2014-08-21 17:56:29 connectionpool.py[line:180] INFO Starting new HTTP connection (1): m.weilairiji.com
+2014-08-21 17:56:33 timeline_operate.py[line:35] INFO ﹏凉凉凉风有信 :  猜猜昨晚逮了一只蛐蛐，还咬掉人家一条腿… 
+
+﹏凉凉凉风有信 :  0首付我也买不起车位。 
+
+﹏凉凉凉风有信 :  外面知了叫的还像盛夏一样，其实已经没多热了，我貌似都闻到桂花味儿了。 
+
+﹏凉凉凉风有信 :  昨天晚上8点在北京收件，现在在派件。顺丰已经快到这种程度了么！首重22块钱果然没白花！> < 
+
+﹏凉凉凉风有信 :  发量明显少了好多...好心塞≈≈T-T≈≈ 
+
+﹏凉凉凉风有信 :  最近头发越掉越严重，明明以前效果超好的露华浓生姜都阻止不了我嗷嗷掉的头发，用LUSH的时候也没有这么严重啊啊啊T-T到底是为什么T-T 
+
+﹏凉凉凉风有信 :  还有两个月交房，这些装修公司也是蛮拼的，一个个跟饿狼似的骂都骂不走... 
+
+宋子鹤_____你要知道，没有恒常，没有长久。顺境要安心，逆境还是要安心。 :  是什么样的人就会遇到什么样的人。每次遇到三观接近的就幸福感满满，从陌生到亲近快得理所当然，我说了一半的话，她能接出下半句。虽然天各一方，际遇不同，但心里知道，大家都是一样的人。 
+
+﹏凉凉凉风有信 :  领导画了个大饼，问我要不要 
+
+﹏凉凉凉风有信 :  本来想着有猜猜这个闹钟在不会起晚，结果今天被我一巴掌拍的不哼唧了，妈蛋晚了40分钟。 
+
+﹏凉凉凉风有信 :  猜猜在姑妈家住了三天接回来后就每天早上六点一边扒床一边嗷嗷叫，特别准时。小宝已经在琢磨想买自动喂食器我觉得他快要崩溃了。 
+
+﹏凉凉凉风有信 :  【小宝小宝这个芒果闻着好甜> <】【那你再去闻闻呗】 
+
+﹏凉凉凉风有信 :  今天才星期三，好绝望好憔悴 
+
+﹏凉凉凉风有信 :  一套55平的房子07年评估价68万，怎么看起来比现在的房子还值钱呢 
+
+﹏凉凉凉风有信 :  我就说猜猜怎么洗了澡回家一脸我还没吃饭的表情，原来它真的没吃饭。 
+
+拖鞋 :  2014年8月有5个星期五 5个星期六 5个星期天 周先生不知道… 
+
+﹏凉凉凉风有信 :  最近手机老死机可能是淘宝上多了 
+
+﹏凉凉凉风有信 :  搬回来60斤新核桃，猜猜觊觎它们好久，刚掉地上一个，它叼了就跑床底下死活不出来。 
+
+﹏凉凉凉风有信 :  早饭喝了两杯豆浆，有点撑…… 
+
+﹏凉凉凉风有信 :  晚饭带小宝领略了炸鸡新世界。 
+
+
+2014-08-21 17:56:33 web.py[line:1728] INFO 200 POST /wechat?signature=1d1bc9df3984f97dbab3e477d0519f270f2e36e1&timestamp=1408614989&nonce=1557127355 (127.0.0.1) 3523.65ms
+2014-08-21 17:56:50 connectionpool.py[line:180] INFO Starting new HTTP connection (1): m.weilairiji.com
+2014-08-21 17:56:51 timeline_operate.py[line:35] INFO 林不该 :  上得山多终遇虎 
+
+Se7en. :  啊 有点想买个手拿包TUT 
+
+老妖@黑眼圈女王.= = :  女生生日快乐思密达~~么么哒 
+
+老妖@SapphiReeee.| Call Me Miss 骨感。 :  跟陈柏霖有什么关系？？ 
+
+老妖@鬼鬼. :  身体不习惯。。我现在好像没有以前懒觉那么多了。。还是很懒很困缺很多觉但是不会像以前那么不好起来了。。 
+
+朝夕。 :  怪不得最近心情起伏比较大。。。 
+
+朝夕。 :  世界就像是个巨大的马戏团/它让你兴奋，却让我惶恐/ 
+因为我知道散场后永远是 /有限温存，无限辛酸—卓别林《致乌娜》 
+
+Se7en.: 大陆那个说法还真没听过= =还是比较喜欢宠物小精灵   RT Sic semper tyrannis: 香港叫「宠物小精灵」，台湾叫「神奇宝贝」，中国大陆叫「精灵宝可梦」，盗版汉化玩家叫「口袋妖怪」
+
+
+2014-08-21 17:56:51 web.py[line:1728] INFO 200 POST /wechat?signature=0dd6dd7d2b38e86a807fc38fd1680ce2549ec589&timestamp=1408615010&nonce=722894861 (127.0.0.1) 1349.28ms
+2014-08-21 17:57:30 connectionpool.py[line:180] INFO Starting new HTTP connection (1): m.weilairiji.com
+2014-08-21 17:57:33 timeline_operate.py[line:35] INFO 柒-11 :   强烈要求真心话功能吖 但在微信刷真心话会不会跟无感啊 
+
+林不该 :  上得山多终遇虎 
+
+SapphiReeee.| Call Me Miss 骨感。@老妖 :  房供出120个艺人。三个已锁定，两个C姓，一个H姓。C的一个私交甚好，不是陈柏霖是谁………(┬＿┬) 
+
+哎呦呦 :  当时大二一年完全是不上课不考试  退学后说一定努力  再复读的时候也基本在玩 期间外公的去世令我稍微收敛  重新开始后有认真学 可魔兽也从没停过 
+
+哎呦呦 :  都在说戒毒  联想起了自己打魔兽世界 以前也有玩游戏 可没有玩的这么疯狂的 12年接触的wow 以前觉得这傻逼游戏有什么意思 可玩了后真是做到了废寝忘食 连着1周打本不是吹  也因为这个没去考试挂科太多退学了 
+
+哎呦呦@lilin :  muji的便宜货到了国内也变得很贵Q_Q 
+
+SapphiReeee.| Call Me Miss 骨感。 :  看评论里有人说F是Feynman…噗噗噗… 
+
+SapphiReeee.| Call Me Miss 骨感。 :  看到所有的私交甚笃的C姓指控都对准陈柏霖时候，我终于明白喊柯振东加油的人是什么心情了…我只想说，亲爱的张士豪，快跑。 
+
+ 陈默默. °  永远爱爸爸 :  对不喜欢的人话里都能带刀子，针锋相对掷地有声尖锐的你想辩驳都无从下手。对喜欢的人又瞬间傻波一，古灵精怪卖萌装可爱流泪煽情耍浪漫为你写首诗都是分分钟的事儿。我还在想为什么他们说我性格变了！怎么说呢，我和我都过的很好，真的不用担心辣 
+
+Sic semper tyrannis :  香港叫「宠物小精灵」，台湾叫「神奇宝贝」，中国大陆叫「精灵宝可梦」，盗版汉化玩家叫「口袋妖怪」 
+
+哎呦呦 :  成绩单来了又是各种训o(╯□╰)o  训我又不能解决问题 反正我又不会听 
+
+朵依. |身后是绝路 :  “我最多与你好  为何旧时为能遇到” 
+
+ 陈默默. °  永远爱爸爸 :  言辞犀利的解决掉了相亲对象最后还不忘补一刀 对方估计恨死我了 但是我简直猴嗨森 
+
+SapphiReeee.| Call Me Miss 骨感。 :  张士豪，快跑… 
+
+阿修。 :  『快加入我摸鱼大军！』『被你传染了摸鱼好嘛ww』『就说！』『嫁鱼随鱼（。』够了233 
+
+星球杯@许三观 :  有的玩你就开心 
+
+阿修。 :  基本每天都有一句话让我doki一下……热恋期棒棒的…… 
+
+星球杯 :  浮生若梦 
+
+弱智儿童就是我 :  啊呀，今天车子错过啦！ 
+
+林不该 :  哦漏眼睛越来越疼了不会是眼癌吧 
+
+
+2014-08-21 17:57:33 web.py[line:1728] INFO 200 POST /wechat?signature=fe6d1e1f891adb169c2342716dcd8885eb6ae7a3&timestamp=1408615050&nonce=1440649457 (127.0.0.1) 3685.27ms
+2014-08-21 17:58:19 web.py[line:1305] ERROR Uncaught exception POST /wechat?signature=d9cedd3e615e016c3d6d06f032c478a9c831fbfc&timestamp=1408615099&nonce=1935429022 (127.0.0.1)
+HTTPRequest(protocol='http', host='127.0.0.1:9001', method='POST', uri='/wechat?signature=d9cedd3e615e016c3d6d06f032c478a9c831fbfc&timestamp=1408615099&nonce=1935429022', version='HTTP/1.0', remote_ip='127.0.0.1', headers={'Content-Length': '280', 'Host': '127.0.0.1:9001', 'Pragma': 'no-cache', 'Content-Type': 'text/xml', 'Connection': 'close', 'Accept': '*/*', 'User-Agent': 'Mozilla/4.0'})
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1218, in _when_complete
+    callback()
+  File "/usr/local/lib/python2.7/dist-packages/tornado-3.2-py2.7-linux-i686.egg/tornado/web.py", line 1239, in _execute_method
+    self._when_complete(method(*self.path_args, **self.path_kwargs),
+  File "/home/nightwish/elfin/handlers/wechat.py", line 94, in post
+    message_num = get_message_num(key, fromUser)
+  File "/home/nightwish/elfin/scripts/message_get.py", line 25, in get_message_num
+    session = get_session(user['wechat_id'])
+TypeError: 'NoneType' object has no attribute '__getitem__'
+2014-08-21 17:58:19 web.py[line:1728] ERROR 500 POST /wechat?signature=d9cedd3e615e016c3d6d06f032c478a9c831fbfc&timestamp=1408615099&nonce=1935429022 (127.0.0.1) 5.43ms

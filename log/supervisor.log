@@ -2304,3 +2304,12 @@ Traceback (most recent call last):
 KeyError: 'response'
 <Greenlet at 0xa1dbb1c: simi('S42H')> failed with KeyError
 
+all output going to: /home/nightwish/elfin/log/mongo.log
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gevent/greenlet.py", line 327, in run
+    result = self._run(*self.args, **self.kwargs)
+  File "/home/nightwish/elfin/scripts/simi.py", line 17, in simi
+    return respons['response']
+KeyError: 'response'
+<Greenlet at 0x9b3e0cc: simi(u'\ue408')> failed with KeyError
+
