@@ -26,18 +26,6 @@ def get_photo_stream(pic_url, msgid):
     f.close()
     return open(filename, 'rb')
 
-#def get_session(xiezhua_id):
-#
-#    login_url = 'http://m.weilairiji.com/index.php?op=login'
-#    s = requests.Session()
-#
-#    data = {}
-#    data['loginaccount'] = xiezhua_id[0]
-#    data['loginpass'] = xiezhua_id[1]
-#    data['action'] = 'login'
-#
-#    r = s.post(login_url, data=data)
-#    return s
 
 def upload_photo(wechat_id, pic_url, pic_id):
     user = get_user_value(wechat_id=wechat_id)

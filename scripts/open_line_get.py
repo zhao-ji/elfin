@@ -14,6 +14,9 @@ open_line_pattern = re.compile(ur".*uid=\d+'>(.+?)</a>(.+?)<span.*")
 def open_line():
     r = requests.get(url=open_line_url)
     open_line_list = open_line_pattern.findall(r.text)
+    logging.info(len(open_line_list))
+    for i in open_line_list:
+        logging.info(i)
     to_unicode = lambda i: i.replace('&#x','\u').replace(';','').decode('unicode_escape')
     open_line_unicode = map(lambda j:map(to_unicode, j), open_line_list)
     logging.info(open_line_unicode)
