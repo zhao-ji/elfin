@@ -3,13 +3,13 @@
 
 import time
 
-import tornado.web
+import tornado.web from RequestHandler
 
 from scripts.login import login
 from socrates import hanzi
-from socrates.set import mongo
+from scripts.mongo_operate import save_user, del_user
 
-class bind(tornado.web.RequestHandler):
+class bind(RequestHandler):
     def get(self, wechat_id):
         action = '/elfin/bind/' + wechat_id
         self.render('bind.html', info=hanzi.BIND, time=time.ctime(), action=action)
@@ -31,8 +31,8 @@ class bind(tornado.web.RequestHandler):
             elfin['hash'] = _login.hash
             elfin['ret'] = _login.ret
             elfin['session'] = _login.session
-            mongo.elfin.remove({'id':elfin['id']})
-            mongo.elfin.insert(elfin)
+            del_user(wechat_id=wechat_id)
+            save_user(elfin)
             self.write(hanzi.BIND_OK)
 
         elif _login.status_code == 401:

@@ -7,14 +7,12 @@ import time
 import logging
 import xml.etree.ElementTree as ET
 
-from gevent import spawn, joinall
-import tornado.httpserver
-import tornado.web
+from tornado.web import RequestHandler
 
 from socrates import hanzi
-from socrates.set import mongo, log
+from scripts.mongo_operate import del_user, get_user_value
+
 from scripts.check_sig import check_sig
-from scripts.mongo_operate import whether_login, del_user
 from scripts.send_talk import send
 from scripts.send_photo import upload_photo
 from scripts.home import home
@@ -25,7 +23,46 @@ from scripts.message_get import get_message_num
 
 sys.path.append(os.path.join(os.path.dirname(os.path.abspath(__file__)), os.path.pardir))
 
-class wechat(tornado.web.RequestHandler):
+
+class BaseHandler(RequestHandler):
+
+    wechat_id = None
+    user = None
+    message_type = None
+    content = None
+
+    def initialize(self):
+        xml = self.request.body
+        xml = ET.fromstring(xml)
+        self.wechat_id = xml.find('FromUserName').text
+
+        ret = get_user_value(wechat_id=self.wechat_id)
+        if ret:
+            self.user = ret
+        else:    
+            return self.wechat(hanzi.HELLO%self.wechat_id)
+        
+        self.message_type = xml.find('MsgType').text
+        if self.message_type == 'text':
+            self.content = xml.find('Content').text 
+        elif self.message_type == 'image':
+            self.content = xml.find("PicUrl").text
+            self.media_id = xml.find("MediaId").text
+        elif self.message_type == 'event':
+            self.content = xml.find("Event").text
+            if self.content == 'CLICK':
+                self.eventself.eventkey = xml.find("EventKey").text
+
+    def wechat(self, ret_str):
+        self.render('text.xml', 
+                    toUser=self.wechat_id, 
+                    time=time.time(), 
+                    text=ret_str,)
+
+
+
+class wechat(BaseHandler):
+
     def get(self):
         signature = self.get_argument('signature')
         timestamp = self.get_argument('timestamp')
@@ -34,70 +71,46 @@ class wechat(tornado.web.RequestHandler):
         if check_sig(signature, timestamp, nonce):
             self.write(echostr)
 
+
     def post(self):
-        ret_render = lambda ret_str: self.render(
-                     'text.xml', toUser=fromUser, 
-                     time=time.time(), text=ret_str,
-                     )
-        xml = self.request.body
-        xml = ET.fromstring(xml)
-        fromUser = xml.find('FromUserName').text
-        MsgType = xml.find('MsgType').text
-        if MsgType == 'text':
-            Text = xml.find('Content').text
-            try:
-                whether_login(fromUser) 
-            except AssertionError:
-                del_user(wechat_id=fromUser)
-                Feedback = (hanzi.HELLO)%fromUser
-                ret_render(Feedback)
-            else:
-                task_simi = spawn(simi, Text)
-                task_send = spawn(send, fromUser, Text)
-                joinall([task_simi, task_send])
-                ret_render(task_send.value) if bool(task_send.value) else ret_render(task_simi.value)
+        if self.message_type == 'text':
+            self.wechat(send(self.user, self.content))
 
-        elif MsgType == 'image':
-            picurl   = xml.find("PicUrl").text
-            msgid   = xml.find("MediaId").text
-            ret_render(upload_photo(fromUser, picurl, msgid))
+        elif self.message_type == 'image':
+            self.wechat(upload_photo(self.user, self.content, 
+                                     self.media_id,))
 
-        elif MsgType == 'event':
-            event = xml.find("Event").text
-            if event == 'subscribe':
-                ret_render(hanzi.HELLO%fromUser)
-            elif event == 'unsubscribe':
-                del_user(wechat_id=fromUser)
-            elif event == 'CLICK':
-                key = xml.find("EventKey").text
-                if key == 'help':
-                    ret_render(hanzi.HELP)
+        elif self.message_type == 'event':
+            if self.content == 'subscribe':
+                self.wechat(hanzi.HELLO%self.wechat)
+            elif self.content == 'unsubscribe':
+                del_user(wechat_id=self.wechat_id)
+            elif self.content == 'CLICK':
+                if self.eventkey == 'help':
+                    self.wechat(hanzi.HELP)
 
-                elif key in ['home1', 'home2', 'home3']:
-                    try:
-                        whether_login(fromUser) 
-                    except AssertionError:
-                        del_user(wechat_id=fromUser)
-                        Feedback = hanzi.HELLO%fromUser
-                        ret_render(Feedback)
-                    else:
-                        Feedback = home(fromUser, key)
-                        ret_render(Feedback)
+                elif self.eventkey in ['home1', 'home2', 'home3']:
+                    Feedback = home(self.user, self.eventkey)
+                    self.wechat(Feedback)
                
-                elif key in ['tml1', 'tml2', 'tml3']:
-                    time_lines = time_line(key, fromUser)
-                    ret_render(time_lines)
-                elif key in ['at_msg', 'private_msg']: 
-                    message_num = get_message_num(key, fromUser)
-                    ret_render(message_num)
-                elif key == 'tail':
-                    ret_render(hanzi.USET%fromUser)
-                elif key == 'public_msg': 
-                    open_lines = open_line()
-                    ret_render(open_lines)
-                elif key == 'recent_visitor': 
-                    ret_render('hello')
-                elif key == 'hot_words': 
-                    hot_words = hot_word()
-                    ret_render(hot_words)
+                elif self.eventkey in ['tml1', 'tml2', 'tml3']:
+                    time_lines = time_line(self.eventkey, self.user)
+                    self.wechat(time_lines)
 
+                elif self.eventkey in ['at_msg', 'private_msg']: 
+                    message_num = get_message_num(self.eventkey, self.user)
+                    self.wechat(message_num)
+
+                elif self.eventkey == 'tail':
+                    self.wechat(hanzi.USET%self.wechat_id)
+
+                elif self.eventkey == 'public_msg': 
+                    open_lines = open_line()
+                    self.wechat(open_lines)
+
+                elif self.eventkey == 'recent_visitor': 
+                    self.wechat('hello')
+
+                elif self.eventkey == 'hot_words': 
+                    hot_words = hot_word()
+                    self.wechat(hot_words)

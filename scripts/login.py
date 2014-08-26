@@ -8,7 +8,7 @@ import requests
 
 from socrates import hanzi
 from socrates.set import log
-from scripts import session_get
+from scripts.session_get import get_session
 
 POST_URL = 'http://weilairiji.com/api/statuses/update.json'
 
@@ -39,4 +39,4 @@ class login:
         else:
             user_info = ret_list[0]['user']
             self.id = int(user_info['id'])
-            self.session = pickle.dumps(session_get.get_session(self.xiezhua_id))
+            self.session = pickle.dumps(get_session(self.xiezhua_id))

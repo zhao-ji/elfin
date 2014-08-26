@@ -5,7 +5,6 @@ import logging
 
 import requests
 
-from scripts.mongo_operate import get_user_value
 from socrates.set import log
 
 home_url = "http://weilairiji.com/api/statuses/user_timeline.json"
@@ -13,9 +12,7 @@ home_dict = {'home1':1,
              'home2':2,
              'home3':3}
 
-def home(wechat_id, key):
-    user = get_user_value('id', 'xiezhua_id', wechat_id=wechat_id)
-
+def home(user, key):
     data = {}
     data['id'] = user['id']
     data['page'] = home_dict[key]
