@@ -50,14 +50,11 @@ class wechat(tornado.web.RequestHandler):
             except AssertionError:
                 del_user(wechat_id=fromUser)
                 Feedback = (hanzi.HELLO)%fromUser
-                logging.info(Feedback)
                 ret_render(Feedback)
             else:
                 task_simi = spawn(simi, Text)
                 task_send = spawn(send, fromUser, Text)
                 joinall([task_simi, task_send])
-                logging.info(Text)
-                logging.info(task_simi.value)
                 ret_render(task_send.value) if bool(task_send.value) else ret_render(task_simi.value)
 
         elif MsgType == 'image':

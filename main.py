@@ -13,8 +13,6 @@ from handlers.wechat import wechat
 from handlers.bind import bind
 from handlers.userset import userset
 
-from socrates.set import mongo
-
 from tornado.options import define, options
 define('port', default=9001, type=int)
 
