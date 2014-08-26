@@ -26,6 +26,5 @@ def get_message_num(message_type, user):
     elif message_type == 'private_msg':
         message_init = private_message_pattern.findall(r.text)
         message_num = message_init[0][-1]
-        logging.info('num:'+str(message_num))
         message = hanzi.PRIVATE_MESSAGE.format(message_num)
     return message

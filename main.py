@@ -9,7 +9,7 @@ import tornado.web
 import tornado.ioloop
 import tornado.httpserver
 
-from handlers.wechat import wechat
+from handlers.wechat import Wechat
 from handlers.bind import bind
 from handlers.userset import userset
 
@@ -19,7 +19,7 @@ define('port', default=9001, type=int)
 template_path = os.path.join(os.path.dirname(__file__), 'templates')
 static_path = os.path.join(os.path.dirname(__file__), 'static')
 
-handlers = [ (r'/wechat', wechat),
+handlers = [ (r'/wechat', Wechat),
              (r'/bind/(.*)', bind),
              (r'/userset/(.*)', userset),
              (r'/static/(.*)', 

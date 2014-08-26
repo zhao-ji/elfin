@@ -8,7 +8,7 @@ import tornado.web
 
 from socrates import hanzi
 from socrates.set import log
-from scripts.send_talk import transmit
+from scripts.talk_send import transmit
 from scripts.mongo_operate import get_user_value, del_user, save_user
 
 class userset(tornado.web.RequestHandler):

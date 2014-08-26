@@ -69,6 +69,7 @@ def send(user, talk):
                 task_send = spawn(transmit, user, talk)
                 joinall([task_simi, task_send])
                 ret = task_simi.value
+            logging.info(ret)
         except RuntimeWarning:
             return hanzi.ERR_SERVER
         except UserWarning:
@@ -78,6 +79,5 @@ def send(user, talk):
         else:
             return ret
     finally:
-        update_user(id=user['id'], hash=hash(talk))
+        update_user({'id':user['id']}, hash=hash(talk))
         logging.info(str(user['id']) + ' : ' + talk)
-        logging.info(str(user['id']) + ' : ' + ret)

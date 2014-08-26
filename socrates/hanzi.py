@@ -12,6 +12,7 @@ WECHATPIC = '微信图片'
 DEVICE = '蟹爪小精灵'
 AT_MESSAGE = '您有{}条未读@'
 PRIVATE_MESSAGE = '您有{}条未读私信'
+MULTITALK = '您的talk已分条发送成功'
 
 '''bind.py'''
 BIND = '绑定蟹爪'

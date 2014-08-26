@@ -14,7 +14,6 @@ def open_line():
     return timeline(open_line_ret.content)
 
 def time_line(key, user):
-    session_dict = get_user_value('session', wechat_id=wechat_id)
     if user.get('session',''):
         session = user['session']
         session = pickle.loads(session)

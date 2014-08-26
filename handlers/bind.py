@@ -3,7 +3,7 @@
 
 import time
 
-import tornado.web from RequestHandler
+from tornado.web import RequestHandler
 
 from scripts.login import login
 from socrates import hanzi

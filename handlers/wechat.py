@@ -10,13 +10,13 @@ import xml.etree.ElementTree as ET
 from tornado.web import RequestHandler
 
 from socrates import hanzi
+from socrates.set import log
 from scripts.mongo_operate import del_user, get_user_value
 
 from scripts.check_sig import check_sig
-from scripts.send_talk import send
-from scripts.send_photo import upload_photo
-from scripts.home import home
-from scripts.simi import simi
+from scripts.talk_send import send
+from scripts.photo_send import upload_photo
+from scripts.homeline_get import home
 from scripts.hot_word_get import hot_word
 from scripts.timeline_get import open_line, time_line
 from scripts.message_get import get_message_num
@@ -40,7 +40,8 @@ class BaseHandler(RequestHandler):
         if ret:
             self.user = ret
         else:    
-            return self.wechat(hanzi.HELLO%self.wechat_id)
+            self.wechat(hanzi.HELLO%self.wechat_id)
+            return 
         
         self.message_type = xml.find('MsgType').text
         if self.message_type == 'text':
@@ -51,17 +52,19 @@ class BaseHandler(RequestHandler):
         elif self.message_type == 'event':
             self.content = xml.find("Event").text
             if self.content == 'CLICK':
-                self.eventself.eventkey = xml.find("EventKey").text
+                self.eventkey = xml.find("EventKey").text
+        logging.info(time.clock())
 
     def wechat(self, ret_str):
+        logging.info(time.clock())
         self.render('text.xml', 
                     toUser=self.wechat_id, 
                     time=time.time(), 
-                    text=ret_str,)
+                    text=ret_str)
 
 
 
-class wechat(BaseHandler):
+class Wechat(BaseHandler):
 
     def get(self):
         signature = self.get_argument('signature')
@@ -82,7 +85,7 @@ class wechat(BaseHandler):
 
         elif self.message_type == 'event':
             if self.content == 'subscribe':
-                self.wechat(hanzi.HELLO%self.wechat)
+                self.wechat(hanzi.HELLO%self.wechat_id)
             elif self.content == 'unsubscribe':
                 del_user(wechat_id=self.wechat_id)
             elif self.content == 'CLICK':

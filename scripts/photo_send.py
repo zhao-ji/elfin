@@ -1,10 +1,12 @@
 # coding: utf-8
 
 import pickle
+import logging
 
 import requests
 
 from socrates import hanzi
+from socrates.set import log
 from scripts.mongo_operate import update_user
 from scripts.session_get import get_session
 
@@ -27,7 +29,9 @@ def get_photo_stream(pic_url, msgid):
 
 def upload_photo(user, pic_url, pic_id):
     photo = get_photo_stream(pic_url, pic_id)
-    if hash(photo) == user['hash']:
+    logging.info(pic_id)
+    logging.info(user['hash'])
+    if pic_id == user['hash']:
         return hanzi.REPEAT 
 
     upload_photo_url = 'http://m.weilairiji.com/index.php?op=sendphoto&tsid='
@@ -44,7 +48,7 @@ def upload_photo(user, pic_url, pic_id):
         session = get_session(user.get('xiezhua_id'))
     r = session.post(upload_photo_url, data=data, files=files)
     if r.status_code==200:
-        update_user(user, hash=hash(photo))
+        update_user({'id':user['id']}, hash=pic_id)
         return hanzi.SEND_OK 
     else:
         return hanzi.SEND_FAIL
