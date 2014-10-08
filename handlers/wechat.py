@@ -4,7 +4,6 @@
 import os
 import sys
 import time
-import logging
 import xml.etree.ElementTree as ET
 
 from tornado.web import RequestHandler
@@ -53,10 +52,8 @@ class BaseHandler(RequestHandler):
             self.content = xml.find("Event").text
             if self.content == 'CLICK':
                 self.eventkey = xml.find("EventKey").text
-        logging.info(time.clock())
 
     def wechat(self, ret_str):
-        logging.info(time.clock())
         self.render('text.xml', 
                     toUser=self.wechat_id, 
                     time=time.time(), 
