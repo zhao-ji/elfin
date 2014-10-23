@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
+import logging
 import os
 import sys
 import time
@@ -31,8 +32,15 @@ class BaseHandler(RequestHandler):
     content = None
 
     def initialize(self):
-        xml = self.request.body
-        xml = ET.fromstring(xml)
+        xml_original = self.request.body
+
+        try:
+            xml = ET.fromstring(xml_original)
+        except Exception, e:
+            logging.error(e)
+            logging.info(str(xml_original))
+            return
+
         self.wechat_id = xml.find('FromUserName').text
 
         ret = get_user_value(wechat_id=self.wechat_id)
@@ -53,7 +61,10 @@ class BaseHandler(RequestHandler):
             if self.content == 'CLICK':
                 self.eventkey = xml.find("EventKey").text
 
-    def wechat(self, ret_str):
+
+    def wechat(self, ret_str=None):
+        ret_str = ret_str or hanzi.SEND_FAIL
+
         self.render('text.xml', 
                     toUser=self.wechat_id, 
                     time=time.time(), 

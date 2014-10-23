@@ -31,6 +31,6 @@ if __name__ == '__main__':
     tornado.options.parse_command_line()
     app = tornado.web.Application(handlers=handlers,
                             template_path=template_path,)
-    http_server = tornado.httpserver.HTTPServer(app)
+    http_server = tornado.httpserver.HTTPServer(app, xheaders=True)
     http_server.listen(options.port)
     tornado.ioloop.IOLoop.instance().start()
