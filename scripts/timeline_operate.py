@@ -1,10 +1,10 @@
 # coding: utf-8
 
-#import logging
+import logging
 
 from pyquery import PyQuery as pq
 
-#from socrates.set import log
+from socrates.set import log
 
 def timeline(content):
     open_line_init = pq(content)
@@ -32,6 +32,6 @@ def timeline(content):
     open_talk_list = filter(lambda talk: not (len(talk)==4 and talk[3].strip()==unichr(int('ff01', 16))), open_talk_list)
     open_talk_list = map(lambda talk: talk_func[len(talk)](talk), open_talk_list)
     open_line = ''.join([talk.encode('utf-8') for talk in open_talk_list])
-    #logging.info(open_line)
+    logging.info(open_line)
     return open_line
 

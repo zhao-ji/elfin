@@ -30,7 +30,10 @@ class bind(RequestHandler):
             elfin['tail'] = hanzi.DEVICE
             elfin['hash'] = _login.hash
             elfin['ret'] = _login.ret
-            elfin['session'] = _login.session
+            try:
+                elfin['session'] = _login.session
+            except:
+                pass
             del_user(wechat_id=wechat_id)
             save_user(elfin)
             self.write(hanzi.BIND_OK)

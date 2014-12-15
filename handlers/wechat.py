@@ -44,11 +44,13 @@ class BaseHandler(RequestHandler):
         self.wechat_id = xml.find('FromUserName').text
 
         ret = get_user_value(wechat_id=self.wechat_id)
-        if ret:
-            self.user = ret
-        else:    
-            self.wechat(hanzi.HELLO%self.wechat_id)
-            return 
+        self.user = ret
+        # if ret:
+        #     self.user = ret
+        # else:    
+        #     ret_str = hanzi.HELLO%self.wechat_id
+        #     logging.info(ret_str)
+        #     self.wechat(ret_str='hello')
         
         self.message_type = xml.find('MsgType').text
         if self.message_type == 'text':
@@ -85,7 +87,10 @@ class Wechat(BaseHandler):
 
     def post(self):
         if self.message_type == 'text':
-            self.wechat(send(self.user, self.content))
+            if self.user:
+                self.wechat(send(self.user, self.content))
+            else:
+                self.wechat(hanzi.HELLO%self.wechat_id)
 
         elif self.message_type == 'image':
             self.wechat(upload_photo(self.user, self.content, 
