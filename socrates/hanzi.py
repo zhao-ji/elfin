@@ -1,8 +1,8 @@
 # coding=utf-8
 
 '''wechat.py'''
-HELLO = '''欢迎关注蟹爪小精灵，请点击<a href="http://bandwagon.shijunzi.info/elfin/bind/%s">这里</a>绑定'''
-USET = '''欢迎设置蟹爪小精灵，请点击<a href="http://bandwagon.shijunzi.info/elfin/userset/%s">这里</a>设置'''
+HELLO = '''欢迎关注蟹爪小精灵，请点击<a href="http://bandwagon.chashuibiao.org/elfin/bind/%s">这里</a>绑定'''
+USET = '''欢迎设置蟹爪小精灵，请点击<a href="http://bandwagon.chashuibiao.org/elfin/userset/%s">这里</a>设置'''
 HELP = "有不懂的上蟹爪@雷锋"
 SENSITIVE = "请勿发送密码"
 REPEAT = "爱过"

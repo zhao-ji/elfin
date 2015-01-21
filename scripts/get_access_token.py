@@ -20,7 +20,8 @@ URL = 'https://api.weixin.qq.com/cgi-bin/token'
 
 r5 = redis.StrictRedis(host=REDIS['HOST'], 
                        port=REDIS['PORT'],
-                       db=5)
+                       db=5, password='srjdZ5weyil',
+                       )
 
 def get_access_token():
     params = {'grant_type':GRANT_TYPE,
