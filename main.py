@@ -14,7 +14,7 @@ from handlers.bind import bind
 from handlers.userset import userset
 
 from tornado.options import define, options
-define('port', default=9001, type=int)
+define('port', default=3333, type=int)
 
 template_path = os.path.join(os.path.dirname(__file__), 'templates')
 static_path = os.path.join(os.path.dirname(__file__), 'static')
