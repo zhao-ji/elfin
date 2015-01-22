@@ -45,12 +45,6 @@ class BaseHandler(RequestHandler):
 
         ret = get_user_value(wechat_id=self.wechat_id)
         self.user = ret
-        # if ret:
-        #     self.user = ret
-        # else:    
-        #     ret_str = hanzi.HELLO%self.wechat_id
-        #     logging.info(ret_str)
-        #     self.wechat(ret_str='hello')
         
         self.message_type = xml.find('MsgType').text
         if self.message_type == 'text':
