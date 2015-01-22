@@ -28,7 +28,7 @@ class userset(tornado.web.RequestHandler):
             else:
                 del_user(wechat_id=wechat_id)
                 save_user(user)
-                self.write(hanzi.TAIL_OK)
+                self.render('return.html', info=hanzi.TAIL_OK, time=time.ctime())
             finally:
                 logging.info(str(user['id']) + ':' + user['tail'])
         elif ret:
@@ -41,4 +41,4 @@ class userset(tornado.web.RequestHandler):
                 user['ret'] = custom
                 del_user(wechat_id=wechat_id)
                 save_user(user)
-            self.write(hanzi.RET_OK)
+            self.render('return.html', info=hanzi.RET_OK, time=time.ctime())

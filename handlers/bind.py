@@ -36,12 +36,12 @@ class bind(RequestHandler):
                 pass
             del_user(wechat_id=wechat_id)
             save_user(elfin)
-            self.write(hanzi.BIND_OK)
+            self.render('return.html', info=hanzi.BIND_OK, time=time.ctime())
 
         elif _login.status_code == 401:
             action = '/elfin/bind/' + wechat_id
             self.render('bind.html', info=hanzi.ERR_PSW, time=time.ctime(), action=action)
         elif _login.status_code in [404,500, 503]:
-            self.write(hanzi.ERR_SERVER)
+            self.render('return.html', info=hanzi.ERR_SERVER, time=time.ctime())
         else:
-            self.write(hanzi.ERR_UNKOWN)
+            self.render('return.html', info=hanzi.ERR_UNKOWN, time=time.ctime())
