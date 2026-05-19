@@ -8,7 +8,6 @@ from gevent import spawn, joinall
 
 from socrates import hanzi 
 from socrates.set import log
-from scripts.simi import simi
 from scripts.mongo_operate import update_user, del_user
 
 POST_URL = 'http://weilairiji.com/api/statuses/update.json' 
@@ -61,14 +60,11 @@ def send(user, talk):
         return ret
     else:
         try:
+            transmit(user, talk)
             if user['ret']:
-                transmit(user, talk)
                 ret = user['ret']
             else:
-                task_simi = spawn(simi, talk)
-                task_send = spawn(transmit, user, talk)
-                joinall([task_simi, task_send])
-                ret = task_simi.value
+                ret = hanzi.SEND_OK
             logging.info(ret)
         except RuntimeWarning:
             return hanzi.ERR_SERVER
